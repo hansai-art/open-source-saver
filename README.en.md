@@ -1,6 +1,6 @@
 # Open Source Saver / 開源省錢管家
 
-![Open Source Saver product artwork](assets/hero-geometric.png)
+![Open Source Saver product artwork](assets/hero-open-source-saver.png)
 
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 

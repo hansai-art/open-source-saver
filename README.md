@@ -1,6 +1,6 @@
 # 開源省錢管家 Open Source Saver
 
-![開源省錢管家產品主視覺](assets/hero-geometric.png)
+![開源省錢管家產品主視覺](assets/hero-open-source-saver.png)
 
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
