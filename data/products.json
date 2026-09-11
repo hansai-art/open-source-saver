@@ -1,0 +1,1972 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-10",
+  "products": [
+    {
+      "id": "oss-001",
+      "name": "OBS Studio",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/obsproject/obs-studio",
+      "sources": [
+        "https://github.com/obsproject/obs-studio/blob/master/README.rst"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "課程長錄影、直播、多場景與多音訊來源",
+        "limits": "不把錄影能力等同 Screen Studio 式自動運鏡；目前官方 Mac 版本要求 macOS 13+。"
+      },
+      "en": {
+        "use": "Screen recording, livestreaming and scenes",
+        "limits": "Not automatic cinematic cursor zoom; check OS requirements."
+      }
+    },
+    {
+      "id": "oss-002",
+      "name": "Recordly",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/webadderallorg/Recordly",
+      "sources": [
+        "https://github.com/webadderallorg/Recordly/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0；另見 LICENSE.md",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "教學示範、產品 demo、自動縮放與游標動畫",
+        "limits": "Mac 14+；Linux 游標隱藏有限制。README 標 AGPL-3.0，LICENSE.md 另有品牌及署名文字，改版前要核對全文。"
+      },
+      "en": {
+        "use": "Polished recordings with cursor effects and zoom",
+        "limits": "Check platform-specific cursor/audio support and AGPL distribution terms."
+      }
+    },
+    {
+      "id": "oss-003",
+      "name": "Capptivo",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/SECHAK-AG/capptivo",
+      "sources": [
+        "https://github.com/SECHAK-AG/capptivo/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "跟隨游標縮放、點擊縮放、錄影標記及本機字幕",
+        "limits": "Mac 建置未簽署；字幕需另備 whisper-cli，首次下載模型；Mac 13+。附帶元件各有授權。"
+      },
+      "en": {
+        "use": "Tutorial recording, cursor zoom and captions",
+        "limits": "Captioning needs whisper-cli and a model; unsigned Mac builds may need extra steps."
+      }
+    },
+    {
+      "id": "oss-004",
+      "name": "Cap",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/CapSoftware/Cap",
+      "sources": [
+        "https://github.com/CapSoftware/Cap/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0 為主；指定 crates 為 MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Loom 式錄影分享與 Studio 模式的縮放、字幕、裁切",
+        "limits": "本機、雲端、自架及官方方案費用分開核對；不能把開源當成所有託管服務免費。"
+      },
+      "en": {
+        "use": "Recording and video sharing",
+        "limits": "Local recording, hosted sharing and paid services have different costs."
+      }
+    },
+    {
+      "id": "oss-005",
+      "name": "Screenity",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "extension",
+      "url": "https://github.com/alyssaxuu/screenity",
+      "sources": [
+        "https://github.com/alyssaxuu/screenity/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0（MV3 版本）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "瀏覽器示範錄影、畫面註記、點擊與游標強調",
+        "limits": "瀏覽器錄影與原生桌面錄影有差異；免費外掛與 Screenity Pro 功能不可混用。"
+      },
+      "en": {
+        "use": "Browser-based screen recording and annotation",
+        "limits": "Chrome extension; do not include paid Screenity Pro features."
+      }
+    },
+    {
+      "id": "oss-006",
+      "name": "OpenScreenStudio",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/Glyph-Software/OpenScreenStudio",
+      "sources": [
+        "https://github.com/Glyph-Software/OpenScreenStudio/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 專用自動點擊縮放、游標覆蓋、攝影機泡泡與 MP4／GIF",
+        "limits": "README 說基礎需求 Mac 13+，但實際 ScreenCaptureKit 錄影路徑需 Mac 15+；未公證，先小範圍試錄。"
+      },
+      "en": {
+        "use": "Native Mac screen and webcam recording",
+        "limits": "Capture path may require a newer macOS than the base app; early candidate."
+      }
+    },
+    {
+      "id": "oss-007",
+      "name": "Kap",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/wulkano/Kap",
+      "sources": [
+        "https://github.com/wulkano/Kap/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "簡單區域錄影、快速製作短示範",
+        "limits": "主 repo 最後推送時間為 2024-11，較久；新系統相容性待測，不列長課程主錄影首選。"
+      },
+      "en": {
+        "use": "Short Mac recordings",
+        "limits": "Recent macOS compatibility has not been tested; lower-priority candidate."
+      }
+    },
+    {
+      "id": "oss-008",
+      "name": "ScreenToGif",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/NickeManarin/ScreenToGif",
+      "sources": [
+        "https://github.com/NickeManarin/ScreenToGif/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MS-PL",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "短錄影與 GIF 編輯，適合教學步驟",
+        "limits": "僅 Windows；不適合拿來代表 Mac 替代方案，也不是長課程剪輯系統。"
+      },
+      "en": {
+        "use": "GIF capture and editing",
+        "limits": "Windows only; check required .NET runtime."
+      }
+    },
+    {
+      "id": "oss-009",
+      "name": "ShareX",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/ShareX/ShareX",
+      "sources": [
+        "https://github.com/ShareX/ShareX/blob/develop/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "截圖、滾動擷取、箭頭文字、遮蔽、OCR 與後續自動化",
+        "limits": "僅 Windows；自動上傳是可選工作流程，私密截圖應只選本機輸出。"
+      },
+      "en": {
+        "use": "Screenshots and capture workflows",
+        "limits": "Windows only; configure uploads intentionally."
+      }
+    },
+    {
+      "id": "oss-010",
+      "name": "Flameshot",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/flameshot-org/flameshot",
+      "sources": [
+        "https://github.com/flameshot-org/flameshot/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "快速截圖並加箭頭、文字、框線等教學標記",
+        "limits": "Mac 上的快捷鍵與螢幕權限需實測；不是完整長截圖／素材管理工作台。"
+      },
+      "en": {
+        "use": "Screenshot annotation",
+        "limits": "OS permissions and global shortcuts need checking."
+      }
+    },
+    {
+      "id": "oss-011",
+      "name": "ksnip",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/ksnip/ksnip",
+      "sources": [
+        "https://github.com/ksnip/ksnip/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "截圖編號、註解、釘選等說明圖用途",
+        "limits": "官方功能表顯示各平台不同；全域快捷鍵主要限 Windows／X11，OCR 外掛不是全平台相同。作者正在找共同維護者。"
+      },
+      "en": {
+        "use": "Screenshots, annotation and pinned images",
+        "limits": "OCR and hotkey support differ by platform; maintenance status needs review."
+      }
+    },
+    {
+      "id": "oss-012",
+      "name": "Greenshot",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/greenshot/greenshot",
+      "sources": [
+        "https://github.com/greenshot/greenshot/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "輕量截圖、標示、局部遮蔽與輸出",
+        "limits": "此 repo 是 Windows 版；不把同名 Mac 產品算進這個開源項目。"
+      },
+      "en": {
+        "use": "Basic screenshot capture and annotation",
+        "limits": "This entry covers open-source Windows software, not the separate Mac product."
+      }
+    },
+    {
+      "id": "oss-013",
+      "name": "NormCap",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/dynobo/normcap",
+      "sources": [
+        "https://github.com/dynobo/normcap/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "從畫面擷取文字，減少手動抄寫",
+        "limits": "OCR 工具而非註解編輯器；中文辨識取決於 Tesseract 語言資料，繁中語料效果待測。"
+      },
+      "en": {
+        "use": "Screen-area OCR to text",
+        "limits": "Chinese recognition depends on installed Tesseract language packs."
+      }
+    },
+    {
+      "id": "oss-014",
+      "name": "Text Grab",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/TheJoeFin/Text-Grab",
+      "sources": [
+        "https://github.com/TheJoeFin/Text-Grab/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "快速框選畫面轉成可複製文字",
+        "limits": "Windows 專用；OS OCR 語言及字型影響結果。"
+      },
+      "en": {
+        "use": "Screen OCR on Windows",
+        "limits": "Not a complete screenshot-editing replacement."
+      }
+    },
+    {
+      "id": "oss-015",
+      "name": "Handy",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "speech to text"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/cjpais/Handy",
+      "sources": [
+        "https://github.com/cjpais/Handy/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "按快捷鍵說話，把文字輸入目前游標位置",
+        "limits": "先下載模型；不同模型支援語言不同，繁中情境應選支援中文的多語模型；藍牙麥克風可能影響播放音質。"
+      },
+      "en": {
+        "use": "Local hotkey voice typing",
+        "limits": "Choose a model that supports Chinese; accuracy and microphones need testing."
+      }
+    },
+    {
+      "id": "oss-016",
+      "name": "OpenWhispr",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "speech to text"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "sources": [
+        "https://github.com/OpenWhispr/openwhispr/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "語音輸入、整理口述文字、會議與筆記",
+        "limits": "本機與雲端模式分開；選雲端模型可能有 API 費用；Intel Mac 部分說話者功能受限。"
+      },
+      "en": {
+        "use": "Hotkey dictation with local or cloud backends",
+        "limits": "Cloud features may cost money; some Intel Mac features differ."
+      }
+    },
+    {
+      "id": "oss-017",
+      "name": "VoiceInk",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "speech to text"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/Beingpax/VoiceInk",
+      "sources": [
+        "https://github.com/Beingpax/VoiceInk/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 原生語音輸入，評估 Superwhisper／Wispr Flow 類用途",
+        "limits": "原始碼開放但官方成品有試用及付費方案；自行建置需開發環境。文件 Mac 最低版本敘述有 14.0／14.4 差異，依成品要求核對。"
+      },
+      "en": {
+        "use": "Native Mac dictation",
+        "limits": "Source is available under GPL; official distributed builds/updates may be paid."
+      }
+    },
+    {
+      "id": "oss-018",
+      "name": "Whispering／Epicenter",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "speech to text"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "web"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/EpicenterHQ/epicenter",
+      "sources": [
+        "https://github.com/EpicenterHQ/epicenter/blob/main/apps/whispering/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0-or-later（目前 apps）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "錄音後轉文字、選擇轉錄供應商與可選潤飾",
+        "limits": "舊 braden-w repo 已封存並搬移；桌面由 Epicenter 宿主提供，Web 與桌面能力不同；不能引用舊版 MIT 作新版授權。"
+      },
+      "en": {
+        "use": "Dictation through Whispering and Epicenter",
+        "limits": "App, host and inference backend have distinct requirements; current licensing differs from old releases."
+      }
+    },
+    {
+      "id": "oss-019",
+      "name": "Vibe",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/thewh1teagle/vibe",
+      "sources": [
+        "https://github.com/thewh1teagle/vibe/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "現成的音訊／影片本機轉錄，具說話者分離與時間戳相關功能",
+        "limits": "適合和你的 MOSS-ASR 比較現成工作流程；多人效果與專有名詞需同語料測試。"
+      },
+      "en": {
+        "use": "Local audio/video transcription",
+        "limits": "Chinese accuracy, speaker labels and timing need testing."
+      }
+    },
+    {
+      "id": "oss-020",
+      "name": "Buzz",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "sources": [
+        "https://github.com/chidiwilliams/buzz/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "音訊影片或麥克風轉錄，輸出 TXT／SRT／VTT",
+        "limits": "選本機 backend 才符合離線要求；README 的安裝包入口指向 SourceForge。"
+      },
+      "en": {
+        "use": "Local microphone and file transcription",
+        "limits": "No promise of accurate speaker separation or proper-noun recognition."
+      }
+    },
+    {
+      "id": "oss-021",
+      "name": "aTrain",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/aTrainTranscription/aTrain",
+      "sources": [
+        "https://github.com/aTrainTranscription/aTrain/blob/develop/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "研究訪談、離線逐字稿與說話者分離",
+        "limits": "主要現成發布通路是 Windows／Linux；Mac 不以一般一鍵安裝推薦；GPU 配置另計。"
+      },
+      "en": {
+        "use": "Interview transcription and diarization",
+        "limits": "Windows/Linux packages; Mac route requires Python and CPU setup."
+      }
+    },
+    {
+      "id": "oss-022",
+      "name": "WhisperX",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/m-bain/whisperX",
+      "sources": [
+        "https://github.com/m-bain/whisperX/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "BSD-2-Clause（程式）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "字級時間戳對齊、多人逐字稿與字幕底層",
+        "limits": "不是現成桌面 App；說話者模組有模型下載與條款要求，重疊語音及中文對齊效果需驗證。"
+      },
+      "en": {
+        "use": "Word-aligned transcription and speaker diarization",
+        "limits": "Python setup and separate model access/terms; overlapping speech is difficult."
+      }
+    },
+    {
+      "id": "oss-023",
+      "name": "whisper.cpp",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "sources": [
+        "https://github.com/ggml-org/whisper.cpp/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機 Whisper 推論，適合 Mac 端或現成工具串接",
+        "limits": "模型需要另備；引擎本身不是完整編輯、校對或多人標記工作台。"
+      },
+      "en": {
+        "use": "Local Whisper inference",
+        "limits": "An engine/CLI, not a finished transcription UI; model license is separate."
+      }
+    },
+    {
+      "id": "oss-024",
+      "name": "faster-whisper",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "sources": [
+        "https://github.com/SYSTRAN/faster-whisper/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以 CTranslate2 執行 Whisper，適合大量轉錄",
+        "limits": "NVIDIA GPU 加速與 Mac Metal 不是同一條路線；不是可直接取代逐字稿網站的 UI。"
+      },
+      "en": {
+        "use": "Efficient Whisper inference in Python",
+        "limits": "NVIDIA CUDA acceleration is distinct from Mac CPU execution."
+      }
+    },
+    {
+      "id": "oss-025",
+      "name": "FunASR",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [],
+      "delivery": "setup",
+      "url": "https://github.com/modelscope/FunASR",
+      "sources": [
+        "https://github.com/modelscope/FunASR/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT（程式）；模型另核對",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "ASR、VAD、標點與說話者流程，補中文語音處理選擇",
+        "limits": "程式 MIT 不等於所有模型相同授權；需指定 checkpoint、硬體與模型條款。"
+      },
+      "en": {
+        "use": "ASR, punctuation and voice activity pipelines",
+        "limits": "Developer toolkit; licenses and requirements vary by model."
+      }
+    },
+    {
+      "id": "oss-026",
+      "name": "sherpa-onnx",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/k2-fsa/sherpa-onnx",
+      "sources": [
+        "https://github.com/k2-fsa/sherpa-onnx/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Apache-2.0（程式）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "離線 ASR／TTS／VAD／說話者與語音處理共用引擎",
+        "limits": "是整合底層，不算另一個現成 dictation App；不同模型能力及授權各自核對。"
+      },
+      "en": {
+        "use": "Cross-platform ASR/TTS inference",
+        "limits": "Developer engine; inspect each model's terms and platform support."
+      }
+    },
+    {
+      "id": "oss-027",
+      "name": "Subtitle Edit",
+      "category": "subtitles",
+      "keywords": [
+        "字幕",
+        "翻譯",
+        "subtitles",
+        "translation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/SubtitleEdit/subtitleedit",
+      "sources": [
+        "https://github.com/SubtitleEdit/subtitleedit/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "字幕校對、時間軸、轉格式與可選語音／翻譯服務",
+        "limits": "現行 repo 已有跨平台建置；Mac 推薦 14+，文件稱最低 12；下載時辨別 RC 與穩定版。線上服務可能付費。"
+      },
+      "en": {
+        "use": "Subtitle editing and synchronization",
+        "limits": "Download stable releases; optional online services have separate costs."
+      }
+    },
+    {
+      "id": "oss-028",
+      "name": "pyVideoTrans",
+      "category": "subtitles",
+      "keywords": [
+        "字幕",
+        "翻譯",
+        "subtitles",
+        "translation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/jianchang512/pyvideotrans",
+      "sources": [
+        "https://github.com/jianchang512/pyvideotrans/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "轉錄、字幕翻譯、多角色配音、音畫對齊與影片合成",
+        "limits": "Windows 有預打包版；Mac／Linux 安裝較多設定。是否離線與費用依 ASR／LLM／TTS 選擇。"
+      },
+      "en": {
+        "use": "Transcription, translation, dubbing and subtitles",
+        "limits": "Windows package; Mac/Linux setup and API costs vary."
+      }
+    },
+    {
+      "id": "oss-029",
+      "name": "VideoLingo",
+      "category": "subtitles",
+      "keywords": [
+        "字幕",
+        "翻譯",
+        "subtitles",
+        "translation"
+      ],
+      "platforms": [],
+      "delivery": "setup",
+      "url": "https://github.com/Huanshere/VideoLingo",
+      "sources": [
+        "https://github.com/Huanshere/VideoLingo/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "影片翻譯、字幕分段對齊與配音",
+        "limits": "已有完整流程，值得先用；需配置環境與模型／API，不把作者的 Netflix 品質宣稱當作驗證結果。"
+      },
+      "en": {
+        "use": "Video translation and dubbing pipeline",
+        "limits": "Needs model/API configuration; Traditional Chinese documentation is not UI validation."
+      }
+    },
+    {
+      "id": "oss-030",
+      "name": "Readest",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios",
+        "web"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/readest/readest",
+      "sources": [
+        "https://github.com/readest/readest/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "閱讀文件／電子書時使用 TTS 朗讀",
+        "limits": "是現成閱讀入口，不是 Obsidian 外掛或配音錄音室；音色、離線程度及費用依所用 TTS 服務。"
+      },
+      "en": {
+        "use": "Reading ebooks aloud",
+        "limits": "Reader app, not a voice production studio; voice backends vary."
+      }
+    },
+    {
+      "id": "oss-031",
+      "name": "Piper（現行維護線）",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [],
+      "delivery": "engine",
+      "url": "https://github.com/OHF-Voice/piper1-gpl",
+      "sources": [
+        "https://github.com/OHF-Voice/piper1-gpl/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0（程式）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "低延遲本機文字朗讀，供既有閱讀工具接入",
+        "limits": "不是廣告表演級音色保證；聲音模型有各自授權，繁中發音與台灣口音待測。"
+      },
+      "en": {
+        "use": "Local text-to-speech",
+        "limits": "GPL engine; voice models have separate licenses."
+      }
+    },
+    {
+      "id": "oss-032",
+      "name": "Qwen3-TTS",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [],
+      "delivery": "setup",
+      "url": "https://github.com/QwenLM/Qwen3-TTS",
+      "sources": [
+        "https://github.com/QwenLM/Qwen3-TTS/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Apache-2.0（repo）；指定權重另核對",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "中文與多語配音、聲音設計、聲音複製",
+        "limits": "適合本機或自架評估，不是 Mac 一鍵 App；長文穩定度、停頓與台灣口音要試聽。"
+      },
+      "en": {
+        "use": "Multilingual voice generation",
+        "limits": "Python/model setup; no turnkey Mac or Taiwan-accent guarantee."
+      }
+    },
+    {
+      "id": "oss-033",
+      "name": "GPT-SoVITS",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "setup",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "sources": [
+        "https://github.com/RVC-Boss/GPT-SoVITS/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT（程式）；權重另核對",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "少量語音素材建立聲音模型、中文與跨語言配音",
+        "limits": "需要設定與素材；整合包、預訓練權重及附帶模型分開核對，不等於全程零設定。"
+      },
+      "en": {
+        "use": "Voice cloning and multilingual dubbing",
+        "limits": "GUI/model setup; code and model terms differ."
+      }
+    },
+    {
+      "id": "oss-034",
+      "name": "CosyVoice",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [],
+      "delivery": "setup",
+      "url": "https://github.com/QwenAudio/CosyVoice",
+      "sources": [
+        "https://github.com/QwenAudio/CosyVoice/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Apache-2.0（程式）；權重另核對",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "多語聲音生成、聲音複製、中文發音控制",
+        "limits": "目前 repo 位於 QwenAudio；適合比較配音後端，Mac 部署與效能不作已支援承諾。"
+      },
+      "en": {
+        "use": "Multilingual speech generation",
+        "limits": "Model and GPU setup required; no tested Mac workflow."
+      }
+    },
+    {
+      "id": "oss-035",
+      "name": "Kokoro",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/hexgrad/kokoro",
+      "sources": [
+        "https://github.com/hexgrad/kokoro/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Apache-2.0；README 稱權重亦 Apache",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "輕量本機 TTS，普通話與英文等語言朗讀",
+        "limits": "README 支援 Mandarin，不能推導為台灣口音；中文額外依賴與長文品質需測。"
+      },
+      "en": {
+        "use": "Compact multilingual speech generation",
+        "limits": "Mandarin needs the corresponding language components; accent not tested."
+      }
+    },
+    {
+      "id": "oss-036",
+      "name": "eSpeak NG",
+      "category": "text-to-speech",
+      "keywords": [
+        "配音",
+        "朗讀",
+        "語音合成",
+        "TTS",
+        "text to speech"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/espeak-ng/espeak-ng",
+      "sources": [
+        "https://github.com/espeak-ng/espeak-ng/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "低資源朗讀、輔助功能與發音處理",
+        "limits": "聲音較機械，適合功能性朗讀，不列商業形象片配音首選；Mac 整合另核對。"
+      },
+      "en": {
+        "use": "Lightweight synthetic speech",
+        "limits": "Mechanical voice quality; not the first choice for polished narration."
+      }
+    },
+    {
+      "id": "oss-037",
+      "name": "Auto-Editor",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "setup",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "sources": [
+        "https://github.com/WyattBlue/auto-editor/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "Unlicense（repo）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "先剪掉靜音或低活動片段，再匯出到既有剪輯軟體",
+        "limits": "官方 README 已有 Skill 安裝入口；音量偵測不理解內容，會誤刪閱讀／操作停頓。商業 GUI 與此開源 CLI 不同。"
+      },
+      "en": {
+        "use": "Automatic silence/activity-based cutting",
+        "limits": "CLI with an upstream skill; meaningful pauses and project exports need review."
+      }
+    },
+    {
+      "id": "oss-038",
+      "name": "LosslessCut",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/mifi/lossless-cut",
+      "sources": [
+        "https://github.com/mifi/lossless-cut/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "快速裁切長錄影、抽音軌與無重編碼處理",
+        "limits": "關鍵影格與格式限制會影響切點；不是完整 NLE，也不能靠 stream copy 燒字幕。"
+      },
+      "en": {
+        "use": "Fast trimming without re-encoding",
+        "limits": "Keyframe constraints; stream copy cannot burn captions."
+      }
+    },
+    {
+      "id": "oss-039",
+      "name": "Kdenlive",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/KDE/kdenlive",
+      "sources": [
+        "https://github.com/KDE/kdenlive/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "一般剪輯、多軌影片與字幕工作",
+        "limits": "適合新專案評估，不能保證 Premiere 專案／外掛完整遷移。現行下載頁 Mac 13+。"
+      },
+      "en": {
+        "use": "Nonlinear video editing",
+        "limits": "Project exchange and delivery formats require testing."
+      }
+    },
+    {
+      "id": "oss-040",
+      "name": "Shotcut",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/mltframework/shotcut",
+      "sources": [
+        "https://github.com/mltframework/shotcut/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "一般剪接與多格式影片處理",
+        "limits": "客戶指定專案格式要另評估；現行 Mac 版為 12+，較舊 OS 有舊版下載。"
+      },
+      "en": {
+        "use": "General video editing",
+        "limits": "Check current OS requirements; no Premiere project compatibility guarantee."
+      }
+    },
+    {
+      "id": "oss-041",
+      "name": "HandBrake",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/HandBrake/HandBrake",
+      "sources": [
+        "https://github.com/HandBrake/HandBrake/blob/master/README.markdown"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "課程影片壓縮、轉 MP4／MKV／WebM 與裝置用格式",
+        "limits": "是轉碼器，不是時間軸剪輯器；不以多次轉碼替代保留高品質母檔。"
+      },
+      "en": {
+        "use": "Video transcoding",
+        "limits": "Not a nonlinear editor."
+      }
+    },
+    {
+      "id": "oss-042",
+      "name": "FFmpeg",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "sources": [
+        "https://github.com/FFmpeg/FFmpeg/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "LGPL 為主／可選 GPL 元件",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "批次轉檔、抽音訊、字幕燒錄與影音流程串接",
+        "limits": "使用現成命令即可；LGPL／GPL 取決於建置元件，不能用單一授權涵蓋所有 binary。"
+      },
+      "en": {
+        "use": "Media processing and encoding",
+        "limits": "CLI/library; binary build options affect licensing."
+      }
+    },
+    {
+      "id": "oss-043",
+      "name": "Audacity",
+      "category": "audio-editing",
+      "keywords": [
+        "音訊",
+        "audio editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/audacity/audacity",
+      "sources": [
+        "https://github.com/audacity/audacity/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0（整體）；部分檔案另有授權",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "口播剪輯、多軌錄音與基本音訊整理",
+        "limits": "不等於完整取代 Audition 的所有專業工作流；本次 master 涉及新版開發，使用者應選穩定版。"
+      },
+      "en": {
+        "use": "Audio editing and cleanup",
+        "limits": "Check stable release and plugin compatibility."
+      }
+    },
+    {
+      "id": "oss-044",
+      "name": "Ultimate Vocal Remover（UVR）",
+      "category": "audio-editing",
+      "keywords": [
+        "音訊",
+        "audio editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+      "sources": [
+        "https://github.com/Anjok07/ultimatevocalremovergui/blob/master/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "MIT（GUI）；模型另核對",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "將人聲與伴奏分離，整理影片配音素材",
+        "limits": "分離結果可能有殘留與音質損失；模型與 GUI 授權分開，不能承諾錄音修復百分百成功。"
+      },
+      "en": {
+        "use": "Separating vocals and music",
+        "limits": "Models have separate terms; separation can introduce artifacts."
+      }
+    },
+    {
+      "id": "oss-045",
+      "name": "Natron",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/NatronGitHub/Natron",
+      "sources": [
+        "https://github.com/NatronGitHub/Natron/blob/RB-2.6/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "節點式合成、摳像與 OpenFX 流程",
+        "limits": "不能打包宣稱完整替代 After Effects；Mac CPU 架構與版本相容性需核對下載包。"
+      },
+      "en": {
+        "use": "Node-based compositing",
+        "limits": "Not a complete After Effects replacement; verify platform packages."
+      }
+    },
+    {
+      "id": "oss-046",
+      "name": "Blender",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/blender/blender",
+      "sources": [
+        "https://github.com/blender/blender/blob/main/README.md"
+      ],
+      "cost": "open-source; binary/model/service costs may differ",
+      "license": "GPL-3.0（整體）",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "沿用你既有 3D 能力，承接 3D、合成與部分影片工作",
+        "limits": "不是新發現的工具；保留作已安裝可重用選項，不把轉換現有商業專案的成本當零。"
+      },
+      "en": {
+        "use": "3D, animation, compositing and video editing",
+        "limits": "Existing project formats, plugins and team workflows may not transfer."
+      }
+    },
+    {
+      "id": "free-001",
+      "name": "GIMP",
+      "category": "graphics",
+      "keywords": [
+        "修圖",
+        "繪畫",
+        "graphics",
+        "painting"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.gimp.org/",
+      "sources": [
+        "https://www.gimp.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "照片修整與點陣圖編輯",
+        "limits": "官網確認免費開源；能否替代特定 Photoshop 專案需用實際檔案確認。"
+      },
+      "en": {
+        "use": "Photo retouching and raster editing",
+        "limits": "Test PSD/project round trips, fonts, color and plugins."
+      }
+    },
+    {
+      "id": "free-002",
+      "name": "Krita",
+      "category": "graphics",
+      "keywords": [
+        "修圖",
+        "繪畫",
+        "graphics",
+        "painting"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://krita.org/en/",
+      "sources": [
+        "https://krita.org/en/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "繪畫、筆刷與插畫",
+        "limits": "官網提供免費版本與繁中網站；不把網站翻譯當成已實測完整繁中 UI。"
+      },
+      "en": {
+        "use": "Digital painting and illustration",
+        "limits": "Not a complete Photoshop replacement; UI localization not tested."
+      }
+    },
+    {
+      "id": "free-003",
+      "name": "LibreOffice",
+      "category": "office",
+      "keywords": [
+        "文書",
+        "試算表",
+        "簡報",
+        "office"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.libreoffice.org/",
+      "sources": [
+        "https://www.libreoffice.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "文件、試算表、簡報與 Draw",
+        "limits": "官網確認免費開源；不沿用文章『完全相容』說法，正式交付檔案需驗證。"
+      },
+      "en": {
+        "use": "Documents, spreadsheets, presentations and Draw",
+        "limits": "Test actual files, macros, fonts and collaboration requirements."
+      }
+    },
+    {
+      "id": "free-004",
+      "name": "ONLYOFFICE Desktop Editors",
+      "category": "office",
+      "keywords": [
+        "文書",
+        "試算表",
+        "簡報",
+        "office"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.onlyoffice.com/desktop",
+      "sources": [
+        "https://www.onlyoffice.com/desktop"
+      ],
+      "cost": "free open-source desktop edition",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "文件、試算表、簡報與 PDF",
+        "limits": "確認免費桌面產品；雲端協作方案、AI 提供者與付費服務另外核對。"
+      },
+      "en": {
+        "use": "Office documents, spreadsheets, presentations and PDFs",
+        "limits": "Hosted services and optional AI providers may be paid; test document fidelity."
+      }
+    },
+    {
+      "id": "free-005",
+      "name": "ScreenPal",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://screenpal.com/plans",
+      "sources": [
+        "https://screenpal.com/plans"
+      ],
+      "cost": "limited free tier; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "短教學錄影",
+        "limits": "官網免費方案每段 15 分鐘，長課程優先選其他工具；不將所有行銷頁功能都當免費。"
+      },
+      "en": {
+        "use": "Short screen recordings",
+        "limits": "Official free plan has a 15-minute recording limit; verify other feature tiers."
+      }
+    },
+    {
+      "id": "free-006",
+      "name": "FlashBack Express",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.flashbackrecorder.com/express",
+      "sources": [
+        "https://www.flashbackrecorder.com/express"
+      ],
+      "cost": "free/paid feature boundaries need review",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "錄影候選",
+        "limits": "官網確認 Windows 與本機儲存；文章對水印描述不一致，編輯與 AI 功能免費範圍尚待版本／方案表確認。"
+      },
+      "en": {
+        "use": "Screen recording with local saving",
+        "limits": "Articles disagree about watermarks; confirm exact build and free editing/AI limits."
+      }
+    },
+    {
+      "id": "free-007",
+      "name": "macOS Screenshot / QuickTime",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "builtin",
+      "url": "https://support.apple.com/en-us/102618",
+      "sources": [
+        "https://support.apple.com/en-us/102618"
+      ],
+      "cost": "included with macOS; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "基本螢幕錄影",
+        "limits": "不需另購錄影軟體；官方操作支援畫面與麥克風，不據此保證所有系統音訊需求。"
+      },
+      "en": {
+        "use": "Basic screen and microphone recording",
+        "limits": "System audio and advanced editing requirements need separate verification."
+      }
+    },
+    {
+      "id": "free-008",
+      "name": "Lightshot",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "OCR",
+        "screenshots"
+      ],
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://app.prntscr.com/en/index.html",
+      "sources": [
+        "https://app.prntscr.com/en/index.html"
+      ],
+      "cost": "freeware; not open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "快速區域截圖與標註",
+        "limits": "有官方免費下載；網路分享會上傳截圖，不等於所有截圖都只留在本機。"
+      },
+      "en": {
+        "use": "Quick screenshot capture and annotation",
+        "limits": "Online sharing uploads screenshots; no tested OCR or scrolling capture."
+      }
+    },
+    {
+      "id": "free-009",
+      "name": "Apple Dictation",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "speech to text"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "builtin",
+      "url": "https://support.apple.com/guide/mac-help/use-dictation-mh40584/mac",
+      "sources": [
+        "https://support.apple.com/guide/mac-help/use-dictation-mh40584/mac"
+      ],
+      "cost": "included with macOS; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "將說話輸入文字欄位",
+        "limits": "不是長音檔逐字稿工具；是否在裝置處理需查看鍵盤設定，語言與功能依系統而異。"
+      },
+      "en": {
+        "use": "Voice typing into text fields",
+        "limits": "Check settings for on-device processing; language support varies; not a file-transcription tool."
+      }
+    },
+    {
+      "id": "free-010",
+      "name": "DaVinci Resolve",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "video editing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "sources": [
+        "https://www.blackmagicdesign.com/products/davinciresolve"
+      ],
+      "cost": "free tier; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "剪輯、調色、音訊後製",
+        "limits": "有免費桌面版；Studio 的 AI、降噪等不算免費能力，格式支援需按素材核對。"
+      },
+      "en": {
+        "use": "Editing, grading and audio post-production",
+        "limits": "Studio AI and advanced effects are paid; test actual codecs and hardware."
+      }
+    },
+    {
+      "id": "free-011",
+      "name": "PDF24 Creator",
+      "category": "pdf",
+      "keywords": [
+        "PDF",
+        "合併 PDF",
+        "merge PDF"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://tools.pdf24.org/en/creator",
+      "sources": [
+        "https://tools.pdf24.org/en/creator"
+      ],
+      "cost": "freeware; personal and commercial use",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "PDF 合併、拆分、轉檔與 OCR",
+        "limits": "官網明列私人與商業使用免費，離線處理；桌面版沒有 macOS。"
+      },
+      "en": {
+        "use": "Offline PDF merging, splitting, conversion and OCR",
+        "limits": "Desktop version is Windows only; not a full Acrobat workflow guarantee."
+      }
+    },
+    {
+      "id": "free-012",
+      "name": "Screenify",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder"
+      ],
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.imobie.com/screenify/",
+      "sources": [
+        "https://www.imobie.com/screenify/"
+      ],
+      "cost": "freeware; not open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-partial",
+      "checked_on": "2026-09-10",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "錄教學、螢幕加鏡頭、錄音後簡單修剪",
+        "limits": "官網稱免費、無錄影時間限制，支援本機輸出；FocuSee 的自動運鏡是另一產品。繁中與新款 Mac 尚未實測。"
+      },
+      "en": {
+        "use": "Screen/webcam/audio recording and trimming",
+        "limits": "Auto zoom belongs to the separate FocuSee product; Mac features differ."
+      }
+    }
+  ]
+}

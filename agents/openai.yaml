@@ -1,0 +1,13 @@
+interface:
+  display_name: 開源省錢管家
+  short_description: 先找現成工具，依需求盤點與推薦開源及免費軟體，附來源與限制
+  default_prompt: 使用 $open-source-saver 幫我找目前付費軟體的免費替代品，優先提供可直接使用的工具。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

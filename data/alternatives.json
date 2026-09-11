@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "mappings": [
+    {
+      "id": "screen-studio",
+      "name": "Screen Studio",
+      "aliases": [
+        "Screen Studio"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-002",
+        "oss-003",
+        "oss-004",
+        "free-012",
+        "oss-001"
+      ],
+      "zh_note": "分開確認自動縮放、游標、字幕與分享；基本錄影不等於完整取代。",
+      "en_note": "Check zoom, cursor effects, captions and sharing separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "camtasia",
+      "name": "Camtasia",
+      "aliases": [
+        "Camtasia",
+        "TechSmith Camtasia",
+        "ScreenFlow"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-001",
+        "free-012",
+        "oss-003"
+      ],
+      "zh_note": "錄影與後製需求需分開比較。",
+      "en_note": "Compare recording and editing requirements separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "snagit",
+      "name": "Snagit / CleanShot X",
+      "aliases": [
+        "Snagit",
+        "TechSmith Snagit",
+        "CleanShot X"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-009",
+        "oss-010",
+        "oss-011",
+        "free-008"
+      ],
+      "zh_note": "OCR、長截圖與雲端分享要另外查證。",
+      "en_note": "Verify OCR, scrolling capture and sharing independently.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "aliases": [
+        "Loom"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-004",
+        "oss-005",
+        "free-012"
+      ],
+      "zh_note": "本機錄影不能當成已有團隊分享與觀看分析。",
+      "en_note": "Local recording does not establish team sharing or viewing analytics.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "aliases": [
+        "Word",
+        "Microsoft Word"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "free-003",
+        "free-004"
+      ],
+      "zh_note": "以實際文件測試；套裝訂閱未取消不計節省。",
+      "en_note": "Test real files; do not count savings while a required suite remains subscribed.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "aliases": [
+        "Excel",
+        "Microsoft Excel"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "free-003",
+        "free-004"
+      ],
+      "zh_note": "巨集、外部資料與複雜公式需確認。",
+      "en_note": "Verify macros, external data and complex formulas.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "aliases": [
+        "PowerPoint",
+        "Microsoft PowerPoint"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "free-003",
+        "free-004"
+      ],
+      "zh_note": "確認字型、動畫與影片嵌入。",
+      "en_note": "Verify fonts, animations and embedded video.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "acrobat",
+      "name": "Adobe Acrobat",
+      "aliases": [
+        "Acrobat",
+        "Adobe Acrobat",
+        "Adobe Acrobat Pro"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "free-011",
+        "free-004",
+        "free-003"
+      ],
+      "zh_note": "依拆合頁面、改正文、簽章分開評估。",
+      "en_note": "Separate page operations, text editing and signatures.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "aliases": [
+        "Photoshop",
+        "Adobe Photoshop"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "free-001",
+        "free-002"
+      ],
+      "zh_note": "修圖與繪畫分開；不保證 PSD 與外掛互通。",
+      "en_note": "Separate retouching from painting; PSD/plugin compatibility is not guaranteed.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "premiere",
+      "name": "Adobe Premiere Pro",
+      "aliases": [
+        "Premiere",
+        "Premiere Pro",
+        "Adobe Premiere Pro"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "free-010",
+        "oss-039",
+        "oss-040"
+      ],
+      "zh_note": "先確認交付格式與團隊專案依賴。",
+      "en_note": "Check delivery formats and team project dependencies.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "audition",
+      "name": "Adobe Audition",
+      "aliases": [
+        "Audition",
+        "Adobe Audition"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "oss-043"
+      ],
+      "zh_note": "只對基礎錄音剪輯推薦候選。",
+      "en_note": "Candidates cover basic audio editing, not every DAW workflow.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "after-effects",
+      "name": "Adobe After Effects",
+      "aliases": [
+        "After Effects",
+        "Adobe After Effects"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "oss-045",
+        "oss-046"
+      ],
+      "zh_note": "僅為特定合成或動畫用途候選，不是完整替代。",
+      "en_note": "Partial compositing/animation candidates, not complete replacements.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "dictation",
+      "name": "Paid voice typing",
+      "aliases": [
+        "Wispr Flow",
+        "Superwhisper",
+        "Dragon"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "free-009",
+        "oss-015",
+        "oss-016",
+        "oss-017"
+      ],
+      "zh_note": "確認繁中、專有名詞、本機模型與官方成品價格。",
+      "en_note": "Check Chinese terminology, local models and official binary pricing.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "transcription",
+      "name": "Paid transcription",
+      "aliases": [
+        "Otter",
+        "Otter.ai",
+        "Descript"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-019",
+        "oss-020",
+        "oss-021"
+      ],
+      "zh_note": "逐字稿、會議紀錄與文字剪輯是不同功能。",
+      "en_note": "Transcription, meeting notes and text-based editing are different features.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "status": "article-discovery-only",
+  "candidates": [
+    {
+      "name": "GIMP",
+      "article_ids": [
+        "a01",
+        "a02"
+      ],
+      "catalog_id": "free-001"
+    },
+    {
+      "name": "Inkscape",
+      "article_ids": [
+        "a01",
+        "a02"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Scribus",
+      "article_ids": [
+        "a01",
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "OpenShot",
+      "article_ids": [
+        "a01",
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Kdenlive",
+      "article_ids": [
+        "a01"
+      ],
+      "catalog_id": "oss-039"
+    },
+    {
+      "name": "Synfig Studio",
+      "article_ids": [
+        "a01"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "darktable",
+      "article_ids": [
+        "a01",
+        "a02"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "RawTherapee",
+      "article_ids": [
+        "a01"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Natron",
+      "article_ids": [
+        "a01"
+      ],
+      "catalog_id": "oss-045"
+    },
+    {
+      "name": "Ardour",
+      "article_ids": [
+        "a01"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Master PDF Editor",
+      "article_ids": [
+        "a01",
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Krita",
+      "article_ids": [
+        "a02"
+      ],
+      "catalog_id": "free-002"
+    },
+    {
+      "name": "LibreOffice",
+      "article_ids": [
+        "a03",
+        "a10"
+      ],
+      "catalog_id": "free-003"
+    },
+    {
+      "name": "Okular",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "ONLYOFFICE Desktop Editors",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": "free-004"
+    },
+    {
+      "name": "Xournal++",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF Mix Tool",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDFsam Basic",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF Arranger",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF Chain",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF Slicer",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF Studio",
+      "article_ids": [
+        "a03"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "OBS Studio",
+      "article_ids": [
+        "a04"
+      ],
+      "catalog_id": "oss-001"
+    },
+    {
+      "name": "ShareX",
+      "article_ids": [
+        "a04",
+        "a11"
+      ],
+      "catalog_id": "oss-009"
+    },
+    {
+      "name": "Debut Video Capture",
+      "article_ids": [
+        "a04"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "ScreenPal",
+      "article_ids": [
+        "a04",
+        "a11"
+      ],
+      "catalog_id": "free-005"
+    },
+    {
+      "name": "EaseUS RecExperts",
+      "article_ids": [
+        "a04"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "FlashBack Express",
+      "article_ids": [
+        "a04",
+        "a11"
+      ],
+      "catalog_id": "free-006"
+    },
+    {
+      "name": "macOS Screenshot / QuickTime",
+      "article_ids": [
+        "a04"
+      ],
+      "catalog_id": "free-007"
+    },
+    {
+      "name": "Skitch",
+      "article_ids": [
+        "a05"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Lightshot",
+      "article_ids": [
+        "a05"
+      ],
+      "catalog_id": "free-008"
+    },
+    {
+      "name": "Monosnap",
+      "article_ids": [
+        "a05"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Apple Dictation",
+      "article_ids": [
+        "a06"
+      ],
+      "catalog_id": "free-009"
+    },
+    {
+      "name": "Google Docs Voice Typing",
+      "article_ids": [
+        "a06"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "SpeechTexter",
+      "article_ids": [
+        "a06"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "DaVinci Resolve",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": "free-010"
+    },
+    {
+      "name": "Shotcut",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": "oss-040"
+    },
+    {
+      "name": "Lightworks",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "ACDSee Luxea",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Clipchamp",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "CapCut",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "iMovie",
+      "article_ids": [
+        "a07"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "PDF24 Creator",
+      "article_ids": [
+        "a08"
+      ],
+      "catalog_id": "free-011"
+    },
+    {
+      "name": "PDF Candy",
+      "article_ids": [
+        "a08"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Screenify",
+      "article_ids": [
+        "a09"
+      ],
+      "catalog_id": "free-012"
+    },
+    {
+      "name": "Apache OpenOffice",
+      "article_ids": [
+        "a10"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "WPS Office",
+      "article_ids": [
+        "a10"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Google Docs / Sheets / Slides",
+      "article_ids": [
+        "a10"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "ONLYOFFICE DocSpace",
+      "article_ids": [
+        "a10"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Loom",
+      "article_ids": [
+        "a11"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "CamStudio",
+      "article_ids": [
+        "a11"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "RecordCast",
+      "article_ids": [
+        "a11"
+      ],
+      "catalog_id": null
+    },
+    {
+      "name": "Apowersoft Online Screen Recorder",
+      "article_ids": [
+        "a11"
+      ],
+      "catalog_id": null
+    }
+  ]
+}

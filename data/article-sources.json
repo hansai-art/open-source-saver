@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "articles": [
+    {
+      "id": "a01",
+      "publisher": "It's FOSS",
+      "title": "Best Free and Open Source Alternatives to Adobe Products for Linux",
+      "url": "https://itsfoss.com/adobe-alternatives-linux/",
+      "article_date": "2024-03-19",
+      "checked_on": "2026-09-10",
+      "topic": "Adobe 套件逐項替代",
+      "selected_candidates": [
+        "GIMP",
+        "Inkscape",
+        "Scribus",
+        "OpenShot",
+        "Kdenlive",
+        "Synfig Studio",
+        "darktable",
+        "RawTherapee",
+        "Natron",
+        "Ardour",
+        "Master PDF Editor"
+      ],
+      "note": "沿用按原付費產品分類；『完整替代』的評語需另核對工作流程。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a02",
+      "publisher": "It's FOSS",
+      "title": "4 Free and Open Source Alternatives to Adobe Photoshop",
+      "url": "https://itsfoss.com/open-source-photoshop-alternatives/",
+      "article_date": "2024-03-22",
+      "checked_on": "2026-09-10",
+      "topic": "修圖、繪畫、RAW、向量分工",
+      "selected_candidates": [
+        "GIMP",
+        "Krita",
+        "darktable",
+        "Inkscape"
+      ],
+      "note": "採用工作用途分類，不將四款工具都視為相同的 Photoshop 替代品。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a03",
+      "publisher": "It's FOSS",
+      "title": "Best PDF Editors for Linux to Edit the PDF Content and Extract Pages to Merge in Other PDF Files",
+      "url": "https://itsfoss.com/pdf-editors-linux/",
+      "article_date": "2025-05-22",
+      "checked_on": "2026-09-10",
+      "topic": "PDF 編輯、註記、頁面整理",
+      "selected_candidates": [
+        "LibreOffice",
+        "Okular",
+        "Scribus",
+        "ONLYOFFICE Desktop Editors",
+        "Xournal++",
+        "PDF Mix Tool",
+        "PDFsam Basic",
+        "PDF Arranger",
+        "PDF Chain",
+        "PDF Slicer",
+        "Master PDF Editor",
+        "PDF Studio"
+      ],
+      "note": "採用『改內容』與『拆合頁面』分類；Linux 安裝經驗不能直接推廣為 Mac 一鍵可用。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a04",
+      "publisher": "TechRadar",
+      "title": "Best free screen recorder of 2025: Top free picks to capture your screen",
+      "url": "https://www.techradar.com/news/the-best-free-screen-recorder",
+      "article_date": "2025-08-18",
+      "checked_on": "2026-09-10",
+      "topic": "免費錄影",
+      "selected_candidates": [
+        "OBS Studio",
+        "ShareX",
+        "Debut Video Capture",
+        "ScreenPal",
+        "EaseUS RecExperts",
+        "FlashBack Express",
+        "macOS Screenshot / QuickTime"
+      ],
+      "note": "取出候選與情境；免費方案限制另查官網。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a05",
+      "publisher": "TechRadar",
+      "title": "Best screenshot tool for Mac in 2026: fast and easy to use options",
+      "url": "https://www.techradar.com/pro/best-screenshot-tool-for-mac",
+      "article_date": "2025-04-24",
+      "checked_on": "2026-09-10",
+      "topic": "Mac 截圖",
+      "selected_candidates": [
+        "Skitch",
+        "Lightshot",
+        "Monosnap"
+      ],
+      "note": "文章另列 CleanShot X、Snagit、Droplr 等付費選項；本次不將其列入免費候選。標題年份與更新日不同，保留實際更新日。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a06",
+      "publisher": "TechRadar",
+      "title": "Best dictation software of 2025",
+      "url": "https://www.techradar.com/best/dictation-software",
+      "article_date": "2025-11-21",
+      "checked_on": "2026-09-10",
+      "topic": "語音輸入",
+      "selected_candidates": [
+        "Apple Dictation",
+        "Google Docs Voice Typing",
+        "SpeechTexter"
+      ],
+      "note": "取免費與系統內建選項；英文評測準確率不能當作台灣華語品質證據。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a07",
+      "publisher": "TechRadar",
+      "title": "Best free video editing software of 2025: Fully tested and free to use on PC and Mac",
+      "url": "https://www.techradar.com/best/free-video-editing-software",
+      "article_date": "2025-08-21",
+      "checked_on": "2026-09-10",
+      "topic": "免費剪輯",
+      "selected_candidates": [
+        "DaVinci Resolve",
+        "Shotcut",
+        "OpenShot",
+        "Lightworks",
+        "ACDSee Luxea",
+        "Clipchamp",
+        "CapCut",
+        "iMovie"
+      ],
+      "note": "免費非開源也納入；AI、素材與輸出限制以產品方案為準。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a08",
+      "publisher": "TechRadar",
+      "title": "Best free PDF editor 2026: Top picks tested for PC & mobile",
+      "url": "https://www.techradar.com/best/free-pdf-editor",
+      "article_date": null,
+      "checked_on": "2026-09-10",
+      "topic": "免費 PDF 工具",
+      "selected_candidates": [
+        "PDF24 Creator",
+        "PDF Candy"
+      ],
+      "note": "優先核對離線桌面版；網頁版單列。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a09",
+      "publisher": "Lifewire",
+      "title": "iMobie's New Tool Screen Records Without Watermarks or Annoying Ads",
+      "url": "https://www.lifewire.com/free-screen-recording-screenify-8698021",
+      "article_date": "2024-08-20",
+      "checked_on": "2026-09-10",
+      "topic": "Screenify 免費錄影介紹",
+      "selected_candidates": [
+        "Screenify"
+      ],
+      "note": "發布消息，引用廠商說法，證據強度不同於獨立比較實測；已回官網核對免費定位。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a10",
+      "publisher": "Lifewire",
+      "title": "8 of Our Favorite Free Microsoft Office/365 Alternatives",
+      "url": "https://www.lifewire.com/free-microsoft-office-alternatives-1356334",
+      "article_date": "2024-08-07",
+      "checked_on": "2026-09-10",
+      "topic": "Office 替代",
+      "selected_candidates": [
+        "Apache OpenOffice",
+        "LibreOffice",
+        "WPS Office",
+        "Google Docs / Sheets / Slides",
+        "ONLYOFFICE DocSpace"
+      ],
+      "note": "本次只摘取已讀取的相關候選；DocSpace 雲端服務與 Desktop Editors 分開。",
+      "read_status": "article-content-reviewed"
+    },
+    {
+      "id": "a11",
+      "publisher": "Lifewire",
+      "title": "Top Free Screen Recording Software Tools You Can’t Afford to Ignore in 2026",
+      "url": "https://www.lifewire.com/free-screen-recording-software-8673760",
+      "article_date": "2026-01-18",
+      "checked_on": "2026-09-10",
+      "topic": "錄影第二來源",
+      "selected_candidates": [
+        "Loom",
+        "CamStudio",
+        "RecordCast",
+        "ShareX",
+        "ScreenPal",
+        "Apowersoft Online Screen Recorder",
+        "FlashBack Express"
+      ],
+      "note": "補不同媒體來源；FlashBack 水印描述與另一篇文章不同，暫列待確認。",
+      "read_status": "article-content-reviewed"
+    }
+  ]
+}
