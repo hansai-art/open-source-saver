@@ -2,9 +2,11 @@
 
 [繁體中文](USAGE.zh-TW.md) · [Home](../README.en.md)
 
-## Choose the smallest entry
+## Inventory installed apps, then get recommendations
 
-For a named replacement, ask the skill or browse the catalog; do not scan unnecessarily. Run collectors on the actual target computer. Cloud chat cannot scan your personal Mac/Windows through these commands.
+A general Skill invocation starts by checking access to the target computer, collecting installed apps, matching free/open-source alternatives, and presenting reasons, feature gaps and official download/installation steps. Use the Mac or Windows section below on the actual device. If device access is unavailable, provide local collection instructions or accept a manual app list.
+
+Cloud chat cannot scan your personal computer through these commands; its own packages are not your inventory. Linux and other devices use manual input or an available read-only host method. A request about one named app can skip the full inventory.
 
 Run commands from the repository root with Python 3.10+; Windows can use py -3. Without Python, browse Markdown or use a host that already has a runtime for manual data. Strict offline use must not upload an inventory.
 
