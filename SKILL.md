@@ -1,17 +1,24 @@
 ---
 name: open-source-saver
-description: Find existing open-source and free software alternatives to paid apps from named software, work needs, or an installed-app inventory. Use for replacement research, subscription-saving reviews, and 開源省錢管家 requests. Prefer ready-to-use tools and Traditional Chinese guidance.
+description: Inventory software installed on the user's computer, then recommend suitable open-source and free alternatives with installation guidance. Also handle named software and work needs. Use for replacement research, subscription-saving reviews, and 開源省錢管家 requests. Prefer ready-to-use tools and Traditional Chinese guidance.
 ---
 
 # 開源省錢管家 / Open Source Saver
 
 Use existing tools before proposing development. Default to Taiwan Traditional Chinese; answer in English when requested. Accept free proprietary software and built-in features, distinguish their terms, and prefer open source when practical suitability is comparable.
 
-## Choose the smallest useful entry
+## Default workflow: inventory, match, recommend
 
-- Named app or task: search immediately; do not inventory the device unnecessarily.
-- Inventory request: establish whether execution is on the user's target device. A cloud/container environment is not their Mac or Windows PC. Otherwise provide local collector instructions or accept one app per line / JSON.
-- Read `references/evaluation.md` for work-critical migrations or savings; read `references/localization.md` when Chinese support changes the recommendation.
+For a general invocation of 開源省錢管家, start with the user's installed software rather than a generic catalog or a request for them to name every paid app.
+
+1. Establish the target device and whether the agent can execute on it. A cloud/container environment is not the user's Mac or Windows PC; never report its packages as their installed apps.
+2. On the actual target Mac/Windows, use the bundled read-only collector below and retain coverage warnings. If device access is unavailable, provide the appropriate local collection instructions or accept an existing inventory / one app per line. Ask for the OS only if it is unknown and needed for the instructions. Other platforms need an available read-only inventory method or a manual list; do not run Mac/Windows collectors there.
+3. List the detected application names and map each to plausible alternatives for the target platform. Preserve unmatched apps as 待確認 / 暫無合適替代. Installation alone proves neither active usage nor a paid subscription. Ask about essential features only where the answer materially changes the shortlist.
+4. Verify candidates using the next section. Recommend ready-to-use open-source tools with a free usable distribution first; clearly label free proprietary or built-in options separately. Do not force a replacement when required features or file compatibility are missing.
+5. Present the inventory-to-recommendation table and installation guidance described under Deliver the decision. A recommendation request ends with this actionable report; when the user also requests installation, carry out only the authorized installation scope using verified official methods.
+
+If the user explicitly names one app/task, requests only a catalog, or supplies an existing inventory, honor that scope without a redundant full-device scan.
+Read `references/evaluation.md` for work-critical migrations or savings; read `references/localization.md` when Chinese support changes the recommendation.
 
 ## Find and verify candidates
 
@@ -35,6 +42,8 @@ Collectors remain experimental until target-device tests pass. They write select
 For strict offline use, run directly on the target device. Do not read, print, attach or summarize private inventory/report contents into a cloud agent. Local scripts used by a cloud model are not automatically fully offline. Bundled scripts make no network requests; live research and cloud model processing are separate. Finding a candidate does not authorize installation, removal, subscription cancellation or sending upstream requests.
 
 ## Deliver the decision
+
+For an inventory review, show a table: 已安裝軟體 | 推薦替代工具 | 開源／免費範圍 | 可取代的用途與主要落差 | 建議 | 官方下載／安裝方式. Put the most useful replacements first, retain unmatched items, and identify scan coverage and missing data. Give practical installation steps for the best-supported options, matching the user's OS and architecture where relevant; do not present web services or source-only projects as desktop installers.
 
 Lead with the best-supported option and intended use. Include platform, free/open-source classification, Chinese status, official acquisition link, critical gaps, evidence date and a meaningful trial task. Label 建議試用 / 有條件替換 / 暫不建議 and explicitly mark unknowns. CLI output is a shortlist, not those final decisions.
 
