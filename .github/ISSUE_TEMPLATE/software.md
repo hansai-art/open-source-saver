@@ -4,6 +4,13 @@ about: 提供免費或開源替代品及來源 / Suggest an alternative with evi
 title: '[候選 / Candidate] '
 ---
 
+歡迎自薦、分享你用過或知道的工具；非開源免費工具也接受。未知欄位可寫「未知」。
+Your own project or a tool you know is welcome, including proprietary freeware. Unknown fields may be marked unknown.
+
+## 與工具的關係 / Your relationship to the tool
+
+作者、使用者、合作夥伴，或單純分享？ / Author, user, partner, or sharing a discovery?
+
 ## 原付費工具或需求 / Paid app or task
 
 ## 候選名稱與官方網址 / Candidate and official URL

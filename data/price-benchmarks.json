@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-11",
+  "currency": "USD",
+  "prices": [
+    {
+      "id": "camtasia-essentials-annual",
+      "product": "Camtasia Essentials",
+      "amount": "179.88",
+      "billing_period": "year",
+      "annualized": "179.88",
+      "source": "https://www.techsmith.com/store/camtasia"
+    },
+    {
+      "id": "screen-studio-annual",
+      "product": "Screen Studio",
+      "amount": "108.00",
+      "billing_period": "year",
+      "displayed_monthly_equivalent": "9.00",
+      "annualized": "108.00",
+      "source": "https://screen.studio/"
+    },
+    {
+      "id": "screen-studio-monthly",
+      "product": "Screen Studio",
+      "amount": "29.00",
+      "billing_period": "month",
+      "annualized": "348.00",
+      "source": "https://screen.studio/"
+    }
+  ],
+  "assumptions": [
+    "Public individual-plan benchmark, not the user invoice.",
+    "No taxes, FX fees, promotions or regional checkout adjustments included.",
+    "Annualized monthly plan assumes 12 full monthly payments.",
+    "Only count a recurring expense after successful replacement and cancellation; never sum alternative billing plans.",
+    "Migration time, hardware, hosting and APIs are separate costs.",
+    "Existing perpetual licenses do not automatically create annual savings."
+  ]
+}

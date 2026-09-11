@@ -1,6 +1,6 @@
 # 文章與上游來源 / Sources
 
-Checked: 2026-09-10. Links and original summaries only; article contents are not redistributed.
+Article snapshot: 2026-09-10. Forum research added: 2026-09-11. Links and original summaries only; article contents are not redistributed.
 
 - **a01 · It's FOSS** [Best Free and Open Source Alternatives to Adobe Products for Linux](https://itsfoss.com/adobe-alternatives-linux/) — 2024-03-19
 - **a02 · It's FOSS** [4 Free and Open Source Alternatives to Adobe Photoshop](https://itsfoss.com/open-source-photoshop-alternatives/) — 2024-03-22
@@ -22,3 +22,11 @@ Additional discovery directories (not copied wholesale):
 - [junaid33/opensource.builders](https://github.com/junaid33/opensource.builders)
 
 All product documentation links and review dates are in data/products.json. Listing a tool does not relicense its code, assets, models, trademarks or hosted service.
+
+## 論壇與價格查核 / Forums and pricing
+
+- [7 筆國外論壇討論與留言 / 7 forum discussions and comments](FORUMS.md)：逐筆記錄自薦、使用者回報、官方回查與待查狀態。
+- [價格與節費計算 / Pricing and savings](SAVINGS.md)：公開個人方案、付費週期與計算假設。
+- [社群來源 JSON / Community source data](../data/community-sources.json)。
+
+Articles find candidates; forum experiences identify questions; official sources establish current facts. More links do not mean more unique products.

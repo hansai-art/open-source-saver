@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COST_ZH = {
     'free and open-source': '免費開源',
+    'freeware; source-available, not open-source': '免費；原始碼可見，非開源',
     'free open-source desktop edition': '免費開源桌面版',
     'free tier; proprietary': '有免費版；非開源',
     'free/paid feature boundaries need review': '免費與付費功能界線待查',
@@ -118,7 +119,8 @@ def escape(value):
 
 def render(products, lang):
     zh = lang == 'zh-TW'
-    rows = ['| 工具 / Tool | 用途 / Use | 平台 / OS | 費用 / Cost | 限制 / Limits | 證據 / Evidence |', '|---|---|---|---|---|---|']
+    header = '| 工具 | 用途 | 平台 | 費用 | 限制 | 證據 |' if zh else '| Tool | Use | OS | Cost | Limits | Evidence |'
+    rows = [header, '|---|---|---|---|---|---|']
     for p in products:
         text = p['zh'] if zh else p['en']
         rows.append('| ' + ' | '.join([f"[{escape(p['name'])}]({p['url']})", escape(text['use']), ', '.join(p['platforms']) or ('待確認' if zh else 'Unknown'), escape(COST_ZH.get(p['cost'], p['cost']) if zh else p['cost']), escape(text['limits']), escape(p['evidence'] + ' / ' + p['checked_on'])]) + ' |')

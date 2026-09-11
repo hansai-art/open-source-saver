@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-11",
+  "sources": [
+    {
+      "id": "f01",
+      "platform": "Reddit · r/macapps",
+      "title": "TypeWhisper 1.0 launch",
+      "url": "https://www.reddit.com/r/macapps/comments/1s5xot8/os_typewhisper_10_free_opensource_dictation_app/",
+      "evidence_type": "developer-post-and-comments",
+      "product_ids": [
+        "add-001"
+      ],
+      "zh_summary": "作者介紹本機聽寫；留言關注模型記憶體與雲端費用。回查官方 repo 後收錄，目前版本功能以官方為準。",
+      "en_summary": "Developer introduction; comments raise model memory and cloud costs. Added after official-repository review; current features follow upstream.",
+      "review_status": "reviewed",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f02",
+      "platform": "Reddit · r/ProductivityApps",
+      "title": "Voquill free alternative launch",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1owlbki/i_made_a_free_and_opensource_alternative_to/",
+      "evidence_type": "developer-post-and-comments",
+      "product_ids": [],
+      "zh_summary": "舊貼文宣稱免費開源聽寫；查核時 voquill.com 呈現不同產品定位，尚未確認與原專案關係，留待查而不計入工具數。",
+      "en_summary": "An older launch claims free open-source dictation. The current voquill.com presents a different product positioning; identity is unresolved, so it is not counted.",
+      "review_status": "identity-unresolved",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f03",
+      "platform": "Reddit · r/macapps",
+      "title": "YapToText App Store launch",
+      "url": "https://www.reddit.com/r/macapps/comments/1v3yxw3/os_yaptotext_mac_app_store_my_free_opensource/",
+      "evidence_type": "developer-post-and-comments",
+      "product_ids": [],
+      "zh_summary": "作者宣稱免費本機轉錄；貼文未提供可直接查核的公開原始碼入口，未確認授權，不計入開源工具數。",
+      "en_summary": "The author claims free local transcription. No directly verifiable public source-code link was found in the post; license unconfirmed and excluded from catalog counts.",
+      "review_status": "source-license-unverified",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f04",
+      "platform": "Reddit · r/macapps",
+      "title": "Longshot scrolling capture and OCR",
+      "url": "https://www.reddit.com/r/macapps/comments/1s27jjc/longshot_scrolling_screenshots_offline_ocr_and/",
+      "evidence_type": "developer-post-and-comments",
+      "product_ids": [],
+      "zh_summary": "留言指出部分免費輸出有浮水印；保留為待查線索，不能宣稱完整無限制免費。",
+      "en_summary": "Comments describe watermarks on some free outputs. Retained as a lead, not an unrestricted-free recommendation.",
+      "review_status": "free-limits-unverified",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f05",
+      "platform": "Reddit · r/macapps",
+      "title": "User test of macshot as a CleanShot X alternative",
+      "url": "https://www.reddit.com/r/macapps/comments/1u7pn5s/os_i_tested_macshot_as_an_opensource_cleanshot_x/",
+      "evidence_type": "user-report-and-developer-replies",
+      "product_ids": [
+        "add-002"
+      ],
+      "zh_summary": "使用者討論編輯、滾動擷取與格式缺口，作者回覆版本修正。已回查官方 repo；舊留言缺點不是目前版本的實測結論。",
+      "en_summary": "A user discusses editing, scrolling capture and format gaps; the developer reports fixes. Official repo reviewed; old comments do not establish current-version defects.",
+      "review_status": "reviewed",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f06",
+      "platform": "Hacker News",
+      "title": "SumatraPDF comment in well-crafted software discussion",
+      "url": "https://news.ycombinator.com/item?id=23468998",
+      "evidence_type": "user-comment",
+      "product_ids": [
+        "add-017"
+      ],
+      "zh_summary": "2020 年留言推崇 SumatraPDF 的閱讀速度；是個人感受，不是效能測試，也不代表能編輯 PDF 正文。",
+      "en_summary": "A 2020 comment praises reader responsiveness. This is anecdotal, not a benchmark or evidence of PDF text editing.",
+      "review_status": "reviewed",
+      "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f07",
+      "platform": "Hacker News",
+      "title": "SumatraPDF comment in Software disenchantment discussion",
+      "url": "https://news.ycombinator.com/item?id=37988872",
+      "evidence_type": "user-comment",
+      "product_ids": [
+        "add-017"
+      ],
+      "zh_summary": "2023 年留言把 SumatraPDF 當成不用付費買閱讀器的選項。若原本用免費 Reader，改用它的授權費節省仍是零。",
+      "en_summary": "A 2023 comment favors SumatraPDF over buying a reader. Switching from an already-free reader still saves zero license fees.",
+      "review_status": "reviewed",
+      "checked_on": "2026-09-11"
+    }
+  ],
+  "counting_note": "Count distinct URLs, including individual comments; do not add these mentions to product counts."
+}

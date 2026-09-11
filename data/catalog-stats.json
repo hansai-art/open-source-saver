@@ -1,0 +1,32 @@
+{
+  "updated_on": "2026-09-11",
+  "product_count": 78,
+  "category_count": 18,
+  "source_type_counts": {
+    "open-source": 69,
+    "proprietary": 8,
+    "source-available": 1
+  },
+  "category_counts": {
+    "screen-recording": 12,
+    "screenshots-ocr": 8,
+    "dictation": 6,
+    "transcription": 10,
+    "subtitles": 3,
+    "text-to-speech": 7,
+    "video-editing": 9,
+    "audio-editing": 2,
+    "graphics": 2,
+    "office": 2,
+    "pdf": 3,
+    "file-transfer": 2,
+    "productivity": 3,
+    "archives": 2,
+    "media-players": 3,
+    "email": 1,
+    "passwords": 1,
+    "notes-reading": 2
+  },
+  "mapping_count": 20,
+  "counting_rule": "Unique product IDs; one primary category per product; sources and platform variants are not extra products."
+}

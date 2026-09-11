@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-09-10",
+  "checked_on": "2026-09-11",
   "products": [
     {
       "id": "oss-001",
@@ -20,12 +20,13 @@
       "delivery": "desktop",
       "url": "https://github.com/obsproject/obs-studio",
       "sources": [
-        "https://github.com/obsproject/obs-studio/blob/master/README.rst"
+        "https://github.com/obsproject/obs-studio/blob/master/README.rst",
+        "https://obsproject.com/"
       ],
-      "cost": "open-source; binary/model/service costs may differ",
+      "cost": "free and open-source",
       "license": "GPL-2.0-or-later",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-10",
+      "checked_on": "2026-09-11",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
@@ -35,7 +36,8 @@
       "en": {
         "use": "Screen recording, livestreaming and scenes",
         "limits": "Not automatic cinematic cursor zoom; check OS requirements."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-002",
@@ -70,7 +72,8 @@
       "en": {
         "use": "Polished recordings with cursor effects and zoom",
         "limits": "Check platform-specific cursor/audio support and AGPL distribution terms."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-003",
@@ -105,7 +108,8 @@
       "en": {
         "use": "Tutorial recording, cursor zoom and captions",
         "limits": "Captioning needs whisper-cli and a model; unsigned Mac builds may need extra steps."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-004",
@@ -139,7 +143,8 @@
       "en": {
         "use": "Recording and video sharing",
         "limits": "Local recording, hosted sharing and paid services have different costs."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-005",
@@ -174,7 +179,8 @@
       "en": {
         "use": "Browser-based screen recording and annotation",
         "limits": "Chrome extension; do not include paid Screenity Pro features."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-006",
@@ -207,7 +213,8 @@
       "en": {
         "use": "Native Mac screen and webcam recording",
         "limits": "Capture path may require a newer macOS than the base app; early candidate."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-007",
@@ -240,7 +247,8 @@
       "en": {
         "use": "Short Mac recordings",
         "limits": "Recent macOS compatibility has not been tested; lower-priority candidate."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-008",
@@ -273,7 +281,8 @@
       "en": {
         "use": "GIF capture and editing",
         "limits": "Windows only; check required .NET runtime."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-009",
@@ -290,12 +299,13 @@
       "delivery": "desktop",
       "url": "https://github.com/ShareX/ShareX",
       "sources": [
-        "https://github.com/ShareX/ShareX/blob/develop/README.md"
+        "https://github.com/ShareX/ShareX/blob/develop/README.md",
+        "https://getsharex.com/"
       ],
-      "cost": "open-source; binary/model/service costs may differ",
+      "cost": "free and open-source",
       "license": "GPL-3.0",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-10",
+      "checked_on": "2026-09-11",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
@@ -305,7 +315,8 @@
       "en": {
         "use": "Screenshots and capture workflows",
         "limits": "Windows only; configure uploads intentionally."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-010",
@@ -339,7 +350,8 @@
       "en": {
         "use": "Screenshot annotation",
         "limits": "OS permissions and global shortcuts need checking."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-011",
@@ -373,7 +385,8 @@
       "en": {
         "use": "Screenshots, annotation and pinned images",
         "limits": "OCR and hotkey support differ by platform; maintenance status needs review."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-012",
@@ -405,7 +418,8 @@
       "en": {
         "use": "Basic screenshot capture and annotation",
         "limits": "This entry covers open-source Windows software, not the separate Mac product."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-013",
@@ -439,7 +453,8 @@
       "en": {
         "use": "Screen-area OCR to text",
         "limits": "Chinese recognition depends on installed Tesseract language packs."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-014",
@@ -471,7 +486,8 @@
       "en": {
         "use": "Screen OCR on Windows",
         "limits": "Not a complete screenshot-editing replacement."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-015",
@@ -506,7 +522,8 @@
       "en": {
         "use": "Local hotkey voice typing",
         "limits": "Choose a model that supports Chinese; accuracy and microphones need testing."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-016",
@@ -541,7 +558,8 @@
       "en": {
         "use": "Hotkey dictation with local or cloud backends",
         "limits": "Cloud features may cost money; some Intel Mac features differ."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-017",
@@ -574,7 +592,8 @@
       "en": {
         "use": "Native Mac dictation",
         "limits": "Source is available under GPL; official distributed builds/updates may be paid."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-018",
@@ -610,7 +629,8 @@
       "en": {
         "use": "Dictation through Whispering and Epicenter",
         "limits": "App, host and inference backend have distinct requirements; current licensing differs from old releases."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-019",
@@ -644,7 +664,8 @@
       "en": {
         "use": "Local audio/video transcription",
         "limits": "Chinese accuracy, speaker labels and timing need testing."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-020",
@@ -678,7 +699,8 @@
       "en": {
         "use": "Local microphone and file transcription",
         "limits": "No promise of accurate speaker separation or proper-noun recognition."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-021",
@@ -712,7 +734,8 @@
       "en": {
         "use": "Interview transcription and diarization",
         "limits": "Windows/Linux packages; Mac route requires Python and CPU setup."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-022",
@@ -745,7 +768,8 @@
       "en": {
         "use": "Word-aligned transcription and speaker diarization",
         "limits": "Python setup and separate model access/terms; overlapping speech is difficult."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-023",
@@ -779,7 +803,8 @@
       "en": {
         "use": "Local Whisper inference",
         "limits": "An engine/CLI, not a finished transcription UI; model license is separate."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-024",
@@ -813,7 +838,8 @@
       "en": {
         "use": "Efficient Whisper inference in Python",
         "limits": "NVIDIA CUDA acceleration is distinct from Mac CPU execution."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-025",
@@ -843,7 +869,8 @@
       "en": {
         "use": "ASR, punctuation and voice activity pipelines",
         "limits": "Developer toolkit; licenses and requirements vary by model."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-026",
@@ -879,7 +906,8 @@
       "en": {
         "use": "Cross-platform ASR/TTS inference",
         "limits": "Developer engine; inspect each model's terms and platform support."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-027",
@@ -914,7 +942,8 @@
       "en": {
         "use": "Subtitle editing and synchronization",
         "limits": "Download stable releases; optional online services have separate costs."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-028",
@@ -949,7 +978,8 @@
       "en": {
         "use": "Transcription, translation, dubbing and subtitles",
         "limits": "Windows package; Mac/Linux setup and API costs vary."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-029",
@@ -980,7 +1010,8 @@
       "en": {
         "use": "Video translation and dubbing pipeline",
         "limits": "Needs model/API configuration; Traditional Chinese documentation is not UI validation."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-030",
@@ -1019,7 +1050,8 @@
       "en": {
         "use": "Reading ebooks aloud",
         "limits": "Reader app, not a voice production studio; voice backends vary."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-031",
@@ -1051,7 +1083,8 @@
       "en": {
         "use": "Local text-to-speech",
         "limits": "GPL engine; voice models have separate licenses."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-032",
@@ -1083,7 +1116,8 @@
       "en": {
         "use": "Multilingual voice generation",
         "limits": "Python/model setup; no turnkey Mac or Taiwan-accent guarantee."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-033",
@@ -1119,7 +1153,8 @@
       "en": {
         "use": "Voice cloning and multilingual dubbing",
         "limits": "GUI/model setup; code and model terms differ."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-034",
@@ -1151,7 +1186,8 @@
       "en": {
         "use": "Multilingual speech generation",
         "limits": "Model and GPU setup required; no tested Mac workflow."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-035",
@@ -1187,7 +1223,8 @@
       "en": {
         "use": "Compact multilingual speech generation",
         "limits": "Mandarin needs the corresponding language components; accent not tested."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-036",
@@ -1222,7 +1259,8 @@
       "en": {
         "use": "Lightweight synthetic speech",
         "limits": "Mechanical voice quality; not the first choice for polished narration."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-037",
@@ -1256,7 +1294,8 @@
       "en": {
         "use": "Automatic silence/activity-based cutting",
         "limits": "CLI with an upstream skill; meaningful pauses and project exports need review."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-038",
@@ -1290,7 +1329,8 @@
       "en": {
         "use": "Fast trimming without re-encoding",
         "limits": "Keyframe constraints; stream copy cannot burn captions."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-039",
@@ -1309,12 +1349,13 @@
       "delivery": "desktop",
       "url": "https://github.com/KDE/kdenlive",
       "sources": [
-        "https://github.com/KDE/kdenlive/blob/master/README.md"
+        "https://github.com/KDE/kdenlive/blob/master/README.md",
+        "https://kdenlive.org/"
       ],
-      "cost": "open-source; binary/model/service costs may differ",
+      "cost": "free and open-source",
       "license": "GPL-3.0",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-10",
+      "checked_on": "2026-09-11",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
@@ -1324,7 +1365,8 @@
       "en": {
         "use": "Nonlinear video editing",
         "limits": "Project exchange and delivery formats require testing."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-040",
@@ -1358,7 +1400,8 @@
       "en": {
         "use": "General video editing",
         "limits": "Check current OS requirements; no Premiere project compatibility guarantee."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-041",
@@ -1392,7 +1435,8 @@
       "en": {
         "use": "Video transcoding",
         "limits": "Not a nonlinear editor."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-042",
@@ -1426,7 +1470,8 @@
       "en": {
         "use": "Media processing and encoding",
         "limits": "CLI/library; binary build options affect licensing."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-043",
@@ -1459,7 +1504,8 @@
       "en": {
         "use": "Audio editing and cleanup",
         "limits": "Check stable release and plugin compatibility."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-044",
@@ -1492,7 +1538,8 @@
       "en": {
         "use": "Separating vocals and music",
         "limits": "Models have separate terms; separation can introduce artifacts."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-045",
@@ -1526,7 +1573,8 @@
       "en": {
         "use": "Node-based compositing",
         "limits": "Not a complete After Effects replacement; verify platform packages."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "oss-046",
@@ -1560,7 +1608,8 @@
       "en": {
         "use": "3D, animation, compositing and video editing",
         "limits": "Existing project formats, plugins and team workflows may not transfer."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "free-001",
@@ -1595,7 +1644,8 @@
       "en": {
         "use": "Photo retouching and raster editing",
         "limits": "Test PSD/project round trips, fonts, color and plugins."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "free-002",
@@ -1630,7 +1680,8 @@
       "en": {
         "use": "Digital painting and illustration",
         "limits": "Not a complete Photoshop replacement; UI localization not tested."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "free-003",
@@ -1665,7 +1716,8 @@
       "en": {
         "use": "Documents, spreadsheets, presentations and Draw",
         "limits": "Test actual files, macros, fonts and collaboration requirements."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "free-004",
@@ -1700,7 +1752,8 @@
       "en": {
         "use": "Office documents, spreadsheets, presentations and PDFs",
         "limits": "Hosted services and optional AI providers may be paid; test document fidelity."
-      }
+      },
+      "source_type": "open-source"
     },
     {
       "id": "free-005",
@@ -1734,7 +1787,8 @@
       "en": {
         "use": "Short screen recordings",
         "limits": "Official free plan has a 15-minute recording limit; verify other feature tiers."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-006",
@@ -1767,7 +1821,8 @@
       "en": {
         "use": "Screen recording with local saving",
         "limits": "Articles disagree about watermarks; confirm exact build and free editing/AI limits."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-007",
@@ -1800,7 +1855,8 @@
       "en": {
         "use": "Basic screen and microphone recording",
         "limits": "System audio and advanced editing requirements need separate verification."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-008",
@@ -1833,7 +1889,8 @@
       "en": {
         "use": "Quick screenshot capture and annotation",
         "limits": "Online sharing uploads screenshots; no tested OCR or scrolling capture."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-009",
@@ -1866,7 +1923,8 @@
       "en": {
         "use": "Voice typing into text fields",
         "limits": "Check settings for on-device processing; language support varies; not a file-transcription tool."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-010",
@@ -1900,7 +1958,8 @@
       "en": {
         "use": "Editing, grading and audio post-production",
         "limits": "Studio AI and advanced effects are paid; test actual codecs and hardware."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-011",
@@ -1932,7 +1991,8 @@
       "en": {
         "use": "Offline PDF merging, splitting, conversion and OCR",
         "limits": "Desktop version is Windows only; not a full Acrobat workflow guarantee."
-      }
+      },
+      "source_type": "proprietary"
     },
     {
       "id": "free-012",
@@ -1966,7 +2026,806 @@
       "en": {
         "use": "Screen/webcam/audio recording and trimming",
         "limits": "Auto zoom belongs to the separate FocuSee product; Mac features differ."
-      }
+      },
+      "source_type": "proprietary"
+    },
+    {
+      "id": "add-001",
+      "name": "TypeWhisper",
+      "category": "dictation",
+      "keywords": [
+        "語音輸入",
+        "聽寫",
+        "dictation",
+        "voice",
+        "typing",
+        "Wispr",
+        "Flow"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/TypeWhisper/typewhisper-mac",
+      "sources": [
+        "https://github.com/TypeWhisper/typewhisper-mac"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "跨應用程式聽寫，可選本機或雲端引擎",
+        "limits": "本機模型需下載；雲端 API 可能收費，繁中介面未確認。"
+      },
+      "en": {
+        "use": "Local or cloud dictation across apps",
+        "limits": "Local models require downloads; cloud APIs may cost extra. Traditional Chinese UI unconfirmed."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "f01"
+      ]
+    },
+    {
+      "id": "add-002",
+      "name": "macshot",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "長截圖",
+        "OCR",
+        "screenshot",
+        "CleanShot",
+        "X"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/sw33tLie/macshot",
+      "sources": [
+        "https://github.com/sw33tLie/macshot"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 截圖、標註、OCR 與滾動擷取",
+        "limits": "CleanShot X 的分享與所有編輯流程仍需逐項比對；繁中未實測。"
+      },
+      "en": {
+        "use": "Mac screenshots, annotations, OCR and scrolling capture",
+        "limits": "Compare individual CleanShot X sharing and editing tasks; Chinese quality untested."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "f05"
+      ]
+    },
+    {
+      "id": "add-003",
+      "name": "noScribe",
+      "category": "transcription",
+      "keywords": [
+        "逐字稿",
+        "語音轉文字",
+        "transcription",
+        "interview"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/kaixxx/noScribe",
+      "sources": [
+        "https://github.com/kaixxx/noScribe"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機訪談逐字稿與說話者分段",
+        "limits": "需要模型、儲存空間及運算時間；台灣口音辨識未實測。"
+      },
+      "en": {
+        "use": "Local interview transcription and speaker segmentation",
+        "limits": "Requires models, storage and compute time; Taiwan-accent accuracy untested."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-004",
+      "name": "Meetily Community",
+      "category": "transcription",
+      "keywords": [
+        "會議紀錄",
+        "摘要",
+        "逐字稿",
+        "transcription",
+        "meeting",
+        "notes",
+        "Otter"
+      ],
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "sources": [
+        "https://github.com/Zackriya-Solutions/meetily"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機會議轉錄與摘要的社群版",
+        "limits": "摘要需設定模型；Pro 的進階功能不能算入免費社群版。"
+      },
+      "en": {
+        "use": "Community edition for local meeting transcription and summaries",
+        "limits": "Model setup is needed for summaries; Pro-only features are outside the free community edition."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-005",
+      "name": "LocalSend",
+      "category": "file-transfer",
+      "keywords": [
+        "傳檔",
+        "檔案",
+        "file",
+        "transfer",
+        "AirDrop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "delivery": "desktop",
+      "url": "https://localsend.org/",
+      "sources": [
+        "https://localsend.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "同一區域網路跨裝置傳檔",
+        "limits": "雙方裝置需可互通；不是附贈雲端空間或遠端分享服務。"
+      },
+      "en": {
+        "use": "Transfer files between devices on a local network",
+        "limits": "Devices must reach each other; no bundled cloud storage or remote-sharing service."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-006",
+      "name": "Rectangle",
+      "category": "productivity",
+      "keywords": [
+        "視窗",
+        "分割",
+        "window",
+        "manager",
+        "Magnet"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://rectangleapp.com/",
+      "sources": [
+        "https://rectangleapp.com/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "快捷鍵與拖曳排列視窗",
+        "limits": "本條目是免費 Rectangle，另售 Rectangle Pro；僅 Mac。"
+      },
+      "en": {
+        "use": "Arrange windows with shortcuts and snapping",
+        "limits": "This entry covers free Rectangle, not the separate paid Rectangle Pro; Mac only."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-007",
+      "name": "Maccy",
+      "category": "productivity",
+      "keywords": [
+        "剪貼簿",
+        "clipboard",
+        "history",
+        "Paste"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/p0deje/Maccy",
+      "sources": [
+        "https://github.com/p0deje/Maccy"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以快捷鍵搜尋剪貼簿歷史",
+        "limits": "GitHub Releases 可取得免費版本；目前需 macOS 14+，先設定敏感內容排除。"
+      },
+      "en": {
+        "use": "Search clipboard history with keyboard shortcuts",
+        "limits": "Free downloads are in GitHub Releases; current versions need macOS 14+. Configure exclusions for sensitive copies."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-008",
+      "name": "Pearcleaner",
+      "category": "productivity",
+      "keywords": [
+        "移除",
+        "清理",
+        "uninstaller",
+        "cleanup"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/alienator88/Pearcleaner",
+      "sources": [
+        "https://github.com/alienator88/Pearcleaner"
+      ],
+      "cost": "freeware; source-available, not open-source",
+      "license": "Apache-2.0 with Commons Clause; source-available",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 應用程式移除與相關檔案整理",
+        "limits": "Commons Clause 限制，不能標為 OSI 開源；上游維護暫停，不列優先推薦。"
+      },
+      "en": {
+        "use": "Mac app removal and associated-file cleanup",
+        "limits": "Commons Clause restriction: not OSI open source. Upstream maintenance is on hold; not a first-choice recommendation."
+      },
+      "source_type": "source-available",
+      "discovered_via": [
+        "official-expansion"
+      ],
+      "maintenance": "on-hold"
+    },
+    {
+      "id": "add-009",
+      "name": "7-Zip",
+      "category": "archives",
+      "keywords": [
+        "壓縮",
+        "解壓縮",
+        "archives",
+        "zip",
+        "WinRAR",
+        "WinZip"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.7-zip.org/",
+      "sources": [
+        "https://www.7-zip.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "LGPL/BSD components; unRAR restrictions",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Windows 圖形介面壓縮與解壓縮",
+        "limits": "可解開 RAR，不可建立 RAR；其他平台的命令列版本另查。"
+      },
+      "en": {
+        "use": "Windows graphical archive creation and extraction",
+        "limits": "Extracts but does not create RAR archives; other-platform CLI editions need separate review."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-010",
+      "name": "PeaZip",
+      "category": "archives",
+      "keywords": [
+        "壓縮",
+        "解壓縮",
+        "archives",
+        "zip",
+        "WinRAR",
+        "WinZip"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://peazip.github.io/",
+      "sources": [
+        "https://peazip.github.io/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "跨平台壓縮與解壓縮介面",
+        "limits": "先確認使用格式的建立或解壓支援，以及系統對應安裝包。"
+      },
+      "en": {
+        "use": "Cross-platform graphical archive management",
+        "limits": "Check creation versus extraction support for your formats and choose the correct platform package."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-011",
+      "name": "VLC media player",
+      "category": "media-players",
+      "keywords": [
+        "播放",
+        "播放器",
+        "media",
+        "player",
+        "video",
+        "audio"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/videolan/vlc",
+      "sources": [
+        "https://github.com/videolan/vlc"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later; components vary",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機影片與音訊播放",
+        "limits": "播放器用途；不等於影片剪輯器，也不包含付費影音內容。"
+      },
+      "en": {
+        "use": "Local video and audio playback",
+        "limits": "A player, not a full video editor or a paid-content subscription."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-012",
+      "name": "IINA",
+      "category": "media-players",
+      "keywords": [
+        "播放",
+        "播放器",
+        "media",
+        "player",
+        "video"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://iina.io/",
+      "sources": [
+        "https://iina.io/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 原生風格影音播放器",
+        "limits": "僅 Mac；不同處理器與版本的最低系統需求須依官網。"
+      },
+      "en": {
+        "use": "A Mac-focused media player",
+        "limits": "Mac only; check OS requirements for your processor and release."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-013",
+      "name": "Thunderbird",
+      "category": "email",
+      "keywords": [
+        "郵件",
+        "電子郵件",
+        "email",
+        "mail",
+        "Outlook"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.thunderbird.net/en-US/",
+      "sources": [
+        "https://www.thunderbird.net/en-US/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "桌面郵件管理",
+        "limits": "免費郵件客戶端不包含付費信箱、雲端容量或企業服務。"
+      },
+      "en": {
+        "use": "Desktop email management",
+        "limits": "A free mail client does not include paid mail hosting, cloud storage or enterprise services."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-014",
+      "name": "KeePassXC",
+      "category": "passwords",
+      "keywords": [
+        "密碼",
+        "密碼管理",
+        "passwords",
+        "password",
+        "manager",
+        "1Password",
+        "LastPass"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://keepassxc.org/",
+      "sources": [
+        "https://keepassxc.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機加密密碼資料庫",
+        "limits": "同步與備份需自行規劃；先確認團隊分享、復原及管理需求。"
+      },
+      "en": {
+        "use": "Local encrypted password databases",
+        "limits": "Plan synchronization and backups separately; check team sharing, recovery and administration needs."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-015",
+      "name": "Syncthing",
+      "category": "file-transfer",
+      "keywords": [
+        "同步",
+        "檔案",
+        "sync",
+        "files",
+        "Dropbox"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://syncthing.net/",
+      "sources": [
+        "https://syncthing.net/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "裝置間同步檔案",
+        "limits": "需要自己的裝置與儲存空間，不附贈雲端容量。"
+      },
+      "en": {
+        "use": "Synchronize files between your devices",
+        "limits": "Requires your own devices and storage; no bundled cloud quota."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-016",
+      "name": "Joplin",
+      "category": "notes-reading",
+      "keywords": [
+        "筆記",
+        "待辦",
+        "notes",
+        "Evernote",
+        "OneNote"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "delivery": "desktop",
+      "url": "https://joplinapp.org/",
+      "sources": [
+        "https://joplinapp.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "本機筆記與待辦整理",
+        "limits": "Joplin Cloud 另外收費；同步服務、匯入品質及團隊功能需確認。"
+      },
+      "en": {
+        "use": "Local notes and to-do organization",
+        "limits": "Joplin Cloud is separately paid; verify sync setup, import fidelity and team features."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-017",
+      "name": "SumatraPDF",
+      "category": "pdf",
+      "keywords": [
+        "PDF",
+        "閱讀",
+        "電子書",
+        "reader",
+        "ebook"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.sumatrapdfreader.org/free-pdf-reader",
+      "sources": [
+        "https://www.sumatrapdfreader.org/free-pdf-reader"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "輕量 PDF 與電子書閱讀",
+        "limits": "僅 Windows；閱讀器不能當成 Acrobat Pro 正文編輯替代品。"
+      },
+      "en": {
+        "use": "Lightweight PDF and ebook reading",
+        "limits": "Windows only; reading is not a substitute for Acrobat Pro text editing."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "f06",
+        "f07"
+      ]
+    },
+    {
+      "id": "add-018",
+      "name": "PDFsam Basic",
+      "category": "pdf",
+      "keywords": [
+        "PDF",
+        "合併",
+        "分割",
+        "merge",
+        "split",
+        "Acrobat"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://pdfsam.org/pdfsam-basic/",
+      "sources": [
+        "https://pdfsam.org/pdfsam-basic/"
+      ],
+      "cost": "free and open-source",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "PDF 合併、分割、旋轉與擷取頁面",
+        "limits": "Basic 不等於另售 Visual／Enhanced；不能據此承諾正文編輯。"
+      },
+      "en": {
+        "use": "Merge, split, rotate and extract PDF pages",
+        "limits": "Basic differs from paid Visual/Enhanced; do not infer full text-editing capabilities."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-019",
+      "name": "FreeTube",
+      "category": "media-players",
+      "keywords": [
+        "播放",
+        "影片",
+        "YouTube",
+        "video",
+        "player"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://freetubeapp.io/",
+      "sources": [
+        "https://freetubeapp.io/"
+      ],
+      "cost": "free and open-source",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "桌面 YouTube 觀看與本機觀看紀錄",
+        "limits": "觀看仍需連網；不是付費內容通行證，也非 YouTube Premium 完整替代。"
+      },
+      "en": {
+        "use": "Desktop YouTube viewing with local history",
+        "limits": "Viewing still needs a network connection; not access to paid content or a complete Premium replacement."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
+    },
+    {
+      "id": "add-020",
+      "name": "calibre",
+      "category": "notes-reading",
+      "keywords": [
+        "電子書",
+        "閱讀",
+        "ebook",
+        "library",
+        "conversion"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://calibre-ebook.com/about",
+      "sources": [
+        "https://calibre-ebook.com/about"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-11",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "電子書管理、閱讀與格式轉換",
+        "limits": "不保證所有書籍格式與排版都能無損轉換。"
+      },
+      "en": {
+        "use": "Ebook library management, reading and conversion",
+        "limits": "Conversion fidelity depends on the book and formats; not all layouts transfer unchanged."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "official-expansion"
+      ]
     }
-  ]
+  ],
+  "checked_on_note": "Dataset updated on this date; individual evidence dates remain on each product."
 }

@@ -1,26 +1,103 @@
 # Open Source Saver / 開源省錢管家
 
-**Find existing open-source and free alternatives to paid software. Traditional Chinese first, English second.**
+**Before paying another subscription, find existing free tools for recording, screenshots and voice typing. Traditional Chinese first, English second.**
 
-[繁體中文](README.md) · [Catalog](docs/CATALOG.en.md) · [Usage](docs/USAGE.en.md) · [Specification](docs/SPEC.en.md) · [Sources](docs/SOURCES.md)
+<!-- catalog-summary:start -->
+**78 candidates · 18 categories · 69 open-source projects · 8 proprietary free-tier/built-in candidates · 1 source-available candidate**
+<!-- catalog-summary:end -->
 
-An Agent Skill for recording, screenshots/OCR, dictation, transcription, subtitles, TTS, video/audio editing, graphics, Office and PDF research. Designed around standard SKILL.md packaging for hosts such as Claude Code and Codex; host-specific installation and permissions are not universally tested.
+**Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
-## What it does
+[Browse the catalog](docs/CATALOG.en.md) · [繁體中文](README.md) · [Savings methodology](docs/SAVINGS.md) · [Forum research](docs/FORUMS.md) · [Suggest a tool](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)
 
-- Named app: “Find a free Screen Studio alternative with automatic zoom and captions.”
-- Work need: “I need free Mac dictation with Traditional Chinese support.”
-- Inventory: “Use these installed-app names to find candidates worth trying.”
-- Reuse built-in features and existing products, distinguish open source, freeware, free tiers, paid features and setup requirements.
-- Supply official links, limitations and review dates without inventing subscription savings.
+A free/open-source software guide and Agent Skill that starts with your task and existing expenses. Browse without installing anything, or use a compatible host such as Claude Code or Codex for tailored comparisons. Reuse working products first. For English-only tools, improve Traditional Chinese guidance or contribute translations upstream before proposing a new product.
 
-**v0.1.0-alpha: 58 candidate products, 14 conditional source groups, 11 articles.** The 53 article-discovery names overlap the catalog and are not an additional verified recommendation count. Local helpers require no paid API, account or cloud backend. Your agent/model costs and data processing are separate.
+Navigation: [Savings](#what-could-one-subscription-save) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
 
-## Browse without installing
+## What could one subscription save?
 
-[Screen recording](docs/CATALOG.en.md#screen-recording) · [Screenshots/OCR](docs/CATALOG.en.md#screenshots-ocr) · [Dictation](docs/CATALOG.en.md#dictation) · [Transcription](docs/CATALOG.en.md#transcription) · [Subtitles](docs/CATALOG.en.md#subtitles) · [TTS](docs/CATALOG.en.md#text-to-speech) · [Video](docs/CATALOG.en.md#video-editing) · [Graphics](docs/CATALOG.en.md#graphics) · [Office](docs/CATALOG.en.md#office) · [PDF](docs/CATALOG.en.md#pdf)
+Public individual-plan benchmarks checked **2026-09-11**, in USD. Taxes, regional checkout differences, promotions and FX fees are excluded.
 
-Read each limitation before choosing. PDF24 Creator desktop is Windows-only; open-source VoiceInk does not imply free official binaries; Resolve Studio features are distinct from the free edition.
+| Paid product / plan | Official price | Free starting point | Annual license expense avoided after successful replacement and cancellation | Check before switching |
+|---|---|---|---:|---|
+| Camtasia Essentials annual (also searched as Camtasia Studio) | US$179.88/year | OBS Studio recording + Kdenlive editing | **US$179.88** | Trial captions, templates and course delivery; basic recording alone does not replace the whole suite |
+| Screen Studio annual | US$9/month equivalent, US$108 billed annually | OBS Studio + Kdenlive for basic recording/editing | **US$108** | Automatic zoom, cursor styling and sharing are not equivalent |
+| Screen Studio monthly, used for all 12 months | US$29/month | Same basic workflow, subject to a real trial | **US$348** | An alternative billing scenario; never add it to the annual-plan row |
+
+Official prices: [TechSmith](https://www.techsmith.com/store/camtasia), [Screen Studio](https://screen.studio/). Free tools: [OBS Studio](https://obsproject.com/), [Kdenlive](https://kdenlive.org/).
+
+Need Screen Studio-style automatic camera movement? Explore Recordly and Capptivo in the [recording section](docs/CATALOG.en.md#screen-recording), then verify free acquisition, features and export limits. A catalog entry is not proof that your workflow can migrate.
+
+**Avoidable recurring expense − necessary new costs = potential cash savings.** Track migration time separately. An old perpetual license, an already-free edition or a suite you still need does not automatically produce annual savings. [Methodology and machine-readable prices](docs/SAVINGS.md)
+
+## Start with your everyday tasks
+
+| Task / original tool | Candidates to explore | A useful trial |
+|---|---|---|
+| Record a course / Camtasia | OBS Studio + Kdenlive | Record microphone and system audio, edit a short lesson and export it |
+| Polished product demos / Screen Studio | Recordly, Capptivo; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
+| Screenshots / Snagit, CleanShot X | ShareX on Windows; macshot on Mac; Flameshot or ksnip across platforms | Test scrolling capture, Chinese OCR, shortcuts and sharing |
+| Voice typing / Wispr Flow, Superwhisper | Handy, OpenWhispr, TypeWhisper on Mac | Test mixed Chinese/English terminology and local versus cloud costs |
+| Transcripts / Otter, Descript | noScribe, Vibe, Buzz; Meetily Community for meeting summaries | Check speakers, processing time and exports; transcription is not text-based video editing |
+| Subtitles and audio | Subtitle Edit, Audacity; see the TTS section for speech synthesis | Check timing and model terms; engines may require setup |
+| PDF page operations / parts of Acrobat | PDFsam Basic; PDF24 Creator on Windows | Test splitting/merging separately from text editing; SumatraPDF is primarily a reader |
+
+These are starting candidates, not a runtime-tested ranking. [Each catalog row](docs/CATALOG.en.md) includes official links, platform, cost scope and limitations.
+
+## What's in the catalog?
+
+<!-- catalog-categories:start -->
+| Category | Count | Examples |
+|---|---:|---|
+| [Screen recording](docs/CATALOG.en.md#screen-recording) | 12 | OBS Studio, Recordly, Capptivo |
+| [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 8 | ShareX, Flameshot, ksnip |
+| [Voice typing / dictation](docs/CATALOG.en.md#dictation) | 6 | Handy, OpenWhispr, VoiceInk |
+| [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
+| [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 3 | Subtitle Edit, pyVideoTrans, VideoLingo |
+| [Text to speech](docs/CATALOG.en.md#text-to-speech) | 7 | Readest, Piper（現行維護線）, Qwen3-TTS |
+| [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 9 | Auto-Editor, LosslessCut, Kdenlive |
+| [Audio editing](docs/CATALOG.en.md#audio-editing) | 2 | Audacity, Ultimate Vocal Remover（UVR） |
+| [Graphics](docs/CATALOG.en.md#graphics) | 2 | GIMP, Krita |
+| [Office documents](docs/CATALOG.en.md#office) | 2 | LibreOffice, ONLYOFFICE Desktop Editors |
+| [PDF reading and processing](docs/CATALOG.en.md#pdf) | 3 | PDF24 Creator, SumatraPDF, PDFsam Basic |
+| [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 2 | LocalSend, Syncthing |
+| [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 3 | Rectangle, Maccy, Pearcleaner |
+| [Archives](docs/CATALOG.en.md#archives) | 2 | 7-Zip, PeaZip |
+| [Media players](docs/CATALOG.en.md#media-players) | 3 | VLC media player, IINA, FreeTube |
+| [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
+| [Password management](docs/CATALOG.en.md#passwords) | 1 | KeePassXC |
+| [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 2 | Joplin, calibre |
+<!-- catalog-categories:end -->
+
+Counts use unique product IDs and one primary category per entry. Platforms, article mentions and forum comments are not extra products. The open-source count includes engines, setup-heavy projects and products that may charge for official binaries; it is **not a count of free one-click downloads**. Pearcleaner has a Commons Clause restriction and paused maintenance, so it is counted as source-available, not open source. Proprietary free tiers retain their limits.
+
+Traditional Chinese UI, Chinese content and Taiwan-accent speech quality are separate questions. No third-party workflow or Chinese-quality testing is claimed. [Generated statistics](data/catalog-stats.json) · [Verification status](docs/STATUS.md)
+
+## Where the recommendations come from
+
+1. [11 existing articles](docs/SOURCES.md) from It's FOSS, TechRadar and Lifewire. The 53 discovery names overlap the product catalog and must not be added to it.
+2. [7 Reddit / Hacker News discussions and comments](docs/FORUMS.md), distinguishing developer promotion, user experiences and subsequent official verification.
+3. [Upstream directories](docs/SOURCES.md) for continued discovery, without copying databases whose reuse terms are unresolved.
+4. [Official documentation and per-product dates](data/products.json). Additional official research fills gaps such as archives, mail, passwords and file transfer; not every new entry came from a forum.
+
+Forum leads also expose limits: Longshot comments mention watermarked free outputs; the relationship between an older Voquill launch and its current website remains unresolved. These stay in the research notes rather than inflating product counts.
+
+## Share a tool—including your own
+
+**Your own project, a tool you use every day, or a discovery from another community is welcome.** We prioritize open source and also accept usable freeware, free tiers and built-in features. English-only tools are welcome; help us add Traditional Chinese guidance or prepare an upstream translation proposal.
+
+No coding needed: [suggest software](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md) with its name, official link and the task it solves. Add platform, original paid tool, free limits and language evidence if known. State unknowns honestly. If you are the developer or have a commercial relationship, say so.
+
+[Report corrections](https://github.com/hansai-art/open-source-saver/issues/new?template=correction.md) for broken links, changed prices, restrictions or reproducible problems. For data changes, see [Contributing](CONTRIBUTING.md).
+
+## New here?
+
+1. Browse a category and choose one task you currently pay for. Open the official download and limitations.
+2. Trial one workflow with a shareable sample document or short recording. Check output and time cost.
+3. For a tailored comparison, use the Skill and provide OS, current tool, mandatory features and tolerance for cloud services/model setup.
+4. Change a subscription only after the replacement works for your needs. Keep existing project files and exports. This tool does not cancel subscriptions.
+
+For inventories, start with a [manual app list or local collector](docs/USAGE.en.md). A cloud ChatGPT environment cannot directly scan your personal computer.
 
 ## Install the skill
 
@@ -55,14 +132,15 @@ python3 scripts/saver.py search "transcription" --include-engines --lang en
 
 On Windows replace python3 with `py -3`. CLI search uses names/keywords; the agent handles conversational requirements. [Inventory and reports](docs/USAGE.en.md)
 
-## Privacy and alpha limits
 
-Bundled helpers do not make network requests and write private inventories/reports locally without printing contents. For strict offline work, do not paste those files into cloud AI. Collectors remain experimental pending real Mac/Windows validation; manual import is available now. No third-party product workflow or Chinese-quality tests are claimed. Snapshot date: 2026-09-10; check current downloads and free-tier terms.
+## Privacy, licensing and progress
 
-No automatic installs, uninstalls or subscription changes. Installed does not mean paid. No promise of complete Adobe or Office replacement.
+Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-[Contribute](CONTRIBUTING.md) with original app, actual task, candidate, official source, platform, free limits and localization evidence. Reuse existing articles, then verify finalists. [MIT](LICENSE) covers our original work; third-party terms remain separate: [notices](THIRD_PARTY_NOTICES.md). Created by Hans Lin / 林思翰.
+Dataset updated **2026-09-11**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
-[Implementation and verification status](docs/STATUS.md)
+[Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 
-[v0.2 optimization specification](docs/OPTIMIZATION.en.md)
+[MIT](LICENSE) covers original project content. Third-party software, models and articles retain their own terms: [notices](THIRD_PARTY_NOTICES.md). Created by Hans Lin / 林思翰.
+
+Search terms: open source alternatives, free software, Camtasia Studio alternative, Screen Studio alternative, screenshots, voice typing, dictation, Traditional Chinese, Taiwan, Claude Code skill, Codex skill.

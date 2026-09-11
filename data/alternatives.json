@@ -25,13 +25,15 @@
       "aliases": [
         "Camtasia",
         "TechSmith Camtasia",
-        "ScreenFlow"
+        "ScreenFlow",
+        "Camtasia Studio"
       ],
       "year_suffix": false,
       "targets": [
         "oss-001",
         "free-012",
-        "oss-003"
+        "oss-003",
+        "oss-039"
       ],
       "zh_note": "錄影與後製需求需分開比較。",
       "en_note": "Compare recording and editing requirements separately.",
@@ -50,7 +52,8 @@
         "oss-009",
         "oss-010",
         "oss-011",
-        "free-008"
+        "free-008",
+        "add-002"
       ],
       "zh_note": "OCR、長截圖與雲端分享要另外查證。",
       "en_note": "Verify OCR, scrolling capture and sharing independently.",
@@ -132,7 +135,8 @@
       "targets": [
         "free-011",
         "free-004",
-        "free-003"
+        "free-003",
+        "add-018"
       ],
       "zh_note": "依拆合頁面、改正文、簽章分開評估。",
       "en_note": "Separate page operations, text editing and signatures.",
@@ -216,7 +220,8 @@
         "free-009",
         "oss-015",
         "oss-016",
-        "oss-017"
+        "oss-017",
+        "add-001"
       ],
       "zh_note": "確認繁中、專有名詞、本機模型與官方成品價格。",
       "en_note": "Check Chinese terminology, local models and official binary pricing.",
@@ -234,10 +239,100 @@
       "targets": [
         "oss-019",
         "oss-020",
-        "oss-021"
+        "oss-021",
+        "add-003",
+        "add-004"
       ],
       "zh_note": "逐字稿、會議紀錄與文字剪輯是不同功能。",
       "en_note": "Transcription, meeting notes and text-based editing are different features.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "archives",
+      "name": "WinRAR / WinZip",
+      "aliases": [
+        "WinRAR",
+        "WinZip"
+      ],
+      "targets": [
+        "add-009",
+        "add-010"
+      ],
+      "year_suffix": false,
+      "zh_note": "先確認必需格式；7-Zip 不建立 RAR。",
+      "en_note": "Check required formats; 7-Zip does not create RAR.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "passwords",
+      "name": "1Password / LastPass",
+      "aliases": [
+        "1Password",
+        "LastPass"
+      ],
+      "targets": [
+        "add-014"
+      ],
+      "year_suffix": false,
+      "zh_note": "先測匯入、同步、分享與復原流程。",
+      "en_note": "Test import, sync, sharing and recovery workflows.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "notes",
+      "name": "Evernote",
+      "aliases": [
+        "Evernote"
+      ],
+      "targets": [
+        "add-016"
+      ],
+      "year_suffix": false,
+      "zh_note": "先測筆記匯入與附件；雲端同步費用另計。",
+      "en_note": "Test note and attachment imports; cloud sync costs are separate.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "windows-management",
+      "name": "Magnet",
+      "aliases": [
+        "Magnet"
+      ],
+      "targets": [
+        "add-006"
+      ],
+      "year_suffix": false,
+      "zh_note": "只比對視窗排列；Rectangle Pro 不在免費範圍。",
+      "en_note": "Compare window management; Rectangle Pro is outside the free scope.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "clipboard",
+      "name": "Paste",
+      "aliases": [
+        "Paste"
+      ],
+      "targets": [
+        "add-007"
+      ],
+      "year_suffix": false,
+      "zh_note": "先確認 macOS 版本與跨裝置同步需求。",
+      "en_note": "Check macOS version and cross-device sync requirements.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "mail",
+      "name": "Microsoft Outlook",
+      "aliases": [
+        "Outlook",
+        "Microsoft Outlook"
+      ],
+      "targets": [
+        "add-013"
+      ],
+      "year_suffix": false,
+      "zh_note": "郵件客戶端不能取代信箱主機或所有企業 Exchange 功能。",
+      "en_note": "A mail client does not replace mail hosting or all enterprise Exchange workflows.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     }
   ]

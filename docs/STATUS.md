@@ -1,11 +1,11 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-09-11 · Product snapshot: 2026-09-10
+Version: v0.1.0-alpha · Status checked: 2026-09-11 · Dataset updated: 2026-09-11; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 58 個候選，14 組條件對照 / 58 candidates, 14 conditional mappings |
+| 產品資料 / Product snapshot | 78 個候選、18 大類、20 組條件對照 / 78 candidates, 18 categories, 20 conditional mappings |
 | 既有文章 / Existing articles | 11 篇來源，53 個發現名稱，與候選重疊 / 11 sources, 53 overlapping discovery names |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
 | 自動測試 / Automated tests | Linux / Python：12 項通過 / 12 passed |
@@ -53,6 +53,14 @@ Publish project content only, excluding private inventories, reports and credent
 
 [繁中優化規格](OPTIMIZATION.zh-TW.md) · [English optimization specification](OPTIMIZATION.en.md)
 
-已完成 O01：雙語規格、首頁入口與兩款 GitHub 提報模板。O02–O05 尚待實作；O06 已完成 alpha 原始碼公開，v0.2 發布仍待驗收。200／80／40 是下一版目標；現有產品與對照數量沒有增加。
+已完成 O01：雙語規格、首頁入口與兩款 GitHub 提報模板。O02–O05 尚待實作；O06 已完成 alpha 原始碼公開，v0.2 發布仍待驗收。200／80／40 是下一版目標；本次首頁與社群研究更新已將候選擴為 78 個、對照擴為 20 組，並非 v0.2 完整驗收。
 
-O01 is complete: bilingual specification, README links and two GitHub issue templates. O02–O05 remain pending; O06 has published the alpha source, while the v0.2 release still requires its acceptance gates. The 200/80/40 counts are future targets; the current dataset has not expanded. The alpha source is public on GitHub.
+O01 is complete: bilingual specification, README links and two GitHub issue templates. O02–O05 remain pending; O06 has published the alpha source, while the v0.2 release still requires its acceptance gates. The 200/80/40 counts are future targets; this homepage/community update expanded the dataset to 78 candidates and 20 mappings without claiming full v0.2 acceptance. The alpha source is public on GitHub.
+
+## 首頁與來源擴充 / Homepage and source expansion · 2026-09-11
+
+- 中英文首頁先呈現收錄數、節費範例、18 類索引與優先任務，再介紹安裝。 / Both homepages lead with counts, savings examples, categories and tasks before installation.
+- 新增 20 個候選；合計 69 個開源、8 個非開源免費版／內建候選、1 個原始碼可見候選。此分法不代表每個開源專案都附免費安裝包。 / Added 20 candidates; source classification is not a free-binary count.
+- 新增 7 筆論壇討論／留言的原創摘要，未確認的線索不計入工具數。 / Added 7 forum source summaries, excluding unresolved leads from product totals.
+- 官網價格基準與假設見 [SAVINGS.md](SAVINGS.md)；未測量使用者實際節省。 / Official benchmarks are illustrative, not measured user savings.
+- 分類數、來源分類與雙語首頁統計由同一 JSON 自動產生。 / Product JSON generates statistics and both README category tables.
