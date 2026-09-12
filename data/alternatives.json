@@ -334,6 +334,1317 @@
       "zh_note": "郵件客戶端不能取代信箱主機或所有企業 Exchange 功能。",
       "en_note": "A mail client does not replace mail hosting or all enterprise Exchange workflows.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-illustrator",
+      "name": "Adobe Illustrator",
+      "aliases": [
+        "Adobe Illustrator",
+        "Illustrator"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-inkscape"
+      ],
+      "zh_note": "向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。",
+      "en_note": "Vector workflow candidate; validate AI files, fonts and print delivery. Keeping Creative Cloud prevents counting the full suite as savings.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-indesign",
+      "name": "Adobe InDesign / QuarkXPress",
+      "aliases": [
+        "Adobe InDesign",
+        "InDesign",
+        "QuarkXPress"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-scribus"
+      ],
+      "zh_note": "先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。",
+      "en_note": "Test print PDFs, pagination, styles and Chinese line breaking; project round-trip compatibility is unproven.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-font-editors",
+      "name": "Glyphs / FontLab",
+      "aliases": [
+        "Glyphs",
+        "Glyphs 3",
+        "FontLab",
+        "FontLab 8"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-fontforge"
+      ],
+      "zh_note": "以實際字型測試字距、OpenType 功能與產出，不把原字型授權視為工具授權的一部分。",
+      "en_note": "Test kerning, OpenType features and output; font rights are separate from the editor license.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-figma",
+      "name": "Figma / Sketch",
+      "aliases": [
+        "Figma",
+        "Sketch",
+        "Adobe XD"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-penpot"
+      ],
+      "zh_note": "先測元件、原型與協作；計入自架維運、企業功能及遷移成本。",
+      "en_note": "Test components, prototypes and collaboration; include hosting, enterprise options and migration costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-lightroom",
+      "name": "Adobe Lightroom / Capture One",
+      "aliases": [
+        "Adobe Lightroom",
+        "Adobe Lightroom Classic",
+        "Lightroom",
+        "Lightroom Classic",
+        "Capture One",
+        "Capture One Pro"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-darktable",
+        "creative-rawtherapee",
+        "creative-digikam"
+      ],
+      "zh_note": "RAW 顯影、照片管理與雲端同步分開比；既有編輯歷史、色彩和相機格式需測。",
+      "en_note": "Separate RAW development, asset management and cloud sync; test edit histories, colors and camera formats.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-acdsee",
+      "name": "ACDSee Photo Studio",
+      "aliases": [
+        "ACDSee",
+        "ACDSee Photo Studio",
+        "ACDSee Photo Studio Ultimate"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-digikam"
+      ],
+      "zh_note": "僅按相片庫、標籤與批次管理需求配對，專有資料庫遷移需另測。",
+      "en_note": "Matches photo-library, tagging and batch workflows; proprietary catalog migration needs testing.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-ptgui",
+      "name": "PTGui",
+      "aliases": [
+        "PTGui",
+        "PTGui Pro"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-hugin"
+      ],
+      "zh_note": "先用同一組全景照片檢查接縫、鬼影、投影與輸出規格。",
+      "en_note": "Compare seams, ghosting, projection and output on the same panorama set.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-mechanical-cad",
+      "name": "Autodesk Fusion / SolidWorks",
+      "aliases": [
+        "Autodesk Fusion",
+        "Autodesk Fusion 360",
+        "Fusion 360",
+        "SOLIDWORKS"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-freecad",
+        "creative-solvespace",
+        "creative-openscad"
+      ],
+      "zh_note": "候選各適合不同建模方式；組立、CAM、工程圖和專有零件檔需逐項驗證。",
+      "en_note": "Candidates support different modeling styles; validate assemblies, CAM, drawings and proprietary part files.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-autocad",
+      "name": "AutoCAD / AutoCAD LT",
+      "aliases": [
+        "AutoCAD",
+        "Autodesk AutoCAD",
+        "AutoCAD LT",
+        "Autodesk AutoCAD LT"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-librecad",
+        "creative-freecad"
+      ],
+      "zh_note": "2D 製圖優先看 LibreCAD；DWG、標註、外部參照與 3D 工作流不可混為完整替代。",
+      "en_note": "Prioritize LibreCAD for 2D drafting; evaluate DWG, dimensions, references and 3D needs separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-altium",
+      "name": "Altium Designer",
+      "aliases": [
+        "Altium Designer"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-kicad"
+      ],
+      "zh_note": "需驗證元件庫、封裝、網表、設計規則與製造輸出；不保證一鍵遷移。",
+      "en_note": "Verify symbols, footprints, netlists, design rules and fabrication output; one-click migration is unproven.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-eplan",
+      "name": "EPLAN Electric P8",
+      "aliases": [
+        "EPLAN Electric P8",
+        "EPLAN"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-qelectrotech"
+      ],
+      "zh_note": "只針對電氣圖面需求；零件資料庫、工程報表與自動化範圍另評估。",
+      "en_note": "For electrical diagram needs; assess parts databases, engineering reports and automation separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-animation",
+      "name": "Toon Boom / TVPaint / Moho / Animate",
+      "aliases": [
+        "Toon Boom Harmony",
+        "Harmony Premium",
+        "TVPaint Animation",
+        "TVPaint",
+        "Moho",
+        "Moho Pro",
+        "Adobe Animate",
+        "Animate"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-opentoonz",
+        "creative-synfig",
+        "creative-pencil2d",
+        "creative-glaxnimate"
+      ],
+      "zh_note": "依逐格、補間或網頁向量動畫分工；先做一個真實鏡頭，不宣稱所有專案格式相容。",
+      "en_note": "Choose by frame-by-frame, tween or web-vector workflows; test a real shot without assuming project-format compatibility.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-game-engines",
+      "name": "Unity / GameMaker / Construct",
+      "aliases": [
+        "Unity",
+        "Unity Hub",
+        "GameMaker",
+        "GameMaker Studio 2",
+        "Construct 3"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-godot",
+        "creative-gdevelop"
+      ],
+      "zh_note": "編輯器、素材、主機移植與商店發行費用分開算；原引擎專案需移植。",
+      "en_note": "Separate editor, assets, console-port and store costs; existing engine projects require migration.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-daw",
+      "name": "Pro Tools / Cubase / FL Studio",
+      "aliases": [
+        "Pro Tools",
+        "Avid Pro Tools",
+        "Cubase",
+        "Steinberg Cubase",
+        "FL Studio",
+        "Ableton Live",
+        "Logic Pro"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-ardour",
+        "creative-lmms",
+        "creative-qtractor"
+      ],
+      "zh_note": "錄音、編曲與外掛依賴分開測；Ardour 官方成品付費，Qtractor 僅列 Linux。",
+      "en_note": "Test recording, composition and plugin dependencies separately; official Ardour binaries are paid and Qtractor targets Linux.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-notation",
+      "name": "Sibelius / Dorico / Finale",
+      "aliases": [
+        "Sibelius",
+        "Sibelius Ultimate",
+        "Dorico",
+        "Dorico Pro",
+        "Finale"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-musescore"
+      ],
+      "zh_note": "用 MusicXML 樣本測試排版、演奏法、分譜與音源；MuseScore.com 訂閱另計。",
+      "en_note": "Test MusicXML layout, articulations, parts and sounds; MuseScore.com subscriptions are separate.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-dj",
+      "name": "Serato / Traktor / VirtualDJ",
+      "aliases": [
+        "Serato DJ Pro",
+        "Serato DJ",
+        "Traktor Pro",
+        "VirtualDJ",
+        "Virtual DJ"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-mixxx"
+      ],
+      "zh_note": "先核對控制器、DVS、cue 點與曲庫遷移；不能假設串流音樂服務相同。",
+      "en_note": "Verify controllers, DVS, cues and library migration; streaming-service support is not assumed.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-matlab",
+      "name": "MATLAB / Simulink",
+      "aliases": [
+        "MATLAB",
+        "Simulink"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-octave",
+        "creative-scilab"
+      ],
+      "zh_note": "MATLAB 函式、Toolbox 與 Simulink 模型分開查核，Xcos 僅為模型重建候選。",
+      "en_note": "Audit MATLAB functions, toolboxes and Simulink models separately; Xcos is a candidate for rebuilding models.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-spss",
+      "name": "IBM SPSS Statistics / Stata",
+      "aliases": [
+        "IBM SPSS Statistics",
+        "SPSS",
+        "Stata",
+        "StataSE",
+        "StataMP"
+      ],
+      "year_suffix": true,
+      "targets": [
+        "creative-jasp",
+        "creative-jamovi"
+      ],
+      "zh_note": "按需要的統計方法與模組選工具；重跑實際資料驗證結果與語法遷移。",
+      "en_note": "Select by required statistical methods and modules; reproduce real analyses and verify syntax migration.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-arcgis",
+      "name": "ArcGIS Pro / MapInfo Pro",
+      "aliases": [
+        "ArcGIS Pro",
+        "ArcMap",
+        "MapInfo Pro"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-qgis"
+      ],
+      "zh_note": "檢查座標、圖層、地理資料庫與分析方法；企業服務與授權資料來源另算。",
+      "en_note": "Check coordinates, layers, geodatabases and analysis methods; enterprise services and licensed data remain separate.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-planetarium",
+      "name": "Starry Night",
+      "aliases": [
+        "Starry Night",
+        "Starry Night Pro"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-stellarium"
+      ],
+      "zh_note": "以桌面觀星、天文教學與硬體控制需求配對，手機方案另評估。",
+      "en_note": "Match desktop sky planning, education and hardware control needs; assess mobile editions separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "creative-scientific-imaging",
+      "name": "Image-Pro",
+      "aliases": [
+        "Image-Pro",
+        "Image-Pro Plus",
+        "Image-Pro Premier"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-imagej"
+      ],
+      "zh_note": "只按科學影像處理與量測需求配對；校正、驗證與特定儀器連線需另處理。",
+      "en_note": "Match scientific processing and measurement; calibration, validation and instrument connectivity require separate work.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "aliases": [
+        "Jira",
+        "Atlassian Jira"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-plane",
+        "business-taiga",
+        "business-openproject"
+      ],
+      "zh_note": "議題、敏捷與排程是不同需求；自訂流程、外掛及歷史資料要先驗證搬遷。",
+      "en_note": "Issue tracking, agile work and scheduling differ; validate custom workflows, add-ons and historical-data migration.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "aliases": [
+        "Asana"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-openproject",
+        "business-plane",
+        "business-wekan"
+      ],
+      "zh_note": "比較任務、里程碑及跨專案報表；免費核心及自架成本要分開。",
+      "en_note": "Compare tasks, milestones and cross-project reporting, and separate free-core coverage from hosting costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "monday",
+      "name": "monday.com",
+      "aliases": [
+        "monday.com",
+        "Monday"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-openproject",
+        "business-plane",
+        "business-wekan"
+      ],
+      "zh_note": "先確認使用的是專案看板還是 CRM／資料表；此處只提供專案管理候選。",
+      "en_note": "Determine whether the workflow is project boards, CRM or data tables; these are project-management candidates.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "aliases": [
+        "Trello"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-wekan",
+        "business-kanboard",
+        "business-taiga"
+      ],
+      "zh_note": "看板容易對應，但 Power-Ups、自動化及分享權限不保證搬移；Kanboard 為維護模式。",
+      "en_note": "Boards are candidates, but Power-Ups, automation and sharing may not migrate; Kanboard is in maintenance mode.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "aliases": [
+        "Linear"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-plane",
+        "business-taiga"
+      ],
+      "zh_note": "適合從議題與開發週期比較；整合、快速鍵與跨團隊流程需另測。",
+      "en_note": "Compare issues and development cycles; separately validate integrations, keyboard shortcuts and cross-team workflows.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "microsoft-project",
+      "name": "Microsoft Project",
+      "aliases": [
+        "Microsoft Project",
+        "MS Project"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-openproject"
+      ],
+      "zh_note": "先用真實排程驗證相依性、資源與預算；沒有驗證 .mpp 無損互通。",
+      "en_note": "Validate dependencies, resources and budgets on a real schedule; lossless .mpp compatibility is not established.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "salesforce-crm",
+      "name": "Salesforce Sales Cloud",
+      "aliases": [
+        "Salesforce",
+        "Salesforce Sales Cloud"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-suitecrm",
+        "business-espocrm",
+        "business-frappe-crm"
+      ],
+      "zh_note": "只涵蓋 CRM 與銷售流程候選，不代表可替換所有 Salesforce 雲端產品與 AppExchange。",
+      "en_note": "CRM/sales candidates only, not replacements for every Salesforce cloud or AppExchange integration.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "hubspot-crm",
+      "name": "HubSpot CRM",
+      "aliases": [
+        "HubSpot CRM",
+        "HubSpot Sales Hub"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-frappe-crm",
+        "business-espocrm",
+        "business-suitecrm"
+      ],
+      "zh_note": "先拆 CRM、銷售與 Marketing Hub；此處不假設三者功能可由同一套免費完成。",
+      "en_note": "Separate CRM, sales and Marketing Hub needs; these candidates do not imply all three are covered for free.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "aliases": [
+        "Pipedrive"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-frappe-crm",
+        "business-espocrm",
+        "business-suitecrm"
+      ],
+      "zh_note": "從商機階段與聯絡人搬遷試辦；Email、報表和自動化可能有整合或擴充成本。",
+      "en_note": "Pilot deal stages and contact migration; email, reporting and automation may require integration or add-on costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "zoho-crm",
+      "name": "Zoho CRM",
+      "aliases": [
+        "Zoho CRM"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-espocrm",
+        "business-suitecrm",
+        "business-frappe-crm"
+      ],
+      "zh_note": "只對照 CRM；不能把 Zoho One 的全部產品訂閱當作可省金額。",
+      "en_note": "Compare CRM only; do not count all Zoho One subscriptions as removable costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "netsuite",
+      "name": "Oracle NetSuite",
+      "aliases": [
+        "NetSuite",
+        "Oracle NetSuite"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-erpnext",
+        "business-odoo-community",
+        "business-dolibarr"
+      ],
+      "zh_note": "ERP 遷移需驗證會計、庫存、權限與在地稅務；只提供選型候選，未驗證企業作業等效。",
+      "en_note": "ERP migration needs accounting, inventory, access and local-tax validation; enterprise workflow equivalence is untested.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "sap-business-one",
+      "name": "SAP Business One",
+      "aliases": [
+        "SAP Business One"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-erpnext",
+        "business-odoo-community",
+        "business-dolibarr"
+      ],
+      "zh_note": "以模組與在地需求逐項對照；導入、維護及顧問成本不能省略。",
+      "en_note": "Compare modules and localization individually, including implementation, operations and consulting costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "fathom-analytics",
+      "name": "Fathom Analytics",
+      "aliases": [
+        "Fathom Analytics"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-umami",
+        "business-plausible-ce",
+        "business-matomo"
+      ],
+      "zh_note": "歷史資料、目標定義和流量計算可能不同；需佈署追蹤碼並平行比對。",
+      "en_note": "History, goal definitions and traffic calculations may differ; deploy tracking and compare in parallel.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "plausible-cloud",
+      "name": "Plausible Cloud",
+      "aliases": [
+        "Plausible Cloud",
+        "Plausible Analytics"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-plausible-ce",
+        "business-umami",
+        "business-matomo"
+      ],
+      "zh_note": "Plausible CE 不含雲端全部功能；主機、ClickHouse、備份與維護要計入總成本。",
+      "en_note": "Plausible CE omits some cloud features; include hosting, ClickHouse, backups and operations in total cost.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "power-bi",
+      "name": "Microsoft Power BI",
+      "aliases": [
+        "Microsoft Power BI",
+        "Power BI"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-metabase",
+        "business-superset"
+      ],
+      "zh_note": "比較資料連接與分享工作流；未驗證 DAX、Power Query 或 .pbix 直接轉換，不能假設原報表可沿用。",
+      "en_note": "Compare data connections and sharing; DAX, Power Query and .pbix conversion are unvalidated.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "aliases": [
+        "Tableau",
+        "Tableau Desktop",
+        "Tableau Cloud"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-superset",
+        "business-metabase"
+      ],
+      "zh_note": "需重建資料模型與儀表板，不能把視覺相近當成工作簿相容。",
+      "en_note": "Expect rebuilding data models and dashboards; visual similarity does not establish workbook compatibility.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "surveymonkey",
+      "name": "SurveyMonkey",
+      "aliases": [
+        "SurveyMonkey"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-limesurvey",
+        "business-opnform"
+      ],
+      "zh_note": "以跳題、匿名、匯出與多語需求選型；自架維護及寄信費另計。",
+      "en_note": "Choose by branching, anonymity, exports and languages; account for hosting, operations and email costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "qualtrics-surveys",
+      "name": "Qualtrics Surveys",
+      "aliases": [
+        "Qualtrics",
+        "Qualtrics Surveys"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-limesurvey"
+      ],
+      "zh_note": "只提供問卷候選；企業研究服務、樣本採購及整套體驗管理不在等效範圍。",
+      "en_note": "Survey candidate only; enterprise research services, sample procurement and full experience management are not established equivalents.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "aliases": [
+        "Typeform"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-opnform",
+        "business-limesurvey"
+      ],
+      "zh_note": "檢查分支、嵌入、上傳及支付需求；OpnForm Enterprise 功能不屬免費核心。",
+      "en_note": "Check logic, embedding, uploads and payments; OpnForm Enterprise is outside the free core.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "jotform",
+      "name": "Jotform",
+      "aliases": [
+        "Jotform"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-opnform",
+        "business-limesurvey"
+      ],
+      "zh_note": "先盤點表單、PDF、簽名及工作流需求；此處只提供表單／問卷功能候選。",
+      "en_note": "Inventory forms, PDFs, signatures and workflows; these are candidates for forms/surveys only.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "aliases": [
+        "Shopify"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-woocommerce",
+        "business-prestashop",
+        "business-medusa-core",
+        "business-saleor"
+      ],
+      "zh_note": "WooCommerce／PrestaShop 偏完整店鋪，Medusa／Saleor 需更多工程；金流、物流、主機與擴充另計。",
+      "en_note": "WooCommerce/PrestaShop provide store-oriented setups; Medusa/Saleor require more engineering; budget payments, shipping, hosting and extensions.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "shopline",
+      "name": "SHOPLINE",
+      "aliases": [
+        "SHOPLINE"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-woocommerce",
+        "business-prestashop"
+      ],
+      "zh_note": "台灣金流、物流、發票、POS 與會員搬遷需逐項確認，沒有驗證直接替換。",
+      "en_note": "Validate Taiwan payments, shipping, e-invoices, POS and customer migration individually; direct replacement is untested.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "bigcommerce",
+      "name": "BigCommerce",
+      "aliases": [
+        "BigCommerce"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-prestashop",
+        "business-saleor",
+        "business-medusa-core"
+      ],
+      "zh_note": "需驗證多店、多通路、B2B 與整合範圍；自架電商成本包含開發與營運。",
+      "en_note": "Check multistore, channels, B2B and integrations; self-hosted ecommerce costs include development and operations.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "zendesk",
+      "name": "Zendesk",
+      "aliases": [
+        "Zendesk",
+        "Zendesk Support"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-zammad",
+        "business-osticket",
+        "business-freescout",
+        "business-chatwoot-ce"
+      ],
+      "zh_note": "工單與即時聊天需分開比較；歷史工單、SLA、SSO 和 AI 要核對版本與額外費用。",
+      "en_note": "Compare ticketing and live chat separately; verify ticket history, SLA, SSO and AI edition coverage and extra costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "freshdesk",
+      "name": "Freshdesk",
+      "aliases": [
+        "Freshdesk"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-zammad",
+        "business-osticket",
+        "business-freescout"
+      ],
+      "zh_note": "先匯入小批工單測試分派、Email 與客服報表；自架成本和擴充模組另計。",
+      "en_note": "Pilot ticket imports, assignment, email and reporting; include hosting and add-on module costs.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "help-scout",
+      "name": "Help Scout",
+      "aliases": [
+        "Help Scout",
+        "HelpScout"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-freescout",
+        "business-zammad"
+      ],
+      "zh_note": "共用信箱是主候選場景；知識庫、即時聊天及進階流程可能需其他模組。",
+      "en_note": "Shared inboxes are the main candidate workflow; knowledge bases, live chat and advanced workflows may need modules.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "aliases": [
+        "Intercom"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-chatwoot-ce",
+        "business-zammad"
+      ],
+      "zh_note": "先拆即時聊天、工單與 AI 客服；Chatwoot enterprise 功能及模型／管道用量不能算免費。",
+      "en_note": "Separate live chat, tickets and AI support; Chatwoot enterprise features and model/channel usage are not automatically free.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "aliases": [
+        "Calendly"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-easyappointments"
+      ],
+      "zh_note": "驗證跨時區、Google 同步及人員排班；團隊輪詢、付款與進階自動化不保證等效。",
+      "en_note": "Validate time zones, Google sync and provider schedules; round robin, payments and advanced automation are not established equivalents.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "acuity-scheduling",
+      "name": "Acuity Scheduling",
+      "aliases": [
+        "Acuity Scheduling",
+        "Squarespace Scheduling"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-easyappointments"
+      ],
+      "zh_note": "適合先比較服務人員的時段預約；付款、套票與通知能力需實測或額外整合。",
+      "en_note": "Start with provider appointment slots; payments, packages and notifications require validation or integrations.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "aliases": [
+        "Slack"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-zulip"
+      ],
+      "zh_note": "需適應以主題串為核心的溝通方式；先測訊息匯入、通知及必要整合。",
+      "en_note": "Topic-threaded communication requires workflow adaptation; pilot message imports, notifications and essential integrations.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "aliases": [
+        "Confluence",
+        "Atlassian Confluence"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-bookstack",
+        "business-wikijs",
+        "business-dokuwiki"
+      ],
+      "zh_note": "頁面、附件、權限與巨集要分開遷移驗證；不能假設原頁面原樣保留。",
+      "en_note": "Validate migration of pages, attachments, permissions and macros separately; exact page preservation is not established.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "notion-wiki",
+      "name": "Notion — wiki use",
+      "aliases": [
+        "Notion",
+        "Notion wiki"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-bookstack",
+        "business-wikijs",
+        "business-dokuwiki"
+      ],
+      "zh_note": "僅對應文件／知識庫用途；Notion 資料庫、公式及自動化沒有等效驗證。",
+      "en_note": "Documentation/wiki use only; Notion databases, formulas and automation have no verified equivalence.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "aliases": [
+        "Zapier"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-activepieces-ce",
+        "business-node-red"
+      ],
+      "zh_note": "需重建自動化並檢查連接器、觸發方式及重試；第三方 API 和維護仍有成本。",
+      "en_note": "Rebuild flows and check connectors, triggers and retries; third-party APIs and operations still cost.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "aliases": [
+        "Make",
+        "Make.com",
+        "Integromat"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-activepieces-ce",
+        "business-node-red"
+      ],
+      "zh_note": "視覺流程不代表現成情境可直接匯入；分支、錯誤處理及 API 限額需實測。",
+      "en_note": "A visual editor does not imply scenario imports; test branches, error handling and API limits.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "aliases": [
+        "Mailchimp"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-listmonk",
+        "business-mautic"
+      ],
+      "zh_note": "電子報與自動化是不同需求；SMTP、退信、寄件信譽與名單同意紀錄都需處理。",
+      "en_note": "Newsletters and automation differ; plan SMTP, bounces, sender reputation and consent-record migration.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "activecampaign",
+      "name": "ActiveCampaign",
+      "aliases": [
+        "ActiveCampaign"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-mautic"
+      ],
+      "zh_note": "需重建分群、流程及追蹤，第三方寄信服務和維護另計，未驗證全部 CRM 功能等效。",
+      "en_note": "Rebuild segments, automations and tracking; email services/operations cost separately and complete CRM equivalence is untested.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "hubspot-marketing",
+      "name": "HubSpot Marketing Hub",
+      "aliases": [
+        "HubSpot Marketing Hub"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "business-mautic"
+      ],
+      "zh_note": "只針對行銷自動化候選；CRM、CMS、客服與廣告整合需分開估算與測試。",
+      "en_note": "Marketing automation candidate only; CRM, CMS, support and advertising integrations need separate estimates and tests.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "aliases": [
+        "Acronis True Image",
+        "Acronis Cyber Protect Home Office",
+        "Arq",
+        "Arq 7",
+        "Duplicacy",
+        "Macrium Reflect"
+      ],
+      "en_note": "Candidates cover file backup. Verify disk imaging, bare-metal restore, application consistency and managed storage separately.",
+      "id": "infra-backup-software",
+      "name": "Commercial backup clients",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-kopia",
+        "infra-duplicati",
+        "infra-restic",
+        "infra-borg"
+      ],
+      "year_suffix": false,
+      "zh_note": "這組是檔案備份候選；整機映像、裸機還原、應用程式一致性與代管空間需另驗證。"
+    },
+    {
+      "aliases": [
+        "TeamViewer",
+        "AnyDesk",
+        "Splashtop",
+        "Splashtop Business"
+      ],
+      "en_note": "Compare unattended access, connectivity, permissions, team management and clients; include self-hosting and maintenance costs.",
+      "id": "infra-remote-support",
+      "name": "TeamViewer / AnyDesk / Splashtop",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-rustdesk",
+        "infra-meshcentral"
+      ],
+      "year_suffix": false,
+      "zh_note": "比較無人值守、穿透、權限、多人管理及客戶端平台；自架伺服器成本與維護不能省略。"
+    },
+    {
+      "aliases": [
+        "Royal TS",
+        "Royal TSX",
+        "Remote Desktop Manager"
+      ],
+      "en_note": "Conditional centralized remote-access candidates. Guacamole needs a gateway; connection-profile and credential-vault migration is untested.",
+      "id": "infra-remote-gateway",
+      "name": "Commercial remote connection managers",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-guacamole",
+        "infra-meshcentral"
+      ],
+      "year_suffix": false,
+      "zh_note": "僅為集中遠端連線或管理候選；Guacamole 需部署閘道，既有連線設定與密碼庫匯入尚未測試。"
+    },
+    {
+      "aliases": [
+        "Total Commander",
+        "Directory Opus",
+        "ForkLift"
+      ],
+      "en_note": "Test dual-pane operations, batch workflows and required plugins; feature parity is not established.",
+      "id": "infra-file-managers",
+      "name": "Total Commander / Directory Opus",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-double-commander"
+      ],
+      "year_suffix": false,
+      "zh_note": "先試雙窗格操作、批次工作與必要外掛；不保證付費檔案管理器全部功能互通。"
+    },
+    {
+      "aliases": [
+        "Gemini 2",
+        "Duplicate Cleaner",
+        "Duplicate Cleaner Pro"
+      ],
+      "en_note": "Similar files are not automatically safe to delete; test formats and matching accuracy with recoverable backups.",
+      "id": "infra-duplicate-cleaners",
+      "name": "Duplicate file cleaners",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-krokiet"
+      ],
+      "year_suffix": false,
+      "zh_note": "相似檔案不代表可刪除；測試 RAW／HEIF 等格式與匹配品質，先保留可還原備份。"
+    },
+    {
+      "aliases": [
+        "Transmit",
+        "Mountain Duck",
+        "ExpanDrive"
+      ],
+      "en_note": "rclone is a CLI candidate; test mounting, locking, sync conflicts and desktop file-manager integration.",
+      "id": "infra-cloud-transfer",
+      "name": "Paid cloud file-transfer clients",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-rclone"
+      ],
+      "year_suffix": false,
+      "zh_note": "rclone 是命令列候選；磁碟掛載、檔案鎖定、同步衝突與 Finder／檔案總管體驗需另測。"
+    },
+    {
+      "aliases": [
+        "AxCrypt",
+        "Boxcryptor"
+      ],
+      "en_note": "A candidate for new encryption workflows, not direct compatibility with existing encrypted formats; test decrypted migration and access.",
+      "id": "infra-file-encryption",
+      "name": "AxCrypt / Boxcryptor",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-cryptomator"
+      ],
+      "year_suffix": false,
+      "zh_note": "新加密工作流候選；不能保證直接開啟既有加密格式，需先完成原軟體解密匯出及權限測試。"
+    },
+    {
+      "aliases": [
+        "CCleaner",
+        "CCleaner Professional",
+        "CleanMyMac",
+        "CleanMyMac X"
+      ],
+      "en_note": "BleachBit targets Windows/Linux and should not appear in Mac inventory recommendations; cleaning is not repair or guaranteed acceleration.",
+      "id": "infra-system-cleaners",
+      "name": "Commercial system cleaners",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-bleachbit"
+      ],
+      "year_suffix": false,
+      "zh_note": "BleachBit 的成品平台為 Windows／Linux，Mac 盤點不應出現它；清理不等於修復或保證加速。"
+    },
+    {
+      "aliases": [
+        "GlassWire",
+        "Little Snitch"
+      ],
+      "en_note": "Portmaster targets Windows/Linux; it is not a native Mac replacement for Little Snitch. Preserve platform filtering.",
+      "id": "infra-app-firewalls",
+      "name": "Application firewalls",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-portmaster"
+      ],
+      "year_suffix": false,
+      "zh_note": "Portmaster 是 Windows／Linux 候選；Little Snitch 所在的 Mac 不具原生替代，需保留平台過濾。"
+    },
+    {
+      "aliases": [
+        "Sublime Text",
+        "UltraEdit",
+        "Nova",
+        "IntelliJ IDEA Ultimate",
+        "PyCharm Professional"
+      ],
+      "en_note": "Compare general editing workloads only; advanced refactoring, frameworks, databases, debuggers and commercial plugins are not equivalent.",
+      "id": "infra-code-editors",
+      "name": "Commercial code editors and IDEs",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-vscodium",
+        "infra-zed",
+        "infra-geany",
+        "infra-neovim"
+      ],
+      "year_suffix": false,
+      "zh_note": "只比較可由一般程式編輯完成的工作；進階重構、框架、資料庫、除錯器與商業外掛不能視為等效。"
+    },
+    {
+      "aliases": [
+        "Postman",
+        "Insomnia"
+      ],
+      "en_note": "Test collection imports, authentication, scripts and team workflows; Git/self-hosting does not establish hosted governance parity.",
+      "id": "infra-api-clients",
+      "name": "Postman / Insomnia",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-bruno",
+        "infra-hoppscotch"
+      ],
+      "year_suffix": false,
+      "zh_note": "先試集合匯入、驗證方式、測試腳本與團隊協作；自架或 Git 協作不等於原有雲端治理功能。"
+    },
+    {
+      "aliases": [
+        "DataGrip",
+        "Navicat",
+        "Navicat Premium",
+        "TablePlus",
+        "SQLyog"
+      ],
+      "en_note": "Select by actual database/driver. DB Browser is SQLite-specific; do not assume commercial database support in Community editions.",
+      "id": "infra-database-clients",
+      "name": "Commercial database clients",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-dbeaver",
+        "infra-beekeeper",
+        "infra-sqlite-browser"
+      ],
+      "year_suffix": false,
+      "zh_note": "依實際資料庫與驅動挑選；DB Browser 僅適用 SQLite，Community 不能借用商業版資料庫支援。"
+    },
+    {
+      "aliases": [
+        "ChatGPT",
+        "Claude",
+        "ChatGPT Desktop",
+        "Claude Desktop"
+      ],
+      "en_note": "Partial text/document workflow candidates where local model quality is sufficient; model, search, connectors and agents differ. Include hardware and time costs.",
+      "id": "infra-local-chat",
+      "name": "Hosted AI chat subscriptions",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-jan",
+        "infra-gpt4all",
+        "infra-ollama"
+      ],
+      "year_suffix": false,
+      "zh_note": "僅為能接受本機模型品質的部分文字或文件工作流候選；不等同原模型、搜尋、連接器或代理能力，需計算硬體與時間成本。"
+    },
+    {
+      "aliases": [
+        "YNAB",
+        "You Need A Budget",
+        "Quicken",
+        "Moneydance"
+      ],
+      "en_note": "Test imported transactions, transfers, categories and opening balances; Taiwanese bank automation is unverified and accounting models differ.",
+      "id": "infra-budgeting",
+      "name": "YNAB / Quicken / Moneydance",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-actual",
+        "infra-money-manager-ex",
+        "infra-gnucash"
+      ],
+      "year_suffix": false,
+      "zh_note": "先測交易匯入、轉帳、分類與期初餘額；台灣銀行自動串接未驗證，三者記帳模型也不相同。"
+    },
+    {
+      "aliases": [
+        "Feedly",
+        "Inoreader",
+        "NewsBlur"
+      ],
+      "en_note": "RSS reading is the primary scope; separately test AI summaries, full text, paid sources, rules and cross-device sync.",
+      "id": "infra-feed-readers",
+      "name": "Feedly / Inoreader",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-freshrss",
+        "infra-rss-guard"
+      ],
+      "year_suffix": false,
+      "zh_note": "RSS 閱讀為主要候選範圍；AI 摘要、全文取得、付費來源、規則與跨裝置同步需分項測試。"
+    },
+    {
+      "aliases": [
+        "EndNote",
+        "ReadCube Papers",
+        "Papers",
+        "Mendeley Reference Manager"
+      ],
+      "en_note": "After import, verify attachment paths, citation styles, Word plugins and group permissions; paid article access is not included.",
+      "id": "infra-reference-managers",
+      "name": "EndNote / Papers",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-zotero",
+        "infra-jabref"
+      ],
+      "year_suffix": false,
+      "zh_note": "匯入書目後核對附件路徑、引用格式、Word 外掛與群組權限；不含付費論文全文授權。"
+    },
+    {
+      "aliases": [
+        "Vysor",
+        "AirDroid Cast",
+        "ApowerMirror"
+      ],
+      "en_note": "Android-to-computer mirroring/control only; no iPhone support, and wireless/audio conditions may differ.",
+      "id": "infra-android-mirroring",
+      "name": "Vysor / AirDroid Cast",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-scrcpy"
+      ],
+      "year_suffix": false,
+      "zh_note": "僅針對 Android→電腦鏡像與控制；不支援 iPhone，也不保證原有無線連線與音訊條件相同。"
+    },
+    {
+      "aliases": [
+        "Pushbullet",
+        "AirDroid"
+      ],
+      "en_note": "Candidate for paired-device sharing; verify internet reachability, SMS, notifications and iOS background restrictions.",
+      "id": "infra-device-sharing",
+      "name": "Pushbullet / AirDroid",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-kde-connect"
+      ],
+      "year_suffix": false,
+      "zh_note": "以已配對裝置共享為候選；跨網際網路、SMS、通知與 iOS 背景限制需逐項確認。"
+    },
+    {
+      "aliases": [
+        "Titanium Backup",
+        "Titanium Backup PRO"
+      ],
+      "en_note": "Full app-data backup requires root; APK backup differs from data restore. Test original backup formats and OS compatibility.",
+      "id": "infra-android-backup",
+      "name": "Android app management and backup",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-app-manager"
+      ],
+      "year_suffix": false,
+      "zh_note": "完整應用資料備份需 root，APK 備份與資料還原不同；原有備份格式及系統版本相容性需實測。"
+    },
+    {
+      "aliases": [
+        "NextDNS",
+        "Control D"
+      ],
+      "en_note": "Self-hosted DNS does not include managed infrastructure, SLA or global network; same-domain ads are not fully blocked by DNS.",
+      "id": "infra-dns-filtering",
+      "name": "Paid DNS filtering services",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-adguard-home",
+        "infra-pi-hole"
+      ],
+      "year_suffix": false,
+      "zh_note": "自架 DNS 不含代管節點、SLA 或原服務全球網路；同網域廣告也不能只靠 DNS 完整攔截。"
+    },
+    {
+      "aliases": [
+        "Pingdom",
+        "UptimeRobot",
+        "Better Stack Uptime"
+      ],
+      "en_note": "Self-hosting does not provide global probes or service guarantees; use independent hosting, external alerts and outage drills.",
+      "id": "infra-uptime-monitoring",
+      "name": "Paid uptime monitoring",
+      "relationship_status": "conditional-candidates-not-workflow-tested",
+      "targets": [
+        "infra-uptime-kuma"
+      ],
+      "year_suffix": false,
+      "zh_note": "自架不等於全球多地探測或服務保證；需獨立主機、外部告警通道與停機演練。"
     }
   ]
 }

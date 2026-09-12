@@ -1,0 +1,1065 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-12",
+  "counting_note": "Count exact distinct source URLs. Source mentions, translated articles, software editions, hosted instances, and imported discovery records do not increase individually reviewed product counts.",
+  "sources": [
+    {
+      "id": "r001",
+      "publisher": "Awesome FOSS",
+      "title": "Awesome Sysadmin",
+      "url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀目錄、Automation、Backups、Configuration Management 等段落。",
+      "topics": [
+        "backup",
+        "it-administration",
+        "identity",
+        "monitoring"
+      ],
+      "selected_candidates": [
+        "Backrest",
+        "BorgBackup",
+        "Restic",
+        "UrBackup",
+        "Ansible",
+        "OpenVox"
+      ],
+      "zh_summary": "按維運任務分類，條目附來源與授權欄位；補齊備份、組態管理、IT 資產、SSO、監控等企業領域。",
+      "caveat": "目錄列出的授權仍是上游目錄資料；自行部署需另算機器、維護及還原演練成本。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r002",
+      "publisher": "johnjago",
+      "title": "Awesome Free Software",
+      "url": "https://github.com/johnjago/awesome-free-software",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀列表定位、Audio、Scientific Work、Text Editors 等段落。",
+      "topics": [
+        "audio",
+        "research",
+        "editing",
+        "desktop"
+      ],
+      "selected_candidates": [
+        "Ardour",
+        "LMMS",
+        "JabRef",
+        "DocEar",
+        "Pulsar",
+        "Notepad++"
+      ],
+      "zh_summary": "把自由軟體、科學研究與桌面工具接在同一分類下，能補文獻管理與專業音訊候選。",
+      "caveat": "原始碼授權與官方安裝包條款須分別核對；頁面也保留標示 archived 的 Atom，不能全部視為仍維護。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r003",
+      "publisher": "aviaryan",
+      "title": "Awesome Web Apps that work without login",
+      "url": "https://github.com/aviaryan/awesome-no-login-web-apps",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀收錄原則、分類、Audio and Video、Business and Finance 首段。",
+      "topics": [
+        "browser-tools",
+        "audio",
+        "documents",
+        "finance"
+      ],
+      "selected_candidates": [
+        "bfxr",
+        "Vileo",
+        "Whisper Web",
+        "InvoiceToMe"
+      ],
+      "zh_summary": "補免帳號、瀏覽器直接完成工作的候選，也能提示「可在裝置端處理」的篩選維度。",
+      "caveat": "免登入、免費與開源是三個獨立條件；該目錄包含非開源網站與仍需帳號的例外。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r004",
+      "publisher": "Runa Capital",
+      "title": "Awesome open-source alternatives to SaaS",
+      "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀 Criteria、API、Auth、ERP、ETL、Enterprise Search 等相關列。",
+      "topics": [
+        "business",
+        "development",
+        "identity",
+        "commerce",
+        "data"
+      ],
+      "selected_candidates": [
+        "Apache APISIX",
+        "Hoppscotch",
+        "Cerbos",
+        "ERPNext",
+        "Keila",
+        "Qdrant",
+        "Meilisearch",
+        "Kestra"
+      ],
+      "zh_summary": "提供成熟付費 SaaS 對應候選的映射，適合研究企業付費成本來源與功能邊界。",
+      "caveat": "主要收錄新創公司，天然漏掉老牌、非營利和個人專案；社群版、商業版與改授權專案必須再查。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r005",
+      "publisher": "Framasoft",
+      "title": "Framalibre",
+      "url": "https://framalibre.org/",
+      "language": "fr",
+      "region": "France",
+      "source_type": "curated-directory",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀首頁標籤及連到地圖、Android、設計師等主題清單的導覽。",
+      "topics": [
+        "collaboration",
+        "design",
+        "education",
+        "mapping"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "法語自由軟體入口依用途標籤與家庭、社團、設計師需求導覽，能補英語搜尋容易忽略的使用情境。",
+      "caveat": "本次只讀入口分類，未遍歷全部軟體；首頁不是逐項軟體查核證据。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r006",
+      "publisher": "European Alternatives",
+      "title": "European Alternatives",
+      "url": "https://european-alternatives.eu/",
+      "language": "en",
+      "region": "Europe",
+      "source_type": "curated-directory",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀首頁定位及 Web analytics、hosting、time tracking、navigation 等分類。",
+      "topics": [
+        "analytics",
+        "hosting",
+        "email",
+        "time-tracking",
+        "navigation"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "以服務所在地補資料主權、歐洲供應商與不同地區的替代方案發現。",
+      "caveat": "歐洲供應商不等於開源或免費；VPS/CDN/信箱服務通常仍有營運成本。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r007",
+      "publisher": "OpenSourceAlternative.to",
+      "title": "Open Source Alternatives To Proprietary Software",
+      "url": "https://opensourcealternative.to/",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀首頁可見工具列與付費產品入口；未遍歷其全站。",
+      "topics": [
+        "business",
+        "analytics",
+        "commerce",
+        "development"
+      ],
+      "selected_candidates": [
+        "Godot",
+        "Odoo",
+        "Grafana",
+        "ClickHouse",
+        "Metabase",
+        "Superset",
+        "Zulip",
+        "Appsmith",
+        "ERPNext",
+        "Ghidra"
+      ],
+      "zh_summary": "入口已顯示多領域工具與付費產品替代頁，可作跨分類初始名單。",
+      "caveat": "不可把站方的 alternatives 數量加到本專案已驗證數；自稱開源的收錄仍可能涉及 source-available、商業版或授權變更。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r008",
+      "publisher": "switching.software",
+      "title": "Ethical, easy-to-use and privacy-conscious alternatives",
+      "url": "https://switching.software/",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀首頁替代分類，另實際閱讀 EasyChair 與 EndNote 子頁。",
+      "topics": [
+        "creative",
+        "conference-management",
+        "research",
+        "collaboration"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "從原來使用的產品開始導航，補會議投稿管理、參考文獻與社會協作等較少被搜尋的領域。",
+      "caveat": "倫理或隱私取向不是功能完整替代的證據；分類亦含免費閉源原產品，不一定有授權費可省。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r009",
+      "publisher": "Privacy Guides",
+      "title": "Ad-Free Privacy Tool/Service Recommendations",
+      "url": "https://www.privacyguides.org/en/tools/",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀 Notebooks、Office Suites、Password Managers、Pastebins、Real-Time Communication、Android 等區段。",
+      "topics": [
+        "password",
+        "notes",
+        "office",
+        "communication",
+        "android"
+      ],
+      "selected_candidates": [
+        "Joplin",
+        "Notesnook",
+        "LibreOffice",
+        "KeePassXC",
+        "KeePassDX",
+        "Psono",
+        "PrivateBin",
+        "Signal",
+        "Briar",
+        "SimpleX Chat",
+        "Obtainium"
+      ],
+      "zh_summary": "補資安與隱私的選型維度，依實際任務找密碼、傳訊、筆記與裝置工具。",
+      "caveat": "頁面也推薦 1Password 等非開源或付費服務；推薦名單不等於本專案的 OSS 收錄名單。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r010",
+      "publisher": "Framasoft",
+      "title": "Dégooglisons Internet",
+      "url": "https://degooglisons-internet.org/fr/",
+      "language": "fr",
+      "region": "France",
+      "source_type": "service-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀 Framadate、Framaforms、協作/活動區及服務關閉說明。",
+      "topics": [
+        "forms",
+        "calendar",
+        "events",
+        "video",
+        "collaboration"
+      ],
+      "selected_candidates": [
+        "Framadate",
+        "Framaforms",
+        "Framacalc",
+        "Framapad",
+        "PeerTube",
+        "Mobilizon",
+        "Excalidraw"
+      ],
+      "zh_summary": "依投票、共編、活動與影片等需求整理社群提供的服務，可對應訂閱服務退出情境。",
+      "caveat": "Framasoft 代管實例與底層開源專案要去重；頁面明示部分舊服務已关闭或限制，不能沿用歷史服務清單。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r011",
+      "publisher": "Digitalcourage",
+      "title": "Digitale Selbstverteidigung",
+      "url": "https://digitalcourage.de/digitale-selbstverteidigung",
+      "language": "de",
+      "region": "Germany",
+      "source_type": "research-hub",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀首頁主題目錄，並另外閱讀 F-Droid、雲端與視訊會議文章。",
+      "topics": [
+        "privacy",
+        "mobile",
+        "cloud",
+        "collaboration"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "把工具研究組織成密碼、電腦、手機、雲端、溝通與協作，有助檢查領域是否只偏桌面創作。",
+      "caveat": "此紀錄是導覽頁，具體選型另記子文章；不能按每個導覽連結當成已讀文章。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r012",
+      "publisher": "Digitalcourage",
+      "title": "Der freie App-Store F-Droid und seine Apps",
+      "url": "https://digitalcourage.de/digitale-selbstverteidigung/f-droid-appstore",
+      "language": "de",
+      "region": "Germany",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-06-02",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "android",
+        "navigation",
+        "audio",
+        "video"
+      ],
+      "selected_candidates": [
+        "Open Camera",
+        "RadioDroid",
+        "Transistor",
+        "VLC",
+        "Voice",
+        "Organic Maps",
+        "OsmAnd",
+        "StreetComplete"
+      ],
+      "zh_summary": "以實際手機需求整理 F-Droid 應用，並指出交通查詢不代表能訂票、銀行與商業服務仍有缺口。",
+      "caveat": "Android 套件的發行來源、anti-features 與商店版本需再核對；德國在地交通服務不可直接當台灣可用。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r013",
+      "publisher": "Digitalcourage",
+      "title": "Cloudspeicher und Dateiabgleich",
+      "url": "https://digitalcourage.de/digitale-selbstverteidigung/cloudspeicher",
+      "language": "de",
+      "region": "Germany",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀自架、FreedomBox、Pydio、Syncthing 等主要區段。",
+      "topics": [
+        "file-sync",
+        "cloud",
+        "self-hosting"
+      ],
+      "selected_candidates": [
+        "FreedomBox",
+        "Syncthing",
+        "Radicale",
+        "Pydio"
+      ],
+      "zh_summary": "區分以伺服器為中心的雲端與裝置間同步，並明列自架所需維運能力及部分功能加密差異。",
+      "caveat": "同步不等於備份，免費軟體不含免費儲存；加密及 2FA 須按功能與部署版本確認。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r014",
+      "publisher": "Digitalcourage",
+      "title": "Eine Videokonferenz muss keine Datenschleuder sein",
+      "url": "https://digitalcourage.de/digitale-selbstverteidigung/videokonferenzen",
+      "language": "de",
+      "region": "Germany",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-06-10",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "video-conference",
+        "education",
+        "self-hosting"
+      ],
+      "selected_candidates": [
+        "Jitsi Meet",
+        "BigBlueButton",
+        "OpenTalk",
+        "Nextcloud Talk"
+      ],
+      "zh_summary": "將使用他人服務與自己維運分開，可補會議、教育課堂、權限與部署難度研究。",
+      "caveat": "文內對其他廠商的概括批評是作者立場，不直接轉成已證實產品事實；會議容量依部署資源與方案核對。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r015",
+      "publisher": "numahell / Framalibre community",
+      "title": "Outils libres pour la cartographie",
+      "url": "https://numahell.gitlab.io/cartographie-libre/",
+      "language": "fr",
+      "region": "France",
+      "source_type": "curated-list",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "gis",
+        "mapping",
+        "navigation"
+      ],
+      "selected_candidates": [
+        "uMap",
+        "GoGoCarto",
+        "Leaflet",
+        "QGIS",
+        "Organic Maps"
+      ],
+      "zh_summary": "區分互動地圖製作、地理資料處理與手機導航，可避免把 Leaflet 函式庫和 QGIS 桌面軟體當同種替代。",
+      "caveat": "OpenStreetMap 是資料/社群，Leaflet 是開發函式庫；候選須按軟體、資料、服務類型分開。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r016",
+      "publisher": "F-Droid",
+      "title": "F-Droid Android App Repository",
+      "url": "https://f-droid.org/en/packages/",
+      "language": "en",
+      "region": "international",
+      "source_type": "package-directory",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已讀總分類頁中選定類別和可見候選，未遍歷全部套件頁。",
+      "topics": [
+        "android",
+        "health",
+        "habits",
+        "education",
+        "accessibility",
+        "finance"
+      ],
+      "selected_candidates": [
+        "AntennaPod",
+        "OsmAnd",
+        "Conversations",
+        "Butterfly",
+        "TrackerControl",
+        "GPSLogger",
+        "Catima"
+      ],
+      "zh_summary": "大幅補桌面清單常漏的手機習慣、記帳、健康、導航、閱讀、相機與無障礙需求。",
+      "caveat": "同一軟體 stable/nightly/beta、非官方客戶端與不同套件不要重複灌水；套件上架不是全功能免費或安全實測。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r017",
+      "publisher": "KDE",
+      "title": "KDE Applications",
+      "url": "https://apps.kde.org/",
+      "language": "en",
+      "region": "international",
+      "source_type": "official-directory",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "僅首頁介紹與篩選控制可讀，未逐項讀取。",
+      "topics": [
+        "education",
+        "office",
+        "utilities"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "官方應用入口提供完整 KDE 生態與語言/平台篩選方向。",
+      "caveat": "本次解析取得首頁定位與篩選框，動態應用清單未完整載入，因此只列發現入口。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r018",
+      "publisher": "免費資源網",
+      "title": "LocalSend 沒有網路也能跨裝置傳檔的免費開放原始碼工具",
+      "url": "https://free.com.tw/localsend/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "file-transfer",
+        "mobile"
+      ],
+      "selected_candidates": [
+        "LocalSend"
+      ],
+      "zh_summary": "台灣圖文教學提供跨裝置 LAN 傳輸步驟、雙方安裝與接收確認等使用條件。",
+      "caveat": "不需網際網路仍需區域網路；不是遠端雲端分享或持續備份服務。",
+      "official_verification_required": true,
+      "verification_sources": [
+        {
+          "url": "https://github.com/localsend/localsend",
+          "status": "official-repository-accessed",
+          "note": "已開啟官方 repo；個別最新版能力仍依正式產品紀錄核對。"
+        }
+      ]
+    },
+    {
+      "id": "r019",
+      "publisher": "免費資源網",
+      "title": "Winslop 免費工具輕鬆移除 Windows 11 的 AI 與冗餘垃圾功能",
+      "url": "https://free.com.tw/winslop/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "windows",
+        "maintenance"
+      ],
+      "selected_candidates": [
+        "Winslop",
+        "Remove Windows AI",
+        "CrapFixer"
+      ],
+      "zh_summary": "補系統清理需求與圖形介面/指令列差異，並記錄修改項目需可選、可還原。",
+      "caveat": "系統元件移除不能預設執行，也沒有文章實測證据可量化硬體效能或授權費節省。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r020",
+      "publisher": "免費資源網",
+      "title": "Tally 教學：免費線上表單工具，支援中文、表單與回覆無上限",
+      "url": "https://free.com.tw/tally/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "forms",
+        "surveys"
+      ],
+      "selected_candidates": [
+        "Tally",
+        "Google Forms",
+        "Microsoft Forms",
+        "Zoho Forms",
+        "SurveyCake"
+      ],
+      "zh_summary": "提出 Typeform 成本問題，並區分填答介面繁中與編輯後台英文，適合補台灣使用細節。",
+      "caveat": "Tally 是免費方案線索，不能因文章說免費就算開源；無上限受 fair use 約束，當前限制須回官網確認。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r021",
+      "publisher": "免費資源網",
+      "title": "EasyResizer：免費、無限制的圖片尺寸調整與格式轉換工具推薦",
+      "url": "https://free.com.tw/easyresizer/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "image-batch",
+        "browser-tools"
+      ],
+      "selected_candidates": [
+        "EasyResizer"
+      ],
+      "zh_summary": "補免安裝、批次尺寸與格式轉換需求，文章示範繁中介面與四種尺寸模式。",
+      "caveat": "瀏覽器本機處理不代表開源；仍需官方程式碼/授權與實際網路檢查才能提高信心。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r022",
+      "publisher": "免費資源網",
+      "title": "PDFBinder 免費 PDF 頁面合併工具",
+      "url": "https://free.com.tw/pdfbinder/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "pdf"
+      ],
+      "selected_candidates": [
+        "PDFBinder"
+      ],
+      "zh_summary": "歷史文章提供極簡 PDF 合併需求和舊工具候選，適合辨識被新版本評测忽略的任務。",
+      "caveat": "正文仍以 v1.2 與 Google Code 下載為基礎，即使頁尾寫更新日期也不代表工具仍維護；列歷史線索，不直接推薦。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r023",
+      "publisher": "免費資源網",
+      "title": "陪讀蛙 Readfrog：免費開源網頁雙語對照翻譯擴充功能",
+      "url": "https://free.com.tw/readfrog/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "translation",
+        "browser-extension",
+        "ai"
+      ],
+      "selected_candidates": [
+        "Read Frog",
+        "Shinkansen"
+      ],
+      "zh_summary": "補雙語網頁閱讀、字幕、輸入翻譯等情境，並區分一般翻譯引擎與自備 API 的 AI 路徑。",
+      "caveat": "擴充功能免費不表示 AI API 免費；文章的「完美替代」與品質更準是評語，仍需比較樣本。",
+      "official_verification_required": true,
+      "verification_sources": [
+        {
+          "url": "https://github.com/mengxi-ream/read-frog",
+          "status": "official-repository-accessed",
+          "note": "已開啟正式專案入口，產品授權及費用需按實際使用引擎再查。"
+        }
+      ]
+    },
+    {
+      "id": "r024",
+      "publisher": "小眾軟體",
+      "title": "LocalSend – 无联网，开源跨平台的局域网文件互传工具",
+      "url": "https://www.appinn.com/localsend/",
+      "language": "zh-CN",
+      "region": "China",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2023-01-25",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "file-transfer",
+        "mobile"
+      ],
+      "selected_candidates": [
+        "LocalSend",
+        "netSend",
+        "Snapdrop",
+        "Piping Server",
+        "LANDrop",
+        "KDE Connect"
+      ],
+      "zh_summary": "除 LocalSend 外提供同一需求下的其他傳檔候選，並連到最初的社群發現與回饋。",
+      "caveat": "2023 年教學與留言中的錯誤不代表當前版本；正文、其來源論壇與轉載應關聯去重。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r025",
+      "publisher": "小眾軟體",
+      "title": "Radicle – 免费去中心化代码托管，GitHub、GitLab 的替代品",
+      "url": "https://www.appinn.com/radicle/",
+      "language": "zh-CN",
+      "region": "China",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-09-03",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "git-hosting",
+        "p2p"
+      ],
+      "selected_candidates": [
+        "Radicle",
+        "Gitea"
+      ],
+      "zh_summary": "用作者情境呈現 P2P 程式庫與自架 NAS forge 的差異，提示節點在線和資料副本責任。",
+      "caveat": "不能把公共 seed 當永久免費代管承諾；文內安裝命令只是參考，不在發現階段執行。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r026",
+      "publisher": "小眾軟體",
+      "title": "Konode – 这才是我理想中的浏览器同步工具",
+      "url": "https://www.appinn.com/konode/",
+      "language": "zh-CN",
+      "region": "China",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-09-10",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "browser-sync",
+        "bookmarks"
+      ],
+      "selected_candidates": [
+        "Konode",
+        "Floccus",
+        "xBrowserSync"
+      ],
+      "zh_summary": "補書籤、歷史、擴充功能與分頁同步，文章有自備 WebDAV 等儲存、衝突策略和 Firefox 版本問題。",
+      "caveat": "文內明示不支援 Cookie 與密碼；1.3.0/1.3.1 狀態需回上游核對，不能照抄成最新 bug 結論。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r027",
+      "publisher": "小眾軟體",
+      "title": "MSSH：只有 5 MB，单文件 SSH 客户端[Windows / macOS]",
+      "url": "https://www.appinn.com/maple-ssh/",
+      "language": "zh-CN",
+      "region": "China",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-09-10",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "ssh",
+        "sftp",
+        "developer-utilities"
+      ],
+      "selected_candidates": [
+        "MSSH / Maple SSH"
+      ],
+      "zh_summary": "補桌面 SSH 與主機設定管理痛點，文章交代本機資料庫與可選跨機設定同步。",
+      "caveat": "開發者自薦、免費公測不等於開源；本次未取得授權證据，應留候選區。Linux/Docker 在文中仍是規劃，不當已實作。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r028",
+      "publisher": "小眾軟體官方論壇",
+      "title": "局域网文件互传工具：LocalSend",
+      "url": "https://meta.appinn.net/t/topic/39942",
+      "language": "zh-CN",
+      "region": "China",
+      "source_type": "community-thread",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2023-01-23",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "file-transfer",
+        "mobile"
+      ],
+      "selected_candidates": [
+        "LocalSend"
+      ],
+      "zh_summary": "可回溯文章來自哪個使用者發現，也看得到 Windows、Android、iOS 的早期問題回報。",
+      "caveat": "個人感受與舊版本 bug 不是效能基準；和 Appinn 文章存在來源關係，不能充作兩份獨立實測。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r029",
+      "publisher": "電腦玩物 / Esor Huang",
+      "title": "Joplin 免費開源筆記軟體圖解教學，最像 Evernote 的替代工具",
+      "url": "https://www.playpcesor.com/2020/04/joplin-evernote.html",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2020-04-24",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "notes",
+        "migration",
+        "traditional-chinese"
+      ],
+      "selected_candidates": [
+        "Joplin"
+      ],
+      "zh_summary": "提供 Evernote 匯入、繁中搜尋、附件、同步、筆記歷史等具體遷移查核項目，比單純功能列表更有用。",
+      "caveat": "2020 文中記事連結遷移限制已需更新；本次官方文件說多數可保留，但依筆記標題猜測，重複標題等可能失敗。",
+      "official_verification_required": true,
+      "verification_sources": [
+        {
+          "url": "https://joplinapp.org/help/apps/import_export/",
+          "status": "official-content-reviewed",
+          "note": "已讀 ENEX 匯入：大多保留筆記連結，複雜格式、OCR 資料與同名筆記有特別限制。"
+        }
+      ]
+    },
+    {
+      "id": "r030",
+      "publisher": "電腦玩物 / Esor Huang",
+      "title": "BigBlueButton 為遠距教學設計的視訊軟體，分組討論圖解教學",
+      "url": "https://www.playpcesor.com/2020/04/bigbluebutton.html",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2020-04-14",
+      "review_scope": "已取得具體文章頁，重點閱讀引言與教學功能定位；未逐圖實測。",
+      "topics": [
+        "video-conference",
+        "education"
+      ],
+      "selected_candidates": [
+        "BigBlueButton",
+        "Moodle"
+      ],
+      "zh_summary": "補教育現場的分組討論、課程平台整合與教師情境，可與一般商務視訊分開。",
+      "caveat": "2020 年公開測試站與操作介面是歷史情況；試用站不能當正式開課的免費 SLA 保證。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r031",
+      "publisher": "香港編程學會",
+      "title": "最火開源Notebook項目：Joplin",
+      "url": "https://www.hkprog.org/2025/08/475k_stars_the_hottest_crossplatform_opensource_notetaking_project_joplin/",
+      "language": "zh-HK",
+      "region": "Hong Kong",
+      "source_type": "article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "notes",
+        "mobile"
+      ],
+      "selected_candidates": [
+        "Joplin"
+      ],
+      "zh_summary": "補香港粵語推廣來源，整理跨平台、附件、外掛與同步作為在地需求線索。",
+      "caveat": "短篇介紹不是獨立壓測；星數為當時數值，不能代表目前人氣或中文品質。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r032",
+      "publisher": "ezgo",
+      "title": "專為教育現場打造的自由軟體體驗包",
+      "url": "https://ezgo.westart.tw/",
+      "language": "zh-TW",
+      "region": "Taiwan",
+      "source_type": "official-curated-distribution",
+      "read_status": "directory-sections-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "education",
+        "science",
+        "creative"
+      ],
+      "selected_candidates": [
+        "LibreOffice",
+        "PhET",
+        "GIMP",
+        "Inkscape",
+        "OpenShot",
+        "Kalzium",
+        "GeoGebra",
+        "Stellarium",
+        "Scratch"
+      ],
+      "zh_summary": "台灣教育導向整包選型能補化學、天文、數學與圖像程式設計，比只追商用 SaaS 更廣。",
+      "caveat": "發行版收錄不保證每個完整產品都可免費商用；GeoGebra 原始碼与完整安裝包/素材的授權不同。教材與軟體數量分開。",
+      "official_verification_required": true,
+      "verification_sources": [
+        {
+          "url": "https://www.geogebra.org/license",
+          "status": "official-content-reviewed",
+          "note": "官方明示原始碼 EUPL 1.2；完整安裝包、網頁服務及語系等有非商用限制，不可統稱無限制免費商用。"
+        }
+      ]
+    },
+    {
+      "id": "r033",
+      "publisher": "窓の杜 / Impress",
+      "title": "手持ちのデバイスすべてに入れておきたいお手軽ファイル共有ツール「LocalSend」",
+      "url": "https://forest.watch.impress.co.jp/docs/review/2122218.html",
+      "language": "ja",
+      "region": "Japan",
+      "source_type": "review-article",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": "2026-07-06",
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "file-transfer",
+        "windows",
+        "mobile"
+      ],
+      "selected_candidates": [
+        "LocalSend"
+      ],
+      "zh_summary": "日本評測補 Windows 防火牆、套件管理更新與 PIN 接收等導入細節，適合做平台實務比較。",
+      "caveat": "本文明列測試版本；不同語言對同工具的介紹不能增加產品數，安全性表述須回官方規格。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r034",
+      "publisher": "窓の杜 / Impress",
+      "title": "PDF Split and Merge basic",
+      "url": "https://forest.watch.impress.co.jp/library/software/pdfsam/",
+      "language": "ja",
+      "region": "Japan",
+      "source_type": "software-library-entry",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "pdf",
+        "windows"
+      ],
+      "selected_candidates": [
+        "PDFsam Basic"
+      ],
+      "zh_summary": "明確按分割、合併、抽頁、旋轉與交錯頁整理用途，可界定 Acrobat 替代範圍。",
+      "caveat": "Basic 与 Visual/Enhanced 需分版；頁面為 Windows 發行資訊，不能推論所有平台均相同。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r035",
+      "publisher": "switching.software",
+      "title": "Bye, EasyChair",
+      "url": "https://switching.software/replace/easychair/",
+      "language": "en",
+      "region": "international",
+      "source_type": "comparison-entry",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "conference-management",
+        "events"
+      ],
+      "selected_candidates": [
+        "Indico"
+      ],
+      "zh_summary": "補学術活動與會議管理這個常漏掉的企業/教育領域，頁面連到官方與原始碼。",
+      "caveat": "公開 sandbox 不代表可正式代管活動；投稿審查細節與 EasyChair 的一比一對應須另查。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r036",
+      "publisher": "switching.software",
+      "title": "Bye, EndNote",
+      "url": "https://switching.software/replace/endnote/",
+      "language": "en",
+      "region": "international",
+      "source_type": "comparison-entry",
+      "read_status": "content-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "已閱讀頁面中與本紀錄摘要相關的正文；未實測軟體。",
+      "topics": [
+        "references",
+        "academic-writing"
+      ],
+      "selected_candidates": [
+        "Zotero"
+      ],
+      "zh_summary": "提供 EndNote 至 Zotero 的使用情境與瀏覽器擷取、文書引用整合線索。",
+      "caveat": "本次發現頁面把免費雲端儲存寫成 2 GB；官方實為 300 MB 免費、2 GB US$20/年，因此捨棄該容量說法。",
+      "official_verification_required": true,
+      "verification_sources": [
+        {
+          "url": "https://www.zotero.org/storage",
+          "status": "official-content-reviewed",
+          "note": "2026-09-12 官網價目：300 MB 免費、2 GB US$20/年；頁面容量錯誤不得傳入節省計算。"
+        }
+      ]
+    },
+    {
+      "id": "r037",
+      "publisher": "Awesome Selfhosted",
+      "title": "Awesome Selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "directory-index-reviewed",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "僅 repo About、檔案列表及目錄網址可讀，raw/HTML 正文嘗試未成功。",
+      "topics": [
+        "self-hosting"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "大型自架目錄是廣度索引的主要上游之一；本專案另以獨立匯入流程保存其事實欄位。",
+      "caveat": "此來源研究子任務只取得 repo 介紹，README 正文載入失敗；完整上游匯入與授權證據以另一路徑紀錄為準。",
+      "official_verification_required": true,
+      "verification_sources": []
+    },
+    {
+      "id": "r038",
+      "publisher": "serhii-londar",
+      "title": "Open Source macOS Apps",
+      "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
+      "language": "en",
+      "region": "international",
+      "source_type": "curated-directory",
+      "read_status": "discovery-only",
+      "checked_on": "2026-09-12",
+      "article_date": null,
+      "review_scope": "repo 標題與 About 可讀，README 及 raw 讀取未取得正文。",
+      "topics": [
+        "macos"
+      ],
+      "selected_candidates": [],
+      "zh_summary": "保留 macOS 專屬生態的後續搜尋入口。",
+      "caveat": "本次 README 正文無法載入；不聲稱讀過其完整清單，也不據此加入任何具體工具。",
+      "official_verification_required": true,
+      "verification_sources": []
+    }
+  ]
+}

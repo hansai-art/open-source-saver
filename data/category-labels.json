@@ -1,0 +1,142 @@
+{
+  "vector-design": [
+    "向量設計與 UI 原型",
+    "Vector design and UI prototyping"
+  ],
+  "desktop-publishing": [
+    "桌面出版與字型製作",
+    "Desktop publishing and font creation"
+  ],
+  "photo-workflow": [
+    "RAW 顯影、照片管理與全景",
+    "RAW development, photo management and panoramas"
+  ],
+  "cad-modeling": [
+    "CAD 製圖與參數建模",
+    "CAD drafting and parametric modeling"
+  ],
+  "electronics-design": [
+    "電子電路與電氣設計",
+    "Electronics and electrical design"
+  ],
+  "animation-2d": [
+    "2D 動畫與向量動態",
+    "2D animation and vector motion"
+  ],
+  "game-development": [
+    "遊戲與互動開發",
+    "Game and interactive development"
+  ],
+  "music-production": [
+    "音樂製作、樂譜與 DJ",
+    "Music production, notation and DJ"
+  ],
+  "scientific-computing": [
+    "統計分析與科學計算",
+    "Statistics and scientific computing"
+  ],
+  "gis-mapping": [
+    "GIS 與地圖製作",
+    "GIS and cartography"
+  ],
+  "science-education": [
+    "科學影像、化學與天文教育",
+    "Scientific imaging, chemistry and astronomy education"
+  ],
+  "project-management": [
+    "專案管理與看板",
+    "Project management and Kanban"
+  ],
+  "crm": [
+    "客戶關係與銷售管理",
+    "CRM and sales"
+  ],
+  "erp": [
+    "ERP 與進銷存",
+    "ERP and inventory"
+  ],
+  "web-analytics": [
+    "網站分析",
+    "Web analytics"
+  ],
+  "business-intelligence": [
+    "商業智慧與儀表板",
+    "Business intelligence and dashboards"
+  ],
+  "forms-surveys": [
+    "表單與問卷",
+    "Forms and surveys"
+  ],
+  "ecommerce": [
+    "電商與購物車",
+    "Ecommerce and storefronts"
+  ],
+  "helpdesk": [
+    "客服與工單",
+    "Helpdesk and customer support"
+  ],
+  "booking-scheduling": [
+    "預約與排程",
+    "Booking and scheduling"
+  ],
+  "team-chat": [
+    "團隊通訊",
+    "Team chat"
+  ],
+  "wiki-knowledge": [
+    "團隊 Wiki 與知識庫",
+    "Team wikis and knowledge bases"
+  ],
+  "workflow-automation": [
+    "工作流程自動化",
+    "Workflow automation"
+  ],
+  "email-marketing": [
+    "電子報與行銷自動化",
+    "Email marketing and automation"
+  ],
+  "backup-recovery": [
+    "備份與還原",
+    "Backup and recovery"
+  ],
+  "database-clients": [
+    "資料庫查詢與管理",
+    "Database clients"
+  ],
+  "developer-tools": [
+    "程式編輯與 API 開發",
+    "Code editing and API development"
+  ],
+  "device-integration": [
+    "手機與裝置整合",
+    "Phone and device integration"
+  ],
+  "file-management": [
+    "檔案管理與去重",
+    "File management and duplicate cleanup"
+  ],
+  "local-ai": [
+    "本機 AI 與模型工具",
+    "Local AI and model tools"
+  ],
+  "network-monitoring": [
+    "DNS 與網路監控",
+    "DNS and network monitoring"
+  ],
+  "personal-finance": [
+    "個人財務與記帳",
+    "Personal finance and accounting"
+  ],
+  "privacy-security": [
+    "隱私與安全防護",
+    "Privacy and security"
+  ],
+  "remote-access": [
+    "遠端桌面與設備管理",
+    "Remote access and device management"
+  ],
+  "rss-reference": [
+    "資訊訂閱與文獻管理",
+    "Feeds and reference management"
+  ]
+}

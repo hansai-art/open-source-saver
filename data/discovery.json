@@ -16,7 +16,7 @@
         "a01",
         "a02"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-inkscape"
     },
     {
       "name": "Scribus",
@@ -24,7 +24,7 @@
         "a01",
         "a03"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-scribus"
     },
     {
       "name": "OpenShot",
@@ -46,7 +46,7 @@
       "article_ids": [
         "a01"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-synfig"
     },
     {
       "name": "darktable",
@@ -54,14 +54,14 @@
         "a01",
         "a02"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-darktable"
     },
     {
       "name": "RawTherapee",
       "article_ids": [
         "a01"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-rawtherapee"
     },
     {
       "name": "Natron",
@@ -75,7 +75,7 @@
       "article_ids": [
         "a01"
       ],
-      "catalog_id": null
+      "catalog_id": "creative-ardour"
     },
     {
       "name": "Master PDF Editor",
@@ -133,7 +133,7 @@
       "article_ids": [
         "a03"
       ],
-      "catalog_id": null
+      "catalog_id": "add-018"
     },
     {
       "name": "PDF Arranger",

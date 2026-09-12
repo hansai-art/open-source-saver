@@ -29,3 +29,11 @@ English: reuse existing tools and article research. Propose candidates with offi
 `build_catalog.py` 會更新兩份首頁的收錄數、分類表、雙語清單和 `data/catalog-stats.json`。價格不由分類腳本重新查網路，請依 [節費維護規則](docs/SAVINGS.md) 另行更新。論壇只收短摘要與原文連結到 `data/community-sources.json`，待查線索不灌進產品數。
 
 Assign one primary category and a source classification per product. Source-available restrictions are not OSI open source. `see-upstream` means the full license mix is not normalized here, not that commercial terms were cleared. Regenerate counts and both catalogs with the existing script. Refresh prices separately; forum-only leads do not increase catalog totals.
+
+## 大量研究與上游索引 / Bulk research and upstream discovery
+
+先讀 [研究規範](docs/RESEARCH.md)，再選缺少的工作領域。新增國內外文章或目錄到 `data/research-sources.json`，寫實際閱讀範圍、原創摘要、候選名稱、語言與限制；有官方反證時附 `verification_sources`。不把目錄總數當逐項查核數。
+
+上游索引只是待研究資料，不直接匯入 `products.json`。先核對正式專案的當前文件、授權、安裝與費用，才升級為整理候選。自架服務以 `platforms: ["web"]` 表達瀏覽器使用端，`delivery: "self-hosted"` 表達部署；不要把 Linux 伺服器需求當成 Mac 安裝包。
+
+完成後執行 `python3 scripts/build_research.py` 同步來源去向與研究統計；維護上游索引時依其 [重建說明](data/upstream/awesome-selfhosted/README.md)，保留 CC BY-SA 3.0 與作者署名。原創程式與研究摘要維持專案 MIT，不能把上游衍生索引改標 MIT。

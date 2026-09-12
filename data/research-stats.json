@@ -1,0 +1,36 @@
+{
+  "updated_on": "2026-09-12",
+  "baseline_commit": "e0e4f2162176fcec3a7c1d6100b458baa697d8c1",
+  "baseline_products": 78,
+  "curated_products": 189,
+  "product_growth_factor": 2.42,
+  "baseline_categories": 18,
+  "curated_categories": 53,
+  "category_growth_factor": 2.94,
+  "conditional_mappings": 99,
+  "new_research_sources": 38,
+  "source_languages": {
+    "en": 14,
+    "fr": 3,
+    "de": 4,
+    "zh-TW": 9,
+    "zh-CN": 5,
+    "zh-HK": 1,
+    "ja": 2
+  },
+  "source_read_statuses": {
+    "directory-sections-reviewed": 9,
+    "directory-index-reviewed": 6,
+    "content-reviewed": 22,
+    "discovery-only": 1
+  },
+  "legacy_article_sources": 11,
+  "upstream_unique_records": 1346,
+  "upstream_commit": "851f84709d5ac80deb2933d3a81dc48d89818be7",
+  "runtime_tested_products": 0,
+  "acceptance": {
+    "products_at_least_double": true,
+    "categories_at_least_double": true
+  },
+  "counting_rule": "Unique curated products and primary categories; upstream records and article mentions are counted separately, never added to curated totals."
+}

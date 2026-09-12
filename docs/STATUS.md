@@ -1,14 +1,15 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-09-11 · Dataset updated: 2026-09-11; individual product evidence dates retained
+Version: v0.1.0-alpha · Status checked: 2026-09-12 · Dataset updated: 2026-09-12; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 78 個候選、18 大類、20 組條件對照 / 78 candidates, 18 categories, 20 conditional mappings |
-| 既有文章 / Existing articles | 11 篇來源，53 個發現名稱，與候選重疊 / 11 sources, 53 overlapping discovery names |
+| 產品資料 / Product snapshot | 189 個候選、53 大類、99 組條件對照 / 189 candidates, 53 categories, 99 conditional mappings |
+| 文章、目錄與社群 / Research sources | 新增 38 筆、7 語系；保留舊 11 篇文章及 7 筆社群紀錄 / 38 new sources across 7 language labels; legacy research retained |
+| 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
-| 自動測試 / Automated tests | Linux / Python：12 項通過 / 12 passed |
+| 自動測試 / Automated tests | Linux / Python：16 項通過 / 16 passed |
 | Skill 結構驗證 / Skill structure validation | 通過 / Passed |
 | Agent 情境 / Agent scenario | Mac 錄影、自動縮放、繁中字幕、免編譯：正確保留未知，不承諾完整替換 / Preserved unknowns instead of promising an unverified replacement |
 | macOS 收集器 / macOS collector | metadata 測資通過；真機未測 / Synthetic metadata tests passed; device testing pending |
@@ -24,6 +25,7 @@ From the project folder / 在專案資料夾執行：
 python3 scripts/saver.py validate
 python3 -m unittest discover -s tests -v
 python3 scripts/build_catalog.py
+python3 scripts/build_research.py
 ```
 
 Tests use temporary synthetic inputs, never real installed-app lists. The passing Mac fixture test does not prove that permissions, native app enumeration or all bundle layouts work on a real Mac. The network guard covers the fixture invocation only; full device-level offline observation remains pending.
@@ -49,7 +51,7 @@ Tests use temporary synthetic inputs, never real installed-app lists. The passin
 
 Publish project content only, excluding private inventories, reports and credentials. Public source availability does not imply native-device or third-party workflow validation.
 
-## v0.2 規劃更新 / Planning update
+## 先前 v0.2 規劃紀錄 / Earlier planning record
 
 [繁中優化規格](OPTIMIZATION.zh-TW.md) · [English optimization specification](OPTIMIZATION.en.md)
 
@@ -64,3 +66,14 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - 新增 7 筆論壇討論／留言的原創摘要，未確認的線索不計入工具數。 / Added 7 forum source summaries, excluding unresolved leads from product totals.
 - 官網價格基準與假設見 [SAVINGS.md](SAVINGS.md)；未測量使用者實際節省。 / Official benchmarks are illustrative, not measured user savings.
 - 分類數、來源分類與雙語首頁統計由同一 JSON 自動產生。 / Product JSON generates statistics and both README category tables.
+
+## 2026-09-12 全球領域擴充
+
+- 基準 commit：`e0e4f2162176fcec3a7c1d6100b458baa697d8c1`。工具 78 → 189（2.42 倍）、領域 18 → 53（2.94 倍）、條件對照 20 → 99。
+- 新增工具 111 個均閱讀官方資料；舊資料日期不覆蓋。獨立複查 15 個新增產品的官方資料，修正平台與版別授權。
+- 新增 38 筆國內外來源：22 正文、9 目錄段落、6 目錄入口、1 僅發現線索。
+- 匯入 1,346 筆上游發現項，92 筆保留非自由授權標記，固定來源 commit，CC BY-SA 3.0 單獨保留。固定來源重建檢查通過。
+- 離線 `discover` 支援名稱、分類及中英關鍵字；與整理候選搜尋分開。新增資料重複、雙語欄位、平台及搜尋測試，全部 16 項通過。
+- 實際第三方安裝、完整遷移、效能、繁中介面與使用者節省仍未實測；Windows／Mac 真機收集器驗收仍待完成。
+
+[研究方法](RESEARCH.md) · [國內外來源](RESEARCH-SOURCES.md) · [機器可讀統計](../data/research-stats.json)

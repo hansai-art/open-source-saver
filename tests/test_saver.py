@@ -26,6 +26,34 @@ class SaverTests(unittest.TestCase):
     def test_catalog_integrity(self):
         saver.validate(self.catalog, self.mappings)
 
+    def test_duplicate_names_and_urls_rejected(self):
+        original = self.products[0]
+        for duplicate in [dict(original, id='test-duplicate'),
+                          dict(original, id='test-duplicate', name='Different name')]:
+            with self.assertRaises(ValueError):
+                saver.validate({'products': [original, duplicate]}, [])
+
+    def test_bilingual_use_and_evidence_cannot_be_empty(self):
+        for changed in [dict(self.products[0], sources=[]),
+                        dict(self.products[0], zh={'use': '用途', 'limits': ''})]:
+            with self.assertRaises(ValueError):
+                saver.validate({'products': [changed]}, [])
+
+    def test_upstream_discovery_stays_separate_and_translates_keywords(self):
+        entries = [dict(id='lead-1', name='Example Wiki', aliases=[], tags=['Wikis']),
+                   dict(id='lead-2', name='Example CRM', aliases=[], tags=['CRM'])]
+        with mock.patch.object(saver, 'read_json', return_value={'知識庫': ['wiki']}), \
+             mock.patch.object(Path, 'exists', return_value=True):
+            results, total = saver.discover(entries, '知識庫', 1)
+        self.assertEqual([e['id'] for e in results], ['lead-1'])
+        self.assertEqual(total, 1)
+        self.assertEqual(saver.discover(entries, 'not-present'), ([], 0))
+
+    def test_web_services_do_not_masquerade_as_mac_installers(self):
+        service = dict(self.products[0], platforms=['web'], delivery='self-hosted')
+        self.assertEqual(saver.search([service], [], '', platform='macos'), [])
+        self.assertEqual(saver.search([service], [], '', platform='web'), [service])
+
     def test_exact_aliases_and_years_do_not_match_other_products(self):
         self.assertIsNotNone(saver.source_match('Adobe Premiere Pro 2024', self.mappings))
         self.assertIsNone(saver.source_match('Adobe Premiere Pro Helper', self.mappings))

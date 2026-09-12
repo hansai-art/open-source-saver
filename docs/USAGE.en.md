@@ -73,3 +73,15 @@ No results? Reuse [sources](SOURCES.md) and data/discovery.json. A missing local
 Helpers make no network requests and do not print inventory contents. Keep private outputs outside public repositories. Strict offline means running locally without asking a cloud agent to read the output. Live official-source research is separate.
 
 FileExistsError: choose a new output name. Invalid data: check the documented JSON/text schema. Wrong platform: run on the target device or import manually. Missing Python: use the Markdown catalog first. Empty results/warnings: inspect coverage and supplement manually, rather than inferring no installed software.
+
+## Broader upstream discovery
+
+```bash
+python3 scripts/saver.py search "Jira" --platform web
+python3 scripts/saver.py discover "CRM" --limit 20 --lang en
+python3 scripts/saver.py discover "wiki" --limit 20 --json
+```
+
+`search` uses the curated catalog; `discover` searches the pinned upstream snapshot. All upstream results require official review and may include nonfree software. `--limit` accepts 1–200 (default 20). Browser/self-hosted products use the web client platform; they are not native desktop installers.
+
+Discovery remains offline and needs no PyYAML. It matches names, aliases and tags, with explicit Chinese-to-English keywords; it is not semantic search. Upstream `platforms` are languages/deployment technologies, not device OS compatibility. See [research methodology](RESEARCH.md) and [upstream attribution](../data/upstream/awesome-selfhosted/README.md).

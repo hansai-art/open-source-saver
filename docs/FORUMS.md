@@ -1,5 +1,7 @@
 # 國外論壇研究 / International forum research
 
+新增的國內外研究來源與收錄去向見 [研究來源總表](RESEARCH-SOURCES.md)，擴充方法見 [研究規範](RESEARCH.md)。下方保留前一輪文章／論壇紀錄與原日期。
+
 [繁中首頁](../README.md) · [English home](../README.en.md) · [文章來源 / Articles](SOURCES.md) · [JSON](../data/community-sources.json)
 
 查核日 / Checked: **2026-09-11**. **7 筆不同網址，包含完整討論與單則留言 / 7 distinct URLs, including threads and individual comments.**

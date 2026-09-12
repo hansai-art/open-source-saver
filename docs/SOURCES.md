@@ -1,5 +1,7 @@
 # 文章與上游來源 / Sources
 
+新增的國內外研究來源與收錄去向見 [研究來源總表](RESEARCH-SOURCES.md)，擴充方法見 [研究規範](RESEARCH.md)。下方保留前一輪文章／論壇紀錄與原日期。
+
 Article snapshot: 2026-09-10. Forum research added: 2026-09-11. Links and original summaries only; article contents are not redistributed.
 
 - **a01 · It's FOSS** [Best Free and Open Source Alternatives to Adobe Products for Linux](https://itsfoss.com/adobe-alternatives-linux/) — 2024-03-19

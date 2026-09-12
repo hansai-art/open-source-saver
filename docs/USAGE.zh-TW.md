@@ -78,3 +78,15 @@ python3 scripts/saver.py validate
 本機腳本不發網路請求、不印原始清單。私人報告也可能揭露工作內容，請留在私人資料夾，避免提交到 GitHub。嚴格離線模式在本機終端機操作，不請雲端 AI 開啟結果。一般聊天查證官方網站則是連線模式。
 
 錯誤處理：FileExistsError → 換輸出檔名；資料錯誤 → 檢查上述 JSON 或一行一個名稱；平台錯誤 → 到目標系統或改匯入；Python 找不到 → 先直接查清單。盤點零項目或有 warnings → 檢查覆蓋範圍與手動補充，不解讀成全機無軟體。
+
+## 7. 查目錄之外的上游線索
+
+```bash
+python3 scripts/saver.py search "Jira" --platform web
+python3 scripts/saver.py discover "知識庫" --limit 20
+python3 scripts/saver.py discover "CRM" --limit 20 --json
+```
+
+`search` 查已整理候選；`discover` 查固定版本的上游資料。自架產品以 `web` 表達瀏覽器使用端，不會當成 Mac／Windows 安裝程式。廣域結果全部待官方查核，包含非自由授權，不直接當成推薦。`--limit` 接受 1–200，預設 20。
+
+廣域搜尋不連網、不需 PyYAML，中文詞由 [關鍵字對照](../data/discovery-keywords.json) 轉成指定英文詞。不是自然語意搜尋，查無資料可換產品名或英文分類，或查 [國內外來源](RESEARCH-SOURCES.md)。上游的 `platforms` 指程式語言／部署技術，不能用來判定裝置 OS。

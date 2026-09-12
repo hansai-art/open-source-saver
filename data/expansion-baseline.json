@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-12",
+  "commit": "e0e4f2162176fcec3a7c1d6100b458baa697d8c1",
+  "products": 78,
+  "categories": 18,
+  "mappings": 20,
+  "article_sources": 11,
+  "community_sources": 7,
+  "minimum_products": 156,
+  "minimum_categories": 36,
+  "counting_rule": "Unique curated products and primary categories; upstream records and article mentions are counted separately, never added to curated totals."
+}

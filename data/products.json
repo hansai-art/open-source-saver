@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-09-11",
+  "checked_on": "2026-09-12",
   "products": [
     {
       "id": "oss-001",
@@ -1084,7 +1084,10 @@
         "use": "Local text-to-speech",
         "limits": "GPL engine; voice models have separate licenses."
       },
-      "source_type": "open-source"
+      "source_type": "open-source",
+      "aliases": [
+        "Piper"
+      ]
     },
     {
       "id": "oss-032",
@@ -1539,7 +1542,10 @@
         "use": "Separating vocals and music",
         "limits": "Models have separate terms; separation can introduce artifacts."
       },
-      "source_type": "open-source"
+      "source_type": "open-source",
+      "aliases": [
+        "Ultimate Vocal Remover"
+      ]
     },
     {
       "id": "oss-045",
@@ -2186,6 +2192,9 @@
       "source_type": "open-source",
       "discovered_via": [
         "official-expansion"
+      ],
+      "aliases": [
+        "Meetily"
       ]
     },
     {
@@ -2825,6 +2834,4210 @@
       "discovered_via": [
         "official-expansion"
       ]
+    },
+    {
+      "id": "creative-inkscape",
+      "name": "Inkscape",
+      "category": "vector-design",
+      "keywords": [
+        "向量",
+        "插畫",
+        "SVG",
+        "Illustrator",
+        "vector graphics"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://inkscape.org/",
+      "sources": [
+        "https://gitlab.com/inkscape/inkscape/-/raw/master/README.md",
+        "https://github.com/inkscape/inkscape",
+        "https://wiki.inkscape.org/wiki/Installing_Inkscape"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "製作 Logo、圖示、向量插畫與 SVG 網頁素材",
+        "limits": "以 SVG 為核心；AI 檔、外掛與印刷交付需用實際檔案測試，不能保證 Illustrator 專案無損往返。"
+      },
+      "en": {
+        "use": "Vector illustration, icons, logos and SVG assets",
+        "limits": "SVG-first workflow; validate Illustrator file round trips, plugins and print delivery with real projects."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-penpot",
+      "name": "Penpot",
+      "category": "vector-design",
+      "keywords": [
+        "UI",
+        "UX",
+        "原型",
+        "Figma",
+        "design systems"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/penpot/penpot",
+      "sources": [
+        "https://raw.githubusercontent.com/penpot/penpot/develop/README.md"
+      ],
+      "cost": "open-source core; hosting and enterprise services may cost extra",
+      "license": "MPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "瀏覽器 UI 設計、互動原型、設計元件與多人協作，可自行部署",
+        "limits": "自架需主機維護；企業 SSO、權限與管理功能有付費方案，Figma 元件與外掛需另測遷移。"
+      },
+      "en": {
+        "use": "Browser-based UI design, prototypes, design systems and collaborative self-hosting",
+        "limits": "Hosting requires operations; enterprise governance and SSO can be paid. Validate Figma component and plugin migration."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-scribus",
+      "name": "Scribus",
+      "category": "desktop-publishing",
+      "keywords": [
+        "排版",
+        "桌面出版",
+        "InDesign",
+        "CMYK",
+        "desktop publishing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.scribus.net/",
+      "sources": [
+        "https://sourceforge.net/projects/scribus/",
+        "https://github.com/scribusproject/scribus"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0 / GPL-3.0; see component notices",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "雜誌、型錄、宣傳單與印刷 PDF 排版，支援 CMYK、特別色與 ICC 色彩管理",
+        "limits": "繁中字型、長文溢出及印廠規格需校樣；GitHub 為社群鏡像，下載與問題回報依官方入口。"
+      },
+      "en": {
+        "use": "Page layout for brochures, magazines and print PDFs with CMYK, spot colors and ICC support",
+        "limits": "Proof Chinese typography, text overflow and printer specifications; GitHub is a community mirror, not the authoritative development channel."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-fontforge",
+      "name": "FontForge",
+      "category": "desktop-publishing",
+      "keywords": [
+        "字型",
+        "字體",
+        "FontLab",
+        "Glyphs",
+        "font editor"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/fontforge/fontforge",
+      "sources": [
+        "https://github.com/fontforge/fontforge",
+        "https://github.com/fontforge/fontforge/blob/master/LICENSE"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0-or-later as a whole; many parts BSD-3-Clause",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "製作、修改及轉換 OpenType、TrueType、UFO 等字型",
+        "limits": "字距、提示資訊及不同系統的顯示需驗證；工具免費不代表取得原字型的修改或再散布權。"
+      },
+      "en": {
+        "use": "Create, edit and convert OpenType, TrueType, UFO and other fonts",
+        "limits": "Validate kerning, hinting and rendering; the editor license does not grant modification or redistribution rights to input fonts."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-darktable",
+      "name": "darktable",
+      "category": "photo-workflow",
+      "keywords": [
+        "RAW",
+        "修片",
+        "照片",
+        "Lightroom",
+        "photography"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/darktable-org/darktable",
+      "sources": [
+        "https://github.com/darktable-org/darktable"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "非破壞式 RAW 顯影、照片資料庫、批次調整與輸出",
+        "limits": "官方明言不是 Lightroom 複製品；目前 README 的 Mac 支援為 Apple Silicon／macOS 14+，相機與編輯資料遷移需另測。"
+      },
+      "en": {
+        "use": "Non-destructive RAW processing, photo cataloging and export",
+        "limits": "A distinct workflow, not a Lightroom clone. Current README lists Apple Silicon Macs with macOS 14+; verify cameras and editing-history migration."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-rawtherapee",
+      "name": "RawTherapee",
+      "category": "photo-workflow",
+      "keywords": [
+        "RAW",
+        "顯影",
+        "Lightroom",
+        "Capture One",
+        "photography"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/RawTherapee/RawTherapee",
+      "sources": [
+        "https://github.com/RawTherapee/RawTherapee"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "RAW 顯影、去馬賽克、色彩調整與高品質照片輸出",
+        "limits": "官方定位聚焦影像顯影，完整素材管理、列印與上傳需搭配其他工具；先確認相機格式。"
+      },
+      "en": {
+        "use": "RAW development, demosaicing, color control and photo export",
+        "limits": "Not an all-in-one asset manager; printing, catalog management and uploading may require other tools. Check camera support."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-digikam",
+      "name": "digiKam",
+      "category": "photo-workflow",
+      "keywords": [
+        "照片管理",
+        "相簿",
+        "ACDSee",
+        "photo management",
+        "metadata"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.digikam.org/",
+      "sources": [
+        "https://www.digikam.org/about/",
+        "https://apps.kde.org/digikam/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "大量相片與影片匯入、標籤、評分、搜尋、RAW 管理及批次處理",
+        "limits": "本機照片庫需自行備份；遠端服務外掛另有資料傳輸與服務條件，不能當成已包含雲端儲存。"
+      },
+      "en": {
+        "use": "Import, tag, rate, search and manage large photo/video collections",
+        "limits": "Back up the local library; optional remote-service plugins have separate privacy and service terms. Cloud storage is not included."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-hugin",
+      "name": "Hugin",
+      "category": "photo-workflow",
+      "keywords": [
+        "全景",
+        "接圖",
+        "PTGui",
+        "panorama",
+        "stitching"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://hugin.sourceforge.io/",
+      "sources": [
+        "https://hugin.sourceforge.io/",
+        "https://hugin.sourceforge.io/download/",
+        "https://sourceforge.net/projects/hugin/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "official-listed-not-runtime-tested",
+      "zh": {
+        "use": "把重疊照片接成全景或大型拼接影像",
+        "limits": "視差、移動物體與曝光差異仍需人工檢查；各平台安裝包來源與版本需按下載頁確認，官方列有繁中但未實測。"
+      },
+      "en": {
+        "use": "Stitch overlapping photographs into panoramas or image mosaics",
+        "limits": "Inspect parallax, moving subjects and exposure mismatches; check platform-specific packages. Traditional Chinese is officially listed, not runtime tested."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-freecad",
+      "name": "FreeCAD",
+      "category": "cad-modeling",
+      "keywords": [
+        "3D",
+        "CAD",
+        "參數建模",
+        "Fusion 360",
+        "SolidWorks"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "sources": [
+        "https://github.com/FreeCAD/FreeCAD"
+      ],
+      "cost": "free and open-source",
+      "license": "LGPL-2.1",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "參數式零件建模、約束草圖、尺寸修改與工程圖",
+        "limits": "工作台與外掛功能需分開確認；大型組立、CAM 後處理及商用 CAD 檔案往返要用實際專案測試。"
+      },
+      "en": {
+        "use": "Parametric part modeling, constrained sketches and technical drawings",
+        "limits": "Evaluate workbenches separately; test large assemblies, CAM post-processors and proprietary CAD file exchange before migration."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-librecad",
+      "name": "LibreCAD",
+      "category": "cad-modeling",
+      "keywords": [
+        "2D",
+        "CAD",
+        "DXF",
+        "AutoCAD",
+        "製圖"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/LibreCAD/LibreCAD",
+      "sources": [
+        "https://github.com/LibreCAD/LibreCAD"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "2D 工程製圖與 DXF 圖面編輯、轉 PDF／SVG",
+        "limits": "主力是 2D；DWG 版本、字型、標註與圖層輸出需實檔核對，Mac 建置未公證。"
+      },
+      "en": {
+        "use": "2D technical drafting, DXF editing and PDF/SVG conversion",
+        "limits": "Primarily 2D; validate DWG versions, fonts, dimensions and layers. Current macOS builds are not notarized."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-openscad",
+      "name": "OpenSCAD",
+      "category": "cad-modeling",
+      "keywords": [
+        "3D列印",
+        "CAD",
+        "程式建模",
+        "parametric",
+        "CSG"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/openscad/openscad",
+      "sources": [
+        "https://github.com/openscad/openscad",
+        "https://github.com/openscad/openscad/blob/master/COPYING"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0 with CGAL linking exception",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以程式定義可重複修改尺寸的零件、治具與 3D 列印模型",
+        "limits": "需寫腳本；不以自由雕塑或角色動畫為定位，布林運算與輸出模型仍要驗證。"
+      },
+      "en": {
+        "use": "Script-defined parametric parts, fixtures and 3D-printable solids",
+        "limits": "Requires scripting; not an organic sculpting or character-animation tool. Validate boolean geometry and exported meshes."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-solvespace",
+      "name": "SolveSpace",
+      "category": "cad-modeling",
+      "keywords": [
+        "CAD",
+        "約束",
+        "機構",
+        "parametric",
+        "2D 3D"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/solvespace/solvespace",
+      "sources": [
+        "https://github.com/solvespace/solvespace"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "輕量 2D／3D 參數建模與約束式零件設計",
+        "limits": "選穩定版；官方提醒 edge 建置可能有嚴重錯誤，6DOF 控制器支援也有平台差異。"
+      },
+      "en": {
+        "use": "Lightweight constrained 2D/3D parametric modeling",
+        "limits": "Prefer stable releases; edge builds may be unstable and 6DOF controller support differs by platform."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-kicad",
+      "name": "KiCad",
+      "category": "electronics-design",
+      "keywords": [
+        "PCB",
+        "電路",
+        "Altium",
+        "EDA",
+        "schematic"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.kicad.org/",
+      "sources": [
+        "https://www.kicad.org/about/kicad/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "電路圖、PCB 佈線與 Gerber／IPC-2581 製造輸出",
+        "limits": "元件庫、封裝、電氣規則及板廠製程限制須自行驗證；不保證 Altium 專案完整轉換。"
+      },
+      "en": {
+        "use": "Schematic capture, PCB layout and Gerber/IPC-2581 manufacturing output",
+        "limits": "Validate symbols, footprints, electrical rules and fabrication constraints; complete Altium project conversion is not established."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-qelectrotech",
+      "name": "QElectroTech",
+      "category": "electronics-design",
+      "keywords": [
+        "電氣圖",
+        "配線",
+        "EPLAN",
+        "electrical diagrams",
+        "P&ID"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://qelectrotech.org/",
+      "sources": [
+        "https://qelectrotech.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "GNU GPL; see project license",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "工業電氣、配線、液壓與氣壓系統圖面繪製",
+        "limits": "圖面工具不等同電氣模擬或完整 EPLAN 工程資料管理；元件符號與交付規範需核對。"
+      },
+      "en": {
+        "use": "Industrial electrical, wiring, hydraulic and pneumatic diagrams",
+        "limits": "Diagram authoring does not establish circuit simulation or complete EPLAN engineering-data management; validate symbols and delivery rules."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-opentoonz",
+      "name": "OpenToonz",
+      "category": "animation-2d",
+      "keywords": [
+        "2D動畫",
+        "手繪",
+        "Toon Boom",
+        "TVPaint",
+        "animation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/opentoonz/opentoonz",
+      "sources": [
+        "https://github.com/opentoonz/opentoonz"
+      ],
+      "cost": "free and open-source",
+      "license": "BSD-3-Clause core; bundled components have separate licenses",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "傳統 2D 動畫製作與繪製，源於 Toonz 的動畫工作流程",
+        "limits": "學習成本與專案交換需評估；官方只承認 opentoonz.github.io 與 GitHub 為官方來源，第三方筆刷與元件授權分開。"
+      },
+      "en": {
+        "use": "Traditional 2D animation production based on the Toonz workflow",
+        "limits": "Assess training and project interchange. Only opentoonz.github.io and the repository are official sources; brushes and dependencies have separate licenses."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-synfig",
+      "name": "Synfig Studio",
+      "category": "animation-2d",
+      "keywords": [
+        "2D動畫",
+        "向量動畫",
+        "Moho",
+        "tweening",
+        "animation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/synfig/synfig",
+      "sources": [
+        "https://github.com/synfig/synfig"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "向量與點陣素材的 2D 補間動畫",
+        "limits": "先以角色與鏡頭樣本測試，不能把自動補間當成完成表演動畫，也不保證 Moho 或 Animate 專案相容。"
+      },
+      "en": {
+        "use": "Tweened 2D animation from vector and bitmap artwork",
+        "limits": "Test representative characters and shots; interpolation does not automate performance animation or ensure proprietary project compatibility."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-pencil2d",
+      "name": "Pencil2D",
+      "category": "animation-2d",
+      "keywords": [
+        "手繪動畫",
+        "逐格",
+        "TVPaint",
+        "2D animation",
+        "drawing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/pencil2d/pencil",
+      "sources": [
+        "https://github.com/pencil2d/pencil"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "入門手繪逐格動畫，可搭配點陣與向量素材",
+        "limits": "複雜長片、團隊協作和商用動畫檔案交換需另評估；nightly 版本穩定度較低。"
+      },
+      "en": {
+        "use": "Traditional hand-drawn 2D animation with bitmap and vector graphics",
+        "limits": "Evaluate long-form productions, collaboration and commercial animation-file interchange separately; nightly builds are less stable."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-glaxnimate",
+      "name": "Glaxnimate",
+      "category": "animation-2d",
+      "keywords": [
+        "Lottie",
+        "SVG動畫",
+        "動態設計",
+        "motion design",
+        "vector animation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://glaxnimate.org/",
+      "sources": [
+        "https://glaxnimate.org/",
+        "https://apps.kde.org/glaxnimate/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "向量補間動畫、Lottie、動態 SVG、GIF 與 WebP 素材",
+        "limits": "Lottie 播放器支援度各異；先在目標 App 或網頁試播，不等同完整 After Effects 合成。"
+      },
+      "en": {
+        "use": "Vector tween animation and Lottie, animated SVG, GIF or WebP assets",
+        "limits": "Lottie player compatibility varies; preview on the target app or site. This is not a complete After Effects compositor."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-godot",
+      "name": "Godot Engine",
+      "category": "game-development",
+      "keywords": [
+        "遊戲引擎",
+        "Unity",
+        "2D",
+        "3D",
+        "game development"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/godotengine/godot",
+      "sources": [
+        "https://raw.githubusercontent.com/godotengine/godot/master/README.md"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "2D／3D 遊戲、互動展示與跨平台應用開發",
+        "limits": "引擎免權利金不代表主機移植、商店帳號與素材免費；Unity 專案仍需重新整合與測效能。"
+      },
+      "en": {
+        "use": "2D/3D games, interactive experiences and cross-platform development",
+        "limits": "No engine royalties does not mean free console ports, store accounts or assets. Unity projects require migration and performance testing."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-gdevelop",
+      "name": "GDevelop",
+      "category": "game-development",
+      "keywords": [
+        "遊戲",
+        "免程式",
+        "Construct",
+        "GameMaker",
+        "no-code"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/4ian/GDevelop",
+      "sources": [
+        "https://github.com/4ian/GDevelop"
+      ],
+      "cost": "open-source editor/engine; online services and assets may cost extra",
+      "license": "MIT core/editor/engine",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以事件與模組化行為製作 2D／3D 遊戲和互動原型",
+        "limits": "編輯器與引擎開源；線上服務、商業支援、素材與託管功能另外計價或限額。"
+      },
+      "en": {
+        "use": "Event-based 2D/3D games and interactive prototypes without conventional coding",
+        "limits": "The editor and engine are open source; online services, commercial support, assets and hosted features have separate costs or limits."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-love",
+      "name": "LÖVE",
+      "category": "game-development",
+      "keywords": [
+        "Lua",
+        "2D遊戲",
+        "遊戲框架",
+        "LÖVE",
+        "game framework"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://love2d.org/",
+      "sources": [
+        "https://love2d.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "Zlib",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以 Lua 撰寫 2D 遊戲、互動原型與遊戲教學",
+        "limits": "這是程式框架，需要自己寫遊戲邏輯與整合工具；行動平台封裝流程需另做。"
+      },
+      "en": {
+        "use": "Lua-based 2D games, prototypes and game-programming education",
+        "limits": "A code framework requiring game logic and tooling, not a visual no-code editor; mobile packaging needs additional work."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-libgdx",
+      "name": "libGDX",
+      "category": "game-development",
+      "keywords": [
+        "Java",
+        "遊戲框架",
+        "2D",
+        "3D",
+        "game framework"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://libgdx.com/",
+      "sources": [
+        "https://libgdx.com/"
+      ],
+      "cost": "free and open-source",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "使用 Java 開發可跨桌面、手機與網頁的 2D／3D 遊戲",
+        "limits": "需 Java 與建置工具能力；框架不等同完整可視化編輯器，各平台 SDK 與上架條件另計。"
+      },
+      "en": {
+        "use": "Java framework for 2D/3D games across desktop, mobile and web",
+        "limits": "Requires Java and build-system skills; not a complete visual editor. Platform SDKs and distribution requirements remain separate."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-ardour",
+      "name": "Ardour",
+      "category": "music-production",
+      "keywords": [
+        "DAW",
+        "錄音",
+        "混音",
+        "Pro Tools",
+        "音樂製作"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://ardour.org/",
+      "sources": [
+        "https://ardour.org/",
+        "https://community.ardour.org/download"
+      ],
+      "cost": "open-source; official prebuilt versions are paid; source builds are available",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "多軌音訊與 MIDI 錄製、剪輯、混音及影片配樂同步",
+        "limits": "官方預編譯版本付費；原始碼可自行建置但 Mac／Windows 建置較複雜，音效外掛相容性需測。"
+      },
+      "en": {
+        "use": "Multitrack audio/MIDI recording, editing, mixing and soundtrack synchronization",
+        "limits": "Official prebuilt versions are paid; free source builds can be complex on macOS/Windows. Test audio hardware and plugin compatibility."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-lmms",
+      "name": "LMMS",
+      "category": "music-production",
+      "keywords": [
+        "編曲",
+        "FL Studio",
+        "音樂",
+        "DAW",
+        "beat sequencer"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/LMMS/lmms",
+      "sources": [
+        "https://github.com/LMMS/lmms"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "鋼琴捲軸編曲、節拍樣式、合成器與混音製作",
+        "limits": "以編曲與音源製作為主；錄音、外掛格式與跨平台相容性需另外確認，不能套用完整 FL Studio 工作流。"
+      },
+      "en": {
+        "use": "Piano-roll composition, beat patterns, synthesis and mixing",
+        "limits": "Evaluate recording needs and platform-specific plugins separately; full FL Studio project migration is not established."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-musescore",
+      "name": "MuseScore Studio",
+      "category": "music-production",
+      "keywords": [
+        "樂譜",
+        "Sibelius",
+        "Dorico",
+        "Finale",
+        "music notation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/musescore/MuseScore",
+      "sources": [
+        "https://github.com/musescore/MuseScore"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "樂譜編輯、MIDI 輸入、MusicXML 交換與列印 PDF",
+        "limits": "免費桌面編譜器與 MuseScore.com 訂閱、樂譜取得及額外音源分開看；匯入後仍需校對排版。"
+      },
+      "en": {
+        "use": "Music notation, MIDI input, MusicXML interchange and PDF score printing",
+        "limits": "Distinguish the free desktop editor from MuseScore.com subscriptions, score access and extra sounds; proof imported score layout."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-hydrogen",
+      "name": "Hydrogen",
+      "category": "music-production",
+      "keywords": [
+        "鼓機",
+        "節拍",
+        "drum machine",
+        "MIDI",
+        "鼓組"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/hydrogen-music/hydrogen",
+      "sources": [
+        "https://github.com/hydrogen-music/hydrogen"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "鼓組樣式編排、鼓機、MIDI／OSC 控制與現場節奏循環",
+        "limits": "聚焦打擊節奏；需另外確認鼓組取樣授權與 DAW 同步，不能代替完整錄音工作站。"
+      },
+      "en": {
+        "use": "Pattern-based drum programming, MIDI/OSC control and live drum loops",
+        "limits": "Focused on percussion; check drum-sample licenses and DAW synchronization. Not a complete recording workstation."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-mixxx",
+      "name": "Mixxx",
+      "category": "music-production",
+      "keywords": [
+        "DJ",
+        "Serato",
+        "Traktor",
+        "VirtualDJ",
+        "混音"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://mixxx.org/",
+      "sources": [
+        "https://mixxx.org/features/",
+        "https://github.com/mixxxdj/mixxx"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "多唱盤 DJ 混音、節拍同步、控制器映射、錄音與直播",
+        "limits": "需核對控制器型號與映射，既有曲庫能讀取不代表所有 cue 點與資料可完整遷移；音樂來源授權另計。"
+      },
+      "en": {
+        "use": "DJ deck mixing, beat synchronization, controller mapping, recording and broadcasting",
+        "limits": "Verify controller mappings; readable external libraries do not guarantee full cue/metadata migration. Music rights remain separate."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-qtractor",
+      "name": "Qtractor",
+      "category": "music-production",
+      "keywords": [
+        "Linux",
+        "DAW",
+        "MIDI",
+        "錄音",
+        "sequencer"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://qtractor.org/",
+      "sources": [
+        "https://qtractor.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Linux 家庭錄音室的多軌音訊／MIDI 編排、錄音與混音",
+        "limits": "目標平台為 Linux，依賴 JACK 與 ALSA；不能列為 Mac 或 Windows 原生替代品。"
+      },
+      "en": {
+        "use": "Linux multitrack audio/MIDI sequencing, recording and mixing",
+        "limits": "Targets Linux and depends on JACK/ALSA; do not present it as a native Windows or macOS replacement."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-sonic-visualiser",
+      "name": "Sonic Visualiser",
+      "category": "music-production",
+      "keywords": [
+        "音訊分析",
+        "頻譜",
+        "音樂研究",
+        "audio analysis",
+        "annotation"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.sonicvisualiser.org/",
+      "sources": [
+        "https://www.sonicvisualiser.org/",
+        "https://www.sonicvisualiser.org/download.html"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "音樂錄音的波形、特徵視覺化與研究註記",
+        "limits": "Vamp 分析外掛需另裝；官方說不支援 VST、AudioUnit、LV2，定位是分析而非完整 DAW。"
+      },
+      "en": {
+        "use": "Detailed visualization, analysis and annotation of music recordings",
+        "limits": "Install Vamp analysis plugins separately; VST, AudioUnit and LV2 are unsupported. An analysis tool rather than a complete DAW."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-sonic-pi",
+      "name": "Sonic Pi",
+      "category": "music-production",
+      "keywords": [
+        "程式音樂",
+        "現場編碼",
+        "音樂教育",
+        "live coding",
+        "synthesis"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://sonic-pi.net/",
+      "sources": [
+        "https://github.com/sonic-pi-net/sonic-pi",
+        "https://github.com/sonic-pi-net/sonic-pi/blob/dev/LICENSE.md",
+        "https://sonic-pi.net/"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT main code; GPL-3.0 obligations for bundled GUI binaries",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "用程式碼即時創作音樂、合成音色與教學示範",
+        "limits": "需學習即時編碼；不能當成傳統時間軸 DAW，主程式、GUI 相依元件與教材各有授權。"
+      },
+      "en": {
+        "use": "Live-coded music, synthesis and programming education",
+        "limits": "Requires live-coding skills and is not a conventional timeline DAW; main code, GUI dependencies and learning materials have different licenses."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-octave",
+      "name": "GNU Octave",
+      "category": "scientific-computing",
+      "keywords": [
+        "MATLAB",
+        "數值運算",
+        "矩陣",
+        "科學計算",
+        "numerical computing"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://octave.org/",
+      "sources": [
+        "https://octave.org/"
+      ],
+      "cost": "free and open-source",
+      "license": "GNU GPL",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "矩陣運算、數值分析、2D／3D 繪圖與相容部分 MATLAB 腳本",
+        "limits": "只保證部分語法相近；MATLAB Toolbox、Simulink 與專有函式不能假定可直接執行，Mac 安裝依官方 wiki。"
+      },
+      "en": {
+        "use": "Numerical computing, matrix operations, plotting and many MATLAB-style scripts",
+        "limits": "MATLAB toolboxes, Simulink and proprietary functions are not automatically compatible; macOS installation follows the project wiki."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-scilab",
+      "name": "Scilab",
+      "category": "scientific-computing",
+      "keywords": [
+        "MATLAB",
+        "Xcos",
+        "控制系統",
+        "simulation",
+        "numerical analysis"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.scilab.org/",
+      "sources": [
+        "https://www.scilab.org/about"
+      ],
+      "cost": "free and open-source",
+      "license": "GNU GPL",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "科學數值計算、訊號處理、控制系統與 Xcos 動態系統建模",
+        "limits": "語言、外掛與模擬器需重新驗證；既有 MATLAB／Simulink 檔案不能當成即開即用。"
+      },
+      "en": {
+        "use": "Numerical analysis, signal processing, control systems and Xcos dynamic modeling",
+        "limits": "Revalidate scripts, modules and simulation behavior; existing MATLAB/Simulink files are not established as drop-in compatible."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-jasp",
+      "name": "JASP",
+      "category": "scientific-computing",
+      "keywords": [
+        "SPSS",
+        "統計",
+        "貝氏",
+        "Bayesian",
+        "statistics"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/jasp-stats/jasp-desktop",
+      "sources": [
+        "https://jasp-stats.org/",
+        "https://github.com/jasp-stats/jasp-desktop"
+      ],
+      "cost": "free and open-source",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "圖形介面的傳統與貝氏統計分析、研究表格與報告",
+        "limits": "統計方法與模組覆蓋需逐項比對，資料編碼、遺漏值及模型假設仍由研究者判斷。"
+      },
+      "en": {
+        "use": "GUI-based frequentist and Bayesian analyses with research-oriented tables",
+        "limits": "Compare required analyses module by module; researchers must validate coding, missing-data handling and model assumptions."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-jamovi",
+      "name": "jamovi",
+      "category": "scientific-computing",
+      "keywords": [
+        "SPSS",
+        "統計",
+        "R",
+        "spreadsheet",
+        "statistics"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/jamovi/jamovi",
+      "sources": [
+        "https://www.jamovi.org/about.html",
+        "https://github.com/jamovi/jamovi",
+        "https://github.com/jamovi/jamovi/blob/main/LICENSE.md"
+      ],
+      "cost": "free and open-source",
+      "license": "AGPL-3.0; engine/common components GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以試算表介面執行統計分析，產生 R 語法並擴充分析模組",
+        "limits": "僅代表方法候選；SPSS syntax、附加模組與研究結果需逐項重現，雲端服務與桌面版分開核對。"
+      },
+      "en": {
+        "use": "Spreadsheet-style statistics, R syntax output and extensible analysis modules",
+        "limits": "Reproduce SPSS syntax, required modules and results case by case; evaluate cloud-service terms separately from desktop use."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-qgis",
+      "name": "QGIS",
+      "category": "gis-mapping",
+      "keywords": [
+        "GIS",
+        "地圖",
+        "ArcGIS",
+        "空間分析",
+        "cartography"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://qgis.org/",
+      "sources": [
+        "https://qgis.org/project/overview/",
+        "https://github.com/qgis/QGIS"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "地理資料編修、空間分析、地圖製作與可重現的處理流程",
+        "limits": "座標系統、資料來源授權與外掛需核對；ArcGIS 專有地理資料庫、企業權限與雲端服務另評估。"
+      },
+      "en": {
+        "use": "Geospatial editing, analysis, cartography and reproducible processing workflows",
+        "limits": "Validate coordinate systems, data licenses and plugins; proprietary geodatabases, enterprise permissions and cloud services need separate evaluation."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-stellarium",
+      "name": "Stellarium",
+      "category": "science-education",
+      "keywords": [
+        "天文",
+        "星圖",
+        "Starry Night",
+        "planetarium",
+        "astronomy"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://stellarium.org/",
+      "sources": [
+        "https://stellarium.org/",
+        "https://github.com/stellarium/stellarium"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "桌面星空模擬、觀星規劃、時間變化與天文教學",
+        "limits": "望遠鏡控制與外掛依硬體確認；此列為桌面開源專案，不混入同名手機 App 的付費功能。"
+      },
+      "en": {
+        "use": "Desktop planetarium, sky planning, time simulation and astronomy teaching",
+        "limits": "Check telescope hardware and plugins; this entry covers the open-source desktop project, not paid features of similarly named mobile apps."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-avogadro",
+      "name": "Avogadro 2",
+      "category": "science-education",
+      "keywords": [
+        "分子",
+        "化學",
+        "分子建模",
+        "molecular visualization",
+        "chemistry"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.openchemistry.org/projects/avogadro2/",
+      "sources": [
+        "https://www.openchemistry.org/projects/avogadro2/",
+        "https://www.openchemistry.org/licensing/"
+      ],
+      "cost": "free and open-source",
+      "license": "BSD-3-Clause",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "分子結構編輯、3D 化學視覺化與計算化學前處理",
+        "limits": "視覺化軟體不等同所有量子化學計算引擎；外部程式、資料格式與力場結果需另外驗證。"
+      },
+      "en": {
+        "use": "Molecular editing, 3D chemical visualization and simulation preparation",
+        "limits": "Not a replacement for every quantum-chemistry engine; verify external programs, formats and force-field results separately."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "creative-imagej",
+      "name": "ImageJ",
+      "category": "science-education",
+      "keywords": [
+        "影像量測",
+        "科學影像",
+        "Image-Pro",
+        "顯微影像",
+        "image analysis"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://imagej.net/ij/",
+      "sources": [
+        "https://imagej.net/ij/docs/intro.html"
+      ],
+      "cost": "free and open-source",
+      "license": "Public domain core; plugins have separate licenses",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "科學影像量測、區域統計、堆疊影像處理與外掛擴充",
+        "limits": "量測需校正與驗證；核心公有領域不代表所有外掛同授權，Fiji 發行套件不另外重複計數。"
+      },
+      "en": {
+        "use": "Scientific image measurement, region statistics, stack processing and plugins",
+        "limits": "Calibrate and validate measurements; plugin licenses differ from the public-domain core. Fiji is not counted again as a separate duplicate here."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-openproject",
+      "name": "OpenProject Community",
+      "category": "project-management",
+      "keywords": [
+        "專案",
+        "甘特圖",
+        "Jira",
+        "Asana",
+        "Microsoft Project",
+        "project management"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/opf/openproject",
+      "sources": [
+        "https://github.com/opf/openproject/blob/dev/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "甘特圖、專案排程、任務與工時預算管理",
+        "limits": "Enterprise 附加功能與官方代管另計；需自管伺服器、資料庫及備份。"
+      },
+      "en": {
+        "use": "Gantt planning, project tasks, time and budget tracking",
+        "limits": "Enterprise add-ons and managed hosting are separate; operate the server, database and backups."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "OpenProject"
+      ]
+    },
+    {
+      "id": "business-taiga",
+      "name": "Taiga",
+      "category": "project-management",
+      "keywords": [
+        "專案",
+        "敏捷",
+        "Jira",
+        "Scrum",
+        "Kanban",
+        "project management"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/taigaio/taiga-back",
+      "sources": [
+        "https://github.com/taigaio/taiga-back/blob/main/README.md",
+        "https://taiga.io/"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "敏捷團隊的 Scrum 衝刺、Kanban 看板與問題追蹤",
+        "limits": "需部署前後端與相依服務；Jira 自訂流程及整合要逐項重建，代管另計。"
+      },
+      "en": {
+        "use": "Scrum sprints, Kanban boards and issue tracking",
+        "limits": "Requires frontend/backend deployment and dependencies; rebuild Jira workflows and integrations individually; hosting costs apply."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-kanboard",
+      "name": "Kanboard",
+      "category": "project-management",
+      "keywords": [
+        "看板",
+        "任務",
+        "Trello",
+        "Kanban",
+        "task management"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/kanboard/kanboard",
+      "sources": [
+        "https://github.com/kanboard/kanboard/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "輕量看板與工作進度管理",
+        "limits": "官方明列 maintenance mode，主要接受小修與社群貢獻；需自架 PHP 環境，不宜期待大量新功能。"
+      },
+      "en": {
+        "use": "Lightweight Kanban task and workflow management",
+        "limits": "Officially in maintenance mode with small fixes and community contributions; requires PHP hosting and is unsuitable if rapid feature growth is essential."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-wekan",
+      "name": "WeKan",
+      "category": "project-management",
+      "keywords": [
+        "看板",
+        "任務",
+        "Trello",
+        "boards",
+        "task management"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/wekan/wekan",
+      "sources": [
+        "https://github.com/wekan/wekan/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以共享卡片和清單管理團隊工作",
+        "limits": "需管理 MongoDB、更新及備份；官方建議正式伺服器至少 4 GB RAM，不能只算零授權費。"
+      },
+      "en": {
+        "use": "Collaborative card-based team task boards",
+        "limits": "Operate MongoDB, updates and backups; README recommends at least 4 GB total RAM for a production server, so free licensing is not zero operating cost."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-plane",
+      "name": "Plane Community",
+      "category": "project-management",
+      "keywords": [
+        "專案",
+        "議題",
+        "Linear",
+        "Jira",
+        "roadmap"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/makeplane/plane",
+      "sources": [
+        "https://github.com/makeplane/plane/blob/preview/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "議題、週期、模組與產品路線圖管理",
+        "limits": "需部署 Docker／Kubernetes 與相依服務；遷移前驗證所需功能是否在 Community 版本，不能用雲端展示推定全部免費。"
+      },
+      "en": {
+        "use": "Issues, cycles, modules and product roadmaps",
+        "limits": "Requires Docker/Kubernetes and dependent services; verify required features in Community before migration rather than assuming all cloud features are free."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Plane"
+      ]
+    },
+    {
+      "id": "business-suitecrm",
+      "name": "SuiteCRM",
+      "category": "crm",
+      "keywords": [
+        "客戶",
+        "業務",
+        "CRM",
+        "Salesforce",
+        "HubSpot",
+        "Pipedrive"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/SuiteCRM/SuiteCRM",
+      "sources": [
+        "https://github.com/SuiteCRM/SuiteCRM/blob/hotfix/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "管理客戶關係、銷售資料與 CRM 工作流程",
+        "limits": "7 與 8 的功能與遷移路徑不同；需 PHP／資料庫管理，官方代管及支援另計。"
+      },
+      "en": {
+        "use": "Customer relationships, sales data and CRM workflows",
+        "limits": "Version 7 and 8 have different feature and migration paths; PHP/database operations, managed hosting and support require separate planning."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-espocrm",
+      "name": "EspoCRM",
+      "category": "crm",
+      "keywords": [
+        "客戶",
+        "業務",
+        "CRM",
+        "Salesforce",
+        "HubSpot",
+        "Pipedrive"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/espocrm/espocrm",
+      "sources": [
+        "https://github.com/espocrm/espocrm/blob/master/README.md",
+        "https://www.espocrm.com/extensions/"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "潛在客戶、商機、聯絡人與客服案件管理",
+        "limits": "核心開源；報表、BPM 等擴充屬額外套件，需核對方案；自架主機與維護另計。"
+      },
+      "en": {
+        "use": "Leads, opportunities, contacts and customer support cases",
+        "limits": "Core is open source; reporting and BPM extensions are separate packages with their own terms; hosting and maintenance are additional."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-frappe-crm",
+      "name": "Frappe CRM",
+      "category": "crm",
+      "keywords": [
+        "客戶",
+        "商機",
+        "CRM",
+        "Pipedrive",
+        "HubSpot",
+        "sales"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/frappe/crm",
+      "sources": [
+        "https://github.com/frappe/crm/blob/develop/README.md",
+        "https://github.com/frappe/crm/blob/develop/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "用商機看板、活動紀錄與自訂檢視管理銷售",
+        "limits": "需要 Frappe 環境與資料庫；雲端代管另計，不能視為完整行銷自動化或 ERP。"
+      },
+      "en": {
+        "use": "Sales pipelines, activity history and custom lead/deal views",
+        "limits": "Requires Frappe and database operations; managed cloud is separate and the app is not a complete marketing automation suite or ERP."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-erpnext",
+      "name": "ERPNext",
+      "category": "erp",
+      "keywords": [
+        "ERP",
+        "進銷存",
+        "製造",
+        "會計",
+        "NetSuite",
+        "SAP",
+        "inventory"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/frappe/erpnext",
+      "sources": [
+        "https://github.com/frappe/erpnext/blob/develop/README.md",
+        "https://github.com/frappe/erpnext/blob/develop/license.txt"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "整合採購、庫存、製造、會計與專案資料",
+        "limits": "需要導入、清理資料及自架維護；台灣稅務、電子發票與薪資適用性未驗證，不能直接替換本地財會系統。"
+      },
+      "en": {
+        "use": "Integrated purchasing, inventory, manufacturing, accounting and projects",
+        "limits": "Implementation, data cleanup and hosting are required; Taiwan tax, e-invoice and payroll suitability has not been validated."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-dolibarr",
+      "name": "Dolibarr",
+      "category": "erp",
+      "keywords": [
+        "ERP",
+        "報價",
+        "訂單",
+        "進銷存",
+        "Zoho",
+        "NetSuite",
+        "inventory"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/Dolibarr/dolibarr",
+      "sources": [
+        "https://github.com/Dolibarr/dolibarr/blob/develop/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "中小企業報價、訂單、發票與庫存管理",
+        "limits": "代管與部分模組可能付費；需部署 PHP／資料庫，台灣電子發票及在地財會流程尚未驗證。"
+      },
+      "en": {
+        "use": "Quotes, orders, invoices and inventory for smaller organizations",
+        "limits": "Hosting and some modules may cost extra; requires PHP/database operations, and Taiwan e-invoice/accounting workflows are unvalidated."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-odoo-community",
+      "name": "Odoo Community",
+      "category": "erp",
+      "keywords": [
+        "ERP",
+        "企業",
+        "庫存",
+        "Odoo",
+        "NetSuite",
+        "SAP",
+        "CRM"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/odoo/odoo",
+      "sources": [
+        "https://github.com/odoo/odoo/blob/19.0/README.md",
+        "https://github.com/odoo/odoo/blob/19.0/LICENSE",
+        "https://github.com/odoo/documentation/blob/19.0/content/legal/licenses.rst"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "LGPL-3.0 (Community); Enterprise/apps have separate licenses",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以社群版模組整合 CRM、庫存及企業作業",
+        "limits": "只計 Community；Enterprise 與部分 Apps 是其他授權且可能付費，需逐模組核對；導入、主機、在地化另計。"
+      },
+      "en": {
+        "use": "Community modules for CRM, inventory and business operations",
+        "limits": "Only Community is counted; Enterprise and some Apps use separate potentially paid licenses; check each module and budget hosting, implementation and localization."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Odoo"
+      ]
+    },
+    {
+      "id": "business-matomo",
+      "name": "Matomo On-Premise Community",
+      "category": "web-analytics",
+      "keywords": [
+        "網站分析",
+        "流量",
+        "Google Analytics",
+        "analytics",
+        "Matomo"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/matomo-org/matomo",
+      "sources": [
+        "https://github.com/matomo-org/matomo/blob/6.x-dev/README.md",
+        "https://matomo.org/pricing/"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "網站流量、事件、活動來源與電子商務追蹤",
+        "limits": "自架需 PHP／MySQL；熱圖、錄影、漏斗等屬 Premium 功能，授權免費不代表整套功能免費。"
+      },
+      "en": {
+        "use": "Website traffic, events, campaign and ecommerce tracking",
+        "limits": "Requires PHP/MySQL hosting; heatmaps, session recordings and funnels are Premium features rather than all being included in the free core."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Matomo"
+      ]
+    },
+    {
+      "id": "business-umami",
+      "name": "Umami",
+      "category": "web-analytics",
+      "keywords": [
+        "網站分析",
+        "流量",
+        "Google Analytics",
+        "Fathom",
+        "analytics"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/umami-software/umami",
+      "sources": [
+        "https://github.com/umami-software/umami/blob/master/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以簡潔儀表板查看流量、活動來源與轉換",
+        "limits": "需 Node.js／PostgreSQL 與追蹤碼；分析模型及匯入能力須自行驗證，不能假設可無損搬入 GA 歷史報表。"
+      },
+      "en": {
+        "use": "Traffic, campaigns and conversions in a compact analytics dashboard",
+        "limits": "Requires Node.js/PostgreSQL and a tracking script; verify reporting models and imports rather than assuming lossless migration of GA history."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-plausible-ce",
+      "name": "Plausible Community Edition",
+      "category": "web-analytics",
+      "keywords": [
+        "網站分析",
+        "流量",
+        "Fathom",
+        "Plausible",
+        "Google Analytics"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/plausible/analytics",
+      "sources": [
+        "https://github.com/plausible/analytics/blob/master/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0-or-later; tracker MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "自架輕量網站流量與目標轉換統計",
+        "limits": "CE 缺雲端的行銷漏斗、營收目標、SSO 與 Sites API；需維護 PostgreSQL／ClickHouse，且新功能更新較慢。"
+      },
+      "en": {
+        "use": "Self-hosted lightweight traffic and goal-conversion analytics",
+        "limits": "CE omits cloud marketing funnels, revenue goals, SSO and Sites API; operates PostgreSQL/ClickHouse and receives features more slowly."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Plausible"
+      ]
+    },
+    {
+      "id": "business-metabase",
+      "name": "Metabase Open Source",
+      "category": "business-intelligence",
+      "keywords": [
+        "商業智慧",
+        "儀表板",
+        "報表",
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "BI"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/metabase/metabase",
+      "sources": [
+        "https://github.com/metabase/metabase/blob/master/README.md",
+        "https://github.com/metabase/metabase/blob/master/LICENSE.txt"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL (OSS edition); enterprise directory commercial",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "讓團隊以視覺查詢或 SQL 建立資料儀表板",
+        "limits": "只計 OSS 版本；enterprise 目錄及企業映像受商業授權，資料連接、權限與維護需自行設定。"
+      },
+      "en": {
+        "use": "Visual questions, SQL queries and shared data dashboards",
+        "limits": "Count the OSS edition only; enterprise code/images use commercial terms, and database connections, permissions and operations need configuration."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-superset",
+      "name": "Apache Superset",
+      "category": "business-intelligence",
+      "keywords": [
+        "商業智慧",
+        "儀表板",
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "BI"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/apache/superset",
+      "sources": [
+        "https://github.com/apache/superset/blob/master/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "連接資料庫，製作圖表、SQL 分析與互動儀表板",
+        "limits": "需建立資料來源連線並維護伺服器；不含現成企業資料倉儲，也未驗證 Power BI／Tableau 報表匯入。"
+      },
+      "en": {
+        "use": "Database exploration, SQL analysis and interactive dashboards",
+        "limits": "Configure data connections and operate servers; no bundled enterprise data warehouse or validated Power BI/Tableau report import."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-limesurvey",
+      "name": "LimeSurvey Community",
+      "category": "forms-surveys",
+      "keywords": [
+        "問卷",
+        "調查",
+        "SurveyMonkey",
+        "Qualtrics",
+        "survey",
+        "forms"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/LimeSurvey/LimeSurvey",
+      "sources": [
+        "https://github.com/LimeSurvey/LimeSurvey/blob/master/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-2.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "分支邏輯、多語問卷與研究調查",
+        "limits": "自架需 PHP／資料庫與寄信服務；複雜問卷要測試跳題，Cloud 方案及維運成本另計。"
+      },
+      "en": {
+        "use": "Branching multilingual questionnaires and research surveys",
+        "limits": "Requires PHP/database hosting and email delivery; test branching logic carefully; cloud plans and operations cost separately."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "LimeSurvey"
+      ]
+    },
+    {
+      "id": "business-opnform",
+      "name": "OpnForm Community",
+      "category": "forms-surveys",
+      "keywords": [
+        "表單",
+        "問卷",
+        "Typeform",
+        "Jotform",
+        "Tally",
+        "forms"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/OpnForm/OpnForm",
+      "sources": [
+        "https://github.com/OpnForm/OpnForm/blob/main/README.md",
+        "https://github.com/OpnForm/OpnForm/blob/main/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0 (core); enterprise directory proprietary",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "建立表單、條件邏輯、嵌入及提交通知",
+        "limits": "api/app/Enterprise 使用專有授權，不能把全部功能算進免費核心；需維護 Laravel／Nuxt、資料庫及郵件。"
+      },
+      "en": {
+        "use": "Form building, conditional logic, embedding and submission notifications",
+        "limits": "api/app/Enterprise uses proprietary terms; verify free-core coverage and operate Laravel/Nuxt, database and email delivery."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "OpnForm"
+      ]
+    },
+    {
+      "id": "business-woocommerce",
+      "name": "WooCommerce",
+      "category": "ecommerce",
+      "keywords": [
+        "電商",
+        "購物車",
+        "Shopify",
+        "SHOPLINE",
+        "WooCommerce",
+        "store"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/woocommerce/woocommerce",
+      "sources": [
+        "https://github.com/woocommerce/woocommerce/blob/trunk/README.md",
+        "https://github.com/woocommerce/woocommerce/blob/trunk/plugins/woocommerce/readme.txt"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "在 WordPress 上銷售實體商品與數位產品",
+        "limits": "需要 WordPress 主機；訂閱、預約及會員等可能靠付費擴充，金流手續費與台灣物流／電子發票串接另計。"
+      },
+      "en": {
+        "use": "Physical and digital product stores on WordPress",
+        "limits": "Requires WordPress hosting; subscriptions, bookings and memberships may use paid extensions; payment fees and local shipping/e-invoice integrations remain."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-prestashop",
+      "name": "PrestaShop",
+      "category": "ecommerce",
+      "keywords": [
+        "電商",
+        "購物車",
+        "Shopify",
+        "SHOPLINE",
+        "BigCommerce",
+        "store"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/PrestaShop/PrestaShop",
+      "sources": [
+        "https://github.com/PrestaShop/PrestaShop/blob/develop/README.md",
+        "https://github.com/PrestaShop/PrestaShop/blob/develop/LICENSE.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "OSL-3.0 core; AFL-3.0 modules",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "自架商店、商品目錄與購物車",
+        "limits": "需要 PHP／MySQL 主機；主題、模組及金物流服務另核價，正式環境應用穩定版，非 develop 分支。"
+      },
+      "en": {
+        "use": "Self-hosted stores, product catalogs and shopping carts",
+        "limits": "Requires PHP/MySQL hosting; price themes, modules and payment/shipping services separately; deploy stable releases rather than develop."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-medusa-core",
+      "name": "Medusa Core",
+      "category": "ecommerce",
+      "keywords": [
+        "電商",
+        "B2B",
+        "Shopify",
+        "commerce",
+        "headless"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/medusajs/medusa",
+      "sources": [
+        "https://github.com/medusajs/medusa/blob/develop/README.md",
+        "https://github.com/medusajs/medusa/blob/develop/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT core; designated Enterprise materials commercial",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以可客製的電商模組建立商店與 B2B 交易流程",
+        "limits": "需工程師組裝前台及整合金物流；核心 MIT，RBAC Enterprise 材料另有商業授權，雲端主機另計。"
+      },
+      "en": {
+        "use": "Composable commerce modules for custom storefronts and B2B workflows",
+        "limits": "Needs storefront engineering and payment/shipping integrations; MIT core excludes designated commercial RBAC Enterprise materials and cloud costs."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-saleor",
+      "name": "Saleor",
+      "category": "ecommerce",
+      "keywords": [
+        "電商",
+        "GraphQL",
+        "Shopify",
+        "BigCommerce",
+        "headless",
+        "commerce"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/saleor/saleor",
+      "sources": [
+        "https://github.com/saleor/saleor/blob/main/README.md",
+        "https://github.com/saleor/saleor/blob/main/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "BSD-3-Clause",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "GraphQL 電商後端及多通路商品、價格與庫存",
+        "limits": "API 為主，需另部署或開發前台／Dashboard 並串接金流；雲端代管與維護成本另計。"
+      },
+      "en": {
+        "use": "GraphQL commerce backend with channel-specific products, prices and inventory",
+        "limits": "API-first; deploy/build a storefront and dashboard and integrate payments; cloud hosting and operations cost separately."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-zammad",
+      "name": "Zammad",
+      "category": "helpdesk",
+      "keywords": [
+        "客服",
+        "工單",
+        "Zendesk",
+        "Freshdesk",
+        "helpdesk"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/zammad/zammad",
+      "sources": [
+        "https://github.com/zammad/zammad/blob/develop/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "彙整 Email、聊天與其他管道的客服案件",
+        "limits": "需部署及維護客服伺服器、郵件和整合；官方雲端及支援另計，先驗證既有工單匯入。"
+      },
+      "en": {
+        "use": "Customer support tickets across email, chat and other channels",
+        "limits": "Requires server, email and integration operations; cloud/support are separate and existing ticket imports should be validated."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-osticket",
+      "name": "osTicket",
+      "category": "helpdesk",
+      "keywords": [
+        "客服",
+        "工單",
+        "Zendesk",
+        "Freshdesk",
+        "helpdesk"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/osTicket/osTicket",
+      "sources": [
+        "https://github.com/osTicket/osTicket/blob/develop/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "將郵件、電話及網頁需求整理成可分派工單",
+        "limits": "需 PHP／MySQL 和郵件設定；重點是工單管理，不能推定具備完整即時聊天、AI 或全通路行銷。"
+      },
+      "en": {
+        "use": "Assignable support tickets from email, phone and web requests",
+        "limits": "Requires PHP/MySQL and email configuration; ticketing does not imply full live chat, AI or omnichannel marketing functionality."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-freescout",
+      "name": "FreeScout",
+      "category": "helpdesk",
+      "keywords": [
+        "客服",
+        "共用信箱",
+        "Help Scout",
+        "Zendesk",
+        "shared inbox"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/freescout-help-desk/freescout",
+      "sources": [
+        "https://github.com/freescout-help-desk/freescout/blob/dist/README.md",
+        "https://github.com/freescout-help-desk/freescout/blob/dist/LICENSE",
+        "https://freescout.net/modules/"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "用共享信箱分派客服、內部備註與追蹤對話",
+        "limits": "核心與外加模組須分開估價；多種整合／進階功能透過模組提供，主機、郵件與維護仍有成本。"
+      },
+      "en": {
+        "use": "Shared support inboxes, assignment, internal notes and conversation tracking",
+        "limits": "Price core and add-on modules separately; many integrations/advanced features are modules, and hosting, email and maintenance remain costs."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-chatwoot-ce",
+      "name": "Chatwoot Community",
+      "category": "helpdesk",
+      "keywords": [
+        "客服",
+        "聊天",
+        "Intercom",
+        "Zendesk",
+        "live chat"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "sources": [
+        "https://github.com/chatwoot/chatwoot/blob/develop/README.md",
+        "https://github.com/chatwoot/chatwoot/blob/develop/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT core; enterprise directory separate commercial terms",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "整合網站即時聊天與多管道客服收件匣",
+        "limits": "enterprise 目錄不屬 MIT 核心；AI、社群管道與外部服務要核對版本及用量費，需自架維護。"
+      },
+      "en": {
+        "use": "Website live chat and multichannel customer support inboxes",
+        "limits": "enterprise directory is outside the MIT core; verify AI/channel edition coverage and external-service charges; self-hosting requires operations."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Chatwoot"
+      ]
+    },
+    {
+      "id": "business-easyappointments",
+      "name": "Easy!Appointments",
+      "category": "booking-scheduling",
+      "keywords": [
+        "預約",
+        "行程",
+        "Calendly",
+        "Acuity Scheduling",
+        "booking"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/alextselegidis/easyappointments",
+      "sources": [
+        "https://github.com/alextselegidis/easyappointments/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0 code; CC-BY-3.0 content",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "服務人員可預約時段、客戶管理與 Google 日曆同步",
+        "limits": "需 PHP／MySQL、郵件及日曆設定；Premium 功能與專業服務另計，跨時區及預約規則要實測。"
+      },
+      "en": {
+        "use": "Provider availability, customer appointments and Google Calendar sync",
+        "limits": "Requires PHP/MySQL, email and calendar configuration; Premium features/services cost separately; test time zones and booking rules."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-zulip",
+      "name": "Zulip",
+      "category": "team-chat",
+      "keywords": [
+        "團隊聊天",
+        "Slack",
+        "Microsoft Teams",
+        "chat",
+        "collaboration"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/zulip/zulip",
+      "sources": [
+        "https://github.com/zulip/zulip/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以主題串整理同步及非同步團隊聊天",
+        "limits": "自架需 Linux 伺服器與維護；與 Slack 討論習慣不同，匯入、整合及通知服務方案要另確認。"
+      },
+      "en": {
+        "use": "Topic-threaded live and asynchronous team conversations",
+        "limits": "Self-hosting needs Linux server operations; workflow differs from Slack, and imports, integrations and notification-service plans need checking."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-bookstack",
+      "name": "BookStack",
+      "category": "wiki-knowledge",
+      "keywords": [
+        "知識庫",
+        "文件",
+        "Confluence",
+        "Notion",
+        "wiki",
+        "documentation"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://www.bookstackapp.com/",
+      "sources": [
+        "https://github.com/BookStackApp/BookStack/blob/development/readme.md",
+        "https://www.bookstackapp.com/"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以書籍、章節與頁面整理公司手冊及知識文件",
+        "limits": "需 PHP／資料庫主機；固定文件結構，不能直接取代 Notion 資料庫；官方主程式來源已指向 Codeberg。"
+      },
+      "en": {
+        "use": "Company handbooks and knowledge organized as books, chapters and pages",
+        "limits": "Needs PHP/database hosting; its document hierarchy is not a Notion database replacement; official development source now points to Codeberg."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-wikijs",
+      "name": "Wiki.js",
+      "category": "wiki-knowledge",
+      "keywords": [
+        "知識庫",
+        "文件",
+        "Confluence",
+        "Notion",
+        "wiki",
+        "documentation"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/requarks/wiki",
+      "sources": [
+        "https://github.com/requarks/wiki/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "架設團隊 Wiki、操作文件及知識頁面",
+        "limits": "需 Node.js、相容資料庫與權限設定；升級前核對支援版本，不能推定能原樣匯入所有 Confluence 巨集。"
+      },
+      "en": {
+        "use": "Team wikis, operating documentation and knowledge pages",
+        "limits": "Requires Node.js, a supported database and permissions configuration; verify versions and migration of Confluence macros before adoption."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-dokuwiki",
+      "name": "DokuWiki",
+      "category": "wiki-knowledge",
+      "keywords": [
+        "知識庫",
+        "文件",
+        "Confluence",
+        "wiki",
+        "documentation"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/dokuwiki/dokuwiki",
+      "sources": [
+        "https://github.com/dokuwiki/dokuwiki/blob/master/README",
+        "https://www.dokuwiki.org/",
+        "https://github.com/dokuwiki/dokuwiki/blob/master/COPYING"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "不需資料庫的輕量文件 Wiki",
+        "limits": "仍需 PHP 網頁主機、備份及權限設定；外掛相容性與既有文件轉換要另外驗證。"
+      },
+      "en": {
+        "use": "Lightweight documentation wiki without a database",
+        "limits": "Still needs PHP web hosting, backups and access controls; validate plugins and conversion of existing documentation."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-activepieces-ce",
+      "name": "Activepieces Community",
+      "category": "workflow-automation",
+      "keywords": [
+        "自動化",
+        "工作流",
+        "Zapier",
+        "Make",
+        "automation",
+        "webhook"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/activepieces/activepieces",
+      "sources": [
+        "https://github.com/activepieces/activepieces/blob/main/README.md",
+        "https://github.com/activepieces/activepieces/blob/main/LICENSE"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "MIT Community; enterprise features commercial",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以視覺流程串接 SaaS、Webhook 與 AI 服務",
+        "limits": "packages/ee 及 packages/server/api/src/app/ee 採商業授權；自架不免除第三方 API／模型費用，Zapier 流程需重建並檢查連接器覆蓋。"
+      },
+      "en": {
+        "use": "Visual automations across SaaS, webhooks and AI services",
+        "limits": "packages/ee and packages/server/api/src/app/ee use commercial terms; self-hosting does not remove API/model charges; rebuild flows and check connectors."
+      },
+      "source_type": "open-source",
+      "aliases": [
+        "Activepieces"
+      ]
+    },
+    {
+      "id": "business-node-red",
+      "name": "Node-RED",
+      "category": "workflow-automation",
+      "keywords": [
+        "自動化",
+        "工作流",
+        "Zapier",
+        "Make",
+        "IoT",
+        "automation"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/node-red/node-red",
+      "sources": [
+        "https://github.com/node-red/node-red/blob/main/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "用流程節點連接 API、事件與裝置",
+        "limits": "需 Node.js 執行環境；第三方節點維護品質不同，伺服器及 API 用量另計，流程需自行設計。"
+      },
+      "en": {
+        "use": "Flow-based connections between APIs, events and devices",
+        "limits": "Requires a Node.js runtime; third-party nodes vary in maintenance; servers/API usage cost separately and flows need authoring."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-listmonk",
+      "name": "listmonk",
+      "category": "email-marketing",
+      "keywords": [
+        "電子報",
+        "EDM",
+        "Mailchimp",
+        "ConvertKit",
+        "newsletter",
+        "email marketing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/knadh/listmonk",
+      "sources": [
+        "https://github.com/knadh/listmonk/blob/master/README.md"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "自架電子報、訂閱名單與批次寄送管理",
+        "limits": "需 PostgreSQL 與郵件發送服務；SMTP 用量、退信處理與寄件網域聲譽另計，不能把大量寄信視為免費。"
+      },
+      "en": {
+        "use": "Self-hosted newsletters, mailing lists and campaign delivery",
+        "limits": "Needs PostgreSQL and a mail delivery service; SMTP usage, bounces and sender reputation remain operational costs."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "business-mautic",
+      "name": "Mautic",
+      "category": "email-marketing",
+      "keywords": [
+        "行銷自動化",
+        "EDM",
+        "HubSpot",
+        "ActiveCampaign",
+        "Mailchimp",
+        "marketing automation"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "delivery": "self-hosted",
+      "url": "https://github.com/mautic/mautic",
+      "sources": [
+        "https://github.com/mautic/mautic/blob/7.x/README.md",
+        "https://github.com/mautic/mautic/blob/7.x/LICENSE.txt"
+      ],
+      "cost": "open-source; self-hosting, maintenance and optional services cost extra",
+      "license": "GPL-3.0-or-later",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-12",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "客戶分群、跨管道行銷活動與自動化流程",
+        "limits": "需要主機、排程、資料庫與郵件服務；正式使用穩定發行版，Git 開發分支不建議直接上線，遷移名單與流程須驗證。"
+      },
+      "en": {
+        "use": "Contact segmentation, multichannel campaigns and marketing automation",
+        "limits": "Needs hosting, scheduled jobs, database and email services; use stable production packages, not development branches, and validate contact/workflow migration."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "category": "backup-recovery",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "cli",
+      "en": {
+        "limits": "CLI setup and restore drills required; storage and transfer fees are separate.",
+        "use": "Encrypted incremental backups to local, SFTP or object storage"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-restic",
+      "keywords": [
+        "備份",
+        "backup",
+        "encrypted",
+        "snapshots"
+      ],
+      "license": "BSD-2-Clause",
+      "name": "restic",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/restic/restic",
+        "https://github.com/restic/restic/blob/master/README.md"
+      ],
+      "url": "https://github.com/restic/restic",
+      "zh": {
+        "limits": "命令列工具；需自行安排排程、保管密碼及測試還原，雲端儲存與流量另計。",
+        "use": "加密增量備份到本機、SFTP 或物件儲存"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "backup-recovery",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "cli",
+      "en": {
+        "limits": "Choose stable Borg 1.4 for production; Borg 2 is testing. Supply remote storage and maintain restores.",
+        "use": "Deduplicated, compressed and encrypted file-history backups"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-borg",
+      "keywords": [
+        "備份",
+        "backup",
+        "deduplication",
+        "archive"
+      ],
+      "license": "BSD-3-Clause",
+      "name": "BorgBackup（1.4 穩定系列）",
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/borgbackup/borg",
+        "https://github.com/borgbackup/borg/blob/master/README.rst",
+        "https://www.borgbackup.org/",
+        "https://github.com/borgbackup/borg/blob/master/LICENSE"
+      ],
+      "url": "https://github.com/borgbackup/borg",
+      "zh": {
+        "limits": "正式資料選 1.4 穩定系列；主線 Borg 2 仍為測試版，不應用於正式備份。遠端主機與空間需自備。",
+        "use": "具壓縮、加密、去重的檔案歷史備份"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "BorgBackup"
+      ]
+    },
+    {
+      "category": "backup-recovery",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "File/folder backup rather than whole-disk imaging; storage costs extra and some rclone backends are experimental.",
+        "use": "GUI or CLI encrypted file snapshots with deduplication"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-kopia",
+      "keywords": [
+        "備份",
+        "backup",
+        "snapshots",
+        "GUI"
+      ],
+      "license": "Apache-2.0",
+      "name": "Kopia",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/kopia/kopia",
+        "https://github.com/kopia/kopia/blob/master/README.md"
+      ],
+      "url": "https://github.com/kopia/kopia",
+      "zh": {
+        "limits": "備份檔案與資料夾，不是整機磁碟映像；儲存空間另計，透過 rclone 的部分整合仍屬實驗。",
+        "use": "以圖形介面或 CLI 建立加密、去重的檔案快照"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "backup-recovery",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Storage is not included; validate restores. MIT excludes the proprietary directory and separately licensed components.",
+        "use": "Scheduled encrypted backups to cloud or remote file storage"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-duplicati",
+      "keywords": [
+        "備份",
+        "backup",
+        "cloud",
+        "scheduler"
+      ],
+      "license": "MIT（排除 proprietary/ 與另有授權元件）",
+      "name": "Duplicati（開源備份用戶端）",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/duplicati/duplicati",
+        "https://github.com/duplicati/duplicati/blob/master/README.md",
+        "https://github.com/duplicati/duplicati/blob/master/LICENSE"
+      ],
+      "url": "https://github.com/duplicati/duplicati",
+      "zh": {
+        "limits": "開源用戶端不含雲端空間；需驗證還原。MIT 範圍排除 proprietary 目錄與另有授權的元件。",
+        "use": "排程壓縮與加密備份，存往雲端或遠端檔案伺服器"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Duplicati"
+      ]
+    },
+    {
+      "category": "remote-access",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "OSS server differs from Server Pro; verify centralized administration and SSO requirements, plus hosting costs.",
+        "use": "Cross-platform remote desktop with optional self-hosted relay"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-rustdesk",
+      "keywords": [
+        "遠端桌面",
+        "remote",
+        "desktop",
+        "support"
+      ],
+      "license": "AGPL-3.0",
+      "name": "RustDesk",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/rustdesk/rustdesk",
+        "https://github.com/rustdesk/rustdesk/blob/master/README.md",
+        "https://rustdesk.com/pricing/"
+      ],
+      "url": "https://github.com/rustdesk/rustdesk",
+      "zh": {
+        "limits": "免費 OSS 伺服器與 Server Pro 不同；SSO、集中管理等方案功能需核對，伺服器與維護另計。",
+        "use": "跨平台遠端桌面，可自行架設中繼伺服器"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "remote-access",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Browser clients need no plugin, but the gateway and destination protocol services still need deployment and maintenance.",
+        "use": "Browser gateway for RDP, VNC and SSH sessions"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-guacamole",
+      "keywords": [
+        "遠端桌面",
+        "remote",
+        "desktop",
+        "browser",
+        "RDP",
+        "SSH"
+      ],
+      "license": "Apache-2.0",
+      "name": "Apache Guacamole",
+      "platforms": [
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/apache/guacamole-client",
+        "https://github.com/apache/guacamole-client/blob/main/README",
+        "https://guacamole.apache.org/"
+      ],
+      "url": "https://github.com/apache/guacamole-client",
+      "zh": {
+        "limits": "瀏覽器端免裝客戶端，但仍須部署閘道伺服器及目的端協定服務；主機與管理成本另計。",
+        "use": "在瀏覽器集中連線 RDP、VNC 與 SSH 工作環境"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "remote-access",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Requires a server and managed-device agents; administrators maintain TLS, accounts, updates and backups.",
+        "use": "Self-hosted device management with remote desktop, terminal and files"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-meshcentral",
+      "keywords": [
+        "遠端管理",
+        "remote",
+        "management",
+        "RMM",
+        "terminal"
+      ],
+      "license": "Apache-2.0",
+      "name": "MeshCentral",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/Ylianst/MeshCentral",
+        "https://github.com/Ylianst/MeshCentral/blob/master/readme.md"
+      ],
+      "url": "https://github.com/Ylianst/MeshCentral",
+      "zh": {
+        "limits": "需架設伺服器並在受管電腦安裝 agent；TLS、帳號權限、更新與備份由管理者維護。",
+        "use": "自架電腦管理後台，提供遠端桌面、終端機及檔案操作"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "file-management",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Do not assume complete Total Commander plugin, shortcut or platform compatibility.",
+        "use": "Dual-pane file management for directory and file operations"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-double-commander",
+      "keywords": [
+        "檔案管理",
+        "file",
+        "manager",
+        "dual",
+        "pane"
+      ],
+      "license": "GPL-2.0",
+      "name": "Double Commander",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/doublecmd/doublecmd",
+        "https://github.com/doublecmd/doublecmd/blob/master/README.md"
+      ],
+      "url": "https://github.com/doublecmd/doublecmd",
+      "zh": {
+        "limits": "受到 Total Commander 啟發，但外掛、快捷鍵與平台行為不能直接視為完全相容。",
+        "use": "雙窗格檔案管理，整理大量目錄與檔案"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "file-management",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Krokiet succeeds the retired GTK frontend. Similar videos need FFmpeg; optional image formats vary. Review matches before deleting.",
+        "use": "Find duplicate files, similar images, empty directories and large files"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-krokiet",
+      "keywords": [
+        "重複檔",
+        "清理",
+        "duplicate",
+        "files",
+        "images"
+      ],
+      "license": "GPL-3.0-only（Krokiet；其他元件另見各目錄）",
+      "name": "Krokiet（Czkawka 專案）",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/qarmin/czkawka",
+        "https://github.com/qarmin/czkawka/blob/master/krokiet/README.md",
+        "https://github.com/qarmin/czkawka/blob/master/README.md",
+        "https://github.com/qarmin/czkawka/blob/master/krokiet/Cargo.toml"
+      ],
+      "url": "https://github.com/qarmin/czkawka",
+      "zh": {
+        "limits": "舊 Czkawka GTK 前端停止新增發行，改用 Krokiet；相似影片需 FFmpeg，RAW／HEIF 支援依建置而異，刪除前人工確認。",
+        "use": "找重複檔、相似圖片、空資料夾與大型檔案"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Krokiet"
+      ]
+    },
+    {
+      "category": "file-transfer",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "cli",
+      "en": {
+        "limits": "CLI tool; sync may propagate deletions and is not versioned backup. Provider quotas and storage/traffic fees apply.",
+        "use": "Copy, move and synchronize files between local and cloud storage"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-rclone",
+      "keywords": [
+        "雲端同步",
+        "cloud",
+        "sync",
+        "file",
+        "transfer"
+      ],
+      "license": "MIT",
+      "name": "rclone",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/rclone/rclone",
+        "https://github.com/rclone/rclone/blob/master/README.md"
+      ],
+      "url": "https://github.com/rclone/rclone",
+      "zh": {
+        "limits": "命令列工具；同步可傳播刪除，不能視為版本備份。雲端容量、API 配額與流量費依供應商。",
+        "use": "在不同雲端空間與本機間搬移、複製及同步檔案"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "privacy-security",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Does not supply cloud storage. Mobile free editions are read-only; write access requires separate platform licenses.",
+        "use": "Encrypt files and filenames before existing cloud synchronization"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-cryptomator",
+      "keywords": [
+        "加密",
+        "隱私",
+        "encryption",
+        "vault",
+        "cloud"
+      ],
+      "license": "GPL-3.0（另提供商業授權）",
+      "name": "Cryptomator（桌面版）",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/cryptomator/cryptomator",
+        "https://github.com/cryptomator/cryptomator/blob/develop/README.md",
+        "https://cryptomator.org/downloads/"
+      ],
+      "url": "https://github.com/cryptomator/cryptomator",
+      "zh": {
+        "limits": "不提供雲端容量；手機免費版為唯讀，寫入需各平台授權，不能把桌面免費套用到手機完整功能。",
+        "use": "先在本機加密檔案及檔名，再交給既有雲端同步"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Cryptomator"
+      ]
+    },
+    {
+      "category": "productivity",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Preview selected files before deleting. Cleaning is not disk repair or guaranteed acceleration; use supported Windows/Linux builds.",
+        "use": "Clean caches, temporary files and application traces"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-bleachbit",
+      "keywords": [
+        "系統清理",
+        "cache",
+        "cleaner",
+        "privacy"
+      ],
+      "license": "GPL-3.0-or-later",
+      "name": "BleachBit",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/bleachbit/bleachbit",
+        "https://github.com/bleachbit/bleachbit/blob/master/README.md"
+      ],
+      "url": "https://github.com/bleachbit/bleachbit",
+      "zh": {
+        "limits": "刪除前先用預覽檢查範圍；清理不等於修復硬碟或保證加速，正式成品以 Windows／Linux 為主。",
+        "use": "清理快取、暫存檔與應用程式痕跡"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "privacy-security",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Network history, bandwidth reporting and SPN have paid boundaries. Desktop support is Windows/Linux, not macOS.",
+        "use": "Application firewall with connection control, DNS and tracker blocking"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-portmaster",
+      "keywords": [
+        "防火牆",
+        "firewall",
+        "privacy",
+        "tracker",
+        "DNS"
+      ],
+      "license": "GPL-3.0",
+      "name": "Portmaster",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/safing/portmaster",
+        "https://github.com/safing/portmaster/blob/development/README.md"
+      ],
+      "url": "https://github.com/safing/portmaster",
+      "zh": {
+        "limits": "免費防火牆不含所有付費功能；連線歷史、頻寬統計及 SPN 隱私網路需另外核對方案，不支援 macOS。",
+        "use": "監看與阻擋個別程式連線，管理 DNS 及追蹤封鎖"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Uses Open VSX. Some Microsoft extensions are restricted to official VS Code; check debugger and extension compatibility.",
+        "use": "Community VS Code binaries with Microsoft branding and default telemetry removed"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-vscodium",
+      "keywords": [
+        "程式編輯",
+        "code",
+        "editor",
+        "IDE"
+      ],
+      "license": "MIT",
+      "name": "VSCodium",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/VSCodium/vscodium",
+        "https://github.com/VSCodium/vscodium/blob/master/README.md"
+      ],
+      "url": "https://github.com/VSCodium/vscodium",
+      "zh": {
+        "limits": "預設使用 Open VSX；部分微軟外掛僅授權官方 VS Code，不保證除錯器與全部外掛可移轉。",
+        "use": "使用去除微軟品牌與預設遙測設定的 VS Code 社群成品"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "The editor is free; hosted AI, Pro and team administration have separate costs. Bring-your-own API keys still incur provider charges.",
+        "use": "Code editing, collaboration and external AI/model integration"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-zed",
+      "keywords": [
+        "程式編輯",
+        "code",
+        "editor",
+        "collaboration",
+        "AI"
+      ],
+      "license": "GPL-3.0-or-later（標示元件為 Apache-2.0）",
+      "name": "Zed",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/zed-industries/zed",
+        "https://github.com/zed-industries/zed/blob/main/README.md",
+        "https://zed.dev/pricing"
+      ],
+      "url": "https://github.com/zed-industries/zed",
+      "zh": {
+        "limits": "編輯器免費；託管 AI、Pro 與團隊管理分別有費用，自備 API 金鑰仍需付模型費。",
+        "use": "程式編輯、協作與外部 AI 模型／代理整合"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "cli",
+      "en": {
+        "limits": "Requires modal-editing skills; language servers, debuggers and AI integrations need separate configuration.",
+        "use": "Extensible modal code editor with scripting and plugin support"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-neovim",
+      "keywords": [
+        "程式編輯",
+        "code",
+        "editor",
+        "vim",
+        "terminal"
+      ],
+      "license": "Apache-2.0 與 Vim license",
+      "name": "Neovim",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/neovim/neovim",
+        "https://github.com/neovim/neovim/blob/master/README.md",
+        "https://github.com/neovim/neovim/blob/master/LICENSE.txt"
+      ],
+      "url": "https://github.com/neovim/neovim",
+      "zh": {
+        "limits": "需要學習模態編輯；語言伺服器、除錯器與 AI 外掛需另行設定，不能直接視為完整商業 IDE。",
+        "use": "可用 Lua／外掛擴充的鍵盤導向程式編輯器"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Provide language toolchains/plugins separately; validate advanced refactoring and framework support on a real project.",
+        "use": "Lightweight IDE with syntax highlighting, completion and build commands"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-geany",
+      "keywords": [
+        "程式編輯",
+        "code",
+        "editor",
+        "lightweight",
+        "IDE"
+      ],
+      "license": "GPL-2.0",
+      "name": "Geany",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/geany/geany",
+        "https://github.com/geany/geany/blob/master/README.rst"
+      ],
+      "url": "https://github.com/geany/geany",
+      "zh": {
+        "limits": "適合一般程式編輯；特定語言工具鏈與外掛需自備，進階重構及框架支援要以專案試用確認。",
+        "use": "輕量 IDE，提供語法標色、程式補全及建置操作"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "No built-in cloud sync; commercial editions add features that must not be assumed in the open-source edition.",
+        "use": "Local-file API requests and testing with Git collaboration"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-bruno",
+      "keywords": [
+        "API",
+        "測試",
+        "API",
+        "client",
+        "REST",
+        "Postman"
+      ],
+      "license": "MIT",
+      "name": "Bruno（開源版）",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/usebruno/bruno",
+        "https://github.com/usebruno/bruno/blob/main/readme.md"
+      ],
+      "url": "https://github.com/usebruno/bruno",
+      "zh": {
+        "limits": "無內建雲端同步；官方商業版有額外功能，不能把付費版功能一併算入開源版。",
+        "use": "API 請求與測試保存在本機檔案，可用 Git 協作"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Bruno"
+      ]
+    },
+    {
+      "category": "developer-tools",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "web",
+      "en": {
+        "limits": "Browser cross-origin requests may need an interceptor or proxy. Distinguish self-hosted, hosted and Enterprise features/costs.",
+        "use": "Web or desktop API testing for REST, GraphQL and WebSocket"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-hoppscotch",
+      "keywords": [
+        "API",
+        "測試",
+        "API",
+        "client",
+        "REST",
+        "GraphQL"
+      ],
+      "license": "MIT",
+      "name": "Hoppscotch Community",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/hoppscotch/hoppscotch",
+        "https://github.com/hoppscotch/hoppscotch/blob/main/README.md"
+      ],
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "zh": {
+        "limits": "瀏覽器跨來源連線可能需要代理或外掛；自架、託管及 Enterprise 功能與費用需分開確認。",
+        "use": "使用網頁或桌面介面測試 REST、GraphQL 與 WebSocket API"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Hoppscotch"
+      ]
+    },
+    {
+      "category": "database-clients",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Community scope only; some non-JDBC sources and advanced features require commercial editions. Database/cloud/AI charges remain separate.",
+        "use": "Multi-database SQL editing, browsing, import and export"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-dbeaver",
+      "keywords": [
+        "資料庫",
+        "SQL",
+        "database",
+        "client"
+      ],
+      "license": "Apache-2.0",
+      "name": "DBeaver Community",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/dbeaver/dbeaver",
+        "https://github.com/dbeaver/dbeaver/blob/devel/README.md"
+      ],
+      "url": "https://github.com/dbeaver/dbeaver",
+      "zh": {
+        "limits": "本項僅計 Community；特定非 JDBC 資料源與進階功能屬商業版，AI 供應商、資料庫及雲端費用另計。",
+        "use": "以 SQL 編輯器管理多種關聯資料庫、匯入匯出資料"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "DBeaver"
+      ]
+    },
+    {
+      "category": "database-clients",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Targets SQLite, not general remote database administration or spreadsheet formulas.",
+        "use": "Create, query and edit SQLite files with a spreadsheet-like interface"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-sqlite-browser",
+      "keywords": [
+        "SQLite",
+        "資料庫",
+        "database",
+        "SQL"
+      ],
+      "license": "MPL-2.0 或 GPL-3.0-or-later；附帶元件另列",
+      "name": "DB Browser for SQLite",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/sqlitebrowser/sqlitebrowser",
+        "https://github.com/sqlitebrowser/sqlitebrowser/blob/master/README.md",
+        "https://github.com/sqlitebrowser/sqlitebrowser/blob/master/LICENSE"
+      ],
+      "url": "https://github.com/sqlitebrowser/sqlitebrowser",
+      "zh": {
+        "limits": "主要處理 SQLite；不是通用遠端資料庫管理器，也不等同 Excel 公式與試算表功能。",
+        "use": "以表格介面建立、查詢及修改 SQLite 檔案"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "database-clients",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "GPL Community edition only. src-commercial has a commercial source-available license; check paid support for Oracle, DuckDB and others.",
+        "use": "SQL editing and management for PostgreSQL, MySQL, SQLite and others"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-beekeeper",
+      "keywords": [
+        "資料庫",
+        "SQL",
+        "database",
+        "client"
+      ],
+      "license": "GPL-3.0-or-later（Community；不含 src-commercial）",
+      "name": "Beekeeper Studio Community",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/beekeeper-studio/beekeeper-studio",
+        "https://github.com/beekeeper-studio/beekeeper-studio/blob/master/README.md",
+        "https://github.com/beekeeper-studio/beekeeper-studio/blob/master/LICENSE.md"
+      ],
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio",
+      "zh": {
+        "limits": "只收錄 GPL 社群版；src-commercial 為商業原始碼可見授權，Oracle、DuckDB 等支援需核對付費方案。",
+        "use": "以 SQL 編輯器管理 PostgreSQL、MySQL、SQLite 等資料庫"
+      },
+      "zh_tw": "unknown",
+      "aliases": [
+        "Beekeeper Studio"
+      ]
+    },
+    {
+      "category": "local-ai",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Offline behavior applies to local models only. Model licenses, RAM/GPU requirements and cloud API costs are separate.",
+        "use": "Chat with downloaded local models or connect cloud APIs and assistants"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-jan",
+      "keywords": [
+        "本機",
+        "AI",
+        "local",
+        "LLM",
+        "chat",
+        "offline"
+      ],
+      "license": "Apache-2.0",
+      "name": "Jan",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/janhq/jan",
+        "https://github.com/janhq/jan/blob/main/README.md",
+        "https://github.com/janhq/jan/blob/main/LICENSE"
+      ],
+      "url": "https://github.com/janhq/jan",
+      "zh": {
+        "limits": "離線僅適用本機模型路徑；模型需另下載並核對授權，RAM／GPU 影響速度，雲端 API 另收費。",
+        "use": "下載本機模型對話，或連接雲端 API 與自訂助手"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "local-ai",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Download and license models separately. Official Linux builds are x86-64; CPU support does not guarantee acceptable large-model speed.",
+        "use": "Run local LLM chats and query documents through LocalDocs"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-gpt4all",
+      "keywords": [
+        "本機",
+        "AI",
+        "local",
+        "LLM",
+        "documents",
+        "RAG"
+      ],
+      "license": "MIT（模型授權另外核對）",
+      "name": "GPT4All",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/nomic-ai/gpt4all",
+        "https://github.com/nomic-ai/gpt4all/blob/main/README.md"
+      ],
+      "url": "https://github.com/nomic-ai/gpt4all",
+      "zh": {
+        "limits": "模型檔需另下載並核對授權；Linux 官方成品為 x86-64，CPU 可跑不代表大型模型速度足夠。",
+        "use": "在桌機執行本機 LLM，透過 LocalDocs 查詢文件"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "local-ai",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Local and cloud modes differ; disable cloud features for local-only use. Check model licenses, hardware and cloud quotas separately.",
+        "use": "Run and manage models through CLI/API integrations"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-ollama",
+      "keywords": [
+        "本機",
+        "AI",
+        "local",
+        "LLM",
+        "model",
+        "API"
+      ],
+      "license": "MIT（模型授權另外核對）",
+      "name": "Ollama",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/ollama/ollama",
+        "https://github.com/ollama/ollama/blob/main/README.md",
+        "https://docs.ollama.com/faq"
+      ],
+      "url": "https://github.com/ollama/ollama",
+      "zh": {
+        "limits": "本機與雲端模式不同；要全本機需停用雲端功能，模型授權、記憶體／GPU 與雲端額度另外核對。",
+        "use": "下載及執行模型，透過 CLI／API 串接其他 AI 工具"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "personal-finance",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Requires accounting setup; Taiwanese bank imports, tax reports and e-invoice workflows are unverified, not a localized accounting-suite claim.",
+        "use": "Double-entry personal and small-business accounting"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-gnucash",
+      "keywords": [
+        "記帳",
+        "財務",
+        "accounting",
+        "personal",
+        "finance"
+      ],
+      "license": "GPL-2.0 或 GPL-3.0；部分檔案有 OpenSSL 例外",
+      "name": "GnuCash",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/Gnucash/gnucash",
+        "https://github.com/Gnucash/gnucash/blob/stable/README",
+        "https://github.com/Gnucash/gnucash/blob/stable/LICENSE"
+      ],
+      "url": "https://github.com/Gnucash/gnucash",
+      "zh": {
+        "limits": "需學習會計科目與複式記帳；台灣銀行匯入、稅務報表與電子發票流程尚未驗證，不能當作已在地化會計套裝。",
+        "use": "個人與小型企業的複式記帳，整理帳戶及收支"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "personal-finance",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Bank integrations require actual-server and third-party providers; listed coverage does not establish Taiwanese bank support.",
+        "use": "Local-first budgeting and personal finance with optional sync server"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-actual",
+      "keywords": [
+        "記帳",
+        "預算",
+        "budgeting",
+        "personal",
+        "finance"
+      ],
+      "license": "MIT",
+      "name": "Actual Budget",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/actualbudget/actual",
+        "https://github.com/actualbudget/actual/blob/master/README.md",
+        "https://actualbudget.org/docs/advanced/bank-sync/"
+      ],
+      "url": "https://github.com/actualbudget/actual",
+      "zh": {
+        "limits": "銀行串接需 actual-server 與第三方服務；官方列出的銀行區域不含台灣，不能保證自動抓取本地銀行。",
+        "use": "本機優先的預算與個人收支管理，可加裝同步伺服器"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "personal-finance",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Desktop edition reviewed; mobile compatibility and synchronization need separate checks. Taiwanese bank automation and business tax filing are unverified.",
+        "use": "Track household spending, cards, assets and multi-account cash flow"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-money-manager-ex",
+      "keywords": [
+        "記帳",
+        "財務",
+        "personal",
+        "finance",
+        "budgeting"
+      ],
+      "license": "GPL-2.0",
+      "name": "Money Manager Ex",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/moneymanagerex/moneymanagerex",
+        "https://github.com/moneymanagerex/moneymanagerex/blob/master/README.md"
+      ],
+      "url": "https://github.com/moneymanagerex/moneymanagerex",
+      "zh": {
+        "limits": "本項核對桌面版；行動版相容性與同步方式另查，沒有驗證台灣網銀自動連線或公司稅務申報。",
+        "use": "整理家庭收支、信用卡、資產及多帳戶現金流"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "rss-reference",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Requires server deployment and feed refresh scheduling. API compatibility does not reproduce every paid-reader feature; hosting and backups remain yours.",
+        "use": "Self-hosted RSS/Atom aggregation for cross-device article reading"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-freshrss",
+      "keywords": [
+        "RSS",
+        "訂閱",
+        "articles",
+        "feeds",
+        "research"
+      ],
+      "license": "AGPL-3.0",
+      "name": "FreshRSS",
+      "platforms": [
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/FreshRSS/FreshRSS",
+        "https://github.com/FreshRSS/FreshRSS/blob/edge/README.md"
+      ],
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "zh": {
+        "limits": "需部署 PHP／Web 伺服器及排程抓取；API 相容不等於所有付費閱讀器功能，主機與備份由自己負責。",
+        "use": "自架 RSS／Atom 訂閱中心，跨裝置閱讀與整理文章"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "rss-reference",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Local reading works independently; external service plans/API limits still apply and cross-device sync needs a backend.",
+        "use": "Desktop RSS/Atom/JSON reading with optional feed-service integrations"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-rss-guard",
+      "keywords": [
+        "RSS",
+        "訂閱",
+        "feed",
+        "reader",
+        "research"
+      ],
+      "license": "GPL-3.0",
+      "name": "RSS Guard",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/martinrotter/rssguard",
+        "https://github.com/martinrotter/rssguard/blob/master/README.md"
+      ],
+      "url": "https://github.com/martinrotter/rssguard",
+      "zh": {
+        "limits": "本機閱讀可直接使用；連接外部閱讀服務仍受該服務方案與 API 限制，跨裝置同步需額外後端。",
+        "use": "桌面 RSS／Atom／JSON Feed 閱讀，也可連接 FreshRSS 等服務"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "rss-reference",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Metadata sync is free and unlimited; file storage has 300 MB free. More storage costs extra; WebDAV supports personal, not group libraries.",
+        "use": "Collect, organize, annotate and cite research sources and PDFs"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-zotero",
+      "keywords": [
+        "文獻",
+        "引用",
+        "bibliography",
+        "citation",
+        "reference"
+      ],
+      "license": "AGPL-3.0",
+      "name": "Zotero",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/zotero/zotero",
+        "https://github.com/zotero/zotero/blob/main/README.md",
+        "https://github.com/zotero/zotero/blob/main/COPYING",
+        "https://www.zotero.org/support/sync",
+        "https://www.zotero.org/download/"
+      ],
+      "url": "https://github.com/zotero/zotero",
+      "zh": {
+        "limits": "書目資料同步免費不限量；附件雲端空間免費 300 MB，擴充需付費或另配 WebDAV，群組附件不能用 WebDAV。",
+        "use": "收集、整理、註記及引用研究文獻，管理 PDF 與書目"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "rss-reference",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Primarily a .bib workflow; test word-processor integration and imported fields. Metadata retrieval does not grant full-text access.",
+        "use": "Manage BibTeX/BibLaTeX libraries, research metadata and citations"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-jabref",
+      "keywords": [
+        "文獻",
+        "引用",
+        "bibliography",
+        "BibTeX",
+        "citation"
+      ],
+      "license": "MIT",
+      "name": "JabRef",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/JabRef/jabref",
+        "https://github.com/JabRef/jabref/blob/main/README.md"
+      ],
+      "url": "https://github.com/JabRef/jabref",
+      "zh": {
+        "limits": "以 .bib 文獻庫工作流為主；Word／LibreOffice 整合與既有書目欄位需試匯入，不能把文章取得當作全文授權。",
+        "use": "管理 BibTeX／BibLaTeX 書目，搜尋資料及插入引用"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "device-integration",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Requires Android 5+ and usually USB debugging; audio forwarding needs Android 11+. Does not mirror iPhones.",
+        "use": "Mirror and control Android video/audio from a computer"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-scrcpy",
+      "keywords": [
+        "手機投影",
+        "Android",
+        "mirror",
+        "control"
+      ],
+      "license": "Apache-2.0",
+      "name": "scrcpy",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/Genymobile/scrcpy",
+        "https://github.com/Genymobile/scrcpy/blob/master/README.md"
+      ],
+      "url": "https://github.com/Genymobile/scrcpy",
+      "zh": {
+        "limits": "目標需 Android 5+，音訊轉送需 Android 11+；通常需 USB 偵錯，不支援 iPhone 鏡像。",
+        "use": "把 Android 畫面與聲音鏡像到電腦並以鍵鼠控制"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "device-integration",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "desktop",
+      "en": {
+        "limits": "Pair devices first. Notifications, background behavior and controls vary by OS; iOS is not feature-identical to Android.",
+        "use": "Pair phones and computers for files, clipboard, notifications and remote input"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-kde-connect",
+      "keywords": [
+        "裝置整合",
+        "手機",
+        "device",
+        "integration",
+        "clipboard"
+      ],
+      "license": "GPL-2.0 與 GPL-3.0（依元件）",
+      "name": "KDE Connect",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/KDE/kdeconnect-kde",
+        "https://github.com/KDE/kdeconnect-kde/blob/master/README.md",
+        "https://kdeconnect.kde.org/download.html"
+      ],
+      "url": "https://github.com/KDE/kdeconnect-kde",
+      "zh": {
+        "limits": "裝置需配對；不同系統的通知、背景執行與控制能力不一致，iOS 不能假設具備 Android 全部功能。",
+        "use": "讓手機與電腦共享檔案、剪貼簿及通知，提供遙控功能"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "device-integration",
+      "checked_on": "2026-09-12",
+      "cost": "free and open-source",
+      "delivery": "mobile",
+      "en": {
+        "limits": "Full app-data backups and component blocking require root; other controls need root/ADB. Unrooted use has narrower capabilities.",
+        "use": "Inspect Android app permissions, trackers, APKs and usage information"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-app-manager",
+      "keywords": [
+        "Android",
+        "權限",
+        "APK",
+        "app",
+        "manager",
+        "backup"
+      ],
+      "license": "GPL-3.0-or-later",
+      "name": "App Manager",
+      "platforms": [
+        "android"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/MuntashirAkon/AppManager",
+        "https://github.com/MuntashirAkon/AppManager/blob/master/README.md"
+      ],
+      "url": "https://github.com/MuntashirAkon/AppManager",
+      "zh": {
+        "limits": "完整應用資料備份與元件封鎖需 root；部分權限及凍結操作需 root／ADB，無 root 不代表可用全部功能。",
+        "use": "查看 Android 應用程式權限、追蹤元件、APK 與使用資訊"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "network-monitoring",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Requires a running host and DNS configuration; cannot block same-domain YouTube/Twitch ads or replace full content filtering.",
+        "use": "Self-hosted DNS filtering for network-wide ad and tracker domains"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-adguard-home",
+      "keywords": [
+        "DNS",
+        "廣告封鎖",
+        "network",
+        "ad",
+        "blocker"
+      ],
+      "license": "GPL-3.0",
+      "name": "AdGuard Home",
+      "platforms": [
+        "linux",
+        "windows",
+        "macos",
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/AdguardTeam/AdGuardHome",
+        "https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md"
+      ],
+      "url": "https://github.com/AdguardTeam/AdGuardHome",
+      "zh": {
+        "limits": "要有常駐主機並設定 DNS；無法阻擋與內容共用網域的 YouTube／Twitch 廣告，不能等同完整網頁內容攔截。",
+        "use": "自架 DNS 過濾器，在網路層阻擋廣告與追蹤網域"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "network-monitoring",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Needs a running Linux/container host and DNS setup. Domain filtering does not replace all browser content blocking; hardware/maintenance cost extra.",
+        "use": "Centralized DNS blocking and query statistics on your own Linux host"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-pi-hole",
+      "keywords": [
+        "DNS",
+        "廣告封鎖",
+        "network",
+        "ad",
+        "blocker"
+      ],
+      "license": "EUPL-1.2（Core；其他元件依各授權）",
+      "name": "Pi-hole",
+      "platforms": [
+        "linux",
+        "web"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/pi-hole/pi-hole",
+        "https://github.com/pi-hole/pi-hole/blob/master/README.md",
+        "https://github.com/pi-hole/pi-hole/blob/master/LICENSE"
+      ],
+      "url": "https://github.com/pi-hole/pi-hole",
+      "zh": {
+        "limits": "需常駐 Linux 或容器環境並調整網路 DNS；網域過濾不能取代所有瀏覽器內容攔截，硬體及維護另計。",
+        "use": "以自有 Linux 主機集中管理網域封鎖與 DNS 查詢統計"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "network-monitoring",
+      "checked_on": "2026-09-12",
+      "cost": "open-source; binary/model/service costs may differ",
+      "delivery": "self-hosted",
+      "en": {
+        "limits": "Requires maintained hosting; data directories cannot use NFS. A shared host failure may take down both the target and its monitor.",
+        "use": "Monitor website and service uptime with alerts and status pages"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-uptime-kuma",
+      "keywords": [
+        "網站監控",
+        "uptime",
+        "monitoring",
+        "status",
+        "page"
+      ],
+      "license": "MIT",
+      "name": "Uptime Kuma",
+      "platforms": [
+        "web",
+        "linux",
+        "windows"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/louislam/uptime-kuma",
+        "https://github.com/louislam/uptime-kuma/blob/master/README.md"
+      ],
+      "url": "https://github.com/louislam/uptime-kuma",
+      "zh": {
+        "limits": "需自架並維護監控主機；資料目錄不支援 NFS。與被監控服務放同台，當機時可能一起失去告警能力。",
+        "use": "監看網站、TCP、DNS 與服務可用性，提供告警及狀態頁"
+      },
+      "zh_tw": "unknown"
     }
   ],
   "checked_on_note": "Dataset updated on this date; individual evidence dates remain on each product."

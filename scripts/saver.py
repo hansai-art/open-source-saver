@@ -21,7 +21,14 @@ COST_ZH = {
     'included with macOS; proprietary': 'macOS 內建；非開源',
     'limited free tier; proprietary': '有功能限制的免費版；非開源',
     'open-source; binary/model/service costs may differ': '開源；安裝包、模型與服務費用另查',
+    'open-source; self-hosting, maintenance and optional services cost extra': '開源；自架、維護與選購服務另計',
+    'open-source core; hosting and enterprise services may cost extra': '開源核心；代管與企業服務可能另計',
+    'open-source editor/engine; online services and assets may cost extra': '開源編輯器／引擎；線上服務與素材可能另計',
+    'open-source; official prebuilt versions are paid; source builds are available': '開源；官方預編譯版收費，可自行從原始碼建置',
 }
+DELIVERY_ZH = {'desktop': '桌面軟體', 'web': '網頁服務', 'self-hosted': '需自架',
+               'engine': '開發引擎', 'cli': '命令列', 'mobile': '行動 App',
+               'setup': '需要設定', 'builtin': '系統內建', 'extension': '瀏覽器外掛'}
 
 
 def read_json(path):
@@ -112,6 +119,40 @@ def search(products, mappings, query, platform=None, include_engines=False):
     return [p for _, p in sorted(scored, key=lambda item: (-item[0], item[1]['id']))]
 
 
+def discover(entries, query, limit=20):
+    """Search upstream facts only. A hit is never a reviewed replacement."""
+    terms = [normalize(query)]
+    aliases_path = ROOT / 'data/discovery-keywords.json'
+    if aliases_path.exists():
+        translations = read_json(aliases_path)
+        terms += [normalize(t) for t in translations.get(normalize(query), [])]
+    scored = []
+    for entry in entries:
+        names = [normalize(entry['name']), *map(normalize, entry.get('aliases', []))]
+        fields = [*names, *map(normalize, entry.get('tags', []))]
+        score = max((100 if term in names else 30 if any(term in f for f in fields) else 0
+                     for term in terms if term), default=1)
+        if score:
+            scored.append((score, entry))
+    matches = [e for _, e in sorted(scored, key=lambda pair: (-pair[0], normalize(pair[1]['name'])))]
+    return matches[:limit], len(matches)
+
+
+def render_discovery(entries, total, lang):
+    zh = lang == 'zh-TW'
+    lines = [('上游發現線索，含非自由授權軟體，尚未逐項核對官方現況；不列入已整理工具數。' if zh else
+              'Upstream discovery leads include nonfree software; not individually reviewed or counted as curated products.'), '',
+             (f'符合 {total} 筆，顯示 {len(entries)} 筆。' if zh else f'{total} matches; showing {len(entries)}.'), '',
+             '| 工具 | 上游分類 | 上游授權（待核對） | 來源 |' if zh else '| Tool | Upstream tags | Upstream licenses (unverified) | Source |',
+             '|---|---|---|---|']
+    for e in entries:
+        lines.append('| ' + ' | '.join([
+            f"[{escape(e['name'])}]({e['canonical_url']})",
+            escape(', '.join(e['tags'])), escape(', '.join(e['licenses']) + ((' · 上游標示非自由' if zh else ' · upstream marks nonfree') if e.get('upstream_nonfree') else '')),
+            f"[snapshot]({e['upstream_files'][0]})" ]) + ' |')
+    return '\n'.join(lines)
+
+
 def escape(value):
     # Application names and upstream strings are data, never Markdown instructions.
     return str(value).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('|', '\\|').replace('\n', ' ').replace('\r', ' ').replace('`', "'").replace('[', '\\[').replace(']', '\\]')
@@ -119,11 +160,14 @@ def escape(value):
 
 def render(products, lang):
     zh = lang == 'zh-TW'
-    header = '| 工具 | 用途 | 平台 | 費用 | 限制 | 證據 |' if zh else '| Tool | Use | OS | Cost | Limits | Evidence |'
+    header = '| 工具 | 用途 | 平台／部署 | 費用／授權 | 限制 | 證據 |' if zh else '| Tool | Use | Platform / delivery | Cost / license | Limits | Evidence |'
     rows = [header, '|---|---|---|---|---|---|']
     for p in products:
         text = p['zh'] if zh else p['en']
-        rows.append('| ' + ' | '.join([f"[{escape(p['name'])}]({p['url']})", escape(text['use']), ', '.join(p['platforms']) or ('待確認' if zh else 'Unknown'), escape(COST_ZH.get(p['cost'], p['cost']) if zh else p['cost']), escape(text['limits']), escape(p['evidence'] + ' / ' + p['checked_on'])]) + ' |')
+        platform = (', '.join(p['platforms']) or ('待確認' if zh else 'Unknown')) + ' · ' + (DELIVERY_ZH.get(p['delivery'], p['delivery']) if zh else p['delivery'])
+        cost = (COST_ZH.get(p['cost'], p['cost']) if zh else p['cost']) + ' · ' + p['license']
+        evidence = f"[{escape(p['evidence'])}]({p['sources'][0]}) / {p['checked_on']}"
+        rows.append('| ' + ' | '.join([f"[{escape(p['name'])}]({p['url']})", escape(text['use']), escape(platform), escape(cost), escape(text['limits']), evidence]) + ' |')
     return '\n'.join(rows)
 
 
@@ -167,18 +211,43 @@ def validate(catalog, mappings):
     if len(ids) != len(products):
         raise ValueError('Duplicate product ID')
     aliases = set()
+    names = set()
+    urls = set()
     for p in products:
-        for field in ('name', 'category', 'delivery', 'platforms', 'cost', 'evidence', 'checked_on', 'zh', 'en', 'sources', 'keywords'):
+        for field in ('id', 'name', 'url', 'license', 'source_type', 'runtime_tested', 'zh_tw', 'category', 'delivery', 'platforms', 'cost', 'evidence', 'checked_on', 'zh', 'en', 'sources', 'keywords'):
             if field not in p:
                 raise ValueError('Missing product field: ' + field)
+        name = normalize(p['name'])
+        url_key = p['url'].removesuffix('/').removesuffix('.git').casefold()
+        if name in names or url_key in urls:
+            raise ValueError('Duplicate product name or primary URL')
+        names.add(name)
+        urls.add(url_key)
+        if p['source_type'] not in {'open-source', 'proprietary', 'source-available'}:
+            raise ValueError('Unknown source classification')
+        if p['delivery'] not in DELIVERY_ZH:
+            raise ValueError('Unknown delivery classification')
+        if p['evidence'] not in {'official-docs-reviewed', 'official-docs-partial'}:
+            raise ValueError('Unknown product evidence level')
+        if not all(isinstance(p[f], str) and p[f].strip() for f in ('id', 'name', 'license', 'cost', 'category')):
+            raise ValueError('Empty product identity or license/cost')
+        if not p['sources'] or not p['keywords']:
+            raise ValueError('Sources and search keywords must be nonempty')
+        for language in ('zh', 'en'):
+            if not all(isinstance(p[language].get(f), str) and p[language][f].strip() for f in ('use', 'limits')):
+                raise ValueError('Missing bilingual use or limits')
+        if set(p['platforms']) - {'macos', 'windows', 'linux', 'web', 'android', 'ios'}:
+            raise ValueError('Unknown platform')
         for url in [p['url'], *p['sources']]:
             if not re.match(r'^https://[^\s<>\[\]()]+$', url):
                 raise ValueError('Invalid HTTPS source URL')
         dt.date.fromisoformat(p['checked_on'])
         if p['runtime_tested'] is not False:
             raise ValueError('Initial catalog must not claim runtime testing')
+    if len({m['id'] for m in mappings}) != len(mappings):
+        raise ValueError('Duplicate mapping ID')
     for m in mappings:
-        if not set(m['targets']) <= ids:
+        if not m['targets'] or len(set(m['targets'])) != len(m['targets']) or not set(m['targets']) <= ids:
             raise ValueError('Unknown mapping target')
         for alias in m['aliases']:
             key = normalize(alias)
@@ -197,6 +266,11 @@ def main(argv=None):
     s.add_argument('--include-engines', action='store_true')
     s.add_argument('--json', action='store_true')
     s.add_argument('--lang', choices=['zh-TW', 'en'], default='zh-TW')
+    d = sub.add_parser('discover', help='Search the separate unreviewed upstream index, offline')
+    d.add_argument('query')
+    d.add_argument('--limit', type=int, default=20)
+    d.add_argument('--json', action='store_true')
+    d.add_argument('--lang', choices=['zh-TW', 'en'], default='zh-TW')
     r = sub.add_parser('report', help='Write private report; do not print inventory')
     r.add_argument('--input', required=True)
     r.add_argument('--output', required=True)
@@ -214,6 +288,13 @@ def main(argv=None):
             print(json.dumps(results, ensure_ascii=False, indent=2) if args.json else render(results, args.lang))
             if not results and not args.json:
                 print('沒有符合候選 / No matches. Search the linked articles; do not infer full replacement.')
+        elif args.command == 'discover':
+            if not 1 <= args.limit <= 200:
+                raise ValueError('Limit must be between 1 and 200')
+            upstream = read_json(ROOT / 'data/upstream/awesome-selfhosted/index.json')
+            results, total = discover(upstream['entries'], args.query, args.limit)
+            payload = dict(status='upstream-discovery-unreviewed', source=upstream['source'], total_matches=total, entries=results)
+            print(json.dumps(payload, ensure_ascii=False, indent=2) if args.json else render_discovery(results, total, args.lang))
         else:
             names, warnings = inventory(args.input)
             write_output(args.output, report(names, catalog['products'], mappings, args.platform, args.lang, warnings))

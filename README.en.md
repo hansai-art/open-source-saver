@@ -5,12 +5,16 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**78 candidates · 18 categories · 69 open-source projects · 8 proprietary free-tier/built-in candidates · 1 source-available candidate**
+**189 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 1 source-available candidate**
 <!-- catalog-summary:end -->
+
+**Also included: 1,346 searchable upstream leads across 84 upstream tags and 38 new international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
+
+This expansion: **78 → 189 products (2.42×), 18 → 53 categories (2.94×), 20 → 99 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
-[Browse the catalog](docs/CATALOG.en.md) · [繁體中文](README.md) · [Savings methodology](docs/SAVINGS.md) · [Forum research](docs/FORUMS.md) · [Suggest a tool](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)
+[Browse the catalog](docs/CATALOG.en.md) · [Original-product mappings](docs/ALTERNATIVES.en.md) · [International research](docs/RESEARCH-SOURCES.md) · [Upstream index](data/upstream/awesome-selfhosted/README.md) · [繁體中文](README.md) · [Savings methodology](docs/SAVINGS.md) · [Forum research](docs/FORUMS.md) · [Suggest a tool](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)
 
 The Skill's primary workflow is **inventory installed apps → match free/open-source alternatives → explain recommendations, feature gaps and installation steps**. Use a compatible agent with access to your computer, such as a local Claude Code or Codex host, to start from the software you actually have. You can also browse the catalog or ask about a single app. Reuse working products first. For English-only tools, improve Traditional Chinese guidance or contribute translations upstream before proposing a new product.
 
@@ -62,13 +66,48 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Graphics](docs/CATALOG.en.md#graphics) | 2 | GIMP, Krita |
 | [Office documents](docs/CATALOG.en.md#office) | 2 | LibreOffice, ONLYOFFICE Desktop Editors |
 | [PDF reading and processing](docs/CATALOG.en.md#pdf) | 3 | PDF24 Creator, SumatraPDF, PDFsam Basic |
-| [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 2 | LocalSend, Syncthing |
-| [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 3 | Rectangle, Maccy, Pearcleaner |
+| [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 3 | LocalSend, Syncthing, rclone |
+| [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 4 | Rectangle, Maccy, Pearcleaner |
 | [Archives](docs/CATALOG.en.md#archives) | 2 | 7-Zip, PeaZip |
 | [Media players](docs/CATALOG.en.md#media-players) | 3 | VLC media player, IINA, FreeTube |
 | [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
 | [Password management](docs/CATALOG.en.md#passwords) | 1 | KeePassXC |
 | [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 2 | Joplin, calibre |
+| [Vector design and UI prototyping](docs/CATALOG.en.md#vector-design) | 2 | Inkscape, Penpot |
+| [Desktop publishing and font creation](docs/CATALOG.en.md#desktop-publishing) | 2 | Scribus, FontForge |
+| [RAW development, photo management and panoramas](docs/CATALOG.en.md#photo-workflow) | 4 | darktable, RawTherapee, digiKam |
+| [CAD drafting and parametric modeling](docs/CATALOG.en.md#cad-modeling) | 4 | FreeCAD, LibreCAD, OpenSCAD |
+| [Electronics and electrical design](docs/CATALOG.en.md#electronics-design) | 2 | KiCad, QElectroTech |
+| [2D animation and vector motion](docs/CATALOG.en.md#animation-2d) | 4 | OpenToonz, Synfig Studio, Pencil2D |
+| [Game and interactive development](docs/CATALOG.en.md#game-development) | 4 | Godot Engine, GDevelop, LÖVE |
+| [Music production, notation and DJ](docs/CATALOG.en.md#music-production) | 8 | Ardour, LMMS, MuseScore Studio |
+| [Statistics and scientific computing](docs/CATALOG.en.md#scientific-computing) | 4 | GNU Octave, Scilab, JASP |
+| [GIS and cartography](docs/CATALOG.en.md#gis-mapping) | 1 | QGIS |
+| [Scientific imaging, chemistry and astronomy education](docs/CATALOG.en.md#science-education) | 3 | Stellarium, Avogadro 2, ImageJ |
+| [Project management and Kanban](docs/CATALOG.en.md#project-management) | 5 | OpenProject Community, Taiga, Kanboard |
+| [CRM and sales](docs/CATALOG.en.md#crm) | 3 | SuiteCRM, EspoCRM, Frappe CRM |
+| [ERP and inventory](docs/CATALOG.en.md#erp) | 3 | ERPNext, Dolibarr, Odoo Community |
+| [Web analytics](docs/CATALOG.en.md#web-analytics) | 3 | Matomo On-Premise Community, Umami, Plausible Community Edition |
+| [Business intelligence and dashboards](docs/CATALOG.en.md#business-intelligence) | 2 | Metabase Open Source, Apache Superset |
+| [Forms and surveys](docs/CATALOG.en.md#forms-surveys) | 2 | LimeSurvey Community, OpnForm Community |
+| [Ecommerce and storefronts](docs/CATALOG.en.md#ecommerce) | 4 | WooCommerce, PrestaShop, Medusa Core |
+| [Helpdesk and customer support](docs/CATALOG.en.md#helpdesk) | 4 | Zammad, osTicket, FreeScout |
+| [Booking and scheduling](docs/CATALOG.en.md#booking-scheduling) | 1 | Easy!Appointments |
+| [Team chat](docs/CATALOG.en.md#team-chat) | 1 | Zulip |
+| [Team wikis and knowledge bases](docs/CATALOG.en.md#wiki-knowledge) | 3 | BookStack, Wiki.js, DokuWiki |
+| [Workflow automation](docs/CATALOG.en.md#workflow-automation) | 2 | Activepieces Community, Node-RED |
+| [Email marketing and automation](docs/CATALOG.en.md#email-marketing) | 2 | listmonk, Mautic |
+| [Backup and recovery](docs/CATALOG.en.md#backup-recovery) | 4 | restic, BorgBackup（1.4 穩定系列）, Kopia |
+| [Database clients](docs/CATALOG.en.md#database-clients) | 3 | DBeaver Community, DB Browser for SQLite, Beekeeper Studio Community |
+| [Code editing and API development](docs/CATALOG.en.md#developer-tools) | 6 | VSCodium, Zed, Neovim |
+| [Phone and device integration](docs/CATALOG.en.md#device-integration) | 3 | scrcpy, KDE Connect, App Manager |
+| [File management and duplicate cleanup](docs/CATALOG.en.md#file-management) | 2 | Double Commander, Krokiet（Czkawka 專案） |
+| [Local AI and model tools](docs/CATALOG.en.md#local-ai) | 3 | Jan, GPT4All, Ollama |
+| [DNS and network monitoring](docs/CATALOG.en.md#network-monitoring) | 3 | AdGuard Home, Pi-hole, Uptime Kuma |
+| [Personal finance and accounting](docs/CATALOG.en.md#personal-finance) | 3 | GnuCash, Actual Budget, Money Manager Ex |
+| [Privacy and security](docs/CATALOG.en.md#privacy-security) | 2 | Cryptomator（桌面版）, Portmaster |
+| [Remote access and device management](docs/CATALOG.en.md#remote-access) | 3 | RustDesk, Apache Guacamole, MeshCentral |
+| [Feeds and reference management](docs/CATALOG.en.md#rss-reference) | 4 | FreshRSS, RSS Guard, Zotero |
 <!-- catalog-categories:end -->
 
 Counts use unique product IDs and one primary category per entry. Platforms, article mentions and forum comments are not extra products. The open-source count includes engines, setup-heavy projects and products that may charge for official binaries; it is **not a count of free one-click downloads**. Pearcleaner has a Commons Clause restriction and paused maintenance, so it is counted as source-available, not open source. Proprietary free tiers retain their limits.
@@ -77,12 +116,12 @@ Traditional Chinese UI, Chinese content and Taiwan-accent speech quality are sep
 
 ## Where the recommendations come from
 
-1. [11 existing articles](docs/SOURCES.md) from It's FOSS, TechRadar and Lifewire. The 53 discovery names overlap the product catalog and must not be added to it.
-2. [7 Reddit / Hacker News discussions and comments](docs/FORUMS.md), distinguishing developer promotion, user experiences and subsequent official verification.
-3. [Upstream directories](docs/SOURCES.md) for continued discovery, without copying databases whose reuse terms are unresolved.
-4. [Official documentation and per-product dates](data/products.json). Additional official research fills gaps such as archives, mail, passwords and file transfer; not every new entry came from a forum.
+1. **38 new international sources:** [Attributed summaries and candidate links](docs/RESEARCH-SOURCES.md), covering English, French, German, Traditional Chinese, Hong Kong Chinese, Simplified Chinese and Japanese. We reviewed 22 bodies of content, 9 relevant directory sections and 6 directory indexes; 1 source remains discovery-only. Scope is recorded per source.
+2. **1,346 upstream discovery leads:** [Awesome Selfhosted snapshot](data/upstream/awesome-selfhosted/README.md), pinned to an immutable commit and searchable offline. All are unreviewed here, including 92 marked nonfree upstream. The derived index keeps CC BY-SA 3.0, AUTHORS and LICENSE; it is not a promise of free commercial use.
+3. **Existing research retained:** [11 articles](docs/SOURCES.md) and [7 Reddit/Hacker News discussions](docs/FORUMS.md). Overlapping candidate mentions do not increase curated totals.
+4. **111 newly reviewed products:** [Creative and engineering: 38](docs/research/creative.md), [business: 35](docs/research/business.md), [developer and personal tools: 38](docs/research/infra.md). Each has official documentation, bilingual scope and limitations, costs and license information. Existing products retain their earlier evidence dates; third-party workflows remain untested.
 
-Forum leads also expose limits: Longshot comments mention watermarked free outputs; the relationship between an older Voquill launch and its current website remains unresolved. These stay in the research notes rather than inflating product counts.
+Our aim is broad, useful global coverage; no like-for-like benchmark establishes this as the world's most complete directory. Research records disagreements and outdated claims, including Zotero storage, Kanboard maintenance, Cal.diy scope and stable vs beta Borg versions. [Method, evidence levels and remaining gaps](docs/RESEARCH.md)
 
 ## Share a tool—including your own
 
@@ -141,7 +180,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-09-11**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-09-12**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 

@@ -27,6 +27,7 @@ CATEGORY_NAMES = {
     'passwords': ('密碼管理', 'Password management'),
     'notes-reading': ('筆記與電子書', 'Notes and ebooks'),
 }
+CATEGORY_NAMES.update(json.loads((ROOT / 'data/category-labels.json').read_text(encoding='utf-8')))
 
 
 def replace_block(text, name, body):
@@ -61,7 +62,7 @@ def main():
         note = (f"資料集更新：{catalog['checked_on']}；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。" if zh else
                 f"Dataset updated: {catalog['checked_on']}; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.")
         lines = ['# ' + title, '', '[繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)', '', summary, '', note, '',
-                 '[Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)', '']
+                 '[Alternatives](ALTERNATIVES.' + lang + '.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)', '']
         table = ['| 分類 | 數量 | 例子 |' if zh else '| Category | Count | Examples |', '|---|---:|---|']
         for category in ordered:
             label = CATEGORY_NAMES[category][0 if zh else 1]
@@ -71,6 +72,16 @@ def main():
             examples = '、'.join(p['name'] for p in entries[:3]) if zh else ', '.join(p['name'] for p in entries[:3])
             table.append(f"| [{label}](docs/CATALOG.{lang}.md#{category}) | {len(entries)} | {examples} |")
         (ROOT / f'docs/CATALOG.{lang}.md').write_text('\n'.join(lines), encoding='utf-8')
+        by_id = {p['id']: p for p in products}
+        comparison = ['# ' + ('原軟體與替代候選對照' if zh else 'Original software and conditional alternatives'), '',
+                      ('按原軟體查找可取代的工作。這些關係未經實際遷移測試；是否正在付費、能否取消訂閱，仍需使用者自己的資料。' if zh else
+                       'Find candidates by the original product. These relationships have not been migration-tested; installed apps do not establish paid subscriptions or cancellable expenses.'), '',
+                      '[Catalog](CATALOG.' + lang + '.md) · [JSON](../data/alternatives.json)', '',
+                      '| 原軟體／需求 | 候選 | 替代範圍與缺口 |' if zh else '| Original software / need | Candidates | Scope and gaps |', '|---|---|---|']
+        for mapping in mappings:
+            targets = ', '.join(f"[{by_id[t]['name']}](CATALOG.{lang}.md#{by_id[t]['category']})" for t in mapping['targets'])
+            comparison.append('| ' + mapping['name'] + ' | ' + targets + ' | ' + mapping['zh_note' if zh else 'en_note'].replace('|', '\\|') + ' |')
+        (ROOT / f'docs/ALTERNATIVES.{lang}.md').write_text('\n'.join(comparison)+'\n', encoding='utf-8')
         readme = ROOT / ('README.md' if zh else 'README.en.md')
         text = replace_block(readme.read_text(encoding='utf-8'), 'catalog-summary', summary)
         text = replace_block(text, 'catalog-categories', '\n'.join(table))
