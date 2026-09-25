@@ -1,11 +1,11 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-09-12 · Dataset updated: 2026-09-12; individual product evidence dates retained
+Version: v0.1.0-alpha · Status checked: 2026-09-25 · Dataset updated: 2026-09-25; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 189 個候選、53 大類、99 組條件對照 / 189 candidates, 53 categories, 99 conditional mappings |
+| 產品資料 / Product snapshot | 190 個候選、53 大類、99 組條件對照 / 190 candidates, 53 categories, 99 conditional mappings |
 | 文章、目錄與社群 / Research sources | 新增 38 筆、7 語系；保留舊 11 篇文章及 7 筆社群紀錄 / 38 new sources across 7 language labels; legacy research retained |
 | 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
