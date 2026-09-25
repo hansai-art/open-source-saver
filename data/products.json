@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-09-12",
+  "checked_on": "2026-09-25",
   "products": [
     {
       "id": "oss-001",
@@ -2098,21 +2098,60 @@
       "cost": "free and open-source",
       "license": "GPL-3.0",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-11",
+      "checked_on": "2026-09-25",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
-        "use": "Mac 截圖、標註、OCR 與滾動擷取",
-        "limits": "CleanShot X 的分享與所有編輯流程仍需逐項比對；繁中未實測。"
+        "use": "Mac 截圖、16:9／固定像素尺寸選取、標註、OCR、翻譯、滾動擷取與錄影",
+        "limits": "要求 macOS 12.3+；官方 README 列 40 種語言，但繁中介面與台灣情境未實測；雲端上傳需自行設定服務，完整 CleanShot X 等效仍需逐項比對。"
       },
       "en": {
-        "use": "Mac screenshots, annotations, OCR and scrolling capture",
-        "limits": "Compare individual CleanShot X sharing and editing tasks; Chinese quality untested."
+        "use": "Mac screenshots, 16:9/fixed-pixel selection, annotation, OCR, translation, scrolling capture and recording",
+        "limits": "Requires macOS 12.3+; the official README lists 40 languages, but Traditional Chinese UI and Taiwan-specific workflows are untested. Cloud uploads require configuring a provider; full CleanShot X equivalence remains unverified."
       },
       "source_type": "open-source",
       "discovered_via": [
         "f05"
       ]
+    },
+    {
+      "id": "add-021",
+      "name": "Capso",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "螢幕錄影",
+        "16:9",
+        "固定尺寸",
+        "OCR",
+        "screenshot",
+        "screen recording",
+        "CleanShot X"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/lzhgus/Capso",
+      "sources": [
+        "https://github.com/lzhgus/Capso/blob/main/README.md",
+        "https://github.com/lzhgus/Capso/blob/main/LICENSE"
+      ],
+      "cost": "free to use; source-available; official cloud sharing uses your own storage and may incur provider costs",
+      "license": "Business Source License 1.1; converts to Apache-2.0 after three years per project terms",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-09-25",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "Mac 原生截圖、螢幕錄影、16:9／固定像素尺寸選取、OCR 與標註",
+        "limits": "要求 macOS 15+；BSL 1.1 是原始碼可見授權，不是 OSI 定義的開源授權，禁止 fork 後販售競爭產品；Cloud Share 需自備 Cloudflare R2，螢幕錄影、相機與麥克風需授權。"
+      },
+      "en": {
+        "use": "Native Mac screenshots, screen recording, 16:9/fixed-pixel selection, OCR and annotation",
+        "limits": "Requires macOS 15+; BSL 1.1 is source-available rather than OSI open source and restricts selling a competing fork. Cloud Share uses your own Cloudflare R2 storage; recording, camera and microphone permissions are required."
+      },
+      "source_type": "source-available"
     },
     {
       "id": "add-003",
