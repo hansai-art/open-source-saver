@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**189 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 1 source-available candidate**
+**190 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
 
-Dataset updated: 2026-09-12; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
+Dataset updated: 2026-09-25; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
 
 [Alternatives](ALTERNATIVES.en.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -40,7 +40,8 @@ Dataset updated: 2026-09-12; individual review dates remain in each row. Include
 | [NormCap](https://github.com/dynobo/normcap) | Screen-area OCR to text | macos, windows, linux · desktop | open-source; binary/model/service costs may differ · GPL-3.0-or-later | Chinese recognition depends on installed Tesseract language packs. | [official-docs-reviewed](https://github.com/dynobo/normcap/blob/main/README.md) / 2026-09-10 |
 | [Text Grab](https://github.com/TheJoeFin/Text-Grab) | Screen OCR on Windows | windows · desktop | open-source; binary/model/service costs may differ · MIT | Not a complete screenshot-editing replacement. | [official-docs-reviewed](https://github.com/TheJoeFin/Text-Grab/blob/main/README.md) / 2026-09-10 |
 | [Lightshot](https://app.prntscr.com/en/index.html) | Quick screenshot capture and annotation | macos, windows · desktop | freeware; not open-source · see-upstream | Online sharing uploads screenshots; no tested OCR or scrolling capture. | [official-docs-partial](https://app.prntscr.com/en/index.html) / 2026-09-10 |
-| [macshot](https://github.com/sw33tLie/macshot) | Mac screenshots, annotations, OCR and scrolling capture | macos · desktop | free and open-source · GPL-3.0 | Compare individual CleanShot X sharing and editing tasks; Chinese quality untested. | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-11 |
+| [macshot](https://github.com/sw33tLie/macshot) | Mac screenshots, 16:9/fixed-pixel selection, annotation, OCR, translation, scrolling capture and recording | macos · desktop | free and open-source · GPL-3.0 | Requires macOS 12.3+; the official README lists 40 languages, but Traditional Chinese UI and Taiwan-specific workflows are untested. Cloud uploads require configuring a provider; full CleanShot X equivalence remains unverified. | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-25 |
+| [Capso](https://github.com/lzhgus/Capso) | Native Mac screenshots, screen recording, 16:9/fixed-pixel selection, OCR and annotation | macos · desktop | free to use; source-available, not OSI open source · Business Source License 1.1; converts to Apache-2.0 after three years under project terms | Requires macOS 15+; BSL 1.1 restricts selling a competing fork; Cloud Share uses your own Cloudflare R2 storage, and recording/camera/microphone permissions are required. | [official-docs-reviewed](https://github.com/lzhgus/Capso/blob/main/README.md) / 2026-09-25 |
 
 ## dictation
 
