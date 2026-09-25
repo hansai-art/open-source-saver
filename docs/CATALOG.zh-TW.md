@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**189 個候選 · 53 大類 · 180 個開源專案 · 8 個非開源免費版／內建候選 · 1 個原始碼可見候選**
+**190 個候選 · 53 大類 · 180 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
-資料集更新：2026-09-12；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
+資料集更新：2026-09-25；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
 [Alternatives](ALTERNATIVES.zh-TW.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -40,7 +40,8 @@
 | [NormCap](https://github.com/dynobo/normcap) | 從畫面擷取文字，減少手動抄寫 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0-or-later | OCR 工具而非註解編輯器；中文辨識取決於 Tesseract 語言資料，繁中語料效果待測。 | [official-docs-reviewed](https://github.com/dynobo/normcap/blob/main/README.md) / 2026-09-10 |
 | [Text Grab](https://github.com/TheJoeFin/Text-Grab) | 快速框選畫面轉成可複製文字 | windows · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · MIT | Windows 專用；OS OCR 語言及字型影響結果。 | [official-docs-reviewed](https://github.com/TheJoeFin/Text-Grab/blob/main/README.md) / 2026-09-10 |
 | [Lightshot](https://app.prntscr.com/en/index.html) | 快速區域截圖與標註 | macos, windows · 桌面軟體 | 免費軟體；非開源 · see-upstream | 有官方免費下載；網路分享會上傳截圖，不等於所有截圖都只留在本機。 | [official-docs-partial](https://app.prntscr.com/en/index.html) / 2026-09-10 |
-| [macshot](https://github.com/sw33tLie/macshot) | Mac 截圖、標註、OCR 與滾動擷取 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | CleanShot X 的分享與所有編輯流程仍需逐項比對；繁中未實測。 | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-11 |
+| [macshot](https://github.com/sw33tLie/macshot) | Mac 截圖、16:9／固定像素尺寸選取、標註、OCR、翻譯、滾動擷取與錄影 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | 要求 macOS 12.3+；官方 README 列 40 種語言，但繁中介面與台灣情境未實測；雲端上傳需自行設定服務，完整 CleanShot X 等效仍需逐項比對。 | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-25 |
+| [Capso](https://github.com/lzhgus/Capso) | Mac 原生截圖、螢幕錄影、16:9／固定像素尺寸選取、OCR 與標註 | macos · 桌面軟體 | 免費使用；原始碼可見，非 OSI 開源 · Business Source License 1.1，依專案條款三年後轉 Apache-2.0 | 要求 macOS 15+；BSL 1.1 禁止 fork 後販售競爭產品；Cloud Share 需自備 Cloudflare R2，錄影、相機與麥克風需授權。 | [official-docs-reviewed](https://github.com/lzhgus/Capso/blob/main/README.md) / 2026-09-25 |
 
 ## dictation
 
