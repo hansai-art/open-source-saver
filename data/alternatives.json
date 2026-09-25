@@ -53,10 +53,11 @@
         "oss-010",
         "oss-011",
         "free-008",
-        "add-002"
+        "add-002",
+        "add-021"
       ],
-      "zh_note": "OCR、長截圖與雲端分享要另外查證。",
-      "en_note": "Verify OCR, scrolling capture and sharing independently.",
+      "zh_note": "OCR、長截圖、16:9／固定尺寸與雲端分享要另外查證。",
+      "en_note": "Verify OCR, scrolling capture, 16:9/fixed-size selection and sharing independently.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
