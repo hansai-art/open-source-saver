@@ -8,7 +8,7 @@
 |---|---|---|
 | Screen Studio | [Recordly](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Cap](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [OBS Studio](CATALOG.zh-TW.md#screen-recording) | 分開確認自動縮放、游標、字幕與分享；基本錄影不等於完整取代。 |
 | Camtasia | [OBS Studio](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Kdenlive](CATALOG.zh-TW.md#video-editing) | 錄影與後製需求需分開比較。 |
-| Snagit / CleanShot X | [ShareX](CATALOG.zh-TW.md#screenshots-ocr), [Flameshot](CATALOG.zh-TW.md#screenshots-ocr), [ksnip](CATALOG.zh-TW.md#screenshots-ocr), [Lightshot](CATALOG.zh-TW.md#screenshots-ocr), [macshot](CATALOG.zh-TW.md#screenshots-ocr) | OCR、長截圖與雲端分享要另外查證。 |
+| Snagit / CleanShot X | [ShareX](CATALOG.zh-TW.md#screenshots-ocr), [Flameshot](CATALOG.zh-TW.md#screenshots-ocr), [ksnip](CATALOG.zh-TW.md#screenshots-ocr), [Lightshot](CATALOG.zh-TW.md#screenshots-ocr), [macshot](CATALOG.zh-TW.md#screenshots-ocr), [Capso](CATALOG.zh-TW.md#screenshots-ocr) | OCR、長截圖與雲端分享要另外查證。 |
 | Loom | [Cap](CATALOG.zh-TW.md#screen-recording), [Screenity](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording) | 本機錄影不能當成已有團隊分享與觀看分析。 |
 | Microsoft Word | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 以實際文件測試；套裝訂閱未取消不計節省。 |
 | Microsoft Excel | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 巨集、外部資料與複雜公式需確認。 |
