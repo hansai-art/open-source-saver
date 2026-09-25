@@ -5,12 +5,12 @@
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
 <!-- catalog-summary:start -->
-**189 個候選 · 53 大類 · 180 個開源專案 · 8 個非開源免費版／內建候選 · 1 個原始碼可見候選**
+**190 個候選 · 53 大類 · 180 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及本輪新增的 38 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
 
-本輪工具從 **78 → 189（2.42 倍）**、領域 **18 → 53（2.94 倍）**、原軟體對照 **20 → 99 組**。 [研究方法與統計](docs/RESEARCH.md)
+目前工具從 **78 → 190（2.44 倍）**、領域 **18 → 53（2.94 倍）**、原軟體對照 **20 → 99 組**。 [研究方法與統計](docs/RESEARCH.md)
 
 **先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
 
@@ -55,7 +55,7 @@
 |---|---|---|
 | 錄課程、螢幕教學／Camtasia | OBS Studio + Kdenlive | 錄一段含麥克風與系統音訊的教學，再完成剪輯輸出 |
 | 漂亮的產品示範／Screen Studio | Recordly、Capptivo；基本錄影可看 OBS | 自動縮放、游標、字幕、輸出浮水印及安裝方式 |
-| 截圖標註、OCR／Snagit、CleanShot X | Windows：ShareX；Mac：macshot；跨平台：Flameshot、ksnip | 用自己的畫面試長截圖、繁中 OCR、快捷鍵與分享需求 |
+| 截圖標註、OCR／Snagit、CleanShot X | Windows：ShareX；Mac：macshot、Capso；跨平台：Flameshot、ksnip | 用自己的畫面試長截圖、16:9／固定尺寸、繁中 OCR、快捷鍵與分享需求 |
 | 用說話代替打字／Wispr Flow、Superwhisper | Handy、OpenWhispr、TypeWhisper（Mac） | 一段台灣口音、中英混合與專有名詞；本機模型或雲端費用 |
 | 訪談逐字稿／Otter、Descript | noScribe、Vibe、Buzz；會議摘要另看 Meetily Community | 說話者分段、轉錄時間、字幕匯出；不能把轉錄當成文字剪輯 |
 | 做字幕、配音與音訊整理 | Subtitle Edit、Audacity；TTS 另看專區 | 字幕時間軸、聲音模型授權；TTS 引擎可能需要設定 |
@@ -69,7 +69,7 @@
 | 分類 | 數量 | 例子 |
 |---|---:|---|
 | [螢幕錄影](docs/CATALOG.zh-TW.md#screen-recording) | 12 | OBS Studio、Recordly、Capptivo |
-| [截圖與 OCR](docs/CATALOG.zh-TW.md#screenshots-ocr) | 8 | ShareX、Flameshot、ksnip |
+| [截圖與 OCR](docs/CATALOG.zh-TW.md#screenshots-ocr) | 9 | ShareX、Flameshot、ksnip |
 | [語音輸入／聽寫](docs/CATALOG.zh-TW.md#dictation) | 6 | Handy、OpenWhispr、VoiceInk |
 | [逐字稿與會議轉錄](docs/CATALOG.zh-TW.md#transcription) | 10 | Vibe、Buzz、aTrain |
 | [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 3 | Subtitle Edit、pyVideoTrans、VideoLingo |
@@ -197,7 +197,7 @@ Windows 將 python3 改成 `py -3`。`--include-engines` 可顯示引擎；自�
 
 附帶程式不連網，清單與報告寫到本機；若將內容交給雲端 AI，仍會發生雲端處理。嚴格離線時請直接使用本機 CLI。收集器為實驗性，Windows／Mac 真機驗收仍待完成；可先提供手動工具名稱清單。
 
-本次資料集更新於 **2026-09-12**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
+本次資料集更新於 **2026-09-25**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
 
 [Spec](docs/SPEC.zh-TW.md) · [v0.2 優化規劃](docs/OPTIMIZATION.zh-TW.md) · [驗收狀態](docs/STATUS.md)。v0.1.0-alpha 持續擴充中；後續規劃的數量目標不當成已完成。
 
