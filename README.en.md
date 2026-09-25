@@ -5,12 +5,12 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**189 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 1 source-available candidate**
+**190 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 38 new international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
 
-This expansion: **78 → 189 products (2.42×), 18 → 53 categories (2.94×), 20 → 99 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
+Current catalog: **78 → 190 products (2.44×), 18 → 53 categories (2.94×), 20 → 99 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
@@ -42,7 +42,7 @@ Need Screen Studio-style automatic camera movement? Explore Recordly and Capptiv
 |---|---|---|
 | Record a course / Camtasia | OBS Studio + Kdenlive | Record microphone and system audio, edit a short lesson and export it |
 | Polished product demos / Screen Studio | Recordly, Capptivo; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
-| Screenshots / Snagit, CleanShot X | ShareX on Windows; macshot on Mac; Flameshot or ksnip across platforms | Test scrolling capture, Chinese OCR, shortcuts and sharing |
+| Screenshots / Snagit, CleanShot X | ShareX on Windows; macshot and Capso on Mac; Flameshot or ksnip across platforms | Test scrolling capture, 16:9/fixed-size selection, Chinese OCR, shortcuts and sharing |
 | Voice typing / Wispr Flow, Superwhisper | Handy, OpenWhispr, TypeWhisper on Mac | Test mixed Chinese/English terminology and local versus cloud costs |
 | Transcripts / Otter, Descript | noScribe, Vibe, Buzz; Meetily Community for meeting summaries | Check speakers, processing time and exports; transcription is not text-based video editing |
 | Subtitles and audio | Subtitle Edit, Audacity; see the TTS section for speech synthesis | Check timing and model terms; engines may require setup |
@@ -56,7 +56,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | Category | Count | Examples |
 |---|---:|---|
 | [Screen recording](docs/CATALOG.en.md#screen-recording) | 12 | OBS Studio, Recordly, Capptivo |
-| [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 8 | ShareX, Flameshot, ksnip |
+| [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 9 | ShareX, Flameshot, ksnip |
 | [Voice typing / dictation](docs/CATALOG.en.md#dictation) | 6 | Handy, OpenWhispr, VoiceInk |
 | [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
 | [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 3 | Subtitle Edit, pyVideoTrans, VideoLingo |
@@ -180,7 +180,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-09-12**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-09-25**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 
