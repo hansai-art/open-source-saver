@@ -73,6 +73,20 @@ python3 scripts/saver.py validate
 
 找不到時先參考 [文章來源](SOURCES.md) 和 data/discovery.json；不要把空結果當成市場上不存在替代品。發現新的工具不需要立即開發新的軟體。
 
+### Adobe／ArtCraft 與早期工具篩選
+
+```bash
+python3 scripts/saver.py search "Adobe 全系列" --platform macos
+python3 scripts/saver.py search "PrintCraft" --platform windows
+python3 scripts/saver.py search "Photoshop" --platform macos --exclude-experimental
+```
+
+ArtCraft Crafting Apps 的七款工具已收錄，PdfCraft 的舊名稱 PrintCraft 可直接查。表格的「採用建議」區分依用途評估、早期試用與研究用途，JSON 保留版本、官方下載資產及 CLI／MCP 文件證據。
+
+在 `search` 或 `report` 加 `--exclude-experimental`，可隱藏 `maturity: early-development` 項目。未分類的舊候選仍按原本資料顯示，適用用途、中文品質與專案相容性須各自確認。
+
+[逐款試用任務](research/artcraft.md)
+
 ## 6. 隱私與錯誤
 
 本機腳本不發網路請求、不印原始清單。私人報告也可能揭露工作內容，請留在私人資料夾，避免提交到 GitHub。嚴格離線模式在本機終端機操作，不請雲端 AI 開啟結果。一般聊天查證官方網站則是連線模式。

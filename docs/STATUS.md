@@ -1,15 +1,15 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-09-25 · Dataset updated: 2026-09-25; individual product evidence dates retained
+Version: v0.1.0-alpha · Status checked: 2026-10-09 · Dataset updated: 2026-10-09; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 190 個候選、53 大類、99 組條件對照 / 190 candidates, 53 categories, 99 conditional mappings |
-| 文章、目錄與社群 / Research sources | 新增 38 筆、7 語系；保留舊 11 篇文章及 7 筆社群紀錄 / 38 new sources across 7 language labels; legacy research retained |
+| 產品資料 / Product snapshot | 197 個候選、53 大類、100 組條件對照 / 197 candidates, 53 categories, 100 conditional mappings |
+| 文章、目錄與社群 / Research sources | 45 筆、7 語系，含本次 7 筆 ArtCraft 官方文件；保留舊 11 篇文章及 7 筆社群紀錄 / 45 sources across 7 language labels, including 7 ArtCraft official documents; legacy research retained |
 | 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
-| 自動測試 / Automated tests | Linux / Python：16 項通過 / 16 passed |
+| 自動測試 / Automated tests | Linux / Python：21 項通過 / 21 passed |
 | Skill 結構驗證 / Skill structure validation | 通過 / Passed |
 | Agent 情境 / Agent scenario | Mac 錄影、自動縮放、繁中字幕、免編譯：正確保留未知，不承諾完整替換 / Preserved unknowns instead of promising an unverified replacement |
 | macOS 收集器 / macOS collector | metadata 測資通過；真機未測 / Synthetic metadata tests passed; device testing pending |
@@ -77,3 +77,12 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - 實際第三方安裝、完整遷移、效能、繁中介面與使用者節省仍未實測；Windows／Mac 真機收集器驗收仍待完成。
 
 [研究方法](RESEARCH.md) · [國內外來源](RESEARCH-SOURCES.md) · [機器可讀統計](../data/research-stats.json)
+
+## 2026-10-09 ArtCraft 收錄與採用建議
+
+- 新增七款獨立開源工具、100 組原軟體對照中的 Creative Cloud／ArtCraft 分流。各款保留版本、安裝資產列表、繁中 UI 來源與 CLI／MCP 文件證據。
+- 四款版本含繁中 UI，三款未提供繁中。LightCraft 字形限制、FilmCraft HEVC 文件差異與 DesignCraft PDF 文件差異逐款列明。
+- 搜尋和報告顯示採用建議與下載入口；`--exclude-experimental` 可隱藏早期開發項。EffectCraft 為研究用途，不能開啟 AEP／AEPX 或使用 AE 外掛。
+- 資料與 21 項離線測試通過。第三方安裝包、GUI、檔案遷移、中文品質及 CLI／MCP 工作流未實測。
+
+[繁中查核](research/artcraft.md) · [English review](research/artcraft.en.md)

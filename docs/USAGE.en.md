@@ -68,6 +68,20 @@ Categories: screen-recording, screenshots-ocr, dictation, transcription, subtitl
 
 No results? Reuse [sources](SOURCES.md) and data/discovery.json. A missing local match is not proof that no alternative exists.
 
+### Adobe / ArtCraft and early-development filtering
+
+```bash
+python3 scripts/saver.py search "Adobe Creative Cloud" --platform macos --lang en
+python3 scripts/saver.py search "PrintCraft" --platform windows --lang en
+python3 scripts/saver.py search "Photoshop" --platform macos --exclude-experimental --lang en
+```
+
+Seven ArtCraft Crafting Apps are cataloged, including PdfCraft under its previous PrintCraft name. Adoption labels separate task evaluation, early trials and research use. JSON retains versions, release assets and CLI/MCP documentation evidence.
+
+`--exclude-experimental` in `search` or `report` hides products with `maturity: early-development`. Older unclassified candidates remain; evaluate their task fit, localization and project compatibility.
+
+[App-specific trial tasks](research/artcraft.en.md)
+
 ## Privacy and failures
 
 Helpers make no network requests and do not print inventory contents. Keep private outputs outside public repositories. Strict offline means running locally without asking a cloud agent to read the output. Live official-source research is separate.

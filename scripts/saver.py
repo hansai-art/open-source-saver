@@ -29,6 +29,11 @@ COST_ZH = {
 DELIVERY_ZH = {'desktop': '桌面軟體', 'web': '網頁服務', 'self-hosted': '需自架',
                'engine': '開發引擎', 'cli': '命令列', 'mobile': '行動 App',
                'setup': '需要設定', 'builtin': '系統內建', 'extension': '瀏覽器外掛'}
+RECOMMENDATION_LABELS = {
+    'conditional-candidate': ('依用途評估', 'Evaluate the task'),
+    'trial-only': ('建議試用，早期開發', 'Trial only; early development'),
+    'research-only': ('研究用途，暫不建議客戶工作', 'Research only; retain client-work tools'),
+}
 
 
 def read_json(path):
@@ -88,21 +93,23 @@ def inventory(path):
     return clean, bool(warnings)
 
 
-def eligible(product, platform, include_engines=False):
+def eligible(product, platform, include_engines=False, exclude_experimental=False):
     if not include_engines and product['delivery'] == 'engine':
         return False
     if platform and platform not in product['platforms']:
         return False
+    if exclude_experimental and product.get('maturity') == 'early-development':
+        return False
     return True
 
 
-def search(products, mappings, query, platform=None, include_engines=False):
+def search(products, mappings, query, platform=None, include_engines=False, exclude_experimental=False):
     mapping = source_match(query, mappings)
     target_ids = mapping['targets'] if mapping else []
     query = normalize(query)
     scored = []
     for p in products:
-        if not eligible(p, platform, include_engines):
+        if not eligible(p, platform, include_engines, exclude_experimental):
             continue
         score = 0
         if p['id'] in target_ids:
@@ -160,18 +167,22 @@ def escape(value):
 
 def render(products, lang):
     zh = lang == 'zh-TW'
-    header = '| 工具 | 用途 | 平台／部署 | 費用／授權 | 限制 | 證據 |' if zh else '| Tool | Use | Platform / delivery | Cost / license | Limits | Evidence |'
-    rows = [header, '|---|---|---|---|---|---|']
+    header = '| 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |' if zh else '| Tool | Use | Adoption | Platform / delivery | Cost / license | Limits | Evidence |'
+    rows = [header, '|---|---|---|---|---|---|---|']
     for p in products:
         text = p['zh'] if zh else p['en']
         platform = (', '.join(p['platforms']) or ('待確認' if zh else 'Unknown')) + ' · ' + (DELIVERY_ZH.get(p['delivery'], p['delivery']) if zh else p['delivery'])
         cost = (COST_ZH.get(p['cost'], p['cost']) if zh else p['cost']) + ' · ' + p['license']
         evidence = f"[{escape(p['evidence'])}]({p['sources'][0]}) / {p['checked_on']}"
-        rows.append('| ' + ' | '.join([f"[{escape(p['name'])}]({p['url']})", escape(text['use']), escape(platform), escape(cost), escape(text['limits']), evidence]) + ' |')
+        recommendation = RECOMMENDATION_LABELS[p.get('recommendation', 'conditional-candidate')][0 if zh else 1]
+        name = f"[{escape(p['name'])}]({p['url']})"
+        if p.get('download_url'):
+            name += f" · [{'下載' if zh else 'Download'}]({p['download_url']})"
+        rows.append('| ' + ' | '.join([name, escape(text['use']), recommendation, escape(platform), escape(cost), escape(text['limits']), evidence]) + ' |')
     return '\n'.join(rows)
 
 
-def report(names, products, mappings, platform, lang, has_warnings=False):
+def report(names, products, mappings, platform, lang, has_warnings=False, exclude_experimental=False):
     zh = lang == 'zh-TW'
     lines = ['# 開源與免費軟體候選報告' if zh else '# Open-source and free software candidates', '', '本機快照配對；未驗證遷移可行性，不代表已付費或已省錢。' if zh else 'Local snapshot matching. Migration suitability, paid subscriptions and savings are not established.', '']
     if has_warnings:
@@ -184,12 +195,12 @@ def report(names, products, mappings, platform, lang, has_warnings=False):
         else:
             unknown.append(name)
     for mapping in grouped.values():
-        targets = [p for tid in mapping['targets'] for p in products if p['id'] == tid and eligible(p, platform)]
+        targets = [p for tid in mapping['targets'] for p in products if p['id'] == tid and eligible(p, platform, exclude_experimental=exclude_experimental)]
         lines += ['## ' + escape(mapping['name']), '', escape(mapping['zh_note'] if zh else mapping['en_note']), '']
         if targets:
             lines += [render(targets, lang), '']
         else:
-            lines += ['指定平台沒有已知符合候選，需另查。' if zh else 'No known candidates for this platform; research required.', '']
+            lines += ['套用平台與篩選條件後沒有已知符合候選，需另查。' if zh else 'No known candidates after platform and option filters; research required.', '']
     lines += ['## 未配對／需另查' if zh else '## Unmatched / research needed', '']
     lines += ['- ' + escape(n) for n in unknown] or ['無' if zh else 'None']
     lines += ['', f"Input names: {len(names)}; mapped product groups: {len(grouped)}; unmatched: {len(unknown)}.", 'Counts describe this input, not full-device coverage.', '']
@@ -229,6 +240,10 @@ def validate(catalog, mappings):
             raise ValueError('Unknown delivery classification')
         if p['evidence'] not in {'official-docs-reviewed', 'official-docs-partial'}:
             raise ValueError('Unknown product evidence level')
+        if p.get('recommendation', 'conditional-candidate') not in RECOMMENDATION_LABELS:
+            raise ValueError('Unknown adoption recommendation')
+        if p.get('maturity', 'unknown') not in {'unknown', 'early-development', 'stable'}:
+            raise ValueError('Unknown product maturity')
         if not all(isinstance(p[f], str) and p[f].strip() for f in ('id', 'name', 'license', 'cost', 'category')):
             raise ValueError('Empty product identity or license/cost')
         if not p['sources'] or not p['keywords']:
@@ -238,7 +253,7 @@ def validate(catalog, mappings):
                 raise ValueError('Missing bilingual use or limits')
         if set(p['platforms']) - {'macos', 'windows', 'linux', 'web', 'android', 'ios'}:
             raise ValueError('Unknown platform')
-        for url in [p['url'], *p['sources']]:
+        for url in [p['url'], *p['sources'], *([p['download_url']] if p.get('download_url') else [])]:
             if not re.match(r'^https://[^\s<>\[\]()]+$', url):
                 raise ValueError('Invalid HTTPS source URL')
         dt.date.fromisoformat(p['checked_on'])
@@ -264,6 +279,7 @@ def main(argv=None):
     s.add_argument('query')
     s.add_argument('--platform', choices=['macos', 'windows', 'linux', 'web', 'android', 'ios'])
     s.add_argument('--include-engines', action='store_true')
+    s.add_argument('--exclude-experimental', action='store_true', help='Hide products explicitly marked as early development; other results still need evaluation')
     s.add_argument('--json', action='store_true')
     s.add_argument('--lang', choices=['zh-TW', 'en'], default='zh-TW')
     d = sub.add_parser('discover', help='Search the separate unreviewed upstream index, offline')
@@ -276,6 +292,7 @@ def main(argv=None):
     r.add_argument('--output', required=True)
     r.add_argument('--platform', required=True, choices=['macos', 'windows', 'linux'])
     r.add_argument('--lang', choices=['zh-TW', 'en'], default='zh-TW')
+    r.add_argument('--exclude-experimental', action='store_true', help='Hide products explicitly marked as early development')
     args = parser.parse_args(argv)
     try:
         catalog = read_json(ROOT / 'data/products.json')
@@ -284,7 +301,7 @@ def main(argv=None):
         if args.command == 'validate':
             print(f"Valid: {len(catalog['products'])} products, {len(mappings)} source mappings")
         elif args.command == 'search':
-            results = search(catalog['products'], mappings, args.query, args.platform, args.include_engines)
+            results = search(catalog['products'], mappings, args.query, args.platform, args.include_engines, args.exclude_experimental)
             print(json.dumps(results, ensure_ascii=False, indent=2) if args.json else render(results, args.lang))
             if not results and not args.json:
                 print('沒有符合候選 / No matches. Search the linked articles; do not infer full replacement.')
@@ -297,7 +314,7 @@ def main(argv=None):
             print(json.dumps(payload, ensure_ascii=False, indent=2) if args.json else render_discovery(results, total, args.lang))
         else:
             names, warnings = inventory(args.input)
-            write_output(args.output, report(names, catalog['products'], mappings, args.platform, args.lang, warnings))
+            write_output(args.output, report(names, catalog['products'], mappings, args.platform, args.lang, warnings, args.exclude_experimental))
             print('Report saved locally. Inventory contents were not printed.')
     except (OSError, ValueError, KeyError, TypeError) as error:
         # Avoid leaking names, paths, raw JSON or registry values through exception text.

@@ -5,12 +5,12 @@
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
 <!-- catalog-summary:start -->
-**190 個候選 · 53 大類 · 180 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**197 個候選 · 53 大類 · 187 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
-**另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及本輪新增的 38 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
+**另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 45 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
 
-目前工具從 **78 → 190（2.44 倍）**、領域 **18 → 53（2.94 倍）**、原軟體對照 **20 → 99 組**。 [研究方法與統計](docs/RESEARCH.md)
+目前工具從 **78 → 197（2.53 倍）**、領域 **18 → 53（2.94 倍）**、原軟體對照 **20 → 100 組**。 [研究方法與統計](docs/RESEARCH.md)
 
 **先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
 
@@ -18,7 +18,33 @@
 
 這個 Skill 的主要流程是：**盤點電腦已安裝的軟體 → 比對開源免費替代方案 → 列出推薦理由、功能差異與安裝方式。** 安裝到能操作本機的 Claude Code／Codex 等 Agent 後，從你的實際軟體清單開始推薦，不用先自己研究每一款替代品。也能直接瀏覽網頁清單，或只詢問某款軟體。**有現成就拿來用；只有英文，就先整理繁中教學或協助上游翻譯。**
 
-導覽：[能省多少](#先看一筆訂閱能省多少) · [優先需求](#先解決你每天會用的錄影截圖與語音需求) · [全部分類](#目前收錄哪些工具) · [資料來源](#資料從哪裡來) · [提供工具](#歡迎提供你自己開發或你知道的工具) · [新手開始](#新手從這裡開始) · [安裝](#安裝-skill)
+導覽：[Adobe 開源候選](#新收錄artcraft-的七款-adobe-開源替代工具) · [能省多少](#先看一筆訂閱能省多少) · [優先需求](#先解決你每天會用的錄影截圖與語音需求) · [全部分類](#目前收錄哪些工具) · [資料來源](#資料從哪裡來) · [提供工具](#歡迎提供你自己開發或你知道的工具) · [新手開始](#新手從這裡開始) · [安裝](#安裝-skill)
+
+## 新收錄：ArtCraft 的七款 Adobe 開源替代工具
+
+ArtCraft 團隊重新開發七款創作軟體，對應 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign。原始碼採 **MIT 或 Apache-2.0**，查核日 **2026-10-09**，七款皆已確認 Mac、Windows、Linux 下載檔。它們涵蓋這七款 Adobe 產品的部分工作流程，Adobe 官方原始碼及其他 Creative Cloud 產品不在這次收錄範圍。
+
+| 原軟體 | 開源工具／下載 | 採用建議 | 繁中介面 | 主要差異 |
+|---|---|---|---|---|
+| Photoshop | [PhotoCraft](https://github.com/storytold/photocraft) · [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | early alpha，PSD、字排與外掛需測 |
+| Illustrator | [VectorCraft](https://github.com/storytold/vectorcraft) · [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | AI 匯入限 PDF 相容檔，3D／進階字排仍有缺口 |
+| Premiere Pro | [FilmCraft](https://github.com/storytold/filmcraft) · [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 此版本未提供 | 外掛、素材相容性及大型影片效能有缺口 |
+| Lightroom | [LightCraft](https://github.com/storytold/lightcraft) · [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | 相機校色與 RAW 格式需測 |
+| Acrobat | [PdfCraft](https://github.com/storytold/pdfcraft) · [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | CJK 正文編輯與非拉丁 OCR 有缺口 |
+| After Effects | [EffectCraft](https://github.com/storytold/effectcraft) · [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | 研究用途 | 此版本未提供 | 無法開啟 AEP／AEPX，AE 外掛不可用 |
+| InDesign | [DesignCraft](https://github.com/storytold/designcraft) · [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 此版本未提供 | INDD 不可讀，完整 CJK 組版尚未完成 |
+
+**建議先試 PhotoCraft、VectorCraft、PdfCraft 的小型檔案操作。** 現有工具與新增候選會一同保留，搜尋結果新增「採用建議」及下載入口。CLI／MCP 已核對官方文件，實際自動化工作流尚未執行。
+
+[逐款查核、中文限制與試用任務](docs/research/artcraft.md)。PdfCraft 原名 PrintCraft，舊名稱仍可搜尋。ArtCraft 的 AI 影像／影片服務與這七款 Crafting Apps 分開計算。
+
+```bash
+python3 scripts/saver.py search "ArtCraft" --platform macos
+python3 scripts/saver.py search "PrintCraft" --platform windows
+python3 scripts/saver.py search "After Effects" --platform macos --exclude-experimental
+```
+
+`--exclude-experimental` 可在 `search` 和 `report` 隱藏已標為早期開發的項目，其餘候選仍依工作需求與檔案格式選擇。Creative Cloud 仍保留續訂時，節費欄不計整套省下的費用。
 
 ## 先看一筆訂閱能省多少
 
@@ -47,7 +73,7 @@
 | Acronis、TeamViewer、Postman | restic／Kopia、RustDesk、Bruno／Hoppscotch | 先試還原、連線、API 集合與團隊協作 |
 | 個人記帳、文獻、RSS | GnuCash／Actual、Zotero、FreshRSS | 資料匯入、雲端同步與儲存費分開看 |
 
-[查看全部 99 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
+[查看全部 100 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
 
 ## 先解決你每天會用的錄影、截圖與語音需求
 
@@ -74,11 +100,11 @@
 | [逐字稿與會議轉錄](docs/CATALOG.zh-TW.md#transcription) | 10 | Vibe、Buzz、aTrain |
 | [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 3 | Subtitle Edit、pyVideoTrans、VideoLingo |
 | [TTS 文字轉語音](docs/CATALOG.zh-TW.md#text-to-speech) | 7 | Readest、Piper（現行維護線）、Qwen3-TTS |
-| [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 9 | Auto-Editor、LosslessCut、Kdenlive |
+| [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 11 | Auto-Editor、LosslessCut、Kdenlive |
 | [音訊編輯](docs/CATALOG.zh-TW.md#audio-editing) | 2 | Audacity、Ultimate Vocal Remover（UVR） |
-| [修圖與繪圖](docs/CATALOG.zh-TW.md#graphics) | 2 | GIMP、Krita |
+| [修圖與繪圖](docs/CATALOG.zh-TW.md#graphics) | 3 | GIMP、Krita、PhotoCraft |
 | [文書與 Office](docs/CATALOG.zh-TW.md#office) | 2 | LibreOffice、ONLYOFFICE Desktop Editors |
-| [PDF 閱讀與處理](docs/CATALOG.zh-TW.md#pdf) | 3 | PDF24 Creator、SumatraPDF、PDFsam Basic |
+| [PDF 閱讀與處理](docs/CATALOG.zh-TW.md#pdf) | 4 | PDF24 Creator、SumatraPDF、PDFsam Basic |
 | [傳檔與檔案同步](docs/CATALOG.zh-TW.md#file-transfer) | 3 | LocalSend、Syncthing、rclone |
 | [視窗、剪貼簿與系統整理](docs/CATALOG.zh-TW.md#productivity) | 4 | Rectangle、Maccy、Pearcleaner |
 | [壓縮與解壓縮](docs/CATALOG.zh-TW.md#archives) | 2 | 7-Zip、PeaZip |
@@ -86,9 +112,9 @@
 | [電子郵件](docs/CATALOG.zh-TW.md#email) | 1 | Thunderbird |
 | [密碼管理](docs/CATALOG.zh-TW.md#passwords) | 1 | KeePassXC |
 | [筆記與電子書](docs/CATALOG.zh-TW.md#notes-reading) | 2 | Joplin、calibre |
-| [向量設計與 UI 原型](docs/CATALOG.zh-TW.md#vector-design) | 2 | Inkscape、Penpot |
-| [桌面出版與字型製作](docs/CATALOG.zh-TW.md#desktop-publishing) | 2 | Scribus、FontForge |
-| [RAW 顯影、照片管理與全景](docs/CATALOG.zh-TW.md#photo-workflow) | 4 | darktable、RawTherapee、digiKam |
+| [向量設計與 UI 原型](docs/CATALOG.zh-TW.md#vector-design) | 3 | Inkscape、Penpot、VectorCraft |
+| [桌面出版與字型製作](docs/CATALOG.zh-TW.md#desktop-publishing) | 3 | Scribus、FontForge、DesignCraft |
+| [RAW 顯影、照片管理與全景](docs/CATALOG.zh-TW.md#photo-workflow) | 5 | darktable、RawTherapee、digiKam |
 | [CAD 製圖與參數建模](docs/CATALOG.zh-TW.md#cad-modeling) | 4 | FreeCAD、LibreCAD、OpenSCAD |
 | [電子電路與電氣設計](docs/CATALOG.zh-TW.md#electronics-design) | 2 | KiCad、QElectroTech |
 | [2D 動畫與向量動態](docs/CATALOG.zh-TW.md#animation-2d) | 4 | OpenToonz、Synfig Studio、Pencil2D |
@@ -131,10 +157,10 @@
 
 先整合既有文章與大型目錄，再核對官方資料，最後用真實工作確認替代能力。目標是持續擴大覆蓋；目前不宣稱已證明「全球第一」。
 
-1. **38 筆新增國內外來源：** [逐筆摘要與工具去向](docs/RESEARCH-SOURCES.md)，涵蓋繁中、港式中文、簡中、英文、法文、德文、日文，包括台灣 ezgo、電腦玩物、免費資源網、小眾軟體、Framasoft、Digitalcourage 等。22 筆讀過正文、9 筆讀過目錄相關段落、6 筆讀過目錄入口、1 筆僅為發現線索，閱讀程度逐筆標明。
+1. **45 筆國內外來源：** [逐筆摘要與工具去向](docs/RESEARCH-SOURCES.md)，涵蓋繁中、港式中文、簡中、英文、法文、德文、日文，包括台灣 ezgo、電腦玩物、免費資源網、小眾軟體、Framasoft、Digitalcourage 等。22 筆讀過正文、9 筆讀過目錄相關段落、6 筆讀過目錄入口、1 筆僅為發現線索，另有 7 筆本次核對的 ArtCraft 官方版本文件，閱讀程度逐筆標明。
 2. **1,346 筆上游線索：** [Awesome Selfhosted 索引](data/upstream/awesome-selfhosted/README.md) 固定來源 commit，可用 `discover` 離線查詢。含 92 筆上游標為非自由授權的項目，全部仍需回查；不把整份目錄當作免費可商用推薦。衍生資料保留 CC BY-SA 3.0、作者及來源。
 3. **原有文章與論壇：** 保留 [11 篇文章](docs/SOURCES.md) 與 [7 筆 Reddit／Hacker News 討論](docs/FORUMS.md)。文章發現名稱會連回已整理工具；仍未核對的保留為線索。
-4. **111 個新增工具的官方查核：** 分為 [創作與工程 38 個](docs/research/creative.md)、[企業營運 35 個](docs/research/business.md)、[開發與個人工具 38 個](docs/research/infra.md)。所有新增項都有官方來源、雙語用途、費用與限制；舊項保留原查核日，第三方工作流仍未實測。
+4. **先前 111 個工具的官方查核：** 分為 [創作與工程 38 個](docs/research/creative.md)、[企業營運 35 個](docs/research/business.md)、[開發與個人工具 38 個](docs/research/infra.md)。所有新增項都有官方來源、雙語用途、費用與限制；舊項保留原查核日，第三方工作流仍未實測。
 
 研究也會修正舊資訊：有文章寫錯 Zotero 免費空間，官方資料已回查；Kanboard 維護模式、Cal.diy 的非正式環境限制，以及 Borg 穩定版與 beta 差異，都會影響是否值得採用。[研究規則、證據分層與尚未覆蓋的領域](docs/RESEARCH.md)
 
@@ -197,7 +223,7 @@ Windows 將 python3 改成 `py -3`。`--include-engines` 可顯示引擎；自�
 
 附帶程式不連網，清單與報告寫到本機；若將內容交給雲端 AI，仍會發生雲端處理。嚴格離線時請直接使用本機 CLI。收集器為實驗性，Windows／Mac 真機驗收仍待完成；可先提供手動工具名稱清單。
 
-本次資料集更新於 **2026-09-25**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
+本次資料集更新於 **2026-10-09**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
 
 [Spec](docs/SPEC.zh-TW.md) · [v0.2 優化規劃](docs/OPTIMIZATION.zh-TW.md) · [驗收狀態](docs/STATUS.md)。v0.1.0-alpha 持續擴充中；後續規劃的數量目標不當成已完成。
 

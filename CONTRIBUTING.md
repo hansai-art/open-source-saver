@@ -37,3 +37,11 @@ Assign one primary category and a source classification per product. Source-avai
 上游索引只是待研究資料，不直接匯入 `products.json`。先核對正式專案的當前文件、授權、安裝與費用，才升級為整理候選。自架服務以 `platforms: ["web"]` 表達瀏覽器使用端，`delivery: "self-hosted"` 表達部署；不要把 Linux 伺服器需求當成 Mac 安裝包。
 
 完成後執行 `python3 scripts/build_research.py` 同步來源去向與研究統計；維護上游索引時依其 [重建說明](data/upstream/awesome-selfhosted/README.md)，保留 CC BY-SA 3.0 與作者署名。原創程式與研究摘要維持專案 MIT，不能把上游衍生索引改標 MIT。
+
+## 早期開發候選 / Early-development candidates
+
+收錄早期工具時加入 `maturity: early-development`，並選擇 `recommendation: trial-only` 或 `research-only`。附 `download_url`，把下載資產列表、中文介面原始碼與自動化文件的查核分開記錄。官方 release 未標 prerelease 也可能是早期工具，成熟度依功能與作者狀態說明判斷。
+
+`--exclude-experimental` 會依 maturity 隱藏早期項目。新工具加入既有原軟體 targets 的後段，保留既有候選。CLI／MCP 文件證據使用 `automation.runtime_tested: false`，有語言定義也不等於中文內容與 OCR 通過。
+
+Use `maturity: early-development` and `recommendation: trial-only` or `research-only` for early tools. Record official downloads, localization source and automation evidence separately. Release prerelease flags do not establish product maturity. Append to existing mappings, preserve prior candidates and do not infer runtime testing from documentation.

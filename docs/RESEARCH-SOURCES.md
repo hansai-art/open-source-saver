@@ -355,3 +355,94 @@
 - 提取重點：保留 macOS 專屬生態的後續搜尋入口。
 - 工具線索：此來源提供研究方法或分類入口
 - 採用限制：本次 README 正文無法載入；不聲稱讀過其完整清單，也不據此加入任何具體工具。
+
+## artcraft-photocraft · PhotoCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/photocraft/blob/v0.5.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.5.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：圖層、遮色片、調整圖層與 PSD 編修，可研究批次修圖。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[PhotoCraft](CATALOG.zh-TW.md#graphics)
+- 採用限制：早期 alpha。專業字排、生成式功能與 Photoshop 外掛有缺口；官方 PSD 測試集成績是作者自測，客戶 PSD、字型與智慧物件需另驗。已確認版本含繁中 UI，翻譯與字形未實測。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/photocraft/releases/tag/v0.5.0) — 已核對 v0.5.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/photocraft/blob/v0.5.0/crates/ui-egui/src/i18n/mod.rs) — 此版本包含繁中 UI 定義，翻譯與字形品質未實測。
+
+## artcraft-vectorcraft · VectorCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/vectorcraft/blob/v0.7.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.7.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：SVG、向量插畫、路徑運算與 PDF 相容 AI 檔交換。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[VectorCraft](CATALOG.zh-TW.md#vector-design)
+- 採用限制：持續開發中。AI 匯入限 PDF 相容檔案，3D／材質、CJK 直排組版與部分效果仍有缺口；先試向量新稿。已確認版本含繁中 UI，翻譯與字形未實測。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) — 已核對 v0.7.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/vectorcraft/blob/v0.7.0/crates/ui-egui/src/i18n/mod.rs) — 此版本包含繁中 UI 定義，翻譯與字形品質未實測。
+
+## artcraft-filmcraft · FilmCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/filmcraft/blob/v0.4.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.4.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：時間軸剪輯、調色、字幕與混音的新專案試用。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[FilmCraft](CATALOG.zh-TW.md#video-editing)
+- 採用限制：早期開發。大型素材效能、相機／手機檔案與跨平台測試仍待補足，不支援 VST3／Audio Units／OpenFX 外掛；Premiere 專案遷移未驗證。官方文件對 HEVC 匯出描述有出入，需依作業系統與 GPU 實測。此版本 UI 語言清單沒有繁中。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) — 已核對 v0.4.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/filmcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs) — 已讀此版本 UI 語言清單，未提供繁中。
+
+## artcraft-lightcraft · LightCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/lightcraft/blob/v0.4.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.4.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：照片資料庫、非破壞式 RAW 顯影與批次輸出。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[LightCraft](CATALOG.zh-TW.md#photo-workflow)
+- 採用限制：早期開發。相機色彩校正資料與特定 RAW 格式仍有缺口，既有 Lightroom 編輯歷史遷移未驗證；先測自己的相機檔。已確認繁中 UI，官方註明桌面字型優先採簡中字形，網頁版繁中字形覆蓋未驗。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) — 已核對 v0.4.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/lightcraft/blob/v0.4.0/docs/localization-zh-hant.md) — 此版本包含繁中 UI 定義，翻譯與字形品質未實測。
+
+## artcraft-pdfcraft · PdfCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/pdfcraft/blob/v0.4.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.4.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：PDF 閱讀、合併分割、註解、表單與頁面整理。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[PdfCraft](CATALOG.zh-TW.md#pdf)
+- 採用限制：早期開發，原名 PrintCraft。正文編輯尤其 CJK、非拉丁 OCR、Office 轉檔與長期簽章驗證仍有缺口；先測拆合頁面。已確認版本含繁中 UI，中文正文編輯與 OCR 是另外的驗收項。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) — 已核對 v0.4.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/pdfcraft/blob/v0.4.0/crates/ui-egui/src/i18n/mod.rs) — 此版本包含繁中 UI 定義，翻譯與字形品質未實測。
+
+## artcraft-effectcraft · EffectCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/effectcraft/blob/v0.6.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.6.0 README、官方授權聲明、release 資產列表與 UI 語言定義。
+- 提取重點：動態圖形、關鍵影格、合成與背景渲染的研究用途。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[EffectCraft](CATALOG.zh-TW.md#video-editing)
+- 採用限制：官方列為早期工具，暫不建議取代客戶 AE 工作。無法開啟 .aep／.aepx，也不能使用 After Effects 外掛；大量效果存在不等於與 AE 行為一致。此版本 UI 未提供繁中，CLI／MCP 僅核對文件。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) — 已核對 v0.6.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/effectcraft/blob/v0.6.0/crates/ui-egui/src/i18n.rs) — 已讀此版本 UI 語言清單，未提供繁中。
+
+## artcraft-designcraft · DesignCraft：官方文件、版本與語言查核
+
+[ArtCraft Team](https://github.com/storytold/designcraft/blob/v0.4.0/README.md) · en · international · 2026-10-09
+
+- 閱讀狀態：official-docs-reviewed；已讀 v0.4.0 README、官方授權聲明、release 資產列表與 UI 語言定義，並以 Roadmap 回查 PDF／INDD／CJK 差異。
+- 提取重點：多頁排版、段落樣式、IDML 交換與 PDF 輸出試用。收錄為早期開發候選，保留官方下載、版本與 CLI／MCP 文件證據。
+- 工具線索：[DesignCraft](CATALOG.zh-TW.md#desktop-publishing)
+- 採用限制：持續開發中。無法讀取 INDD，完整 InDesign CJK 組版、框格與細部注音仍未完成；需用繁中樣稿校對 IDML、PDF 與印刷規格。此版本有簡中 UI，未提供繁中。README 的 PDF 規劃文字較舊，Roadmap 與 release 已列 PDF 功能。 第三方軟體、中文品質與自動化工作流未實測。
+
+官方回查：[來源](https://github.com/storytold/designcraft/releases/tag/v0.4.0) — 已核對 v0.4.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
+
+官方回查：[來源](https://github.com/storytold/designcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs) — 已讀此版本 UI 語言清單，未提供繁中。

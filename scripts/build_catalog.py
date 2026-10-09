@@ -51,6 +51,8 @@ def main():
         raise ValueError('Unknown source classification')
     stats = dict(updated_on=catalog['checked_on'], product_count=len(products), category_count=len(categories),
                  source_type_counts=dict(kinds), category_counts=dict(categories), mapping_count=len(mappings),
+                 early_development_count=sum(p.get('maturity') == 'early-development' for p in products),
+                 recommendation_counts=dict(Counter(p.get('recommendation', 'conditional-candidate') for p in products)),
                  counting_rule='Unique product IDs; one primary category per product; sources and platform variants are not extra products.')
     (ROOT / 'data/catalog-stats.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     ordered = [k for k in CATEGORY_NAMES if k in categories]
@@ -58,7 +60,7 @@ def main():
         zh = lang == 'zh-TW'
         title = '開源與免費軟體清單' if zh else 'Open-source and free software catalog'
         summary = (f"**{len(products)} 個候選 · {len(categories)} 大類 · {kinds['open-source']} 個開源專案 · {kinds['proprietary']} 個非開源免費版／內建候選 · {kinds['source-available']} 個原始碼可見候選**" if zh else
-                   f"**{len(products)} candidates · {len(categories)} categories · {kinds['open-source']} open-source projects · {kinds['proprietary']} proprietary free-tier/built-in candidates · {kinds['source-available']} source-available candidate**")
+                   f"**{len(products)} candidates · {len(categories)} categories · {kinds['open-source']} open-source projects · {kinds['proprietary']} proprietary free-tier/built-in candidates · {kinds['source-available']} source-available candidate{'s' if kinds['source-available'] != 1 else ''}**")
         note = (f"資料集更新：{catalog['checked_on']}；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。" if zh else
                 f"Dataset updated: {catalog['checked_on']}; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.")
         lines = ['# ' + title, '', '[繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)', '', summary, '', note, '',

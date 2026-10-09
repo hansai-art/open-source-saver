@@ -8,16 +8,16 @@
 |---|---|---|
 | Screen Studio | [Recordly](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Cap](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [OBS Studio](CATALOG.zh-TW.md#screen-recording) | 分開確認自動縮放、游標、字幕與分享；基本錄影不等於完整取代。 |
 | Camtasia | [OBS Studio](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Kdenlive](CATALOG.zh-TW.md#video-editing) | 錄影與後製需求需分開比較。 |
-| Snagit / CleanShot X | [ShareX](CATALOG.zh-TW.md#screenshots-ocr), [Flameshot](CATALOG.zh-TW.md#screenshots-ocr), [ksnip](CATALOG.zh-TW.md#screenshots-ocr), [Lightshot](CATALOG.zh-TW.md#screenshots-ocr), [macshot](CATALOG.zh-TW.md#screenshots-ocr), [Capso](CATALOG.zh-TW.md#screenshots-ocr) | OCR、長截圖與雲端分享要另外查證。 |
+| Snagit / CleanShot X | [ShareX](CATALOG.zh-TW.md#screenshots-ocr), [Flameshot](CATALOG.zh-TW.md#screenshots-ocr), [ksnip](CATALOG.zh-TW.md#screenshots-ocr), [Lightshot](CATALOG.zh-TW.md#screenshots-ocr), [macshot](CATALOG.zh-TW.md#screenshots-ocr), [Capso](CATALOG.zh-TW.md#screenshots-ocr) | OCR、長截圖、16:9／固定尺寸與雲端分享要另外查證。 |
 | Loom | [Cap](CATALOG.zh-TW.md#screen-recording), [Screenity](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording) | 本機錄影不能當成已有團隊分享與觀看分析。 |
 | Microsoft Word | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 以實際文件測試；套裝訂閱未取消不計節省。 |
 | Microsoft Excel | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 巨集、外部資料與複雜公式需確認。 |
 | Microsoft PowerPoint | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 確認字型、動畫與影片嵌入。 |
-| Adobe Acrobat | [PDF24 Creator](CATALOG.zh-TW.md#pdf), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office), [LibreOffice](CATALOG.zh-TW.md#office), [PDFsam Basic](CATALOG.zh-TW.md#pdf) | 依拆合頁面、改正文、簽章分開評估。 |
-| Adobe Photoshop | [GIMP](CATALOG.zh-TW.md#graphics), [Krita](CATALOG.zh-TW.md#graphics) | 修圖與繪畫分開；不保證 PSD 與外掛互通。 |
-| Adobe Premiere Pro | [DaVinci Resolve](CATALOG.zh-TW.md#video-editing), [Kdenlive](CATALOG.zh-TW.md#video-editing), [Shotcut](CATALOG.zh-TW.md#video-editing) | 先確認交付格式與團隊專案依賴。 |
+| Adobe Acrobat | [PDF24 Creator](CATALOG.zh-TW.md#pdf), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office), [LibreOffice](CATALOG.zh-TW.md#office), [PDFsam Basic](CATALOG.zh-TW.md#pdf), [PdfCraft](CATALOG.zh-TW.md#pdf) | 依拆合頁面、改正文、簽章分開評估。 PdfCraft 為早期開發候選，先以新專案或測試檔試用。 |
+| Adobe Photoshop | [GIMP](CATALOG.zh-TW.md#graphics), [Krita](CATALOG.zh-TW.md#graphics), [PhotoCraft](CATALOG.zh-TW.md#graphics) | 修圖與繪畫分開；不保證 PSD 與外掛互通。 PhotoCraft 為早期開發候選，先以新專案或測試檔試用。 |
+| Adobe Premiere Pro | [DaVinci Resolve](CATALOG.zh-TW.md#video-editing), [Kdenlive](CATALOG.zh-TW.md#video-editing), [Shotcut](CATALOG.zh-TW.md#video-editing), [FilmCraft](CATALOG.zh-TW.md#video-editing) | 先確認交付格式與團隊專案依賴。 FilmCraft 為早期開發候選，先以新專案或測試檔試用。 |
 | Adobe Audition | [Audacity](CATALOG.zh-TW.md#audio-editing) | 只對基礎錄音剪輯推薦候選。 |
-| Adobe After Effects | [Natron](CATALOG.zh-TW.md#video-editing), [Blender](CATALOG.zh-TW.md#video-editing) | 僅為特定合成或動畫用途候選，不是完整替代。 |
+| Adobe After Effects | [Natron](CATALOG.zh-TW.md#video-editing), [Blender](CATALOG.zh-TW.md#video-editing), [EffectCraft](CATALOG.zh-TW.md#video-editing) | 僅為特定合成或動畫用途候選，不是完整替代。 EffectCraft 為早期開發候選，僅供研究，不建議取代客戶工作。 |
 | Paid voice typing | [Apple Dictation](CATALOG.zh-TW.md#dictation), [Handy](CATALOG.zh-TW.md#dictation), [OpenWhispr](CATALOG.zh-TW.md#dictation), [VoiceInk](CATALOG.zh-TW.md#dictation), [TypeWhisper](CATALOG.zh-TW.md#dictation) | 確認繁中、專有名詞、本機模型與官方成品價格。 |
 | Paid transcription | [Vibe](CATALOG.zh-TW.md#transcription), [Buzz](CATALOG.zh-TW.md#transcription), [aTrain](CATALOG.zh-TW.md#transcription), [noScribe](CATALOG.zh-TW.md#transcription), [Meetily Community](CATALOG.zh-TW.md#transcription) | 逐字稿、會議紀錄與文字剪輯是不同功能。 |
 | WinRAR / WinZip | [7-Zip](CATALOG.zh-TW.md#archives), [PeaZip](CATALOG.zh-TW.md#archives) | 先確認必需格式；7-Zip 不建立 RAR。 |
@@ -26,11 +26,11 @@
 | Magnet | [Rectangle](CATALOG.zh-TW.md#productivity) | 只比對視窗排列；Rectangle Pro 不在免費範圍。 |
 | Paste | [Maccy](CATALOG.zh-TW.md#productivity) | 先確認 macOS 版本與跨裝置同步需求。 |
 | Microsoft Outlook | [Thunderbird](CATALOG.zh-TW.md#email) | 郵件客戶端不能取代信箱主機或所有企業 Exchange 功能。 |
-| Adobe Illustrator | [Inkscape](CATALOG.zh-TW.md#vector-design) | 向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。 |
-| Adobe InDesign / QuarkXPress | [Scribus](CATALOG.zh-TW.md#desktop-publishing) | 先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。 |
+| Adobe Illustrator | [Inkscape](CATALOG.zh-TW.md#vector-design), [VectorCraft](CATALOG.zh-TW.md#vector-design) | 向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。 VectorCraft 為早期開發候選，先以新專案或測試檔試用。 |
+| Adobe InDesign / QuarkXPress | [Scribus](CATALOG.zh-TW.md#desktop-publishing), [DesignCraft](CATALOG.zh-TW.md#desktop-publishing) | 先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。 DesignCraft 為早期開發候選，先以新專案或測試檔試用。 |
 | Glyphs / FontLab | [FontForge](CATALOG.zh-TW.md#desktop-publishing) | 以實際字型測試字距、OpenType 功能與產出，不把原字型授權視為工具授權的一部分。 |
 | Figma / Sketch | [Penpot](CATALOG.zh-TW.md#vector-design) | 先測元件、原型與協作；計入自架維運、企業功能及遷移成本。 |
-| Adobe Lightroom / Capture One | [darktable](CATALOG.zh-TW.md#photo-workflow), [RawTherapee](CATALOG.zh-TW.md#photo-workflow), [digiKam](CATALOG.zh-TW.md#photo-workflow) | RAW 顯影、照片管理與雲端同步分開比；既有編輯歷史、色彩和相機格式需測。 |
+| Adobe Lightroom / Capture One | [darktable](CATALOG.zh-TW.md#photo-workflow), [RawTherapee](CATALOG.zh-TW.md#photo-workflow), [digiKam](CATALOG.zh-TW.md#photo-workflow), [LightCraft](CATALOG.zh-TW.md#photo-workflow) | RAW 顯影、照片管理與雲端同步分開比；既有編輯歷史、色彩和相機格式需測。 LightCraft 為早期開發候選，先以新專案或測試檔試用。 |
 | ACDSee Photo Studio | [digiKam](CATALOG.zh-TW.md#photo-workflow) | 僅按相片庫、標籤與批次管理需求配對，專有資料庫遷移需另測。 |
 | PTGui | [Hugin](CATALOG.zh-TW.md#photo-workflow) | 先用同一組全景照片檢查接縫、鬼影、投影與輸出規格。 |
 | Autodesk Fusion / SolidWorks | [FreeCAD](CATALOG.zh-TW.md#cad-modeling), [SolveSpace](CATALOG.zh-TW.md#cad-modeling), [OpenSCAD](CATALOG.zh-TW.md#cad-modeling) | 候選各適合不同建模方式；組立、CAM、工程圖和專有零件檔需逐項驗證。 |
@@ -105,3 +105,4 @@
 | Android app management and backup | [App Manager](CATALOG.zh-TW.md#device-integration) | 完整應用資料備份需 root，APK 備份與資料還原不同；原有備份格式及系統版本相容性需實測。 |
 | Paid DNS filtering services | [AdGuard Home](CATALOG.zh-TW.md#network-monitoring), [Pi-hole](CATALOG.zh-TW.md#network-monitoring) | 自架 DNS 不含代管節點、SLA 或原服務全球網路；同網域廣告也不能只靠 DNS 完整攔截。 |
 | Paid uptime monitoring | [Uptime Kuma](CATALOG.zh-TW.md#network-monitoring) | 自架不等於全球多地探測或服務保證；需獨立主機、外部告警通道與停機演練。 |
+| Adobe Creative Cloud / ArtCraft Crafting Apps | [PhotoCraft](CATALOG.zh-TW.md#graphics), [VectorCraft](CATALOG.zh-TW.md#vector-design), [FilmCraft](CATALOG.zh-TW.md#video-editing), [LightCraft](CATALOG.zh-TW.md#photo-workflow), [PdfCraft](CATALOG.zh-TW.md#pdf), [EffectCraft](CATALOG.zh-TW.md#video-editing), [DesignCraft](CATALOG.zh-TW.md#desktop-publishing) | 七款第三方工具涵蓋 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign 的部分工作。皆為早期開發，需逐項試用；Adobe 仍保留時不計整套節省。這裡只收錄 Crafting Apps，與 ArtCraft AI 影像／影片服務分開。 |

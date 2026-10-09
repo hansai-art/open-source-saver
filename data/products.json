@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-09-25",
+  "checked_on": "2026-10-09",
   "products": [
     {
       "id": "oss-001",
@@ -7077,6 +7077,752 @@
         "use": "監看網站、TCP、DNS 與服務可用性，提供告警及狀態頁"
       },
       "zh_tw": "unknown"
+    },
+    {
+      "id": "creative-photocraft",
+      "name": "PhotoCraft",
+      "source_type": "open-source",
+      "category": "graphics",
+      "keywords": [
+        "修圖",
+        "PSD",
+        "Photoshop",
+        "點陣圖",
+        "batch image editing",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/photocraft",
+      "sources": [
+        "https://github.com/storytold/photocraft/blob/v0.5.0/README.md",
+        "https://github.com/storytold/photocraft/blob/v0.5.0/Cargo.toml",
+        "https://github.com/storytold/photocraft/releases/tag/v0.5.0",
+        "https://github.com/storytold/photocraft/blob/v0.5.0/crates/ui-egui/src/i18n/mod.rs"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/photocraft/releases/tag/v0.5.0",
+      "release": {
+        "tag": "v0.5.0",
+        "published_at": "2026-10-08T14:52:50Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "photocraft-0.5.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-0.5.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "photocraft-0.5.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-0.5.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "photocraft-0.5.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-0.5.0-macos-universal.dmg"
+          },
+          {
+            "name": "photocraft-0.5.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-0.5.0-windows-arm64.msi"
+          },
+          {
+            "name": "photocraft-0.5.0-windows-x64.msi",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-0.5.0-windows-x64.msi"
+          },
+          {
+            "name": "photocraft-cli-0.5.0-macos-universal.zip",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-cli-0.5.0-macos-universal.zip"
+          },
+          {
+            "name": "photocraft-web-0.5.0.zip",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/photocraft-web-0.5.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.5.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "photocraft-cli",
+        "mcp_command": [
+          "photocraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/photocraft/blob/v0.5.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "圖層、遮色片、調整圖層與 PSD 編修，可研究批次修圖",
+        "limits": "早期 alpha。專業字排、生成式功能與 Photoshop 外掛有缺口；官方 PSD 測試集成績是作者自測，客戶 PSD、字型與智慧物件需另驗。已確認版本含繁中 UI，翻譯與字形未實測。"
+      },
+      "en": {
+        "use": "Layered image editing, masks, adjustments and PSD workflows; batch-editing trials",
+        "limits": "Early alpha. Professional typography, generative features and Photoshop plugins have gaps. Upstream PSD corpus scores are author tests; check client PSDs, fonts and smart objects. Traditional Chinese UI is present; translation and glyph quality are untested."
+      }
+    },
+    {
+      "id": "creative-vectorcraft",
+      "name": "VectorCraft",
+      "source_type": "open-source",
+      "category": "vector-design",
+      "keywords": [
+        "向量",
+        "SVG",
+        "Illustrator",
+        "AI 檔",
+        "vector illustration",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/vectorcraft",
+      "sources": [
+        "https://github.com/storytold/vectorcraft/blob/v0.7.0/README.md",
+        "https://github.com/storytold/vectorcraft/blob/v0.7.0/Cargo.toml",
+        "https://github.com/storytold/vectorcraft/releases/tag/v0.7.0",
+        "https://github.com/storytold/vectorcraft/blob/v0.7.0/crates/ui-egui/src/i18n/mod.rs"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/vectorcraft/releases/tag/v0.7.0",
+      "release": {
+        "tag": "v0.7.0",
+        "published_at": "2026-10-08T18:43:46Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/SHA256SUMS.txt"
+          },
+          {
+            "name": "vectorcraft-0.7.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-0.7.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "vectorcraft-0.7.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-0.7.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "vectorcraft-0.7.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-0.7.0-macos-universal.dmg"
+          },
+          {
+            "name": "vectorcraft-0.7.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-0.7.0-windows-arm64.msi"
+          },
+          {
+            "name": "vectorcraft-0.7.0-windows-x64.msi",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-0.7.0-windows-x64.msi"
+          },
+          {
+            "name": "vectorcraft-cli-0.7.0-macos-universal.zip",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-cli-0.7.0-macos-universal.zip"
+          },
+          {
+            "name": "vectorcraft-web-0.7.0.zip",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.7.0/vectorcraft-web-0.7.0.zip"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "vectorcraft-cli",
+        "mcp_command": [
+          "vectorcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/vectorcraft/blob/v0.7.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "SVG、向量插畫、路徑運算與 PDF 相容 AI 檔交換",
+        "limits": "持續開發中。AI 匯入限 PDF 相容檔案，3D／材質、CJK 直排組版與部分效果仍有缺口；先試向量新稿。已確認版本含繁中 UI，翻譯與字形未實測。"
+      },
+      "en": {
+        "use": "SVG and vector illustration, path operations and PDF-compatible AI interchange",
+        "limits": "Actively developed. AI import covers PDF-compatible files; 3D/materials, CJK vertical composition and some effects remain incomplete. Start with new vector work. Traditional Chinese UI is present; translation and glyph quality are untested."
+      }
+    },
+    {
+      "id": "creative-filmcraft",
+      "name": "FilmCraft",
+      "source_type": "open-source",
+      "category": "video-editing",
+      "keywords": [
+        "剪輯",
+        "影片",
+        "Premiere",
+        "Premiere Pro",
+        "video editing",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/filmcraft",
+      "sources": [
+        "https://github.com/storytold/filmcraft/blob/v0.4.0/README.md",
+        "https://github.com/storytold/filmcraft/blob/v0.4.0/Cargo.toml",
+        "https://github.com/storytold/filmcraft/releases/tag/v0.4.0",
+        "https://github.com/storytold/filmcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "not-in-reviewed-version",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/filmcraft/releases/tag/v0.4.0",
+      "release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-10-08T14:41:28Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "filmcraft-0.4.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "filmcraft-0.4.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "filmcraft-0.4.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-macos-universal.dmg"
+          },
+          {
+            "name": "filmcraft-0.4.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-arm64.msi"
+          },
+          {
+            "name": "filmcraft-0.4.0-windows-x64.msi",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-0.4.0-windows-x64.msi"
+          },
+          {
+            "name": "filmcraft-cli-0.4.0-macos-universal.zip",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-cli-0.4.0-macos-universal.zip"
+          },
+          {
+            "name": "filmcraft-web-0.4.0.zip",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/filmcraft-web-0.4.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.4.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "filmcraft-cli",
+        "mcp_command": [
+          "filmcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/filmcraft/blob/v0.4.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "時間軸剪輯、調色、字幕與混音的新專案試用",
+        "limits": "早期開發。大型素材效能、相機／手機檔案與跨平台測試仍待補足，不支援 VST3／Audio Units／OpenFX 外掛；Premiere 專案遷移未驗證。官方文件對 HEVC 匯出描述有出入，需依作業系統與 GPU 實測。此版本 UI 語言清單沒有繁中。"
+      },
+      "en": {
+        "use": "New-project trials for timeline editing, color, captions and audio mixing",
+        "limits": "Early development. Large-media performance, camera/phone files and cross-platform coverage need work; no VST3, Audio Units or OpenFX hosting. Premiere migration is untested. Official HEVC export descriptions conflict; verify the OS/GPU path. This version has no Traditional Chinese UI in its language registry."
+      }
+    },
+    {
+      "id": "creative-lightcraft",
+      "name": "LightCraft",
+      "source_type": "open-source",
+      "category": "photo-workflow",
+      "keywords": [
+        "RAW",
+        "照片",
+        "修片",
+        "Lightroom",
+        "photo workflow",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/lightcraft",
+      "sources": [
+        "https://github.com/storytold/lightcraft/blob/v0.4.0/README.md",
+        "https://github.com/storytold/lightcraft/blob/v0.4.0/Cargo.toml",
+        "https://github.com/storytold/lightcraft/releases/tag/v0.4.0",
+        "https://github.com/storytold/lightcraft/blob/v0.4.0/docs/localization-zh-hant.md"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/lightcraft/releases/tag/v0.4.0",
+      "release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-10-08T14:41:31Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "lightcraft-0.4.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-0.4.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "lightcraft-0.4.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-0.4.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "lightcraft-0.4.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-0.4.0-macos-universal.dmg"
+          },
+          {
+            "name": "lightcraft-0.4.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-0.4.0-windows-arm64.msi"
+          },
+          {
+            "name": "lightcraft-0.4.0-windows-x64.msi",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-0.4.0-windows-x64.msi"
+          },
+          {
+            "name": "lightcraft-cli-0.4.0-macos-universal.zip",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-cli-0.4.0-macos-universal.zip"
+          },
+          {
+            "name": "lightcraft-web-0.4.0.zip",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/lightcraft-web-0.4.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.4.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "lightcraft-cli",
+        "mcp_command": [
+          "lightcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/lightcraft/blob/v0.4.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "照片資料庫、非破壞式 RAW 顯影與批次輸出",
+        "limits": "早期開發。相機色彩校正資料與特定 RAW 格式仍有缺口，既有 Lightroom 編輯歷史遷移未驗證；先測自己的相機檔。已確認繁中 UI，官方註明桌面字型優先採簡中字形，網頁版繁中字形覆蓋未驗。"
+      },
+      "en": {
+        "use": "Photo library, non-destructive RAW development and batch export",
+        "limits": "Early development. Measured camera calibration and some RAW paths have gaps; Lightroom edit-history migration is untested. Trial your camera files. Traditional Chinese UI is documented; desktop fonts prefer Simplified Chinese glyph forms, and web glyph coverage is unverified."
+      }
+    },
+    {
+      "id": "creative-pdfcraft",
+      "name": "PdfCraft",
+      "source_type": "open-source",
+      "category": "pdf",
+      "keywords": [
+        "PDF",
+        "Acrobat",
+        "PrintCraft",
+        "合併 PDF",
+        "split PDF",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "aliases": [
+        "PrintCraft"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/pdfcraft",
+      "sources": [
+        "https://github.com/storytold/pdfcraft/blob/v0.4.0/README.md",
+        "https://github.com/storytold/pdfcraft/blob/v0.4.0/Cargo.toml",
+        "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0",
+        "https://github.com/storytold/pdfcraft/blob/v0.4.0/crates/ui-egui/src/i18n/mod.rs"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0",
+      "release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-10-08T14:41:34Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "pdfcraft-0.4.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "pdfcraft-0.4.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "pdfcraft-0.4.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-macos-universal.dmg"
+          },
+          {
+            "name": "pdfcraft-0.4.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-windows-arm64.msi"
+          },
+          {
+            "name": "pdfcraft-0.4.0-windows-x64.msi",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-0.4.0-windows-x64.msi"
+          },
+          {
+            "name": "pdfcraft-cli-0.4.0-macos-universal.zip",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-cli-0.4.0-macos-universal.zip"
+          },
+          {
+            "name": "pdfcraft-web-0.4.0.zip",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/pdfcraft-web-0.4.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.4.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "pdfcraft-cli",
+        "mcp_command": [
+          "pdfcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/pdfcraft/blob/v0.4.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "PDF 閱讀、合併分割、註解、表單與頁面整理",
+        "limits": "早期開發，原名 PrintCraft。正文編輯尤其 CJK、非拉丁 OCR、Office 轉檔與長期簽章驗證仍有缺口；先測拆合頁面。已確認版本含繁中 UI，中文正文編輯與 OCR 是另外的驗收項。"
+      },
+      "en": {
+        "use": "PDF viewing, merging/splitting, annotations, forms and page operations",
+        "limits": "Early development; formerly PrintCraft. Existing-text editing, especially CJK, non-Latin OCR, Office conversion and long-term signature validation have gaps. Start with page operations. Traditional Chinese UI is present; Chinese text editing and OCR require separate validation."
+      }
+    },
+    {
+      "id": "creative-effectcraft",
+      "name": "EffectCraft",
+      "source_type": "open-source",
+      "category": "video-editing",
+      "keywords": [
+        "合成",
+        "動態圖形",
+        "AE",
+        "After Effects",
+        "motion graphics",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/effectcraft",
+      "sources": [
+        "https://github.com/storytold/effectcraft/blob/v0.6.0/README.md",
+        "https://github.com/storytold/effectcraft/blob/v0.6.0/Cargo.toml",
+        "https://github.com/storytold/effectcraft/releases/tag/v0.6.0",
+        "https://github.com/storytold/effectcraft/blob/v0.6.0/crates/ui-egui/src/i18n.rs"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "not-in-reviewed-version",
+      "maturity": "early-development",
+      "recommendation": "research-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/effectcraft/releases/tag/v0.6.0",
+      "release": {
+        "tag": "v0.6.0",
+        "published_at": "2026-10-08T14:41:40Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "effectcraft-0.6.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "effectcraft-0.6.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "effectcraft-0.6.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-macos-universal.dmg"
+          },
+          {
+            "name": "effectcraft-0.6.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-windows-arm64.msi"
+          },
+          {
+            "name": "effectcraft-0.6.0-windows-x64.msi",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-windows-x64.msi"
+          },
+          {
+            "name": "effectcraft-cli-0.6.0-macos-universal.zip",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-cli-0.6.0-macos-universal.zip"
+          },
+          {
+            "name": "effectcraft-web-0.6.0.zip",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-web-0.6.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "effectcraft-cli",
+        "mcp_command": [
+          "effectcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/effectcraft/blob/v0.6.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "動態圖形、關鍵影格、合成與背景渲染的研究用途",
+        "limits": "官方列為早期工具，暫不建議取代客戶 AE 工作。無法開啟 .aep／.aepx，也不能使用 After Effects 外掛；大量效果存在不等於與 AE 行為一致。此版本 UI 未提供繁中，CLI／MCP 僅核對文件。"
+      },
+      "en": {
+        "use": "Research trials for motion graphics, keyframes, compositing and headless rendering",
+        "limits": "Upstream describes an early tool; retain After Effects for client work. Cannot open .aep/.aepx or host After Effects plugins. An effect's presence does not establish matching behavior. No Traditional Chinese UI in this version; CLI/MCP are documentation-reviewed only."
+      }
+    },
+    {
+      "id": "creative-designcraft",
+      "name": "DesignCraft",
+      "source_type": "open-source",
+      "category": "desktop-publishing",
+      "keywords": [
+        "排版",
+        "InDesign",
+        "IDML",
+        "桌面出版",
+        "page layout",
+        "ArtCraft",
+        "Crafting Apps",
+        "Adobe 替代",
+        "Adobe 全系列",
+        "Adobe 全家桶",
+        "adobe alternatives"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/storytold/designcraft",
+      "sources": [
+        "https://github.com/storytold/designcraft/blob/v0.4.0/README.md",
+        "https://github.com/storytold/designcraft/blob/v0.4.0/Cargo.toml",
+        "https://github.com/storytold/designcraft/releases/tag/v0.4.0",
+        "https://github.com/storytold/designcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs",
+        "https://github.com/storytold/designcraft/blob/v0.4.0/ROADMAP.md"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-09",
+      "runtime_tested": false,
+      "zh_tw": "not-in-reviewed-version",
+      "maturity": "early-development",
+      "recommendation": "trial-only",
+      "suite": "artcraft-crafting-apps",
+      "download_url": "https://github.com/storytold/designcraft/releases/tag/v0.4.0",
+      "release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-10-08T14:41:43Z",
+        "asset_listing_reviewed": true,
+        "assets": [
+          {
+            "name": "designcraft-0.4.0-linux-aarch64.AppImage",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-0.4.0-linux-aarch64.AppImage"
+          },
+          {
+            "name": "designcraft-0.4.0-linux-x86_64.AppImage",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-0.4.0-linux-x86_64.AppImage"
+          },
+          {
+            "name": "designcraft-0.4.0-macos-universal.dmg",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-0.4.0-macos-universal.dmg"
+          },
+          {
+            "name": "designcraft-0.4.0-windows-arm64.msi",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-0.4.0-windows-arm64.msi"
+          },
+          {
+            "name": "designcraft-0.4.0-windows-x64.msi",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-0.4.0-windows-x64.msi"
+          },
+          {
+            "name": "designcraft-cli-0.4.0-macos-universal.zip",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-cli-0.4.0-macos-universal.zip"
+          },
+          {
+            "name": "designcraft-web-0.4.0.zip",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/designcraft-web-0.4.0.zip"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.4.0/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "json-control"
+        ],
+        "cli_entrypoint": "designcraft-cli",
+        "mcp_command": [
+          "designcraft-cli",
+          "mcp"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://github.com/storytold/designcraft/blob/v0.4.0/README.md"
+        ]
+      },
+      "zh": {
+        "use": "多頁排版、段落樣式、IDML 交換與 PDF 輸出試用",
+        "limits": "持續開發中。無法讀取 INDD，完整 InDesign CJK 組版、框格與細部注音仍未完成；需用繁中樣稿校對 IDML、PDF 與印刷規格。此版本有簡中 UI，未提供繁中。README 的 PDF 規劃文字較舊，Roadmap 與 release 已列 PDF 功能。"
+      },
+      "en": {
+        "use": "Trials for multi-page layout, paragraph styles, IDML exchange and PDF export",
+        "limits": "Actively developed. INDD is unreadable; full InDesign CJK composition, frame grids and detailed ruby remain incomplete. Proof Chinese IDML, PDFs and print specifications. This version has Simplified but no Traditional Chinese UI. The README's PDF roadmap wording is stale; roadmap and release notes list PDF functionality."
+      }
     }
   ],
   "checked_on_note": "Dataset updated on this date; individual evidence dates remain on each product."

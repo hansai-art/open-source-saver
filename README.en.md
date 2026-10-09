@@ -5,12 +5,12 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**190 candidates · 53 categories · 180 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**197 candidates · 53 categories · 187 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
-**Also included: 1,346 searchable upstream leads across 84 upstream tags and 38 new international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
+**Also included: 1,346 searchable upstream leads across 84 upstream tags and 45 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
 
-Current catalog: **78 → 190 products (2.44×), 18 → 53 categories (2.94×), 20 → 99 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
+Current catalog: **78 → 197 products (2.53×), 18 → 53 categories (2.94×), 20 → 100 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
@@ -18,7 +18,33 @@ Current catalog: **78 → 190 products (2.44×), 18 → 53 categories (2.94×), 
 
 The Skill's primary workflow is **inventory installed apps → match free/open-source alternatives → explain recommendations, feature gaps and installation steps**. Use a compatible agent with access to your computer, such as a local Claude Code or Codex host, to start from the software you actually have. You can also browse the catalog or ask about a single app. Reuse working products first. For English-only tools, improve Traditional Chinese guidance or contribute translations upstream before proposing a new product.
 
-Navigation: [Savings](#what-could-one-subscription-save) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
+Navigation: [Adobe alternatives](#newly-cataloged-seven-artcraft-adobe-alternatives) · [Savings](#what-could-one-subscription-save) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
+
+## Newly cataloged: seven ArtCraft Adobe alternatives
+
+The ArtCraft team independently rebuilt seven creative apps targeting parts of Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign workflows. Code is licensed under **MIT OR Apache-2.0**. As of **2026-10-09**, all seven have macOS, Windows and Linux release assets. This addition covers those seven apps' workflows; Adobe source code and other Creative Cloud products are outside its scope.
+
+| Original | Tool / download | Adoption | Traditional Chinese UI | Main gap |
+|---|---|---|---|---|
+| Photoshop | [PhotoCraft](https://github.com/storytold/photocraft) · [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | Trial with test files | Present; quality untested | Early alpha; check PSDs, type and plugins |
+| Illustrator | [VectorCraft](https://github.com/storytold/vectorcraft) · [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | Trial with test files | Present; quality untested | PDF-compatible AI only; 3D/type gaps |
+| Premiere Pro | [FilmCraft](https://github.com/storytold/filmcraft) · [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | Trial with test files | Absent in reviewed version | Plugin, media and large-project gaps |
+| Lightroom | [LightCraft](https://github.com/storytold/lightcraft) · [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | Trial with test files | Present; quality untested | Check camera calibration and RAW formats |
+| Acrobat | [PdfCraft](https://github.com/storytold/pdfcraft) · [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | Trial with test files | Present; quality untested | CJK text editing and non-Latin OCR gaps |
+| After Effects | [EffectCraft](https://github.com/storytold/effectcraft) · [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | Research only | Absent in reviewed version | No AEP/AEPX import or AE plugins |
+| InDesign | [DesignCraft](https://github.com/storytold/designcraft) · [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | Trial with test files | Absent in reviewed version | No INDD import; incomplete CJK composition |
+
+**Start with small PhotoCraft, VectorCraft and PdfCraft file trials.** Existing candidates remain available. Results show adoption scope and downloads; CLI/MCP documentation has been reviewed, while automation workflows remain untested.
+
+[App-by-app evidence and trial tasks](docs/research/artcraft.en.md). PdfCraft was formerly PrintCraft; the old name remains searchable. These Crafting Apps are tracked separately from ArtCraft's AI image/video service.
+
+```bash
+python3 scripts/saver.py search "ArtCraft" --platform macos --lang en
+python3 scripts/saver.py search "PrintCraft" --platform windows --lang en
+python3 scripts/saver.py search "After Effects" --platform macos --exclude-experimental --lang en
+```
+
+`--exclude-experimental` hides explicitly marked early-development products in `search` and `report`. Evaluate remaining candidates against your task and formats. Retaining Creative Cloud prevents counting full-suite savings.
 
 ## What could one subscription save?
 
@@ -61,11 +87,11 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
 | [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 3 | Subtitle Edit, pyVideoTrans, VideoLingo |
 | [Text to speech](docs/CATALOG.en.md#text-to-speech) | 7 | Readest, Piper（現行維護線）, Qwen3-TTS |
-| [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 9 | Auto-Editor, LosslessCut, Kdenlive |
+| [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 11 | Auto-Editor, LosslessCut, Kdenlive |
 | [Audio editing](docs/CATALOG.en.md#audio-editing) | 2 | Audacity, Ultimate Vocal Remover（UVR） |
-| [Graphics](docs/CATALOG.en.md#graphics) | 2 | GIMP, Krita |
+| [Graphics](docs/CATALOG.en.md#graphics) | 3 | GIMP, Krita, PhotoCraft |
 | [Office documents](docs/CATALOG.en.md#office) | 2 | LibreOffice, ONLYOFFICE Desktop Editors |
-| [PDF reading and processing](docs/CATALOG.en.md#pdf) | 3 | PDF24 Creator, SumatraPDF, PDFsam Basic |
+| [PDF reading and processing](docs/CATALOG.en.md#pdf) | 4 | PDF24 Creator, SumatraPDF, PDFsam Basic |
 | [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 3 | LocalSend, Syncthing, rclone |
 | [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 4 | Rectangle, Maccy, Pearcleaner |
 | [Archives](docs/CATALOG.en.md#archives) | 2 | 7-Zip, PeaZip |
@@ -73,9 +99,9 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
 | [Password management](docs/CATALOG.en.md#passwords) | 1 | KeePassXC |
 | [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 2 | Joplin, calibre |
-| [Vector design and UI prototyping](docs/CATALOG.en.md#vector-design) | 2 | Inkscape, Penpot |
-| [Desktop publishing and font creation](docs/CATALOG.en.md#desktop-publishing) | 2 | Scribus, FontForge |
-| [RAW development, photo management and panoramas](docs/CATALOG.en.md#photo-workflow) | 4 | darktable, RawTherapee, digiKam |
+| [Vector design and UI prototyping](docs/CATALOG.en.md#vector-design) | 3 | Inkscape, Penpot, VectorCraft |
+| [Desktop publishing and font creation](docs/CATALOG.en.md#desktop-publishing) | 3 | Scribus, FontForge, DesignCraft |
+| [RAW development, photo management and panoramas](docs/CATALOG.en.md#photo-workflow) | 5 | darktable, RawTherapee, digiKam |
 | [CAD drafting and parametric modeling](docs/CATALOG.en.md#cad-modeling) | 4 | FreeCAD, LibreCAD, OpenSCAD |
 | [Electronics and electrical design](docs/CATALOG.en.md#electronics-design) | 2 | KiCad, QElectroTech |
 | [2D animation and vector motion](docs/CATALOG.en.md#animation-2d) | 4 | OpenToonz, Synfig Studio, Pencil2D |
@@ -116,10 +142,10 @@ Traditional Chinese UI, Chinese content and Taiwan-accent speech quality are sep
 
 ## Where the recommendations come from
 
-1. **38 new international sources:** [Attributed summaries and candidate links](docs/RESEARCH-SOURCES.md), covering English, French, German, Traditional Chinese, Hong Kong Chinese, Simplified Chinese and Japanese. We reviewed 22 bodies of content, 9 relevant directory sections and 6 directory indexes; 1 source remains discovery-only. Scope is recorded per source.
+1. **45 international sources:** [Attributed summaries and candidate links](docs/RESEARCH-SOURCES.md), covering English, French, German, Traditional Chinese, Hong Kong Chinese, Simplified Chinese and Japanese. We reviewed 22 bodies of content, 9 relevant directory sections and 6 directory indexes; 1 source remains discovery-only. This update adds 7 ArtCraft official version reviews. Scope is recorded per source.
 2. **1,346 upstream discovery leads:** [Awesome Selfhosted snapshot](data/upstream/awesome-selfhosted/README.md), pinned to an immutable commit and searchable offline. All are unreviewed here, including 92 marked nonfree upstream. The derived index keeps CC BY-SA 3.0, AUTHORS and LICENSE; it is not a promise of free commercial use.
 3. **Existing research retained:** [11 articles](docs/SOURCES.md) and [7 Reddit/Hacker News discussions](docs/FORUMS.md). Overlapping candidate mentions do not increase curated totals.
-4. **111 newly reviewed products:** [Creative and engineering: 38](docs/research/creative.md), [business: 35](docs/research/business.md), [developer and personal tools: 38](docs/research/infra.md). Each has official documentation, bilingual scope and limitations, costs and license information. Existing products retain their earlier evidence dates; third-party workflows remain untested.
+4. **111 previously reviewed products:** [Creative and engineering: 38](docs/research/creative.md), [business: 35](docs/research/business.md), [developer and personal tools: 38](docs/research/infra.md). Each has official documentation, bilingual scope and limitations, costs and license information. Existing products retain their earlier evidence dates; third-party workflows remain untested.
 
 Our aim is broad, useful global coverage; no like-for-like benchmark establishes this as the world's most complete directory. Research records disagreements and outdated claims, including Zotero storage, Kanboard maintenance, Cal.diy scope and stable vs beta Borg versions. [Method, evidence levels and remaining gaps](docs/RESEARCH.md)
 
@@ -180,7 +206,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-09-25**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-10-09**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 

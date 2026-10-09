@@ -137,10 +137,11 @@
         "free-011",
         "free-004",
         "free-003",
-        "add-018"
+        "add-018",
+        "creative-pdfcraft"
       ],
-      "zh_note": "依拆合頁面、改正文、簽章分開評估。",
-      "en_note": "Separate page operations, text editing and signatures.",
+      "zh_note": "依拆合頁面、改正文、簽章分開評估。 PdfCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Separate page operations, text editing and signatures. PdfCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -153,10 +154,11 @@
       "year_suffix": true,
       "targets": [
         "free-001",
-        "free-002"
+        "free-002",
+        "creative-photocraft"
       ],
-      "zh_note": "修圖與繪畫分開；不保證 PSD 與外掛互通。",
-      "en_note": "Separate retouching from painting; PSD/plugin compatibility is not guaranteed.",
+      "zh_note": "修圖與繪畫分開；不保證 PSD 與外掛互通。 PhotoCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Separate retouching from painting; PSD/plugin compatibility is not guaranteed. PhotoCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -171,10 +173,11 @@
       "targets": [
         "free-010",
         "oss-039",
-        "oss-040"
+        "oss-040",
+        "creative-filmcraft"
       ],
-      "zh_note": "先確認交付格式與團隊專案依賴。",
-      "en_note": "Check delivery formats and team project dependencies.",
+      "zh_note": "先確認交付格式與團隊專案依賴。 FilmCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Check delivery formats and team project dependencies. FilmCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -202,10 +205,11 @@
       "year_suffix": true,
       "targets": [
         "oss-045",
-        "oss-046"
+        "oss-046",
+        "creative-effectcraft"
       ],
-      "zh_note": "僅為特定合成或動畫用途候選，不是完整替代。",
-      "en_note": "Partial compositing/animation candidates, not complete replacements.",
+      "zh_note": "僅為特定合成或動畫用途候選，不是完整替代。 EffectCraft 為早期開發候選，僅供研究，不建議取代客戶工作。",
+      "en_note": "Partial compositing/animation candidates, not complete replacements. EffectCraft is an early-development candidate for research, not client-work replacement.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -345,10 +349,11 @@
       ],
       "year_suffix": true,
       "targets": [
-        "creative-inkscape"
+        "creative-inkscape",
+        "creative-vectorcraft"
       ],
-      "zh_note": "向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。",
-      "en_note": "Vector workflow candidate; validate AI files, fonts and print delivery. Keeping Creative Cloud prevents counting the full suite as savings.",
+      "zh_note": "向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。 VectorCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Vector workflow candidate; validate AI files, fonts and print delivery. Keeping Creative Cloud prevents counting the full suite as savings. VectorCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -361,10 +366,11 @@
       ],
       "year_suffix": true,
       "targets": [
-        "creative-scribus"
+        "creative-scribus",
+        "creative-designcraft"
       ],
-      "zh_note": "先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。",
-      "en_note": "Test print PDFs, pagination, styles and Chinese line breaking; project round-trip compatibility is unproven.",
+      "zh_note": "先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。 DesignCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Test print PDFs, pagination, styles and Chinese line breaking; project round-trip compatibility is unproven. DesignCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -415,10 +421,11 @@
       "targets": [
         "creative-darktable",
         "creative-rawtherapee",
-        "creative-digikam"
+        "creative-digikam",
+        "creative-lightcraft"
       ],
-      "zh_note": "RAW 顯影、照片管理與雲端同步分開比；既有編輯歷史、色彩和相機格式需測。",
-      "en_note": "Separate RAW development, asset management and cloud sync; test edit histories, colors and camera formats.",
+      "zh_note": "RAW 顯影、照片管理與雲端同步分開比；既有編輯歷史、色彩和相機格式需測。 LightCraft 為早期開發候選，先以新專案或測試檔試用。",
+      "en_note": "Separate RAW development, asset management and cloud sync; test edit histories, colors and camera formats. LightCraft is an early-development candidate for trials with new projects or test files.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -1646,6 +1653,37 @@
       ],
       "year_suffix": false,
       "zh_note": "自架不等於全球多地探測或服務保證；需獨立主機、外部告警通道與停機演練。"
+    },
+    {
+      "id": "adobe-creative-cloud",
+      "name": "Adobe Creative Cloud / ArtCraft Crafting Apps",
+      "aliases": [
+        "Adobe Creative Cloud",
+        "Creative Cloud",
+        "Adobe 全系列",
+        "Adobe全系列",
+        "Adobe 全家桶",
+        "Adobe全家桶",
+        "Adobe 開源",
+        "Adobe 全系列開源",
+        "ArtCraft",
+        "ArtCraft Crafting Apps",
+        "Crafting Apps"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "creative-photocraft",
+        "creative-vectorcraft",
+        "creative-filmcraft",
+        "creative-lightcraft",
+        "creative-pdfcraft",
+        "creative-effectcraft",
+        "creative-designcraft"
+      ],
+      "zh_note": "七款第三方工具涵蓋 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign 的部分工作。皆為早期開發，需逐項試用；Adobe 仍保留時不計整套節省。這裡只收錄 Crafting Apps，與 ArtCraft AI 影像／影片服務分開。",
+      "en_note": "Seven third-party tools target parts of Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign workflows. Early development: trial each task. Do not count suite savings while retaining Adobe. Covers Crafting Apps, separate from the ArtCraft AI image/video service.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
     }
-  ]
+  ],
+  "checked_on": "2026-10-09"
 }

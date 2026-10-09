@@ -1,16 +1,16 @@
 {
-  "updated_on": "2026-09-12",
+  "updated_on": "2026-10-09",
   "baseline_commit": "e0e4f2162176fcec3a7c1d6100b458baa697d8c1",
   "baseline_products": 78,
-  "curated_products": 189,
-  "product_growth_factor": 2.42,
+  "curated_products": 197,
+  "product_growth_factor": 2.53,
   "baseline_categories": 18,
   "curated_categories": 53,
   "category_growth_factor": 2.94,
-  "conditional_mappings": 99,
-  "new_research_sources": 38,
+  "conditional_mappings": 100,
+  "new_research_sources": 45,
   "source_languages": {
-    "en": 14,
+    "en": 21,
     "fr": 3,
     "de": 4,
     "zh-TW": 9,
@@ -22,7 +22,8 @@
     "directory-sections-reviewed": 9,
     "directory-index-reviewed": 6,
     "content-reviewed": 22,
-    "discovery-only": 1
+    "discovery-only": 1,
+    "official-docs-reviewed": 7
   },
   "legacy_article_sources": 11,
   "upstream_unique_records": 1346,

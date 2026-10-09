@@ -26,6 +26,46 @@ class SaverTests(unittest.TestCase):
     def test_catalog_integrity(self):
         saver.validate(self.catalog, self.mappings)
 
+    def test_crafting_suite_search_aliases_and_old_pdf_name(self):
+        expected = {p['id'] for p in self.products if p.get('suite') == 'artcraft-crafting-apps'}
+        self.assertEqual(len(expected), 7)
+        for query in ['ArtCraft', 'Adobe 全系列', 'Adobe全家桶', 'Creative Cloud']:
+            self.assertEqual({p['id'] for p in saver.search(self.products, self.mappings, query, 'macos')}, expected)
+        self.assertEqual(saver.search(self.products, self.mappings, 'PrintCraft', 'windows')[0]['name'], 'PdfCraft')
+
+    def test_early_tools_can_be_filtered_without_losing_existing_candidates(self):
+        results = saver.search(self.products, self.mappings, 'Photoshop', 'macos', exclude_experimental=True)
+        self.assertIn('GIMP', [p['name'] for p in results])
+        self.assertNotIn('PhotoCraft', [p['name'] for p in results])
+        self.assertEqual(saver.search(self.products, self.mappings, 'EffectCraft', 'macos', exclude_experimental=True), [])
+        report = saver.report(['After Effects'], self.products, self.mappings, 'macos', 'en', exclude_experimental=True)
+        self.assertIn('Natron', report)
+        self.assertNotIn('[EffectCraft](', report)
+
+    def test_render_and_report_show_research_scope_and_downloads(self):
+        product = next(p for p in self.products if p['name'] == 'EffectCraft')
+        self.assertIn('研究用途，暫不建議客戶工作', saver.render([product], 'zh-TW'))
+        self.assertIn(product['download_url'], saver.render([product], 'en'))
+        report = saver.report(['After Effects'], self.products, self.mappings, 'macos', 'en')
+        self.assertIn('Research only; retain client-work tools', report)
+        self.assertIn('.aep/.aepx', report)
+
+    def test_invalid_adoption_and_download_values_are_rejected(self):
+        for changed in [dict(self.products[0], recommendation='full-replacement'),
+                        dict(self.products[0], maturity='fully-compatible'),
+                        dict(self.products[0], download_url='javascript:bad')]:
+            with self.assertRaises(ValueError):
+                saver.validate({'products': [changed]}, [])
+
+    def test_experimental_filter_works_through_cli(self):
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            code = saver.main(['search', 'Photoshop', '--platform', 'windows', '--exclude-experimental', '--json'])
+        self.assertEqual(code, 0)
+        names = [p['name'] for p in json.loads(output.getvalue())]
+        self.assertIn('GIMP', names)
+        self.assertNotIn('PhotoCraft', names)
+
     def test_duplicate_names_and_urls_rejected(self):
         original = self.products[0]
         for duplicate in [dict(original, id='test-duplicate'),
