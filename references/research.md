@@ -11,6 +11,8 @@ Use this reference for catalog expansion and research tasks. A user's bulk resea
 5. Add only reviewed entries to `data/products.json`, with bilingual use/limits, individual dates and sources. Preserve unknown localization and untested runtime. Add specific, conditional mappings in `data/alternatives.json`; deduplicate software, aliases and repository URLs.
 6. Regenerate with `scripts/build_catalog.py` and `scripts/build_research.py`, validate, then update the repo. Imported upstream facts keep their attribution and license; original summaries link to articles rather than reproduce them.
 
+For automation and download research, record stable/prerelease versions, meaningful maintenance dates, platform-specific maturity and required plugin versions. Confirm claimed automation against the relevant code when docs are ambiguous. Keep rejected candidates and the concrete reason in a focused research guide rather than inflating product counts. Update the individual evidence date only for entries actually rechecked; the dataset date is not a claim that every older entry was refreshed.
+
 ## Depth for consequential migrations
 
 Pick a real acceptance task: open/edit/export a representative file, migrate a small workspace, restore a backup, or reproduce the core workflow. Record version, OS, architecture, free edition, result and unsupported feature. Reading docs only qualifies for documentation review. A project license never proves the official binary, cloud plan, model weights or integrations are all free.

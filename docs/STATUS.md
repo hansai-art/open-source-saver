@@ -1,17 +1,17 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-10-09 · Dataset updated: 2026-10-09; individual product evidence dates retained
+Version: v0.1.0-alpha · Status checked: 2026-10-10 · Dataset updated: 2026-10-10; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 197 個候選、53 大類、100 組條件對照 / 197 candidates, 53 categories, 100 conditional mappings |
-| 文章、目錄與社群 / Research sources | 45 筆、7 語系，含本次 7 筆 ArtCraft 官方文件；保留舊 11 篇文章及 7 筆社群紀錄 / 45 sources across 7 language labels, including 7 ArtCraft official documents; legacy research retained |
+| 產品資料 / Product snapshot | 202 個候選、54 大類、101 組條件對照 / 202 candidates, 54 categories, 101 conditional mappings |
+| 文章、目錄與社群 / Research sources | 48 筆、7 語系，含錄影／下載與先前 ArtCraft 官方文件；保留舊 11 篇文章及 7 筆社群紀錄 / 48 sources across 7 language labels, including recording/download and earlier ArtCraft official documents; legacy research retained |
 | 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
-| 自動測試 / Automated tests | Linux / Python：21 項通過 / 21 passed |
+| 自動測試 / Automated tests | Linux / Python：22 項通過 / 22 passed |
 | Skill 結構驗證 / Skill structure validation | 通過 / Passed |
-| Agent 情境 / Agent scenario | Mac 錄影、自動縮放、繁中字幕、免編譯：正確保留未知，不承諾完整替換 / Preserved unknowns instead of promising an unverified replacement |
+| Agent 情境 / Agent scenario | Mac 錄影後製與 IDM 替代：獨立 Agent 使用離線快照，保留費用、繁中、beta 與待開發整合條件 / Independent offline scenario retained cost, locale, beta and proposed-integration conditions |
 | macOS 收集器 / macOS collector | metadata 測資通過；真機未測 / Synthetic metadata tests passed; device testing pending |
 | Windows 收集器 / Windows collector | 已實作；原生 PowerShell 語法與真機未測 / Implemented; native PowerShell parsing and device tests pending |
 | 第三方工具工作流 / Third-party workflows | 全部尚未實測 / None runtime-tested |
@@ -86,3 +86,13 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - 資料與 21 項離線測試通過。第三方安裝包、GUI、檔案遷移、中文品質及 CLI／MCP 工作流未實測。
 
 [繁中查核](research/artcraft.md) · [English review](research/artcraft.en.md)
+
+## 2026-10-10 錄影自動化、繁中與下載器研究 / Recording and download research
+
+- 新增 OpenScreen、Flowtake、OpenCC、Varia、Gopeed，更新 Recordly 與 Auto-Editor；工具合計 202 個、54 大類、101 組條件對照。 / Added five tools and refreshed two; 202 products, 54 categories, 101 conditional mappings.
+- 區分點擊縮放、文字剪輯、靜音規則、語意剪輯及 API 費用；記錄匯入 MP4 的游標資料缺口與 proposed integration，未宣稱已實作。 / Separate zoom, transcript cuts, silence rules, semantic editing and API costs; proposed integrations are not existing features.
+- 下載器保留正式／beta、平台成熟度及外掛相容版本；不套用作者宣稱的加速倍數。修正 IDM 精確對照混入 IDML 排版工具的搜尋問題。 / Retain stable/beta and plugin/platform conditions; no unmeasured speed claims.
+- Varia 已有繁中，194 條目為 125 已譯、26 fuzzy、43 未譯；POT 落後源碼，未測全介面。遵守上游規則，未送出 AI 翻譯或 PR。 / Varia has an incomplete existing locale and a stale POT; no AI translation or upstream PR was submitted.
+- 22 項既有／回歸測試及獨立 Agent 離線情境通過。官方文件、源碼與版本資產列表已查核；所有第三方安裝、字幕品質與實際下載速度仍未實測。 / Docs, source and relevant asset lists reviewed; third-party installs, caption quality and speed remain untested.
+
+[繁中研究與驗收](research/recording-downloads.md) · [English review](research/recording-downloads.en.md)

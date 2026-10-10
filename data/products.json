@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-09",
+  "checked_on": "2026-10-10",
   "products": [
     {
       "id": "oss-001",
@@ -47,7 +47,10 @@
         "錄影",
         "螢幕錄影",
         "screen recording",
-        "screen recorder"
+        "screen recorder",
+        "自動縮放",
+        "auto zoom",
+        "字幕"
       ],
       "platforms": [
         "macos",
@@ -57,23 +60,30 @@
       "delivery": "desktop",
       "url": "https://github.com/webadderallorg/Recordly",
       "sources": [
-        "https://github.com/webadderallorg/Recordly/blob/main/README.md"
+        "https://github.com/webadderallorg/Recordly/blob/main/README.md",
+        "https://github.com/webadderallorg/Recordly/releases/tag/v1.4.0"
       ],
       "cost": "open-source; binary/model/service costs may differ",
       "license": "AGPL-3.0；另見 LICENSE.md",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-10",
+      "checked_on": "2026-10-10",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
         "use": "教學示範、產品 demo、自動縮放與游標動畫",
-        "limits": "Mac 14+；Linux 游標隱藏有限制。README 標 AGPL-3.0，LICENSE.md 另有品牌及署名文字，改版前要核對全文。"
+        "limits": "Mac 14+；Windows／Linux，Linux 游標隱藏有限制。自動縮放與本機字幕、SRT／VTT 可列候選，但剪輯主要是手動；源碼 silence 分析不等於自動剪影片。AGPL-3.0，LICENSE.md 另有品牌／署名要求，改版前核對全文。"
       },
       "en": {
         "use": "Polished recordings with cursor effects and zoom",
-        "limits": "Check platform-specific cursor/audio support and AGPL distribution terms."
+        "limits": "macOS 14+, Windows/Linux with cursor limitations. Auto zoom, local captions and SRT/VTT are documented; timeline cuts are manual, and caption silence analysis does not establish automatic video cutting. Review AGPL plus additional branding/attribution text before redistribution."
       },
-      "source_type": "open-source"
+      "source_type": "open-source",
+      "release": {
+        "tag": "v1.4.0",
+        "published_at": "2026-09-08",
+        "prerelease": false,
+        "asset_listing_reviewed": false
+      }
     },
     {
       "id": "oss-003",
@@ -1272,33 +1282,46 @@
       "keywords": [
         "剪輯",
         "影片",
-        "video editing"
+        "video editing",
+        "自動剪輯",
+        "靜音剪輯",
+        "剪掉停頓",
+        "auto editing",
+        "silence removal"
       ],
       "platforms": [
         "macos",
         "windows",
         "linux"
       ],
-      "delivery": "setup",
+      "delivery": "cli",
       "url": "https://github.com/WyattBlue/auto-editor",
       "sources": [
-        "https://github.com/WyattBlue/auto-editor/blob/master/README.md"
+        "https://github.com/WyattBlue/auto-editor/blob/master/README.md",
+        "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2"
       ],
-      "cost": "open-source; binary/model/service costs may differ",
+      "cost": "free and open-source",
       "license": "Unlicense（repo）",
       "evidence": "official-docs-reviewed",
-      "checked_on": "2026-09-10",
+      "checked_on": "2026-10-10",
       "runtime_tested": false,
       "zh_tw": "unknown",
       "zh": {
         "use": "先剪掉靜音或低活動片段，再匯出到既有剪輯軟體",
-        "limits": "官方 README 已有 Skill 安裝入口；音量偵測不理解內容，會誤刪閱讀／操作停頓。商業 GUI 與此開源 CLI 不同。"
+        "limits": "免費開源 CLI；商業 GUI 是不同產品。音量／活動規則不理解語意，不能保證去掉重講或保留操作停頓；不是依游標自動縮放。若自行整合 OpenScreen，需開發 cut ranges 傳遞與時間軸重映，避免預剪後丟失游標／字幕同步。"
       },
       "en": {
         "use": "Automatic silence/activity-based cutting",
-        "limits": "CLI with an upstream skill; meaningful pauses and project exports need review."
+        "limits": "Free open-source CLI, separate from the commercial GUI. Loudness/activity rules do not identify semantic retakes or guarantee meaningful pauses survive; no cursor-based auto zoom. A proposed OpenScreen integration would require cut-range transfer and timeline remapping rather than lose cursor/caption synchronization in pre-rendering."
       },
-      "source_type": "open-source"
+      "source_type": "open-source",
+      "download_url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+      "release": {
+        "tag": "31.7.2",
+        "published_at": "2026-10-03T02:04:36Z",
+        "prerelease": false,
+        "asset_listing_reviewed": true
+      }
     },
     {
       "id": "oss-038",
@@ -7823,7 +7846,311 @@
         "use": "Trials for multi-page layout, paragraph styles, IDML exchange and PDF export",
         "limits": "Actively developed. INDD is unreadable; full InDesign CJK composition, frame grids and detailed ruby remain incomplete. Proof Chinese IDML, PDFs and print specifications. This version has Simplified but no Traditional Chinese UI. The README's PDF roadmap wording is stale; roadmap and release notes list PDF functionality."
       }
+    },
+    {
+      "id": "oss-openscreen",
+      "name": "OpenScreen",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder",
+        "自動縮放",
+        "auto zoom",
+        "自動剪輯",
+        "字幕",
+        "Screen Studio",
+        "OpenScreen",
+        "繁中字幕",
+        "繁體中文字幕",
+        "自動字幕"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/getopenscreen/openscreen",
+      "sources": [
+        "https://github.com/getopenscreen/openscreen",
+        "https://github.com/getopenscreen/openscreen/releases/tag/v2.0.0",
+        "https://getopenscreen.com/features/auto-zoom/",
+        "https://getopenscreen.com/docs/captions/",
+        "https://getopenscreen.com/docs/ai-editing/",
+        "https://getopenscreen.com/docs/cli/"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "zh_tw": "official-ui-present; caption-script-not-fixed; quality-untested",
+      "zh": {
+        "use": "螢幕錄影、依點擊自動縮放、本機中文字幕與逐字稿剪輯",
+        "limits": "Mac 13+／Windows／Linux。匯入 MP4 沒有錄製時的游標資料，不能套用相同自動縮放；刪字或靜音是互動剪輯，Smart Cuts 需外部 LLM／既有 Agent，服務可能收費。本機 Whisper 支援中文，但未確認固定繁中輸出；無 SRT／VTT 匯出。"
+      },
+      "en": {
+        "use": "Screen recording, click-based auto zoom, local Chinese captions and transcript editing",
+        "limits": "macOS 13+, Windows and Linux. Imported MP4s lack recording cursor telemetry for equivalent auto zoom. Word/silence deletion is interactive; Smart Cuts needs an external LLM or existing agent and may incur service costs. Local Whisper supports Chinese but fixed Traditional output is unverified; no SRT/VTT export."
+      },
+      "download_url": "https://github.com/getopenscreen/openscreen/releases/tag/v2.0.0",
+      "release": {
+        "tag": "v2.0.0",
+        "published_at": "2026-10-03T15:39:15Z",
+        "prerelease": false,
+        "asset_listing_reviewed": true
+      },
+      "automation": {
+        "interfaces": [
+          "cli",
+          "mcp",
+          "project-json"
+        ],
+        "evidence": "official-docs-reviewed",
+        "runtime_tested": false,
+        "sources": [
+          "https://getopenscreen.com/docs/cli/",
+          "https://getopenscreen.com/docs/ai-editing/"
+        ],
+        "limits": "Electron CLI still needs a desktop/display session; MCP write access is opt-in."
+      }
+    },
+    {
+      "id": "oss-flowtake",
+      "name": "Flowtake",
+      "category": "screen-recording",
+      "keywords": [
+        "錄影",
+        "螢幕錄影",
+        "screen recording",
+        "screen recorder",
+        "自動縮放",
+        "auto zoom",
+        "Flowtake"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/JNX03/Flowtake",
+      "sources": [
+        "https://github.com/JNX03/Flowtake",
+        "https://github.com/JNX03/Flowtake/releases/tag/v1.7.2"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "zh_tw": "unknown; Chinese-caption-option-absent-in-reviewed-code",
+      "zh": {
+        "use": "螢幕錄影、游標追蹤與自動縮放，可研究字幕整合",
+        "limits": "Windows 為主要平台，Mac／Linux 為預覽版；本機字幕語言選單未提供中文，不能當成現成繁中字幕工具。未確認自動刪除靜音，FFmpeg 需另外設定；MCP 不等於可自動轉錄及渲染。"
+      },
+      "en": {
+        "use": "Screen recording with cursor tracking and auto zoom; caption-integration research",
+        "limits": "Windows is primary; macOS/Linux are previews. The local caption language selector excludes Chinese, so this is not a ready-made Traditional Chinese caption workflow. Automatic silence removal is unverified; FFmpeg needs setup. MCP metadata editing does not establish transcription/render automation."
+      },
+      "download_url": "https://github.com/JNX03/Flowtake/releases/tag/v1.7.2",
+      "release": {
+        "tag": "v1.7.2",
+        "published_at": "2026-09-12T16:10:32Z",
+        "prerelease": false,
+        "asset_listing_reviewed": false
+      },
+      "maturity": "early-development",
+      "recommendation": "trial-only"
+    },
+    {
+      "id": "oss-opencc",
+      "name": "OpenCC",
+      "category": "subtitles",
+      "keywords": [
+        "繁體中文",
+        "繁中字幕",
+        "簡繁轉換",
+        "OpenCC",
+        "s2twp",
+        "traditional Chinese",
+        "字幕"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "engine",
+      "url": "https://github.com/BYVoid/OpenCC",
+      "sources": [
+        "https://github.com/BYVoid/OpenCC"
+      ],
+      "cost": "free and open-source",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "zh_tw": "Traditional-Chinese-conversion-engine; no-UI-claim",
+      "zh": {
+        "use": "離線簡繁轉換與台灣詞彙轉換，供字幕處理流程整合",
+        "limits": "文字轉換引擎，沒有錄影、語音辨識、時間軸或畫面縮放；s2twp 轉換不會修正辨識錯字。不是一鍵字幕桌面軟體。"
+      },
+      "en": {
+        "use": "Offline Simplified/Traditional and Taiwan vocabulary conversion for caption pipelines",
+        "limits": "Text conversion engine without recording, speech recognition, timing or zoom. s2twp does not correct transcription errors. Not a one-click caption desktop app."
+      }
+    },
+    {
+      "id": "oss-varia",
+      "name": "Varia",
+      "category": "download-managers",
+      "keywords": [
+        "下載",
+        "下載器",
+        "下載加速",
+        "加速下載",
+        "多線程下載",
+        "多連線下載",
+        "影片下載",
+        "下載影片",
+        "download manager",
+        "download accelerator",
+        "video downloader",
+        "Varia"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/giantpinkrobots/varia",
+      "sources": [
+        "https://github.com/giantpinkrobots/varia",
+        "https://github.com/giantpinkrobots/varia/releases/tag/v2026.8.5-1",
+        "https://github.com/giantpinkrobots/varia/blob/v2026.8.5-1/po/zh_TW.po",
+        "https://github.com/giantpinkrobots/varia/blob/v2026.8.5-1/po/LINGUAS",
+        "https://github.com/giantpinkrobots/varia/blob/next/CONTRIBUTING.md",
+        "https://aria2.github.io/manual/en/html/aria2c.html"
+      ],
+      "cost": "free and open-source",
+      "license": "MPL-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "zh_tw": "official-ui-present; partial-catalog; quality-untested",
+      "zh": {
+        "use": "一般檔案多連線加速、續傳，以及 yt-dlp 影片／音訊／播放清單下載",
+        "limits": "Windows／Linux 可下載；Mac Intel／Apple Silicon 安裝包屬實驗性。已含繁中，現有 194 條翻譯目錄中 125 已譯、26 fuzzy、43 未譯，POT 亦落後源碼，不能稱完整繁中。多連線效果受伺服器與頻寬限制；影片支援依網站及 yt-dlp 變動。"
+      },
+      "en": {
+        "use": "Multi-connection file downloads, resume and yt-dlp video/audio/playlist downloads",
+        "limits": "Windows/Linux packages are available; Intel/Apple Silicon macOS packages are experimental. Traditional Chinese exists: the current 194-entry catalog has 125 confirmed, 26 fuzzy and 43 untranslated messages; POT also lags source, so full UI coverage is unverified. Speed depends on server/bandwidth; video support depends on sites and yt-dlp."
+      },
+      "download_url": "https://github.com/giantpinkrobots/varia/releases/tag/v2026.8.5-1",
+      "release": {
+        "tag": "v2026.8.5-1",
+        "published_at": "2026-08-23T12:23:44Z",
+        "prerelease": false,
+        "asset_listing_reviewed": true
+      },
+      "maintenance": {
+        "reviewed_on": "2026-10-10",
+        "branch": "next",
+        "latest_commit": "9e87792a82df5529e8e455937de9e27d530edb5f",
+        "latest_commit_at": "2026-10-03T21:35:14Z",
+        "source": "https://github.com/giantpinkrobots/varia/commit/9e87792a82df5529e8e455937de9e27d530edb5f"
+      },
+      "localization": {
+        "locale": "zh_TW",
+        "catalog_entries": 194,
+        "translated_non_fuzzy": 125,
+        "fuzzy": 26,
+        "untranslated": 43,
+        "catalog_lags_source": true,
+        "whole_ui_coverage": "unknown",
+        "upstream_translation_channel": "https://hosted.weblate.org/projects/varia/varia/zh_Hant/",
+        "ai_generated_translations_allowed": false,
+        "runtime_tested": false
+      }
+    },
+    {
+      "id": "oss-gopeed",
+      "name": "Gopeed",
+      "category": "download-managers",
+      "keywords": [
+        "下載",
+        "下載器",
+        "下載加速",
+        "加速下載",
+        "多線程下載",
+        "多連線下載",
+        "影片下載",
+        "下載影片",
+        "download manager",
+        "download accelerator",
+        "video downloader",
+        "Gopeed",
+        "BT",
+        "magnet"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/GopeedLab/gopeed",
+      "sources": [
+        "https://github.com/GopeedLab/gopeed",
+        "https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3",
+        "https://github.com/GopeedLab/gopeed/releases/tag/v2.0.0-beta.3",
+        "https://github.com/monkeyWie/gopeed-extension-youtube",
+        "https://github.com/monkeyWie/gopeed-extension-youtube/blob/main/package.json"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "zh_tw": "official-ui-present; quality-untested",
+      "zh": {
+        "use": "一般檔案多連線下載、BT／磁力連結；透過外掛下載影片",
+        "limits": "核心免費開源且含繁中 UI。穩定版 1.9.3，最新 YouTube 外掛要求 2.0 系列，目前只有 beta；不能宣稱穩定版已配上最新影片功能。2.0.0-beta.3 有 Win／Mac 原生包及 Linux web 包。外掛、影片支援和授權要另外核對；加速不會突破頻寬或站方總限速。"
+      },
+      "en": {
+        "use": "Multi-connection file downloads, BitTorrent/magnets and extension-based video downloads",
+        "limits": "Free open-source core with Traditional Chinese UI. Stable 1.9.3 does not establish compatibility with the latest YouTube extension, which requires the currently-beta 2.0 series. Beta.3 lists native Windows/macOS and Linux web assets. Review extension licensing and site support separately; multiple connections cannot exceed bandwidth or aggregate server limits."
+      },
+      "download_url": "https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3",
+      "release": {
+        "tag": "v1.9.3",
+        "published_at": "2026-03-18T12:54:20Z",
+        "prerelease": false,
+        "asset_listing_reviewed": false
+      },
+      "prerelease": {
+        "tag": "v2.0.0-beta.3",
+        "published_at": "2026-09-18T16:07:39Z",
+        "prerelease": true,
+        "url": "https://github.com/GopeedLab/gopeed/releases/tag/v2.0.0-beta.3",
+        "asset_listing_reviewed": true
+      },
+      "video_extension": {
+        "repository": "https://github.com/monkeyWie/gopeed-extension-youtube",
+        "license_declaration": "ISC in package.json",
+        "required_gopeed": "2.0 series, currently beta",
+        "runtime_tested": false
+      }
     }
   ],
-  "checked_on_note": "Dataset updated on this date; individual evidence dates remain on each product."
+  "checked_on_note": "Dataset update date only; individual product review dates are retained. Third-party workflows remain untested."
 }

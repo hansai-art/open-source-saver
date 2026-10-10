@@ -5,12 +5,12 @@
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
 <!-- catalog-summary:start -->
-**197 個候選 · 53 大類 · 187 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**202 個候選 · 54 大類 · 192 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
-**另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 45 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
+**另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
 
-目前工具從 **78 → 197（2.53 倍）**、領域 **18 → 53（2.94 倍）**、原軟體對照 **20 → 100 組**。 [研究方法與統計](docs/RESEARCH.md)
+目前工具從 **78 → 202（2.59 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 101 組**。 [研究方法與統計](docs/RESEARCH.md)
 
 **先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
 
@@ -19,6 +19,24 @@
 這個 Skill 的主要流程是：**盤點電腦已安裝的軟體 → 比對開源免費替代方案 → 列出推薦理由、功能差異與安裝方式。** 安裝到能操作本機的 Claude Code／Codex 等 Agent 後，從你的實際軟體清單開始推薦，不用先自己研究每一款替代品。也能直接瀏覽網頁清單，或只詢問某款軟體。**有現成就拿來用；只有英文，就先整理繁中教學或協助上游翻譯。**
 
 導覽：[Adobe 開源候選](#新收錄artcraft-的七款-adobe-開源替代工具) · [能省多少](#先看一筆訂閱能省多少) · [優先需求](#先解決你每天會用的錄影截圖與語音需求) · [全部分類](#目前收錄哪些工具) · [資料來源](#資料從哪裡來) · [提供工具](#歡迎提供你自己開發或你知道的工具) · [新手開始](#新手從這裡開始) · [安裝](#安裝-skill)
+
+## 新研究：自動剪輯、繁中字幕與加速下載
+
+查核日 **2026-10-10**。新增 OpenScreen、Flowtake、OpenCC、Varia、Gopeed，更新 Recordly 與 Auto-Editor 的功能限制。
+
+| 需求 | 先看的工具 | 先確認的條件 |
+|---|---|---|
+| 螢幕錄影後縮放、剪輯與字幕 | [OpenScreen](https://github.com/getopenscreen/openscreen)；停頓粗剪另看 Auto-Editor | 點擊縮放需游標資料；Smart Cuts 可能有模型費用；固定繁中字幕需另整合 |
+| 一般下載加速與影片下載 | [Varia](https://github.com/giantpinkrobots/varia)、[Gopeed](https://github.com/GopeedLab/gopeed) | Varia Mac 版實驗性；Gopeed 最新 YouTube 外掛需 2.0 beta；多連線不能突破總頻寬 |
+| 已有中文介面是否完整 | Varia 既有 `zh_TW` | 125／194 條目已譯且非 fuzzy，其餘待補；POT 落後源碼，比例不代表整個 UI 完成度 |
+
+[功能對照、繁中使用指引、版本條件與驗收任務](docs/research/recording-downloads.md)。本次為官方文件與源碼審閱，未安裝或測量實際速度。Varia 已有繁中，不另外重做一款下載器；完整化需依上游規則由人工校對。
+
+```bash
+python3 scripts/saver.py search "自動剪輯" --platform macos
+python3 scripts/saver.py search "加速下載" --platform windows
+python3 scripts/saver.py search "IDM" --platform macos
+```
 
 ## 新收錄：ArtCraft 的七款 Adobe 開源替代工具
 
@@ -58,7 +76,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 
 價格來源：[TechSmith 官方商店](https://www.techsmith.com/store/camtasia)、[Screen Studio 官方價格](https://screen.studio/)。免費候選來源：[OBS Studio](https://obsproject.com/)、[Kdenlive](https://kdenlive.org/)。
 
-如果你重視 Screen Studio 的一鍵運鏡，請先看 [錄影清單](docs/CATALOG.zh-TW.md#screen-recording) 裡的 Recordly、Capptivo 等候選，再逐項確認免費安裝、字幕、輸出與系統限制。找到名字不表示已經能完成你的工作。
+如果你重視 Screen Studio 的一鍵運鏡，請先看 [錄影清單](docs/CATALOG.zh-TW.md#screen-recording) 裡的 OpenScreen、Recordly 等候選，再逐項確認免費安裝、字幕、輸出與系統限制。找到名字不表示已經能完成你的工作。
 
 節費公式：**可取消的原訂閱費 − 替代方案新增必要費用**。轉換與學習時間另列。已買斷舊版、原本用免費版、仍需續訂套裝中的其他功能，都不能直接套用上述節省金額。現在還不把全站工具價格加成一個「人人都能省」的總額。[完整計算規則與資料](docs/SAVINGS.md)
 
@@ -73,14 +91,14 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | Acronis、TeamViewer、Postman | restic／Kopia、RustDesk、Bruno／Hoppscotch | 先試還原、連線、API 集合與團隊協作 |
 | 個人記帳、文獻、RSS | GnuCash／Actual、Zotero、FreshRSS | 資料匯入、雲端同步與儲存費分開看 |
 
-[查看全部 100 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
+[查看全部 101 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
 
 ## 先解決你每天會用的錄影、截圖與語音需求
 
 | 你想做的事／原工具 | 先看的候選 | 選之前先試什麼 |
 |---|---|---|
 | 錄課程、螢幕教學／Camtasia | OBS Studio + Kdenlive | 錄一段含麥克風與系統音訊的教學，再完成剪輯輸出 |
-| 漂亮的產品示範／Screen Studio | Recordly、Capptivo；基本錄影可看 OBS | 自動縮放、游標、字幕、輸出浮水印及安裝方式 |
+| 漂亮的產品示範／Screen Studio | OpenScreen、Recordly；基本錄影可看 OBS | 自動縮放、游標、字幕、輸出浮水印及安裝方式 |
 | 截圖標註、OCR／Snagit、CleanShot X | Windows：ShareX；Mac：macshot、Capso；跨平台：Flameshot、ksnip | 用自己的畫面試長截圖、16:9／固定尺寸、繁中 OCR、快捷鍵與分享需求 |
 | 用說話代替打字／Wispr Flow、Superwhisper | Handy、OpenWhispr、TypeWhisper（Mac） | 一段台灣口音、中英混合與專有名詞；本機模型或雲端費用 |
 | 訪談逐字稿／Otter、Descript | noScribe、Vibe、Buzz；會議摘要另看 Meetily Community | 說話者分段、轉錄時間、字幕匯出；不能把轉錄當成文字剪輯 |
@@ -94,11 +112,11 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 <!-- catalog-categories:start -->
 | 分類 | 數量 | 例子 |
 |---|---:|---|
-| [螢幕錄影](docs/CATALOG.zh-TW.md#screen-recording) | 12 | OBS Studio、Recordly、Capptivo |
+| [螢幕錄影](docs/CATALOG.zh-TW.md#screen-recording) | 14 | OBS Studio、Recordly、Capptivo |
 | [截圖與 OCR](docs/CATALOG.zh-TW.md#screenshots-ocr) | 9 | ShareX、Flameshot、ksnip |
 | [語音輸入／聽寫](docs/CATALOG.zh-TW.md#dictation) | 6 | Handy、OpenWhispr、VoiceInk |
 | [逐字稿與會議轉錄](docs/CATALOG.zh-TW.md#transcription) | 10 | Vibe、Buzz、aTrain |
-| [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 3 | Subtitle Edit、pyVideoTrans、VideoLingo |
+| [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 4 | Subtitle Edit、pyVideoTrans、VideoLingo |
 | [TTS 文字轉語音](docs/CATALOG.zh-TW.md#text-to-speech) | 7 | Readest、Piper（現行維護線）、Qwen3-TTS |
 | [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 11 | Auto-Editor、LosslessCut、Kdenlive |
 | [音訊編輯](docs/CATALOG.zh-TW.md#audio-editing) | 2 | Audacity、Ultimate Vocal Remover（UVR） |
@@ -147,6 +165,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | [隱私與安全防護](docs/CATALOG.zh-TW.md#privacy-security) | 2 | Cryptomator（桌面版）、Portmaster |
 | [遠端桌面與設備管理](docs/CATALOG.zh-TW.md#remote-access) | 3 | RustDesk、Apache Guacamole、MeshCentral |
 | [資訊訂閱與文獻管理](docs/CATALOG.zh-TW.md#rss-reference) | 4 | FreshRSS、RSS Guard、Zotero |
+| [下載管理、加速與影片下載](docs/CATALOG.zh-TW.md#download-managers) | 2 | Varia、Gopeed |
 <!-- catalog-categories:end -->
 
 **數字怎麼算？** 以 `data/products.json` 的不重複產品 ID 計數，每個產品只列一個主要分類。文章提到的名稱、論壇留言、同一工具的不同平台不重複加總。開源專案包括部分引擎、需設定的工具，以及可能另售官方安裝包的產品；**開源數量不等於免費免設定下載數量**。Pearcleaner 附 Commons Clause 且維護暫停，歸為原始碼可見，不算入開源數。免費非開源也會註明免費版與功能限制。

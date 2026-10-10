@@ -5,12 +5,12 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**197 candidates · 53 categories · 187 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**202 candidates · 54 categories · 192 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
-**Also included: 1,346 searchable upstream leads across 84 upstream tags and 45 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
+**Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
 
-Current catalog: **78 → 197 products (2.53×), 18 → 53 categories (2.94×), 20 → 100 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
+Current catalog: **78 → 202 products (2.59×), 18 → 54 categories (3×), 20 → 101 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
@@ -19,6 +19,24 @@ Current catalog: **78 → 197 products (2.53×), 18 → 53 categories (2.94×), 
 The Skill's primary workflow is **inventory installed apps → match free/open-source alternatives → explain recommendations, feature gaps and installation steps**. Use a compatible agent with access to your computer, such as a local Claude Code or Codex host, to start from the software you actually have. You can also browse the catalog or ask about a single app. Reuse working products first. For English-only tools, improve Traditional Chinese guidance or contribute translations upstream before proposing a new product.
 
 Navigation: [Adobe alternatives](#newly-cataloged-seven-artcraft-adobe-alternatives) · [Savings](#what-could-one-subscription-save) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
+
+## New research: automatic editing, Chinese captions and accelerated downloads
+
+Reviewed **2026-10-10**. Added OpenScreen, Flowtake, OpenCC, Varia and Gopeed; refreshed Recordly and Auto-Editor limitations.
+
+| Need | Starting tools | Conditions to check |
+|---|---|---|
+| Screen-recording zoom, edits and captions | [OpenScreen](https://github.com/getopenscreen/openscreen); Auto-Editor for silence rough cuts | Click zoom needs cursor telemetry; Smart Cuts may incur model costs; fixed Traditional captions need integration |
+| Accelerated files and video downloads | [Varia](https://github.com/giantpinkrobots/varia), [Gopeed](https://github.com/GopeedLab/gopeed) | Varia macOS is experimental; the latest Gopeed YouTube extension needs 2.0 beta; multiple connections cannot exceed aggregate bandwidth |
+| Existing Chinese UI completeness | Varia's existing `zh_TW` | 125/194 catalog entries are non-fuzzy translations; the rest need review. POT lags source, so this is not whole-UI coverage |
+
+[Feature comparison, Chinese guidance, version requirements and trial tasks](docs/research/recording-downloads.en.md). Official documentation and source were reviewed; installers and download speeds were not tested. Varia already has Traditional Chinese. Improve the existing locale through human review under upstream rules rather than duplicating the product.
+
+```bash
+python3 scripts/saver.py search "auto editing" --platform macos --lang en
+python3 scripts/saver.py search "download accelerator" --platform windows --lang en
+python3 scripts/saver.py search "IDM" --platform macos --lang en
+```
 
 ## Newly cataloged: seven ArtCraft Adobe alternatives
 
@@ -58,7 +76,7 @@ Public individual-plan benchmarks checked **2026-09-11**, in USD. Taxes, regiona
 
 Official prices: [TechSmith](https://www.techsmith.com/store/camtasia), [Screen Studio](https://screen.studio/). Free tools: [OBS Studio](https://obsproject.com/), [Kdenlive](https://kdenlive.org/).
 
-Need Screen Studio-style automatic camera movement? Explore Recordly and Capptivo in the [recording section](docs/CATALOG.en.md#screen-recording), then verify free acquisition, features and export limits. A catalog entry is not proof that your workflow can migrate.
+Need Screen Studio-style automatic camera movement? Explore OpenScreen and Recordly in the [recording section](docs/CATALOG.en.md#screen-recording), then verify free acquisition, features and export limits. A catalog entry is not proof that your workflow can migrate.
 
 **Avoidable recurring expense − necessary new costs = potential cash savings.** Track migration time separately. An old perpetual license, an already-free edition or a suite you still need does not automatically produce annual savings. [Methodology and machine-readable prices](docs/SAVINGS.md)
 
@@ -67,7 +85,7 @@ Need Screen Studio-style automatic camera movement? Explore Recordly and Capptiv
 | Task / original tool | Candidates to explore | A useful trial |
 |---|---|---|
 | Record a course / Camtasia | OBS Studio + Kdenlive | Record microphone and system audio, edit a short lesson and export it |
-| Polished product demos / Screen Studio | Recordly, Capptivo; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
+| Polished product demos / Screen Studio | OpenScreen, Recordly; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
 | Screenshots / Snagit, CleanShot X | ShareX on Windows; macshot and Capso on Mac; Flameshot or ksnip across platforms | Test scrolling capture, 16:9/fixed-size selection, Chinese OCR, shortcuts and sharing |
 | Voice typing / Wispr Flow, Superwhisper | Handy, OpenWhispr, TypeWhisper on Mac | Test mixed Chinese/English terminology and local versus cloud costs |
 | Transcripts / Otter, Descript | noScribe, Vibe, Buzz; Meetily Community for meeting summaries | Check speakers, processing time and exports; transcription is not text-based video editing |
@@ -81,11 +99,11 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 <!-- catalog-categories:start -->
 | Category | Count | Examples |
 |---|---:|---|
-| [Screen recording](docs/CATALOG.en.md#screen-recording) | 12 | OBS Studio, Recordly, Capptivo |
+| [Screen recording](docs/CATALOG.en.md#screen-recording) | 14 | OBS Studio, Recordly, Capptivo |
 | [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 9 | ShareX, Flameshot, ksnip |
 | [Voice typing / dictation](docs/CATALOG.en.md#dictation) | 6 | Handy, OpenWhispr, VoiceInk |
 | [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
-| [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 3 | Subtitle Edit, pyVideoTrans, VideoLingo |
+| [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 4 | Subtitle Edit, pyVideoTrans, VideoLingo |
 | [Text to speech](docs/CATALOG.en.md#text-to-speech) | 7 | Readest, Piper（現行維護線）, Qwen3-TTS |
 | [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 11 | Auto-Editor, LosslessCut, Kdenlive |
 | [Audio editing](docs/CATALOG.en.md#audio-editing) | 2 | Audacity, Ultimate Vocal Remover（UVR） |
@@ -134,6 +152,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Privacy and security](docs/CATALOG.en.md#privacy-security) | 2 | Cryptomator（桌面版）, Portmaster |
 | [Remote access and device management](docs/CATALOG.en.md#remote-access) | 3 | RustDesk, Apache Guacamole, MeshCentral |
 | [Feeds and reference management](docs/CATALOG.en.md#rss-reference) | 4 | FreshRSS, RSS Guard, Zotero |
+| [Download managers, acceleration and video downloads](docs/CATALOG.en.md#download-managers) | 2 | Varia, Gopeed |
 <!-- catalog-categories:end -->
 
 Counts use unique product IDs and one primary category per entry. Platforms, article mentions and forum comments are not extra products. The open-source count includes engines, setup-heavy projects and products that may charge for official binaries; it is **not a count of free one-click downloads**. Pearcleaner has a Commons Clause restriction and paused maintenance, so it is counted as source-available, not open source. Proprietary free tiers retain their limits.

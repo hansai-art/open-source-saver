@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-09",
+  "checked_on": "2026-10-10",
   "counting_note": "Count exact distinct source URLs. Source mentions, translated articles, software editions, hosted instances, and imported discovery records do not increase individually reviewed product counts.",
   "sources": [
     {
@@ -1296,6 +1296,106 @@
         {
           "url": "https://github.com/storytold/designcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs",
           "note": "已讀此版本 UI 語言清單，未提供繁中。"
+        }
+      ]
+    },
+    {
+      "id": "recording-openscreen",
+      "publisher": "OpenScreen maintainers",
+      "title": "OpenScreen：官方功能、版本與繁中查核",
+      "url": "https://github.com/getopenscreen/openscreen",
+      "language": "en",
+      "region": "international",
+      "source_type": "official-repository",
+      "read_status": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "article_date": null,
+      "review_scope": "已讀現維護線 README、v2.0.0 release，回查自動縮放、字幕、CLI／MCP、AI 剪輯文件及中文語言設定。",
+      "topics": [
+        "screen-recording",
+        "subtitles",
+        "agent-automation"
+      ],
+      "selected_candidates": [
+        "OpenScreen"
+      ],
+      "zh_summary": "螢幕錄影、點擊縮放、本機中文字幕與逐字稿刪除可列候選；Smart Cuts 與外部 LLM 分開計費。",
+      "caveat": "匯入 MP4 缺游標資料；固定繁中輸出與 SRT／VTT 尚有缺口。CLI 仍需桌面 session。未安裝或測試字幕品質。",
+      "official_verification_required": false,
+      "verification_sources": [
+        {
+          "url": "https://getopenscreen.com/docs/captions/",
+          "note": "已讀本機轉錄、字幕與輸出限制。"
+        },
+        {
+          "url": "https://getopenscreen.com/docs/ai-editing/",
+          "note": "已讀 Smart Cuts 供應者與本機 MCP 的條件。"
+        }
+      ]
+    },
+    {
+      "id": "downloads-varia",
+      "publisher": "Varia maintainers",
+      "title": "Varia：官方功能、版本與繁中查核",
+      "url": "https://github.com/giantpinkrobots/varia",
+      "language": "en",
+      "region": "international",
+      "source_type": "official-repository",
+      "read_status": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "article_date": null,
+      "review_scope": "已讀官方 README、v2026.8.5-1 release 與 next 更新、zh_TW／LINGUAS／POT、gettext 建置及貢獻指南。",
+      "topics": [
+        "download-managers",
+        "localization"
+      ],
+      "selected_candidates": [
+        "Varia"
+      ],
+      "zh_summary": "一般檔案加速與影音下載由 aria2 和 yt-dlp 提供；已有繁中但翻譯不完整。",
+      "caveat": "Mac 包為實驗版。125／194 是非 fuzzy 翻譯目錄比例，POT 落後源碼，未測全 UI 或速度。上游不接受 AI 翻譯。",
+      "official_verification_required": false,
+      "verification_sources": [
+        {
+          "url": "https://github.com/giantpinkrobots/varia/blob/v2026.8.5-1/po/zh_TW.po",
+          "note": "已比較穩定版與 next 的同一繁中檔及 194 條訊息。"
+        },
+        {
+          "url": "https://github.com/giantpinkrobots/varia/blob/next/CONTRIBUTING.md",
+          "note": "已讀 Weblate 流程及 AI 翻譯／PR 文字限制。"
+        }
+      ]
+    },
+    {
+      "id": "downloads-gopeed",
+      "publisher": "Gopeed maintainers",
+      "title": "Gopeed：官方功能、版本與繁中查核",
+      "url": "https://github.com/GopeedLab/gopeed",
+      "language": "en",
+      "region": "international",
+      "source_type": "official-repository",
+      "read_status": "official-docs-reviewed",
+      "checked_on": "2026-10-10",
+      "article_date": null,
+      "review_scope": "已讀官方 README、穩定版與 2.0.0-beta.3 release 資產列表、官方外掛入口，以及 YouTube 外掛 README／package.json。",
+      "topics": [
+        "download-managers",
+        "localization"
+      ],
+      "selected_candidates": [
+        "Gopeed"
+      ],
+      "zh_summary": "一般檔案多連線與 BT 下載免費開源，影片透過外掛；繁中 UI 存在。",
+      "caveat": "穩定版 1.9.3 與要求 2.0 的新 YouTube 外掛不能混用；beta、核心與外掛授權分開記錄。未測下載或速度。",
+      "official_verification_required": false,
+      "verification_sources": [
+        {
+          "url": "https://github.com/GopeedLab/gopeed/releases/tag/v2.0.0-beta.3",
+          "note": "已核對 beta 日期與 Win／Mac native、Linux web 資產。"
+        },
+        {
+          "url": "https://github.com/monkeyWie/gopeed-extension-youtube",
+          "note": "已核對現外掛 Gopeed 2.0 需求與 ISC 宣告。"
         }
       ]
     }

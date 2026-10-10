@@ -446,3 +446,42 @@
 官方回查：[來源](https://github.com/storytold/designcraft/releases/tag/v0.4.0) — 已核對 v0.4.0 的下載資產列表，包含 Mac、Windows、Linux 安裝檔。尚未執行安裝包。
 
 官方回查：[來源](https://github.com/storytold/designcraft/blob/v0.4.0/crates/ui-egui/src/i18n.rs) — 已讀此版本 UI 語言清單，未提供繁中。
+
+## recording-openscreen · OpenScreen：官方功能、版本與繁中查核
+
+[OpenScreen maintainers](https://github.com/getopenscreen/openscreen) · en · international · 2026-10-10
+
+- 閱讀狀態：official-docs-reviewed；已讀現維護線 README、v2.0.0 release，回查自動縮放、字幕、CLI／MCP、AI 剪輯文件及中文語言設定。
+- 提取重點：螢幕錄影、點擊縮放、本機中文字幕與逐字稿刪除可列候選；Smart Cuts 與外部 LLM 分開計費。
+- 工具線索：[OpenScreen](CATALOG.zh-TW.md#screen-recording)
+- 採用限制：匯入 MP4 缺游標資料；固定繁中輸出與 SRT／VTT 尚有缺口。CLI 仍需桌面 session。未安裝或測試字幕品質。
+
+官方回查：[來源](https://getopenscreen.com/docs/captions/) — 已讀本機轉錄、字幕與輸出限制。
+
+官方回查：[來源](https://getopenscreen.com/docs/ai-editing/) — 已讀 Smart Cuts 供應者與本機 MCP 的條件。
+
+## downloads-varia · Varia：官方功能、版本與繁中查核
+
+[Varia maintainers](https://github.com/giantpinkrobots/varia) · en · international · 2026-10-10
+
+- 閱讀狀態：official-docs-reviewed；已讀官方 README、v2026.8.5-1 release 與 next 更新、zh_TW／LINGUAS／POT、gettext 建置及貢獻指南。
+- 提取重點：一般檔案加速與影音下載由 aria2 和 yt-dlp 提供；已有繁中但翻譯不完整。
+- 工具線索：[Varia](CATALOG.zh-TW.md#download-managers)
+- 採用限制：Mac 包為實驗版。125／194 是非 fuzzy 翻譯目錄比例，POT 落後源碼，未測全 UI 或速度。上游不接受 AI 翻譯。
+
+官方回查：[來源](https://github.com/giantpinkrobots/varia/blob/v2026.8.5-1/po/zh_TW.po) — 已比較穩定版與 next 的同一繁中檔及 194 條訊息。
+
+官方回查：[來源](https://github.com/giantpinkrobots/varia/blob/next/CONTRIBUTING.md) — 已讀 Weblate 流程及 AI 翻譯／PR 文字限制。
+
+## downloads-gopeed · Gopeed：官方功能、版本與繁中查核
+
+[Gopeed maintainers](https://github.com/GopeedLab/gopeed) · en · international · 2026-10-10
+
+- 閱讀狀態：official-docs-reviewed；已讀官方 README、穩定版與 2.0.0-beta.3 release 資產列表、官方外掛入口，以及 YouTube 外掛 README／package.json。
+- 提取重點：一般檔案多連線與 BT 下載免費開源，影片透過外掛；繁中 UI 存在。
+- 工具線索：[Gopeed](CATALOG.zh-TW.md#download-managers)
+- 採用限制：穩定版 1.9.3 與要求 2.0 的新 YouTube 外掛不能混用；beta、核心與外掛授權分開記錄。未測下載或速度。
+
+官方回查：[來源](https://github.com/GopeedLab/gopeed/releases/tag/v2.0.0-beta.3) — 已核對 beta 日期與 Win／Mac native、Linux web 資產。
+
+官方回查：[來源](https://github.com/monkeyWie/gopeed-extension-youtube) — 已核對現外掛 Gopeed 2.0 需求與 ISC 宣告。

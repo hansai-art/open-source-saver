@@ -111,6 +111,8 @@ def search(products, mappings, query, platform=None, include_engines=False, excl
     for p in products:
         if not eligible(p, platform, include_engines, exclude_experimental):
             continue
+        if mapping and p['id'] not in target_ids:
+            continue
         score = 0
         if p['id'] in target_ids:
             score = 100 - target_ids.index(p['id'])

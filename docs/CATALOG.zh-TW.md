@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**197 個候選 · 53 大類 · 187 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**202 個候選 · 54 大類 · 192 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
-資料集更新：2026-10-09；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
+資料集更新：2026-10-10；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
 [Alternatives](ALTERNATIVES.zh-TW.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -15,7 +15,7 @@
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
 | [OBS Studio](https://github.com/obsproject/obs-studio) | 課程長錄影、直播、多場景與多音訊來源 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · GPL-2.0-or-later | 不把錄影能力等同 Screen Studio 式自動運鏡；目前官方 Mac 版本要求 macOS 13+。 | [official-docs-reviewed](https://github.com/obsproject/obs-studio/blob/master/README.rst) / 2026-09-11 |
-| [Recordly](https://github.com/webadderallorg/Recordly) | 教學示範、產品 demo、自動縮放與游標動畫 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · AGPL-3.0；另見 LICENSE.md | Mac 14+；Linux 游標隱藏有限制。README 標 AGPL-3.0，LICENSE.md 另有品牌及署名文字，改版前要核對全文。 | [official-docs-reviewed](https://github.com/webadderallorg/Recordly/blob/main/README.md) / 2026-09-10 |
+| [Recordly](https://github.com/webadderallorg/Recordly) | 教學示範、產品 demo、自動縮放與游標動畫 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · AGPL-3.0；另見 LICENSE.md | Mac 14+；Windows／Linux，Linux 游標隱藏有限制。自動縮放與本機字幕、SRT／VTT 可列候選，但剪輯主要是手動；源碼 silence 分析不等於自動剪影片。AGPL-3.0，LICENSE.md 另有品牌／署名要求，改版前核對全文。 | [official-docs-reviewed](https://github.com/webadderallorg/Recordly/blob/main/README.md) / 2026-10-10 |
 | [Capptivo](https://github.com/SECHAK-AG/capptivo) | 跟隨游標縮放、點擊縮放、錄影標記及本機字幕 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · MIT | Mac 建置未簽署；字幕需另備 whisper-cli，首次下載模型；Mac 13+。附帶元件各有授權。 | [official-docs-reviewed](https://github.com/SECHAK-AG/capptivo/blob/main/README.md) / 2026-09-10 |
 | [Cap](https://github.com/CapSoftware/Cap) | Loom 式錄影分享與 Studio 模式的縮放、字幕、裁切 | 依用途評估 | macos, windows · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · AGPL-3.0 為主；指定 crates 為 MIT | 本機、雲端、自架及官方方案費用分開核對；不能把開源當成所有託管服務免費。 | [official-docs-reviewed](https://github.com/CapSoftware/Cap/blob/main/README.md) / 2026-09-10 |
 | [Screenity](https://github.com/alyssaxuu/screenity) | 瀏覽器示範錄影、畫面註記、點擊與游標強調 | 依用途評估 | macos, windows, linux · 瀏覽器外掛 | 開源；安裝包、模型與服務費用另查 · GPL-3.0（MV3 版本） | 瀏覽器錄影與原生桌面錄影有差異；免費外掛與 Screenity Pro 功能不可混用。 | [official-docs-reviewed](https://github.com/alyssaxuu/screenity/blob/master/README.md) / 2026-09-10 |
@@ -26,6 +26,8 @@
 | [FlashBack Express](https://www.flashbackrecorder.com/express) | 錄影候選 | 依用途評估 | windows · 桌面軟體 | 免費與付費功能界線待查 · see-upstream | 官網確認 Windows 與本機儲存；文章對水印描述不一致，編輯與 AI 功能免費範圍尚待版本／方案表確認。 | [official-docs-partial](https://www.flashbackrecorder.com/express) / 2026-09-10 |
 | [macOS Screenshot / QuickTime](https://support.apple.com/en-us/102618) | 基本螢幕錄影 | 依用途評估 | macos · 系統內建 | macOS 內建；非開源 · see-upstream | 不需另購錄影軟體；官方操作支援畫面與麥克風，不據此保證所有系統音訊需求。 | [official-docs-partial](https://support.apple.com/en-us/102618) / 2026-09-10 |
 | [Screenify](https://www.imobie.com/screenify/) | 錄教學、螢幕加鏡頭、錄音後簡單修剪 | 依用途評估 | macos, windows · 桌面軟體 | 免費軟體；非開源 · see-upstream | 官網稱免費、無錄影時間限制，支援本機輸出；FocuSee 的自動運鏡是另一產品。繁中與新款 Mac 尚未實測。 | [official-docs-partial](https://www.imobie.com/screenify/) / 2026-09-10 |
+| [OpenScreen](https://github.com/getopenscreen/openscreen) · [下載](https://github.com/getopenscreen/openscreen/releases/tag/v2.0.0) | 螢幕錄影、依點擊自動縮放、本機中文字幕與逐字稿剪輯 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · MIT | Mac 13+／Windows／Linux。匯入 MP4 沒有錄製時的游標資料，不能套用相同自動縮放；刪字或靜音是互動剪輯，Smart Cuts 需外部 LLM／既有 Agent，服務可能收費。本機 Whisper 支援中文，但未確認固定繁中輸出；無 SRT／VTT 匯出。 | [official-docs-reviewed](https://github.com/getopenscreen/openscreen) / 2026-10-10 |
+| [Flowtake](https://github.com/JNX03/Flowtake) · [下載](https://github.com/JNX03/Flowtake/releases/tag/v1.7.2) | 螢幕錄影、游標追蹤與自動縮放，可研究字幕整合 | 建議試用，早期開發 | macos, windows, linux · 桌面軟體 | 免費開源 · MIT | Windows 為主要平台，Mac／Linux 為預覽版；本機字幕語言選單未提供中文，不能當成現成繁中字幕工具。未確認自動刪除靜音，FFmpeg 需另外設定；MCP 不等於可自動轉錄及渲染。 | [official-docs-reviewed](https://github.com/JNX03/Flowtake) / 2026-10-10 |
 
 ## screenshots-ocr
 
@@ -82,6 +84,7 @@
 | [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | 字幕校對、時間軸、轉格式與可選語音／翻譯服務 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · MIT | 現行 repo 已有跨平台建置；Mac 推薦 14+，文件稱最低 12；下載時辨別 RC 與穩定版。線上服務可能付費。 | [official-docs-reviewed](https://github.com/SubtitleEdit/subtitleedit/blob/main/README.md) / 2026-09-10 |
 | [pyVideoTrans](https://github.com/jianchang512/pyvideotrans) | 轉錄、字幕翻譯、多角色配音、音畫對齊與影片合成 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0 | Windows 有預打包版；Mac／Linux 安裝較多設定。是否離線與費用依 ASR／LLM／TTS 選擇。 | [official-docs-reviewed](https://github.com/jianchang512/pyvideotrans/blob/main/README.md) / 2026-09-10 |
 | [VideoLingo](https://github.com/Huanshere/VideoLingo) | 影片翻譯、字幕分段對齊與配音 | 依用途評估 | 待確認 · 需要設定 | 開源；安裝包、模型與服務費用另查 · Apache-2.0 | 已有完整流程，值得先用；需配置環境與模型／API，不把作者的 Netflix 品質宣稱當作驗證結果。 | [official-docs-reviewed](https://github.com/Huanshere/VideoLingo/blob/main/README.md) / 2026-09-10 |
+| [OpenCC](https://github.com/BYVoid/OpenCC) | 離線簡繁轉換與台灣詞彙轉換，供字幕處理流程整合 | 依用途評估 | macos, windows, linux · 開發引擎 | 免費開源 · Apache-2.0 | 文字轉換引擎，沒有錄影、語音辨識、時間軸或畫面縮放；s2twp 轉換不會修正辨識錯字。不是一鍵字幕桌面軟體。 | [official-docs-reviewed](https://github.com/BYVoid/OpenCC) / 2026-10-10 |
 
 ## text-to-speech
 
@@ -103,7 +106,7 @@
 
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
-| [Auto-Editor](https://github.com/WyattBlue/auto-editor) | 先剪掉靜音或低活動片段，再匯出到既有剪輯軟體 | 依用途評估 | macos, windows, linux · 需要設定 | 開源；安裝包、模型與服務費用另查 · Unlicense（repo） | 官方 README 已有 Skill 安裝入口；音量偵測不理解內容，會誤刪閱讀／操作停頓。商業 GUI 與此開源 CLI 不同。 | [official-docs-reviewed](https://github.com/WyattBlue/auto-editor/blob/master/README.md) / 2026-09-10 |
+| [Auto-Editor](https://github.com/WyattBlue/auto-editor) · [下載](https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2) | 先剪掉靜音或低活動片段，再匯出到既有剪輯軟體 | 依用途評估 | macos, windows, linux · 命令列 | 免費開源 · Unlicense（repo） | 免費開源 CLI；商業 GUI 是不同產品。音量／活動規則不理解語意，不能保證去掉重講或保留操作停頓；不是依游標自動縮放。若自行整合 OpenScreen，需開發 cut ranges 傳遞與時間軸重映，避免預剪後丟失游標／字幕同步。 | [official-docs-reviewed](https://github.com/WyattBlue/auto-editor/blob/master/README.md) / 2026-10-10 |
 | [LosslessCut](https://github.com/mifi/lossless-cut) | 快速裁切長錄影、抽音軌與無重編碼處理 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-2.0 | 關鍵影格與格式限制會影響切點；不是完整 NLE，也不能靠 stream copy 燒字幕。 | [official-docs-reviewed](https://github.com/mifi/lossless-cut/blob/master/README.md) / 2026-09-10 |
 | [Kdenlive](https://github.com/KDE/kdenlive) | 一般剪輯、多軌影片與字幕工作 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · GPL-3.0 | 適合新專案評估，不能保證 Premiere 專案／外掛完整遷移。現行下載頁 Mac 13+。 | [official-docs-reviewed](https://github.com/KDE/kdenlive/blob/master/README.md) / 2026-09-11 |
 | [Shotcut](https://github.com/mltframework/shotcut) | 一般剪接與多格式影片處理 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0 | 客戶指定專案格式要另評估；現行 Mac 版為 12+，較舊 OS 有舊版下載。 | [official-docs-reviewed](https://github.com/mltframework/shotcut/blob/master/README.md) / 2026-09-10 |
@@ -575,3 +578,12 @@
 | [RSS Guard](https://github.com/martinrotter/rssguard) | 桌面 RSS／Atom／JSON Feed 閱讀，也可連接 FreshRSS 等服務 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · GPL-3.0 | 本機閱讀可直接使用；連接外部閱讀服務仍受該服務方案與 API 限制，跨裝置同步需額外後端。 | [official-docs-reviewed](https://github.com/martinrotter/rssguard) / 2026-09-12 |
 | [Zotero](https://github.com/zotero/zotero) | 收集、整理、註記及引用研究文獻，管理 PDF 與書目 | 依用途評估 | macos, windows, linux, android, ios · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · AGPL-3.0 | 書目資料同步免費不限量；附件雲端空間免費 300 MB，擴充需付費或另配 WebDAV，群組附件不能用 WebDAV。 | [official-docs-reviewed](https://github.com/zotero/zotero) / 2026-09-12 |
 | [JabRef](https://github.com/JabRef/jabref) | 管理 BibTeX／BibLaTeX 書目，搜尋資料及插入引用 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · MIT | 以 .bib 文獻庫工作流為主；Word／LibreOffice 整合與既有書目欄位需試匯入，不能把文章取得當作全文授權。 | [official-docs-reviewed](https://github.com/JabRef/jabref) / 2026-09-12 |
+
+## download-managers
+
+**下載管理、加速與影片下載**
+
+| 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
+|---|---|---|---|---|---|---|
+| [Varia](https://github.com/giantpinkrobots/varia) · [下載](https://github.com/giantpinkrobots/varia/releases/tag/v2026.8.5-1) | 一般檔案多連線加速、續傳，以及 yt-dlp 影片／音訊／播放清單下載 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · MPL-2.0 | Windows／Linux 可下載；Mac Intel／Apple Silicon 安裝包屬實驗性。已含繁中，現有 194 條翻譯目錄中 125 已譯、26 fuzzy、43 未譯，POT 亦落後源碼，不能稱完整繁中。多連線效果受伺服器與頻寬限制；影片支援依網站及 yt-dlp 變動。 | [official-docs-reviewed](https://github.com/giantpinkrobots/varia) / 2026-10-10 |
+| [Gopeed](https://github.com/GopeedLab/gopeed) · [下載](https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3) | 一般檔案多連線下載、BT／磁力連結；透過外掛下載影片 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · GPL-3.0 | 核心免費開源且含繁中 UI。穩定版 1.9.3，最新 YouTube 外掛要求 2.0 系列，目前只有 beta；不能宣稱穩定版已配上最新影片功能。2.0.0-beta.3 有 Win／Mac 原生包及 Linux web 包。外掛、影片支援和授權要另外核對；加速不會突破頻寬或站方總限速。 | [official-docs-reviewed](https://github.com/GopeedLab/gopeed) / 2026-10-10 |

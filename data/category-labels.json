@@ -138,5 +138,9 @@
   "rss-reference": [
     "資訊訂閱與文獻管理",
     "Feeds and reference management"
+  ],
+  "download-managers": [
+    "下載管理、加速與影片下載",
+    "Download managers, acceleration and video downloads"
   ]
 }

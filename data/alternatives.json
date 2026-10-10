@@ -9,14 +9,16 @@
       ],
       "year_suffix": false,
       "targets": [
+        "oss-openscreen",
         "oss-002",
+        "oss-flowtake",
         "oss-003",
         "oss-004",
         "free-012",
         "oss-001"
       ],
-      "zh_note": "分開確認自動縮放、游標、字幕與分享；基本錄影不等於完整取代。",
-      "en_note": "Check zoom, cursor effects, captions and sharing separately.",
+      "zh_note": "先看 OpenScreen 點擊縮放與本機字幕；智慧剪輯可能另有 LLM 費用，固定繁中字幕與匯入 MP4 自動縮放仍有缺口。",
+      "en_note": "Start with OpenScreen click-based zoom and local captions; Smart Cuts may incur LLM costs, while fixed Traditional captions and equivalent imported-MP4 auto zoom have gaps.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -30,13 +32,15 @@
       ],
       "year_suffix": false,
       "targets": [
+        "oss-openscreen",
         "oss-001",
         "free-012",
         "oss-003",
-        "oss-039"
+        "oss-039",
+        "oss-037"
       ],
-      "zh_note": "錄影與後製需求需分開比較。",
-      "en_note": "Compare recording and editing requirements separately.",
+      "zh_note": "錄影、點擊縮放、本機字幕與靜音粗剪分開評估，不能承諾完整取代 Camtasia。",
+      "en_note": "Evaluate recording, click zoom, local captions and silence-based rough cuts separately; no full Camtasia replacement claim.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -1682,6 +1686,22 @@
       ],
       "zh_note": "七款第三方工具涵蓋 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign 的部分工作。皆為早期開發，需逐項試用；Adobe 仍保留時不計整套節省。這裡只收錄 Crafting Apps，與 ArtCraft AI 影像／影片服務分開。",
       "en_note": "Seven third-party tools target parts of Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign workflows. Early development: trial each task. Do not count suite savings while retaining Adobe. Covers Crafting Apps, separate from the ArtCraft AI image/video service.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "internet-download-manager",
+      "name": "Internet Download Manager / IDM",
+      "aliases": [
+        "Internet Download Manager",
+        "IDM"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "oss-varia",
+        "oss-gopeed"
+      ],
+      "zh_note": "多連線檔案下載可試 Varia／Gopeed；Varia 含影片解析，Gopeed 最新 YouTube 外掛需 2.0 beta。站方支援與實際加速需測試。",
+      "en_note": "Trial Varia/Gopeed for multi-connection file downloads. Varia integrates video extraction; the latest Gopeed YouTube extension needs 2.0 beta. Test site support and actual speed.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     }
   ],

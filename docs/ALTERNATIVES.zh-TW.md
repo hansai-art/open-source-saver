@@ -6,8 +6,8 @@
 
 | 原軟體／需求 | 候選 | 替代範圍與缺口 |
 |---|---|---|
-| Screen Studio | [Recordly](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Cap](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [OBS Studio](CATALOG.zh-TW.md#screen-recording) | 分開確認自動縮放、游標、字幕與分享；基本錄影不等於完整取代。 |
-| Camtasia | [OBS Studio](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Kdenlive](CATALOG.zh-TW.md#video-editing) | 錄影與後製需求需分開比較。 |
+| Screen Studio | [OpenScreen](CATALOG.zh-TW.md#screen-recording), [Recordly](CATALOG.zh-TW.md#screen-recording), [Flowtake](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Cap](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [OBS Studio](CATALOG.zh-TW.md#screen-recording) | 先看 OpenScreen 點擊縮放與本機字幕；智慧剪輯可能另有 LLM 費用，固定繁中字幕與匯入 MP4 自動縮放仍有缺口。 |
+| Camtasia | [OpenScreen](CATALOG.zh-TW.md#screen-recording), [OBS Studio](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording), [Capptivo](CATALOG.zh-TW.md#screen-recording), [Kdenlive](CATALOG.zh-TW.md#video-editing), [Auto-Editor](CATALOG.zh-TW.md#video-editing) | 錄影、點擊縮放、本機字幕與靜音粗剪分開評估，不能承諾完整取代 Camtasia。 |
 | Snagit / CleanShot X | [ShareX](CATALOG.zh-TW.md#screenshots-ocr), [Flameshot](CATALOG.zh-TW.md#screenshots-ocr), [ksnip](CATALOG.zh-TW.md#screenshots-ocr), [Lightshot](CATALOG.zh-TW.md#screenshots-ocr), [macshot](CATALOG.zh-TW.md#screenshots-ocr), [Capso](CATALOG.zh-TW.md#screenshots-ocr) | OCR、長截圖、16:9／固定尺寸與雲端分享要另外查證。 |
 | Loom | [Cap](CATALOG.zh-TW.md#screen-recording), [Screenity](CATALOG.zh-TW.md#screen-recording), [Screenify](CATALOG.zh-TW.md#screen-recording) | 本機錄影不能當成已有團隊分享與觀看分析。 |
 | Microsoft Word | [LibreOffice](CATALOG.zh-TW.md#office), [ONLYOFFICE Desktop Editors](CATALOG.zh-TW.md#office) | 以實際文件測試；套裝訂閱未取消不計節省。 |
@@ -106,3 +106,4 @@
 | Paid DNS filtering services | [AdGuard Home](CATALOG.zh-TW.md#network-monitoring), [Pi-hole](CATALOG.zh-TW.md#network-monitoring) | 自架 DNS 不含代管節點、SLA 或原服務全球網路；同網域廣告也不能只靠 DNS 完整攔截。 |
 | Paid uptime monitoring | [Uptime Kuma](CATALOG.zh-TW.md#network-monitoring) | 自架不等於全球多地探測或服務保證；需獨立主機、外部告警通道與停機演練。 |
 | Adobe Creative Cloud / ArtCraft Crafting Apps | [PhotoCraft](CATALOG.zh-TW.md#graphics), [VectorCraft](CATALOG.zh-TW.md#vector-design), [FilmCraft](CATALOG.zh-TW.md#video-editing), [LightCraft](CATALOG.zh-TW.md#photo-workflow), [PdfCraft](CATALOG.zh-TW.md#pdf), [EffectCraft](CATALOG.zh-TW.md#video-editing), [DesignCraft](CATALOG.zh-TW.md#desktop-publishing) | 七款第三方工具涵蓋 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign 的部分工作。皆為早期開發，需逐項試用；Adobe 仍保留時不計整套節省。這裡只收錄 Crafting Apps，與 ArtCraft AI 影像／影片服務分開。 |
+| Internet Download Manager / IDM | [Varia](CATALOG.zh-TW.md#download-managers), [Gopeed](CATALOG.zh-TW.md#download-managers) | 多連線檔案下載可試 Varia／Gopeed；Varia 含影片解析，Gopeed 最新 YouTube 外掛需 2.0 beta。站方支援與實際加速需測試。 |

@@ -1,18 +1,18 @@
 {
-  "updated_on": "2026-10-09",
-  "product_count": 197,
-  "category_count": 53,
+  "updated_on": "2026-10-10",
+  "product_count": 202,
+  "category_count": 54,
   "source_type_counts": {
-    "open-source": 187,
+    "open-source": 192,
     "proprietary": 8,
     "source-available": 2
   },
   "category_counts": {
-    "screen-recording": 12,
+    "screen-recording": 14,
     "screenshots-ocr": 9,
     "dictation": 6,
     "transcription": 10,
-    "subtitles": 3,
+    "subtitles": 4,
     "text-to-speech": 7,
     "video-editing": 11,
     "audio-editing": 2,
@@ -60,13 +60,14 @@
     "personal-finance": 3,
     "rss-reference": 4,
     "device-integration": 3,
-    "network-monitoring": 3
+    "network-monitoring": 3,
+    "download-managers": 2
   },
-  "mapping_count": 100,
-  "early_development_count": 7,
+  "mapping_count": 101,
+  "early_development_count": 8,
   "recommendation_counts": {
-    "conditional-candidate": 190,
-    "trial-only": 6,
+    "conditional-candidate": 194,
+    "trial-only": 7,
     "research-only": 1
   },
   "counting_rule": "Unique product IDs; one primary category per product; sources and platform variants are not extra products."

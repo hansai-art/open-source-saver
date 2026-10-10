@@ -26,6 +26,12 @@ class SaverTests(unittest.TestCase):
     def test_catalog_integrity(self):
         saver.validate(self.catalog, self.mappings)
 
+    def test_idm_does_not_match_unrelated_idml_design_tools(self):
+        for query in ['IDM', 'Internet Download Manager']:
+            results = saver.search(self.products, self.mappings, query, 'macos')
+            self.assertEqual([p['name'] for p in results], ['Varia', 'Gopeed'])
+        self.assertIn('DesignCraft', [p['name'] for p in saver.search(self.products, self.mappings, 'IDML', 'macos')])
+
     def test_crafting_suite_search_aliases_and_old_pdf_name(self):
         expected = {p['id'] for p in self.products if p.get('suite') == 'artcraft-crafting-apps'}
         self.assertEqual(len(expected), 7)
