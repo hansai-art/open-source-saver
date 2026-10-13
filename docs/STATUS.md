@@ -114,4 +114,9 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 
 - 依使用者推薦新增 Proton Pass，列為 1Password／LastPass 對照的第一候選；KeePassXC 保留為另一個本機開源方向。 / Added Proton Pass from user recommendation as the first candidate for 1Password/LastPass mappings; KeePassXC remains as another local open-source direction.
 - 官方資料確認 Proton Pass 有可用免費方案、跨裝置應用與開源資訊；帳號匯入、同步、復原與繁中介面仍未實測。 / Official sources document a usable free plan, cross-device apps and open-source information; account import, sync, recovery and Traditional Chinese UI remain untested.
-- 本次資料重建：205 個工具、54 大類、102 組條件對照。 / Rebuilt snapshot: 205 products, 54 categories and 102 conditional mappings.
+- 本次資料重建：206 個工具、54 大類、102 組條件對照。 / Rebuilt snapshot: 206 products, 54 categories and 102 conditional mappings.
+
+## 2026-10-13 首頁節費案例改為桌面軟體 / Homepage savings basket focused on desktop software
+
+- Adobe 家族在首頁節費案例只保留 Photoshop 一筆，並移除 Acrobat 的重複計算；依使用者意見，Slack、Dropbox、Figma、Otter 等以網路服務為主的工具也不放入這組桌面軟體案例。 / The homepage savings basket now counts the Adobe family once through Photoshop and removes Acrobat from the duplicate calculation; following user feedback, primarily network-based tools such as Slack, Dropbox, Figma and Otter are also excluded from this desktop-software basket.
+- 以 PDF Expert、CleanMyMac、Sublime Text 與 Avast Premium Security 對 ClamAV 補回不同桌面工具類別，十筆示例改為 US$989.13，首頁四捨五入顯示約 US$989／年；這仍是公開價格基準，不是個人實際帳單或保證節省。 / PDF Expert, CleanMyMac, Sublime Text and Avast Premium Security versus ClamAV restore distinct desktop-software categories; the ten-example total is now US$989.13, rounded on the homepage to about US$989/year. This remains an illustrative public-price benchmark, not a personal invoice or guaranteed savings.

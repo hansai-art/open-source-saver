@@ -6238,6 +6238,44 @@
     },
     {
       "category": "privacy-security",
+      "checked_on": "2026-10-13",
+      "cost": "free and open-source",
+      "delivery": "cli",
+      "en": {
+        "limits": "An antivirus engine and command-line scanner rather than a polished consumer security suite. Real-time protection, GUI workflows and update scheduling require separate configuration.",
+        "use": "Scan files and systems for malware with an open-source antivirus engine"
+      },
+      "evidence": "official-docs-reviewed",
+      "id": "infra-clamav",
+      "keywords": [
+        "防毒",
+        "病毒掃描",
+        "antivirus",
+        "malware",
+        "ClamAV"
+      ],
+      "license": "GPL-2.0-or-later",
+      "name": "ClamAV",
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "runtime_tested": false,
+      "source_type": "open-source",
+      "sources": [
+        "https://github.com/Cisco-Talos/clamav",
+        "https://www.clamav.net/"
+      ],
+      "url": "https://www.clamav.net/",
+      "zh": {
+        "limits": "偏向防毒引擎與命令列掃描，不是一般消費者一鍵防毒套件；即時防護、圖形介面與更新排程需自行配置。",
+        "use": "用開源防毒引擎掃描檔案與系統中的惡意軟體"
+      },
+      "zh_tw": "unknown"
+    },
+    {
+      "category": "privacy-security",
       "checked_on": "2026-09-12",
       "cost": "open-source; binary/model/service costs may differ",
       "delivery": "desktop",

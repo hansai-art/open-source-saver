@@ -5,7 +5,7 @@
 **Replace the tools you pay for with suitable free/open-source options, test them on your real work, then decide whether to cancel.**
 
 <!-- catalog-summary:start -->
-**205 candidates · 54 categories · 194 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**206 candidates · 54 categories · 195 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
@@ -32,11 +32,11 @@ The detailed ArtCraft and recording/download reviews remain available in the res
 
 ## What could you save?
 
-### Replace these 10 subscriptions: about US$1,206 a year
+### Replace these 10 paid tools: about US$989 a year
 
-If you pay for recording, screenshots, Office, notes, PDF, image editing, passwords, team chat, transcription and cloud storage, small monthly charges can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US individual-plan prices checked on 2026-10-13**. The ten examples total **US$1,205.50**, rounded on the homepage to about **US$1,206/year**.
+If you pay for recording, screenshots, Office, notes, image editing, PDF editing, passwords, antivirus, Mac maintenance and code editing, these costs can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US public prices checked on 2026-10-13**. The ten examples total **US$989.13**, rounded on the homepage to about **US$989/year**. Adobe is counted once, represented by Photoshop; Slack, Dropbox, Figma and Otter are excluded because they are primarily network services rather than desktop-software examples.
 
-This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay for the subscription, the replacement completes your work, and you successfully cancel renewal.
+This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay the expense, the replacement completes your work, and you stop renewing or buying the original tool.
 
 **Ten representative examples:**
 
@@ -44,14 +44,14 @@ This is not a market-share ranking or a promise that every reader can save this 
 2. **Screenshots and markup**: [Snagit](https://www.techsmith.com/store/snagit) US$39/year → **[macshot](https://github.com/sw33tLie/macshot)**
 3. **Documents and spreadsheets**: [Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) US$99.99/year → **[ONLYOFFICE](https://www.onlyoffice.com/)**
 4. **Personal notes**: [Notion Plus](https://www.notion.com/pricing) US$120 annualized → **[Obsidian](https://obsidian.md/)**
-5. **PDF**: [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) US$239.88 annualized → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
-6. **Image editing**: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88/year → **[GIMP](https://www.gimp.org/)**
+5. **Adobe family (image-editing representative)**: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88/year → **[GIMP](https://www.gimp.org/)**
+6. **PDF editing**: [PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99/year → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[Proton Pass](https://proton.me/pass)**
-8. **Team chat**: [Slack Pro](https://slack.com/pricing/pro) US$87/year/user → **[Zulip](https://zulip.com/)**
-9. **Transcription**: [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) US$79.99/year → **[Vibe](docs/CATALOG.en.md#transcription)**
-10. **Cloud files**: [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) about US$119.88/year → **[Syncthing](https://syncthing.net/)**
+8. **Mac maintenance**: [CleanMyMac](https://macpaw.com/store/cleanmymac) US$9.95/month, US$119.40 annualized → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
+9. **Code editing**: [Sublime Text Personal](https://www.sublimehq.com/store/text) US$99/3 years, US$33 annualized → **[VSCodium](https://vscodium.com/)**
+10. **Antivirus**: [Avast Premium Security](https://www.avast.com/premium-security) US$77.99/year (renewal benchmark) → **[ClamAV](https://www.clamav.net/)**
 
-**Ten-example total: about US$1,205.50/year.**
+**Ten-example total: about US$989.13/year.**
 
 You do not need to replace ten tools at once. Start with the subscription you use most and can cancel most easily, download the candidate, run one complete workflow with your own files, then decide. The catalog explains platforms, Chinese-language status, licensing, free limits and official entry points instead of giving you a bare list of names.
 
@@ -128,7 +128,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Local AI and model tools](docs/CATALOG.en.md#local-ai) | 3 | Jan, GPT4All, Ollama |
 | [DNS and network monitoring](docs/CATALOG.en.md#network-monitoring) | 3 | AdGuard Home, Pi-hole, Uptime Kuma |
 | [Personal finance and accounting](docs/CATALOG.en.md#personal-finance) | 3 | GnuCash, Actual Budget, Money Manager Ex |
-| [Privacy and security](docs/CATALOG.en.md#privacy-security) | 2 | Cryptomator（桌面版）, Portmaster |
+| [Privacy and security](docs/CATALOG.en.md#privacy-security) | 3 | Cryptomator（桌面版）, ClamAV, Portmaster |
 | [Remote access and device management](docs/CATALOG.en.md#remote-access) | 3 | RustDesk, Apache Guacamole, MeshCentral |
 | [Feeds and reference management](docs/CATALOG.en.md#rss-reference) | 4 | FreshRSS, RSS Guard, Zotero |
 | [Download managers, acceleration and video downloads](docs/CATALOG.en.md#download-managers) | 2 | Varia, Gopeed |
@@ -206,7 +206,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-10-13**. Obsidian was added as the free first choice for Notion personal notes and knowledge management, explicitly labeled proprietary rather than open source. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-10-13**. Obsidian was added as the free first choice for Notion personal notes and knowledge management, and ClamAV was added as an antivirus-engine candidate, with proprietary, command-line and extra-configuration limits clearly marked. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 

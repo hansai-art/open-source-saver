@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**205 candidates · 54 categories · 194 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**206 candidates · 54 categories · 195 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 
 Dataset updated: 2026-10-13; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
 
@@ -559,6 +559,7 @@ Dataset updated: 2026-10-13; individual review dates remain in each row. Include
 | Tool | Use | Adoption | Platform / delivery | Cost / license | Limits | Evidence |
 |---|---|---|---|---|---|---|
 | [Cryptomator（桌面版）](https://github.com/cryptomator/cryptomator) | Encrypt files and filenames before existing cloud synchronization | Evaluate the task | macos, windows, linux · desktop | open-source; binary/model/service costs may differ · GPL-3.0（另提供商業授權） | Does not supply cloud storage. Mobile free editions are read-only; write access requires separate platform licenses. | [official-docs-reviewed](https://github.com/cryptomator/cryptomator) / 2026-09-12 |
+| [ClamAV](https://www.clamav.net/) | Scan files and systems for malware with an open-source antivirus engine | Evaluate the task | macos, windows, linux · cli | free and open-source · GPL-2.0-or-later | An antivirus engine and command-line scanner rather than a polished consumer security suite. Real-time protection, GUI workflows and update scheduling require separate configuration. | [official-docs-reviewed](https://github.com/Cisco-Talos/clamav) / 2026-10-13 |
 | [Portmaster](https://github.com/safing/portmaster) | Application firewall with connection control, DNS and tracker blocking | Evaluate the task | windows, linux · desktop | open-source; binary/model/service costs may differ · GPL-3.0 | Network history, bandwidth reporting and SPN have paid boundaries. Desktop support is Windows/Linux, not macOS. | [official-docs-reviewed](https://github.com/safing/portmaster) / 2026-09-12 |
 
 ## remote-access

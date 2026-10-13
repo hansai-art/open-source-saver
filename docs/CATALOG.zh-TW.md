@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**205 個候選 · 54 大類 · 194 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**206 個候選 · 54 大類 · 195 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
 資料集更新：2026-10-13；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
@@ -559,6 +559,7 @@
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
 | [Cryptomator（桌面版）](https://github.com/cryptomator/cryptomator) | 先在本機加密檔案及檔名，再交給既有雲端同步 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0（另提供商業授權） | 不提供雲端容量；手機免費版為唯讀，寫入需各平台授權，不能把桌面免費套用到手機完整功能。 | [official-docs-reviewed](https://github.com/cryptomator/cryptomator) / 2026-09-12 |
+| [ClamAV](https://www.clamav.net/) | 用開源防毒引擎掃描檔案與系統中的惡意軟體 | 依用途評估 | macos, windows, linux · 命令列 | 免費開源 · GPL-2.0-or-later | 偏向防毒引擎與命令列掃描，不是一般消費者一鍵防毒套件；即時防護、圖形介面與更新排程需自行配置。 | [official-docs-reviewed](https://github.com/Cisco-Talos/clamav) / 2026-10-13 |
 | [Portmaster](https://github.com/safing/portmaster) | 監看與阻擋個別程式連線，管理 DNS 及追蹤封鎖 | 依用途評估 | windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0 | 免費防火牆不含所有付費功能；連線歷史、頻寬統計及 SPN 隱私網路需另外核對方案，不支援 macOS。 | [official-docs-reviewed](https://github.com/safing/portmaster) / 2026-09-12 |
 
 ## remote-access

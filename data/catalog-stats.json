@@ -1,9 +1,9 @@
 {
   "updated_on": "2026-10-13",
-  "product_count": 205,
+  "product_count": 206,
   "category_count": 54,
   "source_type_counts": {
-    "open-source": 194,
+    "open-source": 195,
     "proprietary": 9,
     "source-available": 2
   },
@@ -53,7 +53,7 @@
     "backup-recovery": 4,
     "remote-access": 3,
     "file-management": 2,
-    "privacy-security": 2,
+    "privacy-security": 3,
     "developer-tools": 6,
     "database-clients": 3,
     "local-ai": 3,
@@ -66,7 +66,7 @@
   "mapping_count": 102,
   "early_development_count": 8,
   "recommendation_counts": {
-    "conditional-candidate": 197,
+    "conditional-candidate": 198,
     "trial-only": 7,
     "research-only": 1
   },

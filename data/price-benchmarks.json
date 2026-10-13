@@ -3,10 +3,10 @@
   "checked_on": "2026-10-13",
   "currency": "USD",
   "homepage_basket": {
-    "id": "ten-representative-subscriptions",
-    "annualized_total": "1205.50",
-    "display_total": "1206",
-    "note": "One representative paid tool per common category; this is an illustrative benchmark, not a market ranking or guaranteed personal savings."
+    "id": "ten-representative-paid-tools",
+    "annualized_total": "989.13",
+    "display_total": "989",
+    "note": "One representative paid tool per common category; Adobe is represented once by Photoshop. Hosted collaboration, cloud storage and browser-first design services are excluded from this desktop-software basket. This is an illustrative benchmark, not a market ranking or guaranteed personal savings."
   },
   "prices": [
     {
@@ -56,18 +56,6 @@
       "homepage_included": true
     },
     {
-      "id": "acrobat-pro-monthly-annualized",
-      "product": "Adobe Acrobat Pro",
-      "category": "PDF",
-      "amount": "19.99",
-      "billing_period": "month",
-      "annualized": "239.88",
-      "source": "https://www.adobe.com/acrobat/pricing/compare-versions.html",
-      "source_note": "Annual-billed-monthly benchmark multiplied by 12.",
-      "replacement": "PDFsam Basic",
-      "homepage_included": true
-    },
-    {
       "id": "photoshop-annual",
       "product": "Adobe Photoshop",
       "category": "image editing",
@@ -75,7 +63,20 @@
       "billing_period": "year",
       "annualized": "263.88",
       "source": "https://www.adobe.com/products/photoshop/plans.html",
+      "source_note": "Adobe family representative; Adobe subscriptions are not counted again in this homepage basket.",
       "replacement": "GIMP",
+      "homepage_included": true
+    },
+    {
+      "id": "pdf-expert-pro-annual",
+      "product": "PDF Expert Pro",
+      "category": "PDF editing",
+      "amount": "79.99",
+      "billing_period": "year",
+      "annualized": "79.99",
+      "source": "https://pdfexpert.com/pricing",
+      "source_note": "Pro plan billed annually; desktop app features are the comparison scope.",
+      "replacement": "PDFsam Basic",
       "homepage_included": true
     },
     {
@@ -91,38 +92,39 @@
       "homepage_included": true
     },
     {
-      "id": "slack-pro-annual-user",
-      "product": "Slack Pro",
-      "category": "team chat",
-      "amount": "87.00",
+      "id": "avast-premium-security-annual-renewal",
+      "product": "Avast Premium Security",
+      "category": "antivirus",
+      "amount": "77.99",
       "billing_period": "year",
-      "annualized": "87.00",
-      "source": "https://slack.com/pricing/pro",
-      "source_note": "One active user at US$7.25/month billed annually.",
-      "replacement": "Zulip",
+      "annualized": "77.99",
+      "source": "https://www.avast.com/premium-security",
+      "source_note": "Official page displays a US$77.99/year renewal benchmark; first-year prices may be lower and are not used here.",
+      "replacement": "ClamAV",
       "homepage_included": true
     },
     {
-      "id": "otter-pro-annual",
-      "product": "Otter Pro",
-      "category": "transcription",
-      "amount": "79.99",
-      "billing_period": "year",
-      "annualized": "79.99",
-      "source": "https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text",
-      "replacement": "Vibe",
-      "homepage_included": true
-    },
-    {
-      "id": "dropbox-plus-monthly-annualized",
-      "product": "Dropbox Plus",
-      "category": "cloud files",
-      "amount": "9.99",
+      "id": "cleanmymac-annual-monthly-benchmark",
+      "product": "CleanMyMac",
+      "category": "Mac system maintenance",
+      "amount": "9.95",
       "billing_period": "month",
-      "annualized": "119.88",
-      "source": "https://www.dropbox.com/plans?tab=personal",
-      "source_note": "Current public page monthly benchmark multiplied by 12; annual billing selection may show the same annual total.",
-      "replacement": "Syncthing",
+      "annualized": "119.40",
+      "source": "https://macpaw.com/store/cleanmymac",
+      "source_note": "Regular one-Mac monthly benchmark multiplied by 12; promotional annual pricing is not used here.",
+      "replacement": "Pearcleaner",
+      "homepage_included": true
+    },
+    {
+      "id": "sublime-text-personal-three-year-annualized",
+      "product": "Sublime Text Personal",
+      "category": "code editors",
+      "amount": "99.00",
+      "billing_period": "3 years",
+      "annualized": "33.00",
+      "source": "https://www.sublimehq.com/store/text",
+      "source_note": "Personal one-time US$99 license includes 3 years of updates; annualized for comparison, and the license does not expire after the update period.",
+      "replacement": "VSCodium",
       "homepage_included": true
     }
   ],
@@ -131,7 +133,7 @@
     "No taxes, FX fees, promotions or regional checkout adjustments included.",
     "Annualized monthly plans assume 12 full monthly payments.",
     "Only count a recurring expense after successful replacement and cancellation; never add two billing plans for the same product.",
-    "One representative paid tool is selected per category; the basket is illustrative and does not claim to cover every subscription.",
+    "One representative paid tool is selected per category; Adobe is represented once by Photoshop, hosted collaboration/cloud-storage/browser-first design services are excluded, and the basket is illustrative rather than a complete list of paid tools.",
     "Migration time, hardware, hosting, storage and APIs are separate costs.",
     "Existing perpetual licenses and already-free tools do not automatically create annual savings.",
     "Free/open-source candidates are conditional starting points, not proof of full feature equivalence."
