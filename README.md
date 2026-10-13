@@ -2,7 +2,7 @@
 
 ![開源省錢管家產品主視覺](assets/hero-open-source-saver.png)
 
-**先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
+**把你正在付費的工具換成合適的免費／開源方案，先用自己的工作試一次，再決定是否取消訂閱。**
 
 <!-- catalog-summary:start -->
 **204 個候選 · 54 大類 · 193 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
@@ -12,73 +12,47 @@
 
 目前工具從 **78 → 204（2.62 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 102 組**。 [研究方法與統計](docs/RESEARCH.md)
 
-**先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
+**你不必一次換掉所有工具。** 開源省錢管家把常見付費工具、免費／開源候選、中文狀態、平台限制與下載入口放在一起，讓你先找到最值得試的一筆。
 
 [直接看完整工具清單](docs/CATALOG.zh-TW.md) · [原軟體替代對照](docs/ALTERNATIVES.zh-TW.md) · [國內外研究](docs/RESEARCH-SOURCES.md) · [廣域索引](data/upstream/awesome-selfhosted/README.md) · [English](README.en.md) · [價格與計算方式](docs/SAVINGS.md) · [國外論壇整理](docs/FORUMS.md) · [提供工具](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)
 
 這個 Skill 的主要流程是：**盤點電腦已安裝的軟體 → 比對開源免費替代方案 → 列出推薦理由、功能差異與安裝方式。** 安裝到能操作本機的 Claude Code／Codex 等 Agent 後，從你的實際軟體清單開始推薦，不用先自己研究每一款替代品。也能直接瀏覽網頁清單，或只詢問某款軟體。**有現成就拿來用；只有英文，就先整理繁中教學或協助上游翻譯。**
 
-導覽：[Adobe 開源候選](#新收錄artcraft-的七款-adobe-開源替代工具) · [能省多少](#先看一筆訂閱能省多少) · [優先需求](#先解決你每天會用的錄影截圖與語音需求) · [全部分類](#目前收錄哪些工具) · [資料來源](#資料從哪裡來) · [提供工具](#歡迎提供你自己開發或你知道的工具) · [新手開始](#新手從這裡開始) · [安裝](#安裝-skill)
+導覽：[能省多少](#能省多少錢) · [最近做了哪些事](#最近做了哪些事) · [優先需求](#先解決你每天會用的錄影截圖與語音需求) · [全部分類](#目前收錄哪些工具) · [資料來源](#資料從哪裡來) · [提供工具](#歡迎提供你自己開發或你知道的工具) · [新手開始](#新手從這裡開始) · [安裝](#安裝-skill)
 
-## 新研究：自動剪輯、繁中字幕與加速下載
+## 最近做了哪些事？
 
-查核日 **2026-10-13**。新增 Collabora Office，將 ONLYOFFICE 列為 Word／Excel／PowerPoint 首選，將 macshot 列為 Mac 截圖首選；並保留 OpenScreen、Flowtake、OpenCC、Varia、Gopeed 等近期更新。
+我們最近把目錄按讀者真正會遇到的工作重新整理：補強 Office、筆記、截圖、錄影、字幕、下載與創作工具的替代條件，更新繁中狀態、平台、授權、價格與官方下載證據，也把社群實測評價與可重現問題納入推薦優先順序。
 
-| 需求 | 先看的工具 | 先確認的條件 |
-|---|---|---|
-| 螢幕錄影後縮放、剪輯與字幕 | [OpenScreen](https://github.com/getopenscreen/openscreen)；停頓粗剪另看 Auto-Editor | 點擊縮放需游標資料；Smart Cuts 可能有模型費用；固定繁中字幕需另整合 |
-| 一般下載加速與影片下載 | [Varia](https://github.com/giantpinkrobots/varia)、[Gopeed](https://github.com/GopeedLab/gopeed) | Varia Mac 版實驗性；Gopeed 最新 YouTube 外掛需 2.0 beta；多連線不能突破總頻寬 |
-| 已有中文介面是否完整 | Varia 既有 `zh_TW` | 125／194 條目已譯且非 fuzzy，其餘待補；POT 落後源碼，比例不代表整個 UI 完成度 |
+首頁只保留判斷入口，完整變更與查核限制放在 [更新紀錄](docs/STATUS.md)、[研究與證據](docs/RESEARCH-SOURCES.md) 與 [完整工具清單](docs/CATALOG.zh-TW.md)。
 
-[功能對照、繁中使用指引、版本條件與驗收任務](docs/research/recording-downloads.md)。本次為官方文件與源碼審閱，未安裝或測量實際速度。Varia 已有繁中，不另外重做一款下載器；完整化需依上游規則由人工校對。
+也歡迎提供更好的開源工具、中文翻譯、真實相容性紀錄與可重現問題，我們會根據可追溯的社群意見調整推薦順序。
 
-```bash
-python3 scripts/saver.py search "自動剪輯" --platform macos
-python3 scripts/saver.py search "加速下載" --platform windows
-python3 scripts/saver.py search "IDM" --platform macos
-```
+## 能省多少錢？
 
-## 新收錄：ArtCraft 的七款 Adobe 開源替代工具
+### 只換掉這 10 筆訂閱，一年可能少付約 US$1,206
 
-ArtCraft 團隊重新開發七款創作軟體，對應 Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 與 InDesign。原始碼採 **MIT 或 Apache-2.0**，查核日 **2026-10-09**，七款皆已確認 Mac、Windows、Linux 下載檔。它們涵蓋這七款 Adobe 產品的部分工作流程，Adobe 官方原始碼及其他 Creative Cloud 產品不在這次收錄範圍。
+如果你同時付著錄影、截圖、Office、筆記、PDF、修圖、密碼、團隊溝通、逐字稿與雲端硬碟的費用，這些小額月費很容易變成一筆看不見的固定支出。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開個人方案**做粗估，十筆合計 **US$1,205.50**，首頁四捨五入顯示約 **US$1,206／年**。
 
-| 原軟體 | 開源工具／下載 | 採用建議 | 繁中介面 | 主要差異 |
-|---|---|---|---|---|
-| Photoshop | [PhotoCraft](https://github.com/storytold/photocraft) · [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | early alpha，PSD、字排與外掛需測 |
-| Illustrator | [VectorCraft](https://github.com/storytold/vectorcraft) · [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | AI 匯入限 PDF 相容檔，3D／進階字排仍有缺口 |
-| Premiere Pro | [FilmCraft](https://github.com/storytold/filmcraft) · [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 此版本未提供 | 外掛、素材相容性及大型影片效能有缺口 |
-| Lightroom | [LightCraft](https://github.com/storytold/lightcraft) · [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | 相機校色與 RAW 格式需測 |
-| Acrobat | [PdfCraft](https://github.com/storytold/pdfcraft) · [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 版本含繁中，品質未實測 | CJK 正文編輯與非拉丁 OCR 有缺口 |
-| After Effects | [EffectCraft](https://github.com/storytold/effectcraft) · [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | 研究用途 | 此版本未提供 | 無法開啟 AEP／AEPX，AE 外掛不可用 |
-| InDesign | [DesignCraft](https://github.com/storytold/designcraft) · [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | 先用測試檔試用 | 此版本未提供 | INDD 不可讀，完整 CJK 組版尚未完成 |
+這不是市場占有率排名，也不是每個人都能直接省下的保證。只有你真的有該筆訂閱、替代品能完成你的工作，並且成功取消續訂，才算實際節省。
 
-**建議先試 PhotoCraft、VectorCraft、PdfCraft 的小型檔案操作。** 現有工具與新增候選會一同保留，搜尋結果新增「採用建議」及下載入口。CLI／MCP 已核對官方文件，實際自動化工作流尚未執行。
+| 常見需求與代表性付費工具 | 公開方案基準 | 可先試的免費／開源首選 | 成功替換後可能少付 |
+|---|---:|---|---:|
+| 螢幕錄影：[Screen Studio](https://screen.studio/) 年繳 | US$108／年 | [OpenScreen](https://github.com/getopenscreen/openscreen) | **US$108** |
+| 截圖與標註：[Snagit](https://www.techsmith.com/store/snagit) | US$39／年 | **[macshot](https://github.com/sw33tLie/macshot)** | **US$39** |
+| 文書與試算表：[Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) | US$99.99／年 | **[ONLYOFFICE](https://www.onlyoffice.com/)** | **US$99.99** |
+| 個人筆記：[Notion Plus](https://www.notion.com/pricing) | US$10／月，年化 US$120 | **[Obsidian](https://obsidian.md/)**（免費，非開源） | **US$120** |
+| PDF：[Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) | US$19.99／月，年化 US$239.88 | **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)** | **US$239.88** |
+| 修圖：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) | US$263.88／年 | **[GIMP](https://www.gimp.org/)** | **US$263.88** |
+| 密碼管理：[1Password Individual](https://1password.com/pricing/personal) | US$3.99／月，年化 US$47.88 | **[KeePassXC](https://keepassxc.org/)** | **US$47.88** |
+| 團隊溝通：[Slack Pro](https://slack.com/pricing/pro) | US$87／年／活躍使用者 | **[Zulip](https://zulip.com/)** | **US$87** |
+| 逐字稿：[Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) | US$79.99／年 | **[Vibe](docs/CATALOG.zh-TW.md#transcription)** | **US$79.99** |
+| 雲端檔案：[Dropbox Plus](https://www.dropbox.com/plans?tab=personal) | 約 US$119.88／年 | **[Syncthing](https://syncthing.net/)**（自有裝置同步） | **US$119.88** |
+| **十筆合計** |  |  | **約 US$1,205.50／年** |
 
-[逐款查核、中文限制與試用任務](docs/research/artcraft.md)。PdfCraft 原名 PrintCraft，舊名稱仍可搜尋。ArtCraft 的 AI 影像／影片服務與這七款 Crafting Apps 分開計算。
+你不必一次換十個。從最常用、最容易取消的一筆開始，下載候選，用自己的檔案跑完一個完整流程，再決定是否停訂。這份清單會把平台、中文狀態、授權、免費限制與官方入口一起說清楚，不只丟給你一串軟體名稱。
 
-```bash
-python3 scripts/saver.py search "ArtCraft" --platform macos
-python3 scripts/saver.py search "PrintCraft" --platform windows
-python3 scripts/saver.py search "After Effects" --platform macos --exclude-experimental
-```
-
-`--exclude-experimental` 可在 `search` 和 `report` 隱藏已標為早期開發的項目，其餘候選仍依工作需求與檔案格式選擇。Creative Cloud 仍保留續訂時，節費欄不計整套省下的費用。
-
-## 先看一筆訂閱能省多少
-
-公開個人方案價格，查核日 **2026-09-11**。以美金原價比較，不含地區稅費、促銷或信用卡換匯。
-
-| 原本付費工具／方案 | 官方標示價格 | 免費起手方案與用途 | 成功替換、停止該筆續訂後，每年少付 | 必須先確認的落差 |
-|---|---|---|---:|---|
-| Camtasia（常被搜尋為 Camtasia Studio）Essentials 年繳 | US$179.88／年 | OBS Studio 錄影 + Kdenlive 基本剪輯 | **US$179.88** | 先測字幕、模板與課程交付；需要整套 Camtasia 流程時，不能只看錄影功能 |
-| Screen Studio 年繳 | US$9／月，全年一次繳 US$108 | OBS Studio 錄影 + Kdenlive 後製 | **US$108** | 適合只需錄影與基本剪輯；不是相同的自動縮放、游標美化與分享體驗 |
-| Screen Studio 月繳，連續使用 12 個月 | US$29／月 | 同上，先用真實影片試換 | **US$348** | 與年繳是不同情境，兩列不能相加；只用幾個月就按實際月數算 |
-
-價格來源：[TechSmith 官方商店](https://www.techsmith.com/store/camtasia)、[Screen Studio 官方價格](https://screen.studio/)。免費候選來源：[OBS Studio](https://obsproject.com/)、[Kdenlive](https://kdenlive.org/)。
-
-如果你重視 Screen Studio 的一鍵運鏡，請先看 [錄影清單](docs/CATALOG.zh-TW.md#screen-recording) 裡的 OpenScreen、Recordly 等候選，再逐項確認免費安裝、字幕、輸出與系統限制。找到名字不表示已經能完成你的工作。
-
-節費公式：**可取消的原訂閱費 − 替代方案新增必要費用**。轉換與學習時間另列。已買斷舊版、原本用免費版、仍需續訂套裝中的其他功能，都不能直接套用上述節省金額。現在還不把全站工具價格加成一個「人人都能省」的總額。[完整計算規則與資料](docs/SAVINGS.md)
+[看完整計算、價格來源與限制](docs/SAVINGS.md) · [直接瀏覽所有候選工具](docs/CATALOG.zh-TW.md)
 
 ## 從你的工作找替代工具
 

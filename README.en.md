@@ -2,7 +2,7 @@
 
 ![Open Source Saver product artwork](assets/hero-open-source-saver.png)
 
-**See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
+**Replace the tools you pay for with suitable free/open-source options, test them on your real work, then decide whether to cancel.**
 
 <!-- catalog-summary:start -->
 **204 candidates · 54 categories · 193 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
@@ -12,73 +12,49 @@
 
 Current catalog: **78 → 204 products (2.62×), 18 → 54 categories (3×), 20 → 102 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
-**Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
+**You do not need to replace everything at once.** Open Source Saver puts common paid tools, free/open-source candidates, Chinese-language status, platform limits and download links together so you can find the one worth testing first.
 
 [Browse the catalog](docs/CATALOG.en.md) · [Original-product mappings](docs/ALTERNATIVES.en.md) · [International research](docs/RESEARCH-SOURCES.md) · [Upstream index](data/upstream/awesome-selfhosted/README.md) · [繁體中文](README.md) · [Savings methodology](docs/SAVINGS.md) · [Forum research](docs/FORUMS.md) · [Suggest a tool](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)
 
 The Skill's primary workflow is **inventory installed apps → match free/open-source alternatives → explain recommendations, feature gaps and installation steps**. Use a compatible agent with access to your computer, such as a local Claude Code or Codex host, to start from the software you actually have. You can also browse the catalog or ask about a single app. Reuse working products first. For English-only tools, improve Traditional Chinese guidance or contribute translations upstream before proposing a new product.
 
-Navigation: [Adobe alternatives](#newly-cataloged-seven-artcraft-adobe-alternatives) · [Savings](#what-could-one-subscription-save) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
+Navigation: [Savings](#what-could-you-save) · [Recent work](#what-we-recently-did) · [Priority tasks](#start-with-your-everyday-tasks) · [Categories](#whats-in-the-catalog) · [Research](#where-the-recommendations-come-from) · [Contribute](#share-a-tool-including-your-own) · [Get started](#new-here) · [Installation](#install-the-skill)
 
-## New research: automatic editing, Chinese captions and accelerated downloads
+## What we recently did
 
-Reviewed **2026-10-13**. Added Collabora Office, set ONLYOFFICE first for Word/Excel/PowerPoint and macshot first for Mac screenshots; retained recent OpenScreen, Flowtake, OpenCC, Varia and Gopeed updates.
+We recently reorganized the catalog around real tasks: stronger conditions for Office, notes, screenshots, recording, captions, downloads and creative tools; refreshed Traditional Chinese status, platforms, licenses, prices and official download evidence; and started using traceable community evaluations and reproducible issues to adjust recommendation priority.
 
-| Need | Starting tools | Conditions to check |
-|---|---|---|
-| Screen-recording zoom, edits and captions | [OpenScreen](https://github.com/getopenscreen/openscreen); Auto-Editor for silence rough cuts | Click zoom needs cursor telemetry; Smart Cuts may incur model costs; fixed Traditional captions need integration |
-| Accelerated files and video downloads | [Varia](https://github.com/giantpinkrobots/varia), [Gopeed](https://github.com/GopeedLab/gopeed) | Varia macOS is experimental; the latest Gopeed YouTube extension needs 2.0 beta; multiple connections cannot exceed aggregate bandwidth |
-| Existing Chinese UI completeness | Varia's existing `zh_TW` | 125/194 catalog entries are non-fuzzy translations; the rest need review. POT lags source, so this is not whole-UI coverage |
+The homepage keeps only the decision points. Full changes and evidence limits remain in the [update log](docs/STATUS.md), [research and evidence](docs/RESEARCH-SOURCES.md) and [full catalog](docs/CATALOG.en.md).
 
-[Feature comparison, Chinese guidance, version requirements and trial tasks](docs/research/recording-downloads.en.md). Official documentation and source were reviewed; installers and download speeds were not tested. Varia already has Traditional Chinese. Improve the existing locale through human review under upstream rules rather than duplicating the product.
+Share better open-source tools, Chinese translations, real compatibility notes and reproducible issues. We will adjust recommendation priority based on traceable community feedback.
 
-```bash
-python3 scripts/saver.py search "auto editing" --platform macos --lang en
-python3 scripts/saver.py search "download accelerator" --platform windows --lang en
-python3 scripts/saver.py search "IDM" --platform macos --lang en
-```
+The detailed ArtCraft and recording/download reviews remain available in the research files and update log; they are not repeated on the homepage.
 
-## Newly cataloged: seven ArtCraft Adobe alternatives
+## What could you save?
 
-The ArtCraft team independently rebuilt seven creative apps targeting parts of Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign workflows. Code is licensed under **MIT OR Apache-2.0**. As of **2026-10-09**, all seven have macOS, Windows and Linux release assets. This addition covers those seven apps' workflows; Adobe source code and other Creative Cloud products are outside its scope.
+### Replace these 10 subscriptions and you might avoid about US$1,206 a year
 
-| Original | Tool / download | Adoption | Traditional Chinese UI | Main gap |
-|---|---|---|---|---|
-| Photoshop | [PhotoCraft](https://github.com/storytold/photocraft) · [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | Trial with test files | Present; quality untested | Early alpha; check PSDs, type and plugins |
-| Illustrator | [VectorCraft](https://github.com/storytold/vectorcraft) · [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | Trial with test files | Present; quality untested | PDF-compatible AI only; 3D/type gaps |
-| Premiere Pro | [FilmCraft](https://github.com/storytold/filmcraft) · [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | Trial with test files | Absent in reviewed version | Plugin, media and large-project gaps |
-| Lightroom | [LightCraft](https://github.com/storytold/lightcraft) · [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | Trial with test files | Present; quality untested | Check camera calibration and RAW formats |
-| Acrobat | [PdfCraft](https://github.com/storytold/pdfcraft) · [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | Trial with test files | Present; quality untested | CJK text editing and non-Latin OCR gaps |
-| After Effects | [EffectCraft](https://github.com/storytold/effectcraft) · [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | Research only | Absent in reviewed version | No AEP/AEPX import or AE plugins |
-| InDesign | [DesignCraft](https://github.com/storytold/designcraft) · [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | Trial with test files | Absent in reviewed version | No INDD import; incomplete CJK composition |
+If you pay for recording, screenshots, Office, notes, PDF, image editing, passwords, team chat, transcription and cloud storage, small monthly charges can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US individual-plan prices checked on 2026-10-13**. The ten examples total **US$1,205.50**, rounded on the homepage to about **US$1,206/year**.
 
-**Start with small PhotoCraft, VectorCraft and PdfCraft file trials.** Existing candidates remain available. Results show adoption scope and downloads; CLI/MCP documentation has been reviewed, while automation workflows remain untested.
+This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay for the subscription, the replacement completes your work, and you successfully cancel renewal.
 
-[App-by-app evidence and trial tasks](docs/research/artcraft.en.md). PdfCraft was formerly PrintCraft; the old name remains searchable. These Crafting Apps are tracked separately from ArtCraft's AI image/video service.
+| Common need and representative paid tool | Public price benchmark | Free/open-source first option to try | Potential annual expense avoided |
+|---|---:|---|---:|
+| Screen recording: [Screen Studio](https://screen.studio/) annual | US$108/year | [OpenScreen](https://github.com/getopenscreen/openscreen) | **US$108** |
+| Screenshots and markup: [Snagit](https://www.techsmith.com/store/snagit) | US$39/year | **[macshot](https://github.com/sw33tLie/macshot)** | **US$39** |
+| Documents and spreadsheets: [Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) | US$99.99/year | **[ONLYOFFICE](https://www.onlyoffice.com/)** | **US$99.99** |
+| Personal notes: [Notion Plus](https://www.notion.com/pricing) | US$10/month, US$120 annualized | **[Obsidian](https://obsidian.md/)** (free, proprietary) | **US$120** |
+| PDF: [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) | US$19.99/month, US$239.88 annualized | **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)** | **US$239.88** |
+| Image editing: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) | US$263.88/year | **[GIMP](https://www.gimp.org/)** | **US$263.88** |
+| Passwords: [1Password Individual](https://1password.com/pricing/personal) | US$3.99/month, US$47.88 annualized | **[KeePassXC](https://keepassxc.org/)** | **US$47.88** |
+| Team chat: [Slack Pro](https://slack.com/pricing/pro) | US$87/year per active user | **[Zulip](https://zulip.com/)** | **US$87** |
+| Transcription: [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) | US$79.99/year | **[Vibe](docs/CATALOG.en.md#transcription)** | **US$79.99** |
+| Cloud files: [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) | About US$119.88/year | **[Syncthing](https://syncthing.net/)** (your own devices) | **US$119.88** |
+| **Ten-example total** |  |  | **About US$1,205.50/year** |
 
-```bash
-python3 scripts/saver.py search "ArtCraft" --platform macos --lang en
-python3 scripts/saver.py search "PrintCraft" --platform windows --lang en
-python3 scripts/saver.py search "After Effects" --platform macos --exclude-experimental --lang en
-```
+You do not need to replace ten tools at once. Start with the subscription you use most and can cancel most easily, download the candidate, run one complete workflow with your own files, then decide. The catalog explains platforms, Chinese-language status, licensing, free limits and official entry points instead of giving you a bare list of names.
 
-`--exclude-experimental` hides explicitly marked early-development products in `search` and `report`. Evaluate remaining candidates against your task and formats. Retaining Creative Cloud prevents counting full-suite savings.
-
-## What could one subscription save?
-
-Public individual-plan benchmarks checked **2026-09-11**, in USD. Taxes, regional checkout differences, promotions and FX fees are excluded.
-
-| Paid product / plan | Official price | Free starting point | Annual license expense avoided after successful replacement and cancellation | Check before switching |
-|---|---|---|---:|---|
-| Camtasia Essentials annual (also searched as Camtasia Studio) | US$179.88/year | OBS Studio recording + Kdenlive editing | **US$179.88** | Trial captions, templates and course delivery; basic recording alone does not replace the whole suite |
-| Screen Studio annual | US$9/month equivalent, US$108 billed annually | OBS Studio + Kdenlive for basic recording/editing | **US$108** | Automatic zoom, cursor styling and sharing are not equivalent |
-| Screen Studio monthly, used for all 12 months | US$29/month | Same basic workflow, subject to a real trial | **US$348** | An alternative billing scenario; never add it to the annual-plan row |
-
-Official prices: [TechSmith](https://www.techsmith.com/store/camtasia), [Screen Studio](https://screen.studio/). Free tools: [OBS Studio](https://obsproject.com/), [Kdenlive](https://kdenlive.org/).
-
-Need Screen Studio-style automatic camera movement? Explore OpenScreen and Recordly in the [recording section](docs/CATALOG.en.md#screen-recording), then verify free acquisition, features and export limits. A catalog entry is not proof that your workflow can migrate.
-
-**Avoidable recurring expense − necessary new costs = potential cash savings.** Track migration time separately. An old perpetual license, an already-free edition or a suite you still need does not automatically produce annual savings. [Methodology and machine-readable prices](docs/SAVINGS.md)
+[See the full calculation, sources and limits](docs/SAVINGS.md) · [Browse all candidates](docs/CATALOG.en.md)
 
 ## Start with your everyday tasks
 
