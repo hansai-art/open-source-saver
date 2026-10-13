@@ -32,25 +32,26 @@ The detailed ArtCraft and recording/download reviews remain available in the res
 
 ## What could you save?
 
-### Replace these 10 subscriptions and you might avoid about US$1,206 a year
+### Replace these 10 subscriptions: about US$1,206 a year
 
 If you pay for recording, screenshots, Office, notes, PDF, image editing, passwords, team chat, transcription and cloud storage, small monthly charges can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US individual-plan prices checked on 2026-10-13**. The ten examples total **US$1,205.50**, rounded on the homepage to about **US$1,206/year**.
 
 This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay for the subscription, the replacement completes your work, and you successfully cancel renewal.
 
-| Common need and representative paid tool | Public price benchmark | Free/open-source first option to try | Potential annual expense avoided |
-|---|---:|---|---:|
-| Screen recording: [Screen Studio](https://screen.studio/) annual | US$108/year | [OpenScreen](https://github.com/getopenscreen/openscreen) | **US$108** |
-| Screenshots and markup: [Snagit](https://www.techsmith.com/store/snagit) | US$39/year | **[macshot](https://github.com/sw33tLie/macshot)** | **US$39** |
-| Documents and spreadsheets: [Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) | US$99.99/year | **[ONLYOFFICE](https://www.onlyoffice.com/)** | **US$99.99** |
-| Personal notes: [Notion Plus](https://www.notion.com/pricing) | US$10/month, US$120 annualized | **[Obsidian](https://obsidian.md/)** (free, proprietary) | **US$120** |
-| PDF: [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) | US$19.99/month, US$239.88 annualized | **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)** | **US$239.88** |
-| Image editing: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) | US$263.88/year | **[GIMP](https://www.gimp.org/)** | **US$263.88** |
-| Passwords: [1Password Individual](https://1password.com/pricing/personal) | US$3.99/month, US$47.88 annualized | **[KeePassXC](https://keepassxc.org/)** | **US$47.88** |
-| Team chat: [Slack Pro](https://slack.com/pricing/pro) | US$87/year per active user | **[Zulip](https://zulip.com/)** | **US$87** |
-| Transcription: [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) | US$79.99/year | **[Vibe](docs/CATALOG.en.md#transcription)** | **US$79.99** |
-| Cloud files: [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) | About US$119.88/year | **[Syncthing](https://syncthing.net/)** (your own devices) | **US$119.88** |
-| **Ten-example total** |  |  | **About US$1,205.50/year** |
+**Ten representative examples:**
+
+1. **Screen recording**: [Screen Studio](https://screen.studio/) US$108/year → **[OpenScreen](https://github.com/getopenscreen/openscreen)**
+2. **Screenshots and markup**: [Snagit](https://www.techsmith.com/store/snagit) US$39/year → **[macshot](https://github.com/sw33tLie/macshot)**
+3. **Documents and spreadsheets**: [Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) US$99.99/year → **[ONLYOFFICE](https://www.onlyoffice.com/)**
+4. **Personal notes**: [Notion Plus](https://www.notion.com/pricing) US$120 annualized → **[Obsidian](https://obsidian.md/)**
+5. **PDF**: [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) US$239.88 annualized → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
+6. **Image editing**: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88/year → **[GIMP](https://www.gimp.org/)**
+7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[KeePassXC](https://keepassxc.org/)**
+8. **Team chat**: [Slack Pro](https://slack.com/pricing/pro) US$87/year/user → **[Zulip](https://zulip.com/)**
+9. **Transcription**: [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) US$79.99/year → **[Vibe](docs/CATALOG.en.md#transcription)**
+10. **Cloud files**: [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) about US$119.88/year → **[Syncthing](https://syncthing.net/)**
+
+**Ten-example total: about US$1,205.50/year.**
 
 You do not need to replace ten tools at once. Start with the subscription you use most and can cancel most easily, download the candidate, run one complete workflow with your own files, then decide. The catalog explains platforms, Chinese-language status, licensing, free limits and official entry points instead of giving you a bare list of names.
 

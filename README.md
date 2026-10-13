@@ -30,25 +30,26 @@
 
 ## 能省多少錢？
 
-### 只換掉這 10 筆訂閱，一年可能少付約 US$1,206
+### 只換掉這 10 筆訂閱，一年約可省 US$1,206
 
 如果你同時付著錄影、截圖、Office、筆記、PDF、修圖、密碼、團隊溝通、逐字稿與雲端硬碟的費用，這些小額月費很容易變成一筆看不見的固定支出。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開個人方案**做粗估，十筆合計 **US$1,205.50**，首頁四捨五入顯示約 **US$1,206／年**。
 
 這不是市場占有率排名，也不是每個人都能直接省下的保證。只有你真的有該筆訂閱、替代品能完成你的工作，並且成功取消續訂，才算實際節省。
 
-| 常見需求與代表性付費工具 | 公開方案基準 | 可先試的免費／開源首選 | 成功替換後可能少付 |
-|---|---:|---|---:|
-| 螢幕錄影：[Screen Studio](https://screen.studio/) 年繳 | US$108／年 | [OpenScreen](https://github.com/getopenscreen/openscreen) | **US$108** |
-| 截圖與標註：[Snagit](https://www.techsmith.com/store/snagit) | US$39／年 | **[macshot](https://github.com/sw33tLie/macshot)** | **US$39** |
-| 文書與試算表：[Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) | US$99.99／年 | **[ONLYOFFICE](https://www.onlyoffice.com/)** | **US$99.99** |
-| 個人筆記：[Notion Plus](https://www.notion.com/pricing) | US$10／月，年化 US$120 | **[Obsidian](https://obsidian.md/)**（免費，非開源） | **US$120** |
-| PDF：[Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) | US$19.99／月，年化 US$239.88 | **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)** | **US$239.88** |
-| 修圖：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) | US$263.88／年 | **[GIMP](https://www.gimp.org/)** | **US$263.88** |
-| 密碼管理：[1Password Individual](https://1password.com/pricing/personal) | US$3.99／月，年化 US$47.88 | **[KeePassXC](https://keepassxc.org/)** | **US$47.88** |
-| 團隊溝通：[Slack Pro](https://slack.com/pricing/pro) | US$87／年／活躍使用者 | **[Zulip](https://zulip.com/)** | **US$87** |
-| 逐字稿：[Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) | US$79.99／年 | **[Vibe](docs/CATALOG.zh-TW.md#transcription)** | **US$79.99** |
-| 雲端檔案：[Dropbox Plus](https://www.dropbox.com/plans?tab=personal) | 約 US$119.88／年 | **[Syncthing](https://syncthing.net/)**（自有裝置同步） | **US$119.88** |
-| **十筆合計** |  |  | **約 US$1,205.50／年** |
+**十筆代表案例：**
+
+1. **螢幕錄影**：[Screen Studio](https://screen.studio/) US$108／年 → **[OpenScreen](https://github.com/getopenscreen/openscreen)**
+2. **截圖與標註**：[Snagit](https://www.techsmith.com/store/snagit) US$39／年 → **[macshot](https://github.com/sw33tLie/macshot)**
+3. **文書與試算表**：[Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) US$99.99／年 → **[ONLYOFFICE](https://www.onlyoffice.com/)**
+4. **個人筆記**：[Notion Plus](https://www.notion.com/pricing) 年化 US$120 → **[Obsidian](https://obsidian.md/)**
+5. **PDF**：[Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) 年化 US$239.88 → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
+6. **修圖**：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88／年 → **[GIMP](https://www.gimp.org/)**
+7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年化 US$47.88 → **[KeePassXC](https://keepassxc.org/)**
+8. **團隊溝通**：[Slack Pro](https://slack.com/pricing/pro) US$87／年／人 → **[Zulip](https://zulip.com/)**
+9. **逐字稿**：[Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) US$79.99／年 → **[Vibe](docs/CATALOG.zh-TW.md#transcription)**
+10. **雲端檔案**：[Dropbox Plus](https://www.dropbox.com/plans?tab=personal) 約 US$119.88／年 → **[Syncthing](https://syncthing.net/)**
+
+**十筆合計：約 US$1,205.50／年。**
 
 你不必一次換十個。從最常用、最容易取消的一筆開始，下載候選，用自己的檔案跑完一個完整流程，再決定是否停訂。這份清單會把平台、中文狀態、授權、免費限制與官方入口一起說清楚，不只丟給你一串軟體名稱。
 
