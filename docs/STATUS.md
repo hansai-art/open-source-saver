@@ -5,7 +5,7 @@ Version: v0.1.0-alpha · Status checked: 2026-10-13 · Dataset updated: 2026-10-
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 203 個候選、54 大類、101 組條件對照 / 203 candidates, 54 categories, 101 conditional mappings |
+| 產品資料 / Product snapshot | 204 個候選、54 大類、102 組條件對照 / 204 candidates, 54 categories, 102 conditional mappings |
 | 文章、目錄與社群 / Research sources | 48 筆、7 語系，含錄影／下載與先前 ArtCraft 官方文件；保留舊 11 篇文章及 7 筆社群紀錄 / 48 sources across 7 language labels, including recording/download and earlier ArtCraft official documents; legacy research retained |
 | 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
@@ -103,3 +103,9 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - macshot 列為 Mac 截圖首選，依使用者回饋記錄，未在本專案重現測試；Windows 截圖首選仍為 ShareX。 / macshot is now the Mac screenshot first choice based on user feedback, not reproduced runtime testing in this project; ShareX remains first for Windows screenshots.
 - 除了新增工具，也接受實際使用評價、相容性紀錄與可重現問題；推薦優先順序會依可追溯社群意見調整，並保留證據日期與未驗證限制。 / Real-world evaluations, compatibility notes and reproducible problems are welcome; recommendation priority may change based on traceable community feedback while evidence dates and unverified limitations remain visible.
 - 本次資料重建：203 個工具、54 大類、101 組條件對照；未執行第三方 Office 檔案遷移或 macshot 真機測試。 / Rebuilt snapshot: 203 products, 54 categories and 101 conditional mappings; no third-party Office migration or macshot device test was run.
+
+## 2026-10-13 Obsidian 與 Notion 對照更新 / Obsidian and Notion mapping
+
+- 新增 Obsidian，列為 Notion 個人筆記／知識管理的免費首選；因 Obsidian 本體不是開源，資料分類為非開源免費候選，開源授權需求則保留 Joplin。 / Added Obsidian as the free first choice for Notion personal notes and knowledge management; Obsidian is proprietary, so it is classified as a free non-open-source candidate, while Joplin remains the open-source option.
+- 官方定價頁列出本體免費使用，Sync／Publish 等為選購服務；官方提供中文說明與翻譯貢獻入口，但繁體中文介面完整度尚未確認。 / The official pricing page says the app is free to use, with Sync/Publish as optional services; official Chinese help and translation contribution paths exist, but Traditional Chinese UI coverage is unconfirmed.
+- 本次資料重建：204 個工具、54 大類、102 組條件對照；未執行 Obsidian 匯入、外掛、同步或 Notion 資料遷移實測。 / Rebuilt snapshot: 204 products, 54 categories and 102 conditional mappings; Obsidian import, plugin, sync and Notion migration were not runtime-tested.

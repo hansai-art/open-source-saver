@@ -2791,6 +2791,55 @@
       ]
     },
     {
+      "id": "free-014",
+      "name": "Obsidian",
+      "category": "notes-reading",
+      "keywords": [
+        "筆記",
+        "知識管理",
+        "知識庫",
+        "雙向連結",
+        "Markdown",
+        "notes",
+        "knowledge base",
+        "Notion"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "delivery": "desktop",
+      "url": "https://obsidian.md/",
+      "sources": [
+        "https://obsidian.md/",
+        "https://obsidian.md/pricing.html",
+        "https://obsidian.md/terms",
+        "https://obsidian.md/help/translations",
+        "https://obsidian.md/zh/help/"
+      ],
+      "cost": "free to use; optional Sync, Publish, Catalyst and commercial support",
+      "license": "proprietary; see official terms",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-13",
+      "runtime_tested": false,
+      "zh_tw": "official-zh-docs-only; Traditional-Chinese-not-confirmed; quality-untested",
+      "zh": {
+        "use": "本機 Markdown 筆記、雙向連結、知識管理與個人知識庫",
+        "limits": "免費使用但不是開源；官方提供中文說明與翻譯貢獻入口，繁體中文介面完整度未確認。Sync／Publish 為選購服務；Notion 資料庫、協作與自動化不是等效功能，需先測匯入、附件、外掛與同步。"
+      },
+      "en": {
+        "use": "Local Markdown notes, bidirectional links, knowledge management and personal knowledge bases",
+        "limits": "Free to use but not open source. Official Chinese help and translation contribution paths exist, while Traditional Chinese UI coverage is unconfirmed. Sync and Publish are optional services; Notion databases, collaboration and automation are not equivalent, so test imports, attachments, plugins and sync first."
+      },
+      "source_type": "proprietary",
+      "discovered_via": [
+        "user-feedback"
+      ]
+    },
+    {
       "id": "add-017",
       "name": "SumatraPDF",
       "category": "pdf",

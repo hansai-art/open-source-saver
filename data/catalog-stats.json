@@ -1,10 +1,10 @@
 {
   "updated_on": "2026-10-13",
-  "product_count": 203,
+  "product_count": 204,
   "category_count": 54,
   "source_type_counts": {
     "open-source": 193,
-    "proprietary": 8,
+    "proprietary": 9,
     "source-available": 2
   },
   "category_counts": {
@@ -25,7 +25,7 @@
     "media-players": 3,
     "email": 1,
     "passwords": 1,
-    "notes-reading": 2,
+    "notes-reading": 3,
     "vector-design": 3,
     "desktop-publishing": 3,
     "photo-workflow": 5,
@@ -63,10 +63,10 @@
     "network-monitoring": 3,
     "download-managers": 2
   },
-  "mapping_count": 101,
+  "mapping_count": 102,
   "early_development_count": 8,
   "recommendation_counts": {
-    "conditional-candidate": 195,
+    "conditional-candidate": 196,
     "trial-only": 7,
     "research-only": 1
   },

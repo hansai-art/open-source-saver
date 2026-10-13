@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**203 candidates · 54 categories · 193 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**204 candidates · 54 categories · 193 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 
 Dataset updated: 2026-10-13; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
 
@@ -221,6 +221,7 @@ Dataset updated: 2026-10-13; individual review dates remain in each row. Include
 | Tool | Use | Adoption | Platform / delivery | Cost / license | Limits | Evidence |
 |---|---|---|---|---|---|---|
 | [Joplin](https://joplinapp.org/) | Local notes and to-do organization | Evaluate the task | macos, windows, linux, android, ios · desktop | free and open-source · see-upstream | Joplin Cloud is separately paid; verify sync setup, import fidelity and team features. | [official-docs-reviewed](https://joplinapp.org/) / 2026-09-11 |
+| [Obsidian](https://obsidian.md/) | Local Markdown notes, bidirectional links, knowledge management and personal knowledge bases | Evaluate the task | macos, windows, linux, android, ios · desktop | free to use; optional Sync, Publish, Catalyst and commercial support · proprietary; see official terms | Free to use but not open source. Official Chinese help and translation contribution paths exist, while Traditional Chinese UI coverage is unconfirmed. Sync and Publish are optional services; Notion databases, collaboration and automation are not equivalent, so test imports, attachments, plugins and sync first. | [official-docs-reviewed](https://obsidian.md/) / 2026-10-13 |
 | [calibre](https://calibre-ebook.com/about) | Ebook library management, reading and conversion | Evaluate the task | macos, windows, linux · desktop | free and open-source · see-upstream | Conversion fidelity depends on the book and formats; not all layouts transfer unchanged. | [official-docs-reviewed](https://calibre-ebook.com/about) / 2026-09-11 |
 
 ## vector-design

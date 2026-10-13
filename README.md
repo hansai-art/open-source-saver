@@ -5,12 +5,12 @@
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
 <!-- catalog-summary:start -->
-**203 個候選 · 54 大類 · 193 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**204 個候選 · 54 大類 · 193 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
 
-目前工具從 **78 → 203（2.60 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 101 組**。 [研究方法與統計](docs/RESEARCH.md)
+目前工具從 **78 → 204（2.62 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 102 組**。 [研究方法與統計](docs/RESEARCH.md)
 
 **先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
 
@@ -85,6 +85,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | 工作／原軟體 | 可先評估的候選 | 主要取捨 |
 |---|---|---|
 | Word、Excel、PowerPoint | **ONLYOFFICE 首選**；Collabora Office、LibreOffice | 繁中完整度、DOCX／XLSX／PPTX 版面、巨集與字型要用實檔測試；社群評價會影響後續排序 |
+| Notion（個人筆記／知識管理） | **Obsidian 免費首選（非開源）**；開源選 Joplin | Obsidian 本體免費，Sync／Publish 另付費；Markdown／本機 vault 與 Notion 資料庫、協作、自動化不是等效功能，先測匯入與同步 |
 | Illustrator、Figma、InDesign | Inkscape、Penpot、Scribus | 向量、UI 與出版分開；先測原檔、字型與交付 |
 | Lightroom、AutoCAD、MATLAB | darktable、FreeCAD／LibreCAD、GNU Octave | RAW、3D／2D CAD、科學運算各有相容性限制 |
 | Jira、Salesforce、Zendesk | OpenProject／Taiga、SuiteCRM、Zammad／Chatwoot | 自架維護、企業權限、外掛與搬遷成本另算 |
@@ -92,7 +93,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | Acronis、TeamViewer、Postman | restic／Kopia、RustDesk、Bruno／Hoppscotch | 先試還原、連線、API 集合與團隊協作 |
 | 個人記帳、文獻、RSS | GnuCash／Actual、Zotero、FreshRSS | 資料匯入、雲端同步與儲存費分開看 |
 
-[查看全部 101 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
+[查看全部 102 組條件對照](docs/ALTERNATIVES.zh-TW.md)。候選不是已實測的全功能替代。
 
 ## 先解決你每天會用的錄影、截圖與語音需求
 
@@ -130,7 +131,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | [影音播放](docs/CATALOG.zh-TW.md#media-players) | 3 | VLC media player、IINA、FreeTube |
 | [電子郵件](docs/CATALOG.zh-TW.md#email) | 1 | Thunderbird |
 | [密碼管理](docs/CATALOG.zh-TW.md#passwords) | 1 | KeePassXC |
-| [筆記與電子書](docs/CATALOG.zh-TW.md#notes-reading) | 2 | Joplin、calibre |
+| [筆記與電子書](docs/CATALOG.zh-TW.md#notes-reading) | 3 | Joplin、Obsidian、calibre |
 | [向量設計與 UI 原型](docs/CATALOG.zh-TW.md#vector-design) | 3 | Inkscape、Penpot、VectorCraft |
 | [桌面出版與字型製作](docs/CATALOG.zh-TW.md#desktop-publishing) | 3 | Scribus、FontForge、DesignCraft |
 | [RAW 顯影、照片管理與全景](docs/CATALOG.zh-TW.md#photo-workflow) | 5 | darktable、RawTherapee、digiKam |
@@ -245,7 +246,7 @@ Windows 將 python3 改成 `py -3`。`--include-engines` 可顯示引擎；自�
 
 附帶程式不連網，清單與報告寫到本機；若將內容交給雲端 AI，仍會發生雲端處理。嚴格離線時請直接使用本機 CLI。收集器為實驗性，Windows／Mac 真機驗收仍待完成；可先提供手動工具名稱清單。
 
-本次資料集更新於 **2026-10-13**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
+本次資料集更新於 **2026-10-13**；新增 Obsidian 作為 Notion 個人筆記／知識管理的免費首選，但明確標示為非開源。各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
 
 [Spec](docs/SPEC.zh-TW.md) · [v0.2 優化規劃](docs/OPTIMIZATION.zh-TW.md) · [驗收狀態](docs/STATUS.md)。v0.1.0-alpha 持續擴充中；後續規劃的數量目標不當成已完成。
 

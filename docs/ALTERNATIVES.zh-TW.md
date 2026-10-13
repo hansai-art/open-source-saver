@@ -78,7 +78,8 @@
 | Acuity Scheduling | [Easy!Appointments](CATALOG.zh-TW.md#booking-scheduling) | 適合先比較服務人員的時段預約；付款、套票與通知能力需實測或額外整合。 |
 | Slack | [Zulip](CATALOG.zh-TW.md#team-chat) | 需適應以主題串為核心的溝通方式；先測訊息匯入、通知及必要整合。 |
 | Confluence | [BookStack](CATALOG.zh-TW.md#wiki-knowledge), [Wiki.js](CATALOG.zh-TW.md#wiki-knowledge), [DokuWiki](CATALOG.zh-TW.md#wiki-knowledge) | 頁面、附件、權限與巨集要分開遷移驗證；不能假設原頁面原樣保留。 |
-| Notion — wiki use | [BookStack](CATALOG.zh-TW.md#wiki-knowledge), [Wiki.js](CATALOG.zh-TW.md#wiki-knowledge), [DokuWiki](CATALOG.zh-TW.md#wiki-knowledge) | 僅對應文件／知識庫用途；Notion 資料庫、公式及自動化沒有等效驗證。 |
+| Notion — notes and personal knowledge use | [Obsidian](CATALOG.zh-TW.md#notes-reading), [Joplin](CATALOG.zh-TW.md#notes-reading) | 個人筆記／知識管理先看 Obsidian，列為免費首選但不是開源；需要開源授權再看 Joplin。Notion 資料庫、協作、自動化與匯入品質要逐項實測。 |
+| Notion — team wiki use | [BookStack](CATALOG.zh-TW.md#wiki-knowledge), [Wiki.js](CATALOG.zh-TW.md#wiki-knowledge), [DokuWiki](CATALOG.zh-TW.md#wiki-knowledge) | 僅對應文件／知識庫用途；Notion 資料庫、公式及自動化沒有等效驗證。 |
 | Zapier | [Activepieces Community](CATALOG.zh-TW.md#workflow-automation), [Node-RED](CATALOG.zh-TW.md#workflow-automation) | 需重建自動化並檢查連接器、觸發方式及重試；第三方 API 和維護仍有成本。 |
 | Make | [Activepieces Community](CATALOG.zh-TW.md#workflow-automation), [Node-RED](CATALOG.zh-TW.md#workflow-automation) | 視覺流程不代表現成情境可直接匯入；分支、錯誤處理及 API 限額需實測。 |
 | Mailchimp | [listmonk](CATALOG.zh-TW.md#email-marketing), [Mautic](CATALOG.zh-TW.md#email-marketing) | 電子報與自動化是不同需求；SMTP、退信、寄件信譽與名單同意紀錄都需處理。 |

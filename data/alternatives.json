@@ -1210,11 +1210,28 @@
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
-      "id": "notion-wiki",
-      "name": "Notion — wiki use",
+      "id": "notion-notes",
+      "name": "Notion — notes and personal knowledge use",
       "aliases": [
         "Notion",
-        "Notion wiki"
+        "Notion notes",
+        "Notion personal knowledge base"
+      ],
+      "year_suffix": false,
+      "targets": [
+        "free-014",
+        "add-016"
+      ],
+      "zh_note": "個人筆記／知識管理先看 Obsidian，列為免費首選但不是開源；需要開源授權再看 Joplin。Notion 資料庫、協作、自動化與匯入品質要逐項實測。",
+      "en_note": "For personal notes and knowledge management, start with Obsidian as the free first choice, but it is not open source; choose Joplin when an open-source license is required. Test Notion databases, collaboration, automation and import fidelity separately.",
+      "relationship_status": "conditional-candidates-not-workflow-tested"
+    },
+    {
+      "id": "notion-wiki",
+      "name": "Notion — team wiki use",
+      "aliases": [
+        "Notion wiki",
+        "Notion team wiki"
       ],
       "year_suffix": false,
       "targets": [

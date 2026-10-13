@@ -5,12 +5,12 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**203 candidates · 54 categories · 193 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**204 candidates · 54 categories · 193 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
 
-Current catalog: **78 → 203 products (2.60×), 18 → 54 categories (3×), 20 → 101 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
+Current catalog: **78 → 204 products (2.62×), 18 → 54 categories (3×), 20 → 102 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
@@ -85,6 +85,7 @@ Need Screen Studio-style automatic camera movement? Explore OpenScreen and Recor
 | Task / original tool | Candidates to explore | A useful trial |
 |---|---|---|
 | Word, Excel, PowerPoint | **ONLYOFFICE first**; Collabora Office and LibreOffice | Test Traditional Chinese coverage, DOCX/XLSX/PPTX layout, macros and fonts with real files; community evaluations can change the order |
+| Notion (personal notes / knowledge management) | **Obsidian first for free use (not open source)**; Joplin when open-source licensing is required | Obsidian itself is free; Sync and Publish are paid add-ons. Local Markdown vaults are not equivalent to Notion databases, collaboration or automation, so test imports and sync |
 | Record a course / Camtasia | OBS Studio + Kdenlive | Record microphone and system audio, edit a short lesson and export it |
 | Polished product demos / Screen Studio | OpenScreen, Recordly; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
 | Screenshots / Snagit, CleanShot X | **macshot first on Mac**; ShareX first on Windows; Capso, Flameshot or ksnip as alternatives | Test scrolling capture, 16:9/fixed-size selection, Chinese OCR, shortcuts and sharing |
@@ -117,7 +118,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Media players](docs/CATALOG.en.md#media-players) | 3 | VLC media player, IINA, FreeTube |
 | [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
 | [Password management](docs/CATALOG.en.md#passwords) | 1 | KeePassXC |
-| [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 2 | Joplin, calibre |
+| [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 3 | Joplin, Obsidian, calibre |
 | [Vector design and UI prototyping](docs/CATALOG.en.md#vector-design) | 3 | Inkscape, Penpot, VectorCraft |
 | [Desktop publishing and font creation](docs/CATALOG.en.md#desktop-publishing) | 3 | Scribus, FontForge, DesignCraft |
 | [RAW development, photo management and panoramas](docs/CATALOG.en.md#photo-workflow) | 5 | darktable, RawTherapee, digiKam |
@@ -228,7 +229,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-10-13**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-10-13**. Obsidian was added as the free first choice for Notion personal notes and knowledge management, explicitly labeled proprietary rather than open source. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 

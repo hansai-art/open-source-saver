@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**203 個候選 · 54 大類 · 193 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**204 個候選 · 54 大類 · 193 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
 資料集更新：2026-10-13；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
@@ -221,6 +221,7 @@
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
 | [Joplin](https://joplinapp.org/) | 本機筆記與待辦整理 | 依用途評估 | macos, windows, linux, android, ios · 桌面軟體 | 免費開源 · see-upstream | Joplin Cloud 另外收費；同步服務、匯入品質及團隊功能需確認。 | [official-docs-reviewed](https://joplinapp.org/) / 2026-09-11 |
+| [Obsidian](https://obsidian.md/) | 本機 Markdown 筆記、雙向連結、知識管理與個人知識庫 | 依用途評估 | macos, windows, linux, android, ios · 桌面軟體 | free to use; optional Sync, Publish, Catalyst and commercial support · proprietary; see official terms | 免費使用但不是開源；官方提供中文說明與翻譯貢獻入口，繁體中文介面完整度未確認。Sync／Publish 為選購服務；Notion 資料庫、協作與自動化不是等效功能，需先測匯入、附件、外掛與同步。 | [official-docs-reviewed](https://obsidian.md/) / 2026-10-13 |
 | [calibre](https://calibre-ebook.com/about) | 電子書管理、閱讀與格式轉換 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · see-upstream | 不保證所有書籍格式與排版都能無損轉換。 | [official-docs-reviewed](https://calibre-ebook.com/about) / 2026-09-11 |
 
 ## vector-design
