@@ -2709,6 +2709,54 @@
       ]
     },
     {
+      "id": "add-014-proton-pass",
+      "name": "Proton Pass",
+      "category": "passwords",
+      "keywords": [
+        "密碼",
+        "密碼管理",
+        "passwords",
+        "password",
+        "manager",
+        "1Password",
+        "LastPass",
+        "Proton Pass"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "delivery": "desktop",
+      "url": "https://proton.me/pass",
+      "sources": [
+        "https://proton.me/pass",
+        "https://proton.me/pass/pricing",
+        "https://github.com/protonpass"
+      ],
+      "cost": "free and open-source",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-13",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "跨裝置密碼、通行金鑰與安全筆記管理",
+        "limits": "官方提供可用免費版；進階功能、更多別名與驗證器功能依方案而定。帳號匯入、同步、復原與繁中介面仍需實測。"
+      },
+      "en": {
+        "use": "Cross-device password, passkey and secure note management",
+        "limits": "The official free plan is usable; advanced features, additional aliases and authenticator functions depend on the plan. Test account migration, sync, recovery and Traditional Chinese UI."
+      },
+      "source_type": "open-source",
+      "discovered_via": [
+        "user-feedback",
+        "official-expansion"
+      ]
+    },
+    {
       "id": "add-015",
       "name": "Syncthing",
       "category": "file-transfer",

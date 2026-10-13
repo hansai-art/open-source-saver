@@ -5,7 +5,7 @@
 **把你正在付費的工具換成合適的免費／開源方案，先用自己的工作試一次，再決定是否取消訂閱。**
 
 <!-- catalog-summary:start -->
-**204 個候選 · 54 大類 · 193 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**205 個候選 · 54 大類 · 194 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
@@ -44,7 +44,7 @@
 4. **個人筆記**：[Notion Plus](https://www.notion.com/pricing) 年化 US$120 → **[Obsidian](https://obsidian.md/)**
 5. **PDF**：[Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) 年化 US$239.88 → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 6. **修圖**：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88／年 → **[GIMP](https://www.gimp.org/)**
-7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年化 US$47.88 → **[KeePassXC](https://keepassxc.org/)**
+7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年化 US$47.88 → **[Proton Pass](https://proton.me/pass)**
 8. **團隊溝通**：[Slack Pro](https://slack.com/pricing/pro) US$87／年／人 → **[Zulip](https://zulip.com/)**
 9. **逐字稿**：[Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) US$79.99／年 → **[Vibe](docs/CATALOG.zh-TW.md#transcription)**
 10. **雲端檔案**：[Dropbox Plus](https://www.dropbox.com/plans?tab=personal) 約 US$119.88／年 → **[Syncthing](https://syncthing.net/)**
@@ -105,7 +105,7 @@
 | [壓縮與解壓縮](docs/CATALOG.zh-TW.md#archives) | 2 | 7-Zip、PeaZip |
 | [影音播放](docs/CATALOG.zh-TW.md#media-players) | 3 | VLC media player、IINA、FreeTube |
 | [電子郵件](docs/CATALOG.zh-TW.md#email) | 1 | Thunderbird |
-| [密碼管理](docs/CATALOG.zh-TW.md#passwords) | 1 | KeePassXC |
+| [密碼管理](docs/CATALOG.zh-TW.md#passwords) | 2 | KeePassXC、Proton Pass |
 | [筆記與電子書](docs/CATALOG.zh-TW.md#notes-reading) | 3 | Joplin、Obsidian、calibre |
 | [向量設計與 UI 原型](docs/CATALOG.zh-TW.md#vector-design) | 3 | Inkscape、Penpot、VectorCraft |
 | [桌面出版與字型製作](docs/CATALOG.zh-TW.md#desktop-publishing) | 3 | Scribus、FontForge、DesignCraft |

@@ -18,7 +18,7 @@ The homepage now uses ten examples, with one representative paid tool per common
 | 個人筆記 / Personal notes | [Notion Plus](https://www.notion.com/pricing) | US$120.00 | [Obsidian](https://obsidian.md/) | [Notion](https://www.notion.com/pricing) |
 | PDF | [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) | US$239.88 | [PDFsam Basic](https://pdfsam.org/pdfsam-basic/) | [Adobe](https://www.adobe.com/acrobat/pricing/compare-versions.html) |
 | 修圖 / Image editing | [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) | US$263.88 | [GIMP](https://www.gimp.org/) | [Adobe](https://www.adobe.com/products/photoshop/plans.html) |
-| 密碼 / Passwords | [1Password Individual](https://1password.com/pricing/personal) | US$47.88 | [KeePassXC](https://keepassxc.org/) | [1Password](https://1password.com/pricing/personal) |
+| 密碼 / Passwords | [1Password Individual](https://1password.com/pricing/personal) | US$47.88 | [Proton Pass](https://proton.me/pass) | [1Password](https://1password.com/pricing/personal) |
 | 團隊溝通 / Team chat | [Slack Pro](https://slack.com/pricing/pro) | US$87.00 | [Zulip](https://zulip.com/) | [Slack](https://slack.com/pricing/pro) |
 | 逐字稿 / Transcription | [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) | US$79.99 | [Vibe](CATALOG.zh-TW.md#transcription) | [Otter](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) |
 | 雲端檔案 / Cloud files | [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) | US$119.88 | [Syncthing](https://syncthing.net/) | [Dropbox](https://www.dropbox.com/plans?tab=personal) |

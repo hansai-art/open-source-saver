@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**204 candidates · 54 categories · 193 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**205 candidates · 54 categories · 194 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 
 Dataset updated: 2026-10-13; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
 
@@ -213,6 +213,7 @@ Dataset updated: 2026-10-13; individual review dates remain in each row. Include
 | Tool | Use | Adoption | Platform / delivery | Cost / license | Limits | Evidence |
 |---|---|---|---|---|---|---|
 | [KeePassXC](https://keepassxc.org/) | Local encrypted password databases | Evaluate the task | macos, windows, linux · desktop | free and open-source · see-upstream | Plan synchronization and backups separately; check team sharing, recovery and administration needs. | [official-docs-reviewed](https://keepassxc.org/) / 2026-09-11 |
+| [Proton Pass](https://proton.me/pass) | Cross-device password, passkey and secure note management | Evaluate the task | macos, windows, linux, android, ios · desktop | free and open-source · see-upstream | The official free plan is usable; advanced features, additional aliases and authenticator functions depend on the plan. Test account migration, sync, recovery and Traditional Chinese UI. | [official-docs-reviewed](https://proton.me/pass) / 2026-10-13 |
 
 ## notes-reading
 

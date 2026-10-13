@@ -21,7 +21,7 @@
 | Paid voice typing | [Apple Dictation](CATALOG.zh-TW.md#dictation), [Handy](CATALOG.zh-TW.md#dictation), [OpenWhispr](CATALOG.zh-TW.md#dictation), [VoiceInk](CATALOG.zh-TW.md#dictation), [TypeWhisper](CATALOG.zh-TW.md#dictation) | 確認繁中、專有名詞、本機模型與官方成品價格。 |
 | Paid transcription | [Vibe](CATALOG.zh-TW.md#transcription), [Buzz](CATALOG.zh-TW.md#transcription), [aTrain](CATALOG.zh-TW.md#transcription), [noScribe](CATALOG.zh-TW.md#transcription), [Meetily Community](CATALOG.zh-TW.md#transcription) | 逐字稿、會議紀錄與文字剪輯是不同功能。 |
 | WinRAR / WinZip | [7-Zip](CATALOG.zh-TW.md#archives), [PeaZip](CATALOG.zh-TW.md#archives) | 先確認必需格式；7-Zip 不建立 RAR。 |
-| 1Password / LastPass | [KeePassXC](CATALOG.zh-TW.md#passwords) | 先測匯入、同步、分享與復原流程。 |
+| 1Password / LastPass | [Proton Pass](CATALOG.zh-TW.md#passwords), [KeePassXC](CATALOG.zh-TW.md#passwords) | 密碼管理先看 Proton Pass；再測匯入、同步、分享與復原流程。 |
 | Evernote | [Joplin](CATALOG.zh-TW.md#notes-reading) | 先測筆記匯入與附件；雲端同步費用另計。 |
 | Magnet | [Rectangle](CATALOG.zh-TW.md#productivity) | 只比對視窗排列；Rectangle Pro 不在免費範圍。 |
 | Paste | [Maccy](CATALOG.zh-TW.md#productivity) | 先確認 macOS 版本與跨裝置同步需求。 |

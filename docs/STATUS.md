@@ -109,3 +109,9 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - 新增 Obsidian，列為 Notion 個人筆記／知識管理的免費首選；因 Obsidian 本體不是開源，資料分類為非開源免費候選，開源授權需求則保留 Joplin。 / Added Obsidian as the free first choice for Notion personal notes and knowledge management; Obsidian is proprietary, so it is classified as a free non-open-source candidate, while Joplin remains the open-source option.
 - 官方定價頁列出本體免費使用，Sync／Publish 等為選購服務；官方提供中文說明與翻譯貢獻入口，但繁體中文介面完整度尚未確認。 / The official pricing page says the app is free to use, with Sync/Publish as optional services; official Chinese help and translation contribution paths exist, but Traditional Chinese UI coverage is unconfirmed.
 - 本次資料重建：204 個工具、54 大類、102 組條件對照；未執行 Obsidian 匯入、外掛、同步或 Notion 資料遷移實測。 / Rebuilt snapshot: 204 products, 54 categories and 102 conditional mappings; Obsidian import, plugin, sync and Notion migration were not runtime-tested.
+
+## 2026-10-13 Proton Pass 密碼管理推薦 / Proton Pass password-manager recommendation
+
+- 依使用者推薦新增 Proton Pass，列為 1Password／LastPass 對照的第一候選；KeePassXC 保留為另一個本機開源方向。 / Added Proton Pass from user recommendation as the first candidate for 1Password/LastPass mappings; KeePassXC remains as another local open-source direction.
+- 官方資料確認 Proton Pass 有可用免費方案、跨裝置應用與開源資訊；帳號匯入、同步、復原與繁中介面仍未實測。 / Official sources document a usable free plan, cross-device apps and open-source information; account import, sync, recovery and Traditional Chinese UI remain untested.
+- 本次資料重建：205 個工具、54 大類、102 組條件對照。 / Rebuilt snapshot: 205 products, 54 categories and 102 conditional mappings.

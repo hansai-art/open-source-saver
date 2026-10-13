@@ -21,7 +21,7 @@ Find candidates by the original product. These relationships have not been migra
 | Paid voice typing | [Apple Dictation](CATALOG.en.md#dictation), [Handy](CATALOG.en.md#dictation), [OpenWhispr](CATALOG.en.md#dictation), [VoiceInk](CATALOG.en.md#dictation), [TypeWhisper](CATALOG.en.md#dictation) | Check Chinese terminology, local models and official binary pricing. |
 | Paid transcription | [Vibe](CATALOG.en.md#transcription), [Buzz](CATALOG.en.md#transcription), [aTrain](CATALOG.en.md#transcription), [noScribe](CATALOG.en.md#transcription), [Meetily Community](CATALOG.en.md#transcription) | Transcription, meeting notes and text-based editing are different features. |
 | WinRAR / WinZip | [7-Zip](CATALOG.en.md#archives), [PeaZip](CATALOG.en.md#archives) | Check required formats; 7-Zip does not create RAR. |
-| 1Password / LastPass | [KeePassXC](CATALOG.en.md#passwords) | Test import, sync, sharing and recovery workflows. |
+| 1Password / LastPass | [Proton Pass](CATALOG.en.md#passwords), [KeePassXC](CATALOG.en.md#passwords) | Start with Proton Pass, then test import, sync, sharing and recovery workflows. |
 | Evernote | [Joplin](CATALOG.en.md#notes-reading) | Test note and attachment imports; cloud sync costs are separate. |
 | Magnet | [Rectangle](CATALOG.en.md#productivity) | Compare window management; Rectangle Pro is outside the free scope. |
 | Paste | [Maccy](CATALOG.en.md#productivity) | Check macOS version and cross-device sync requirements. |

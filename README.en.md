@@ -5,7 +5,7 @@
 **Replace the tools you pay for with suitable free/open-source options, test them on your real work, then decide whether to cancel.**
 
 <!-- catalog-summary:start -->
-**204 candidates · 54 categories · 193 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**205 candidates · 54 categories · 194 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
@@ -46,7 +46,7 @@ This is not a market-share ranking or a promise that every reader can save this 
 4. **Personal notes**: [Notion Plus](https://www.notion.com/pricing) US$120 annualized → **[Obsidian](https://obsidian.md/)**
 5. **PDF**: [Adobe Acrobat Pro](https://www.adobe.com/acrobat/pricing/compare-versions.html) US$239.88 annualized → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 6. **Image editing**: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88/year → **[GIMP](https://www.gimp.org/)**
-7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[KeePassXC](https://keepassxc.org/)**
+7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[Proton Pass](https://proton.me/pass)**
 8. **Team chat**: [Slack Pro](https://slack.com/pricing/pro) US$87/year/user → **[Zulip](https://zulip.com/)**
 9. **Transcription**: [Otter Pro](https://otter.ai/pricing?f=pricing&keywordgroup=speech+to+text) US$79.99/year → **[Vibe](docs/CATALOG.en.md#transcription)**
 10. **Cloud files**: [Dropbox Plus](https://www.dropbox.com/plans?tab=personal) about US$119.88/year → **[Syncthing](https://syncthing.net/)**
@@ -94,7 +94,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Archives](docs/CATALOG.en.md#archives) | 2 | 7-Zip, PeaZip |
 | [Media players](docs/CATALOG.en.md#media-players) | 3 | VLC media player, IINA, FreeTube |
 | [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
-| [Password management](docs/CATALOG.en.md#passwords) | 1 | KeePassXC |
+| [Password management](docs/CATALOG.en.md#passwords) | 2 | KeePassXC, Proton Pass |
 | [Notes and ebooks](docs/CATALOG.en.md#notes-reading) | 3 | Joplin, Obsidian, calibre |
 | [Vector design and UI prototyping](docs/CATALOG.en.md#vector-design) | 3 | Inkscape, Penpot, VectorCraft |
 | [Desktop publishing and font creation](docs/CATALOG.en.md#desktop-publishing) | 3 | Scribus, FontForge, DesignCraft |

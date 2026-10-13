@@ -2,7 +2,7 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**204 個候選 · 54 大類 · 193 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**205 個候選 · 54 大類 · 194 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
 資料集更新：2026-10-13；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
@@ -213,6 +213,7 @@
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
 | [KeePassXC](https://keepassxc.org/) | 本機加密密碼資料庫 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · see-upstream | 同步與備份需自行規劃；先確認團隊分享、復原及管理需求。 | [official-docs-reviewed](https://keepassxc.org/) / 2026-09-11 |
+| [Proton Pass](https://proton.me/pass) | 跨裝置密碼、通行金鑰與安全筆記管理 | 依用途評估 | macos, windows, linux, android, ios · 桌面軟體 | 免費開源 · see-upstream | 官方提供可用免費版；進階功能、更多別名與驗證器功能依方案而定。帳號匯入、同步、復原與繁中介面仍需實測。 | [official-docs-reviewed](https://proton.me/pass) / 2026-10-13 |
 
 ## notes-reading
 

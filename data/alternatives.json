@@ -283,11 +283,12 @@
         "LastPass"
       ],
       "targets": [
+        "add-014-proton-pass",
         "add-014"
       ],
       "year_suffix": false,
-      "zh_note": "先測匯入、同步、分享與復原流程。",
-      "en_note": "Test import, sync, sharing and recovery workflows.",
+      "zh_note": "密碼管理先看 Proton Pass；再測匯入、同步、分享與復原流程。",
+      "en_note": "Start with Proton Pass, then test import, sync, sharing and recovery workflows.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
