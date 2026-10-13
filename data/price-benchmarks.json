@@ -4,8 +4,8 @@
   "currency": "USD",
   "homepage_basket": {
     "id": "ten-representative-paid-tools",
-    "annualized_total": "989.13",
-    "display_total": "989",
+    "annualized_total": "1040.01",
+    "display_total": "1040",
     "note": "One representative paid tool per common category; Adobe is represented once by Photoshop. Hosted collaboration, cloud storage and browser-first design services are excluded from this desktop-software basket. This is an illustrative benchmark, not a market ranking or guaranteed personal savings."
   },
   "prices": [
@@ -116,15 +116,16 @@
       "homepage_included": true
     },
     {
-      "id": "sublime-text-personal-three-year-annualized",
-      "product": "Sublime Text Personal",
-      "category": "code editors",
-      "amount": "99.00",
-      "billing_period": "3 years",
-      "annualized": "33.00",
-      "source": "https://www.sublimehq.com/store/text",
-      "source_note": "Personal one-time US$99 license includes 3 years of updates; annualized for comparison, and the license does not expire after the update period.",
-      "replacement": "VSCodium",
+      "id": "quicken-classic-deluxe-annual",
+      "product": "Quicken Classic Deluxe",
+      "category": "personal finance",
+      "amount": "83.88",
+      "billing_period": "year",
+      "displayed_monthly_equivalent": "6.99",
+      "annualized": "83.88",
+      "source": "https://www.quicken.com/products/classic-deluxe/",
+      "source_note": "Official page shows US$6.99/month billed annually; the current offer is for the first year and the renewal price may change.",
+      "replacement": "Money Manager Ex",
       "homepage_included": true
     }
   ],

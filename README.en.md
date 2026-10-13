@@ -32,9 +32,9 @@ The detailed ArtCraft and recording/download reviews remain available in the res
 
 ## What could you save?
 
-### Replace these 10 paid tools: about US$989 a year
+### Replace these 10 paid tools: about US$1,040 a year
 
-If you pay for recording, screenshots, Office, notes, image editing, PDF editing, passwords, antivirus, Mac maintenance and code editing, these costs can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US public prices checked on 2026-10-13**. The ten examples total **US$989.13**, rounded on the homepage to about **US$989/year**. Adobe is counted once, represented by Photoshop; Slack, Dropbox, Figma and Otter are excluded because they are primarily network services rather than desktop-software examples.
+If you pay for recording, screenshots, Office, notes, image editing, PDF editing, passwords, antivirus, Mac maintenance and personal finance software, these costs can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US public prices checked on 2026-10-13**. The ten examples total **US$1,040.01**, rounded on the homepage to about **US$1,040/year**. Adobe is counted once, represented by Photoshop; Slack, Dropbox, Figma and Otter are excluded because they are primarily network services rather than desktop-software examples.
 
 This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay the expense, the replacement completes your work, and you stop renewing or buying the original tool.
 
@@ -47,11 +47,11 @@ This is not a market-share ranking or a promise that every reader can save this 
 5. **Adobe family (image-editing representative)**: [Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88/year → **[GIMP](https://www.gimp.org/)**
 6. **PDF editing**: [PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99/year → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[Proton Pass](https://proton.me/pass)**
-8. **Mac maintenance**: [CleanMyMac](https://macpaw.com/store/cleanmymac) US$9.95/month, US$119.40 annualized → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
-9. **Code editing**: [Sublime Text Personal](https://www.sublimehq.com/store/text) US$99/3 years, US$33 annualized → **[VSCodium](https://vscodium.com/)**
+8. **Mac maintenance**: [CleanMyMac](https://macpaw.com/store/cleanmymac) US$9.95/month, US$119.40/year → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
+9. **Personal finance**: [Quicken Classic Deluxe](https://www.quicken.com/products/classic-deluxe/) US$6.99/month equivalent, US$83.88 billed annually (first-year offer) → **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)**
 10. **Antivirus**: [Avast Premium Security](https://www.avast.com/premium-security) US$77.99/year (renewal benchmark) → **[ClamAV](https://www.clamav.net/)**
 
-**Ten-example total: about US$989.13/year.**
+**Ten-example total: about US$1,040.01/year.**
 
 You do not need to replace ten tools at once. Start with the subscription you use most and can cancel most easily, download the candidate, run one complete workflow with your own files, then decide. The catalog explains platforms, Chinese-language status, licensing, free limits and official entry points instead of giving you a bare list of names.
 

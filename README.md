@@ -30,9 +30,9 @@
 
 ## 能省多少錢？
 
-### 只換掉這 10 個付費工具，一年約可省 US$989
+### 只換掉這 10 個付費工具，一年約可省 US$1,040
 
-如果你同時付著錄影、截圖、Office、筆記、修圖、PDF、密碼、防毒、Mac 維護與程式編輯工具的費用，這些支出很容易變成一筆看不見的固定成本。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開價格**做粗估，十筆合計 **US$989.13**，首頁四捨五入顯示約 **US$989／年**。Adobe 家族只計一筆，以 Photoshop 作為代表；Slack、Dropbox、Figma、Otter 這類以網路服務為主的工具不列入這組桌面軟體案例。
+如果你同時付著錄影、截圖、Office、筆記、修圖、PDF、密碼、防毒、Mac 維護與記帳工具的費用，這些支出很容易變成一筆看不見的固定成本。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開價格**做粗估，十筆合計 **US$1,040.01**，首頁四捨五入顯示約 **US$1,040／年**。Adobe 家族只計一筆，以 Photoshop 作為代表；Slack、Dropbox、Figma、Otter 這類以網路服務為主的工具不列入這組桌面軟體案例。
 
 這不是市場占有率排名，也不是每個人都能直接省下的保證。只有你真的有該筆支出、替代品能完成你的工作，並且成功停止續費或不再購買，才算實際節省。
 
@@ -45,11 +45,11 @@
 5. **Adobe 家族（修圖代表）**：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88／年 → **[GIMP](https://www.gimp.org/)**
 6. **PDF 編輯**：[PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99／年 → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年化 US$47.88 → **[Proton Pass](https://proton.me/pass)**
-8. **Mac 維護**：[CleanMyMac](https://macpaw.com/store/cleanmymac) 月繳 US$9.95，年化 US$119.40 → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
-9. **程式編輯**：[Sublime Text Personal](https://www.sublimehq.com/store/text) US$99／3 年，年化 US$33 → **[VSCodium](https://vscodium.com/)**
+8. **Mac 維護**：[CleanMyMac](https://macpaw.com/store/cleanmymac) 月繳 US$9.95，年繳 US$119.40 → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
+9. **個人記帳**：[Quicken Classic Deluxe](https://www.quicken.com/products/classic-deluxe/) 月均 US$6.99，年繳 US$83.88（首年優惠）→ **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)**
 10. **防毒**：[Avast Premium Security](https://www.avast.com/premium-security) US$77.99／年（續訂基準）→ **[ClamAV](https://www.clamav.net/)**
 
-**十筆合計：約 US$989.13／年。**
+**十筆合計：約 US$1,040.01／年。**
 
 你不必一次換十個。從最常用、最容易取消的一筆開始，下載候選，用自己的檔案跑完一個完整流程，再決定是否停訂。這份清單會把平台、中文狀態、授權、免費限制與官方入口一起說清楚，不只丟給你一串軟體名稱。
 
