@@ -53,15 +53,15 @@
       ],
       "year_suffix": false,
       "targets": [
+        "add-002",
         "oss-009",
         "oss-010",
         "oss-011",
         "free-008",
-        "add-002",
         "add-021"
       ],
-      "zh_note": "OCR、長截圖、16:9／固定尺寸與雲端分享要另外查證。",
-      "en_note": "Verify OCR, scrolling capture, 16:9/fixed-size selection and sharing independently.",
+      "zh_note": "Mac 首選 macshot；Windows 首選 ShareX。OCR、長截圖、16:9／固定尺寸與雲端分享仍要另外查證。",
+      "en_note": "macshot is the first choice on Mac; ShareX is the first choice on Windows. Verify OCR, scrolling capture, 16:9/fixed-size selection and sharing independently.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -89,11 +89,12 @@
       ],
       "year_suffix": false,
       "targets": [
-        "free-003",
-        "free-004"
+        "free-004",
+        "free-013",
+        "free-003"
       ],
-      "zh_note": "以實際文件測試；套裝訂閱未取消不計節省。",
-      "en_note": "Test real files; do not count savings while a required suite remains subscribed.",
+      "zh_note": "ONLYOFFICE 列為首選；繁中介面已有但編輯器翻譯未完成。Collabora 基於 LibreOffice，正式文件仍需實測；社群評價會影響後續排序。套裝訂閱未取消不計節省。",
+      "en_note": "ONLYOFFICE is the first choice; Traditional Chinese exists but the Editors translation is incomplete. Collabora is LibreOffice-based, so test real files; community feedback may change future ranking. Do not count savings while a required suite remains subscribed.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -105,11 +106,12 @@
       ],
       "year_suffix": false,
       "targets": [
-        "free-003",
-        "free-004"
+        "free-004",
+        "free-013",
+        "free-003"
       ],
-      "zh_note": "巨集、外部資料與複雜公式需確認。",
-      "en_note": "Verify macros, external data and complex formulas.",
+      "zh_note": "ONLYOFFICE 列為首選；巨集、外部資料、樞紐分析與複雜公式仍需逐檔確認。Collabora 基於 LibreOffice，不因更新頻繁就視為 Excel 等效。",
+      "en_note": "ONLYOFFICE is the first choice; verify macros, external data, pivot tables and complex formulas file by file. Collabora is LibreOffice-based and is not automatically Excel-equivalent.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
@@ -121,11 +123,12 @@
       ],
       "year_suffix": false,
       "targets": [
-        "free-003",
-        "free-004"
+        "free-004",
+        "free-013",
+        "free-003"
       ],
-      "zh_note": "確認字型、動畫與影片嵌入。",
-      "en_note": "Verify fonts, animations and embedded video.",
+      "zh_note": "ONLYOFFICE 列為首選；Collabora 也可試用。確認繁中字型、動畫、影片嵌入與交付版面。",
+      "en_note": "ONLYOFFICE is the first choice; Collabora is also worth trying. Verify fonts, animations, embedded video and delivered layout.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {

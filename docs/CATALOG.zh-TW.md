@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**202 個候選 · 54 大類 · 192 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**203 個候選 · 54 大類 · 193 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
-資料集更新：2026-10-10；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
+資料集更新：2026-10-13；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
 [Alternatives](ALTERNATIVES.zh-TW.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -42,7 +42,7 @@
 | [NormCap](https://github.com/dynobo/normcap) | 從畫面擷取文字，減少手動抄寫 | 依用途評估 | macos, windows, linux · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · GPL-3.0-or-later | OCR 工具而非註解編輯器；中文辨識取決於 Tesseract 語言資料，繁中語料效果待測。 | [official-docs-reviewed](https://github.com/dynobo/normcap/blob/main/README.md) / 2026-09-10 |
 | [Text Grab](https://github.com/TheJoeFin/Text-Grab) | 快速框選畫面轉成可複製文字 | 依用途評估 | windows · 桌面軟體 | 開源；安裝包、模型與服務費用另查 · MIT | Windows 專用；OS OCR 語言及字型影響結果。 | [official-docs-reviewed](https://github.com/TheJoeFin/Text-Grab/blob/main/README.md) / 2026-09-10 |
 | [Lightshot](https://app.prntscr.com/en/index.html) | 快速區域截圖與標註 | 依用途評估 | macos, windows · 桌面軟體 | 免費軟體；非開源 · see-upstream | 有官方免費下載；網路分享會上傳截圖，不等於所有截圖都只留在本機。 | [official-docs-partial](https://app.prntscr.com/en/index.html) / 2026-09-10 |
-| [macshot](https://github.com/sw33tLie/macshot) | Mac 截圖、16:9／固定像素尺寸選取、標註、OCR、翻譯、滾動擷取與錄影 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | 要求 macOS 12.3+；官方 README 列 40 種語言，但繁中介面與台灣情境未實測；雲端上傳需自行設定服務，完整 CleanShot X 等效仍需逐項比對。 | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-25 |
+| [macshot](https://github.com/sw33tLie/macshot) | Mac 截圖、16:9／固定像素尺寸選取、標註、OCR、翻譯、滾動擷取與錄影 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | 本專案目前列為 Mac 截圖首選，依使用者回饋，非本 repo 重現測試；要求 macOS 12.3+。官方 README 列 40 種語言，但繁中介面與台灣情境仍未實測；雲端上傳需自行設定服務，完整 CleanShot X 等效仍需逐項比對。 | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-25 |
 | [Capso](https://github.com/lzhgus/Capso) | Mac 原生截圖、螢幕錄影、16:9／固定像素尺寸選取、OCR 與標註 | 依用途評估 | macos · 桌面軟體 | free to use; source-available; official cloud sharing uses your own storage and may incur provider costs · Business Source License 1.1; converts to Apache-2.0 after three years per project terms | 要求 macOS 15+；BSL 1.1 是原始碼可見授權，不是 OSI 定義的開源授權，禁止 fork 後販售競爭產品；Cloud Share 需自備 Cloudflare R2，螢幕錄影、相機與麥克風需授權。 | [official-docs-reviewed](https://github.com/lzhgus/Capso/blob/main/README.md) / 2026-09-25 |
 
 ## dictation
@@ -144,7 +144,8 @@
 | 工具 | 用途 | 採用建議 | 平台／部署 | 費用／授權 | 限制 | 證據 |
 |---|---|---|---|---|---|---|
 | [LibreOffice](https://www.libreoffice.org/) | 文件、試算表、簡報與 Draw | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · see-upstream | 官網確認免費開源；不沿用文章『完全相容』說法，正式交付檔案需驗證。 | [official-docs-partial](https://www.libreoffice.org/) / 2026-09-10 |
-| [ONLYOFFICE Desktop Editors](https://www.onlyoffice.com/desktop) | 文件、試算表、簡報與 PDF | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源桌面版 · see-upstream | 確認免費桌面產品；雲端協作方案、AI 提供者與付費服務另外核對。 | [official-docs-partial](https://www.onlyoffice.com/desktop) / 2026-09-10 |
+| [ONLYOFFICE Desktop Editors](https://www.onlyoffice.com/desktop) | 文件、試算表、簡報與 PDF | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源桌面版 · AGPL-3.0 | 官方語言表列繁體中文 zh-TW；App 翻譯 100%、Editors 介面 56%（官方頁更新 2025-05-30），可依上游規則協助翻譯。官方下載頁目前列 Desktop Editors 9.4.0（2026-05-19）；雲端協作方案、AI 提供者與付費服務另外核對。未實測檔案相容性。 | [official-docs-reviewed](https://www.onlyoffice.com/desktop) / 2026-10-13 |
+| [Collabora Office](https://www.collaboraonline.com/collabora-office/) | 文件、試算表、簡報與 Microsoft Office 檔案編輯，支援桌面與協作情境 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源桌面版 · see-upstream | 官方 26.04 桌面版於 2026-09-14 發布，核心基於 LibreOffice 技術；官方早期桌面版公告提醒翻譯可能不完整。中文／CJK 支援有官方資料，但繁體中文桌面介面完整度未確認，未實測檔案相容性。 | [official-docs-reviewed](https://www.collaboraonline.com/collabora-office/) / 2026-10-13 |
 
 ## pdf
 

@@ -5,12 +5,12 @@
 **先看你的電腦裝了什麼，再推薦適合你的開源免費替代工具，附上下載與安裝方式。**
 
 <!-- catalog-summary:start -->
-**202 個候選 · 54 大類 · 192 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**203 個候選 · 54 大類 · 193 個開源專案 · 8 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
 
-目前工具從 **78 → 202（2.59 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 101 組**。 [研究方法與統計](docs/RESEARCH.md)
+目前工具從 **78 → 203（2.60 倍）**、領域 **18 → 54（3 倍）**、原軟體對照 **20 → 101 組**。 [研究方法與統計](docs/RESEARCH.md)
 
 **先從一筆錄影訂閱開始：成功替換並停止續訂後，每年可少付 US$108 或 US$179.88。** 這是下方兩個方案的授權費範例，依你原本訂閱哪個方案擇一計算，不是每位使用者的保證節省。
 
@@ -22,7 +22,7 @@
 
 ## 新研究：自動剪輯、繁中字幕與加速下載
 
-查核日 **2026-10-10**。新增 OpenScreen、Flowtake、OpenCC、Varia、Gopeed，更新 Recordly 與 Auto-Editor 的功能限制。
+查核日 **2026-10-13**。新增 Collabora Office，將 ONLYOFFICE 列為 Word／Excel／PowerPoint 首選，將 macshot 列為 Mac 截圖首選；並保留 OpenScreen、Flowtake、OpenCC、Varia、Gopeed 等近期更新。
 
 | 需求 | 先看的工具 | 先確認的條件 |
 |---|---|---|
@@ -84,6 +84,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 
 | 工作／原軟體 | 可先評估的候選 | 主要取捨 |
 |---|---|---|
+| Word、Excel、PowerPoint | **ONLYOFFICE 首選**；Collabora Office、LibreOffice | 繁中完整度、DOCX／XLSX／PPTX 版面、巨集與字型要用實檔測試；社群評價會影響後續排序 |
 | Illustrator、Figma、InDesign | Inkscape、Penpot、Scribus | 向量、UI 與出版分開；先測原檔、字型與交付 |
 | Lightroom、AutoCAD、MATLAB | darktable、FreeCAD／LibreCAD、GNU Octave | RAW、3D／2D CAD、科學運算各有相容性限制 |
 | Jira、Salesforce、Zendesk | OpenProject／Taiga、SuiteCRM、Zammad／Chatwoot | 自架維護、企業權限、外掛與搬遷成本另算 |
@@ -99,7 +100,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 |---|---|---|
 | 錄課程、螢幕教學／Camtasia | OBS Studio + Kdenlive | 錄一段含麥克風與系統音訊的教學，再完成剪輯輸出 |
 | 漂亮的產品示範／Screen Studio | OpenScreen、Recordly；基本錄影可看 OBS | 自動縮放、游標、字幕、輸出浮水印及安裝方式 |
-| 截圖標註、OCR／Snagit、CleanShot X | Windows：ShareX；Mac：macshot、Capso；跨平台：Flameshot、ksnip | 用自己的畫面試長截圖、16:9／固定尺寸、繁中 OCR、快捷鍵與分享需求 |
+| 截圖標註、OCR／Snagit、CleanShot X | **Mac 首選：macshot**；Windows 首選：ShareX；備選：Capso、Flameshot、ksnip | 用自己的畫面試長截圖、16:9／固定尺寸、繁中 OCR、快捷鍵與分享需求 |
 | 用說話代替打字／Wispr Flow、Superwhisper | Handy、OpenWhispr、TypeWhisper（Mac） | 一段台灣口音、中英混合與專有名詞；本機模型或雲端費用 |
 | 訪談逐字稿／Otter、Descript | noScribe、Vibe、Buzz；會議摘要另看 Meetily Community | 說話者分段、轉錄時間、字幕匯出；不能把轉錄當成文字剪輯 |
 | 做字幕、配音與音訊整理 | Subtitle Edit、Audacity；TTS 另看專區 | 字幕時間軸、聲音模型授權；TTS 引擎可能需要設定 |
@@ -121,7 +122,7 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 | [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 11 | Auto-Editor、LosslessCut、Kdenlive |
 | [音訊編輯](docs/CATALOG.zh-TW.md#audio-editing) | 2 | Audacity、Ultimate Vocal Remover（UVR） |
 | [修圖與繪圖](docs/CATALOG.zh-TW.md#graphics) | 3 | GIMP、Krita、PhotoCraft |
-| [文書與 Office](docs/CATALOG.zh-TW.md#office) | 2 | LibreOffice、ONLYOFFICE Desktop Editors |
+| [文書與 Office](docs/CATALOG.zh-TW.md#office) | 3 | LibreOffice、ONLYOFFICE Desktop Editors、Collabora Office |
 | [PDF 閱讀與處理](docs/CATALOG.zh-TW.md#pdf) | 4 | PDF24 Creator、SumatraPDF、PDFsam Basic |
 | [傳檔與檔案同步](docs/CATALOG.zh-TW.md#file-transfer) | 3 | LocalSend、Syncthing、rclone |
 | [視窗、剪貼簿與系統整理](docs/CATALOG.zh-TW.md#productivity) | 4 | Rectangle、Maccy、Pearcleaner |
@@ -187,6 +188,8 @@ python3 scripts/saver.py search "After Effects" --platform macos --exclude-exper
 
 **自己做的專案、每天在用的工具、國外論壇挖到的好東西，都歡迎。** 開源優先，也接受能直接使用的免費非開源軟體與內建功能。只有英文也沒關係，我們可以先補繁中說明，或整理給上游的翻譯提案。
 
+除了提供更好的開源／免費工具，也歡迎提交實際使用評價、相容性紀錄與可重現的踩雷回報。我們會根據可追溯的社群意見調整推薦優先順序，並保留查核日期與尚未驗證的限制。
+
 不會寫程式也能參與：按 [提供工具](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md)，填「工具名稱 + 官方連結 + 可以完成什麼工作」。知道的話再補原付費工具、平台、免費限制與中文支援；未知就寫未知。**你是作者或有合作關係也歡迎，請直接註明。**
 
 發現失效連結、價格改了、免費版限制或踩雷經驗？[回報修正](https://github.com/hansai-art/open-source-saver/issues/new?template=correction.md)。想直接改資料可看 [貢獻指南](CONTRIBUTING.md)。
@@ -242,7 +245,7 @@ Windows 將 python3 改成 `py -3`。`--include-engines` 可顯示引擎；自�
 
 附帶程式不連網，清單與報告寫到本機；若將內容交給雲端 AI，仍會發生雲端處理。嚴格離線時請直接使用本機 CLI。收集器為實驗性，Windows／Mac 真機驗收仍待完成；可先提供手動工具名稱清單。
 
-本次資料集更新於 **2026-10-09**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
+本次資料集更新於 **2026-10-13**；各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
 
 [Spec](docs/SPEC.zh-TW.md) · [v0.2 優化規劃](docs/OPTIMIZATION.zh-TW.md) · [驗收狀態](docs/STATUS.md)。v0.1.0-alpha 持續擴充中；後續規劃的數量目標不當成已完成。
 

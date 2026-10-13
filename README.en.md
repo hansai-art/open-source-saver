@@ -5,12 +5,12 @@
 **See what is installed on your computer, then get suitable free and open-source alternatives with download and installation guidance.**
 
 <!-- catalog-summary:start -->
-**202 candidates · 54 categories · 192 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**203 candidates · 54 categories · 193 open-source projects · 8 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
 
-Current catalog: **78 → 202 products (2.59×), 18 → 54 categories (3×), 20 → 101 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
+Current catalog: **78 → 203 products (2.60×), 18 → 54 categories (3×), 20 → 101 conditional mappings**. [Method and evidence](docs/RESEARCH.md)
 
 **Start with one recording subscription: a successful switch and cancellation could avoid US$108 or US$179.88 a year.** These are the two annual-plan examples below, selected according to your existing plan—not guaranteed savings for every reader.
 
@@ -22,7 +22,7 @@ Navigation: [Adobe alternatives](#newly-cataloged-seven-artcraft-adobe-alternati
 
 ## New research: automatic editing, Chinese captions and accelerated downloads
 
-Reviewed **2026-10-10**. Added OpenScreen, Flowtake, OpenCC, Varia and Gopeed; refreshed Recordly and Auto-Editor limitations.
+Reviewed **2026-10-13**. Added Collabora Office, set ONLYOFFICE first for Word/Excel/PowerPoint and macshot first for Mac screenshots; retained recent OpenScreen, Flowtake, OpenCC, Varia and Gopeed updates.
 
 | Need | Starting tools | Conditions to check |
 |---|---|---|
@@ -84,9 +84,10 @@ Need Screen Studio-style automatic camera movement? Explore OpenScreen and Recor
 
 | Task / original tool | Candidates to explore | A useful trial |
 |---|---|---|
+| Word, Excel, PowerPoint | **ONLYOFFICE first**; Collabora Office and LibreOffice | Test Traditional Chinese coverage, DOCX/XLSX/PPTX layout, macros and fonts with real files; community evaluations can change the order |
 | Record a course / Camtasia | OBS Studio + Kdenlive | Record microphone and system audio, edit a short lesson and export it |
 | Polished product demos / Screen Studio | OpenScreen, Recordly; OBS for basic recording | Check automatic zoom, cursor effects, captions, watermarks and installation |
-| Screenshots / Snagit, CleanShot X | ShareX on Windows; macshot and Capso on Mac; Flameshot or ksnip across platforms | Test scrolling capture, 16:9/fixed-size selection, Chinese OCR, shortcuts and sharing |
+| Screenshots / Snagit, CleanShot X | **macshot first on Mac**; ShareX first on Windows; Capso, Flameshot or ksnip as alternatives | Test scrolling capture, 16:9/fixed-size selection, Chinese OCR, shortcuts and sharing |
 | Voice typing / Wispr Flow, Superwhisper | Handy, OpenWhispr, TypeWhisper on Mac | Test mixed Chinese/English terminology and local versus cloud costs |
 | Transcripts / Otter, Descript | noScribe, Vibe, Buzz; Meetily Community for meeting summaries | Check speakers, processing time and exports; transcription is not text-based video editing |
 | Subtitles and audio | Subtitle Edit, Audacity; see the TTS section for speech synthesis | Check timing and model terms; engines may require setup |
@@ -108,7 +109,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 11 | Auto-Editor, LosslessCut, Kdenlive |
 | [Audio editing](docs/CATALOG.en.md#audio-editing) | 2 | Audacity, Ultimate Vocal Remover（UVR） |
 | [Graphics](docs/CATALOG.en.md#graphics) | 3 | GIMP, Krita, PhotoCraft |
-| [Office documents](docs/CATALOG.en.md#office) | 2 | LibreOffice, ONLYOFFICE Desktop Editors |
+| [Office documents](docs/CATALOG.en.md#office) | 3 | LibreOffice, ONLYOFFICE Desktop Editors, Collabora Office |
 | [PDF reading and processing](docs/CATALOG.en.md#pdf) | 4 | PDF24 Creator, SumatraPDF, PDFsam Basic |
 | [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 3 | LocalSend, Syncthing, rclone |
 | [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 4 | Rectangle, Maccy, Pearcleaner |
@@ -172,6 +173,8 @@ Our aim is broad, useful global coverage; no like-for-like benchmark establishes
 
 **Your own project, a tool you use every day, or a discovery from another community is welcome.** We prioritize open source and also accept usable freeware, free tiers and built-in features. English-only tools are welcome; help us add Traditional Chinese guidance or prepare an upstream translation proposal.
 
+Alongside better open-source or free tools, please share real-world evaluations, compatibility notes and reproducible problems. We will adjust recommendation priority based on traceable community feedback while retaining evidence dates and unverified limitations.
+
 No coding needed: [suggest software](https://github.com/hansai-art/open-source-saver/issues/new?template=software.md) with its name, official link and the task it solves. Add platform, original paid tool, free limits and language evidence if known. State unknowns honestly. If you are the developer or have a commercial relationship, say so.
 
 [Report corrections](https://github.com/hansai-art/open-source-saver/issues/new?template=correction.md) for broken links, changed prices, restrictions or reproducible problems. For data changes, see [Contributing](CONTRIBUTING.md).
@@ -225,7 +228,7 @@ On Windows replace python3 with `py -3`. CLI search uses names/keywords; the age
 
 Bundled helpers make no network requests and save inventories/reports locally. Sending those files to cloud AI still involves cloud processing; use the local CLI for strict offline work. Collectors are experimental pending native Mac/Windows validation; manual app names work now.
 
-Dataset updated **2026-10-09**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
+Dataset updated **2026-10-13**. Each product retains its actual evidence date; existing rows were not all rechecked today. No automatic installation, removal or subscription changes, and no billing guesses from installed-app names.
 
 [Specification](docs/SPEC.en.md) · [v0.2 plan](docs/OPTIMIZATION.en.md) · [Status](docs/STATUS.md). The growing v0.1.0-alpha catalog does not mean all future v0.2 gates are complete.
 

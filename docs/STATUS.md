@@ -1,11 +1,11 @@
 # 實作與驗收狀態 / Implementation status
 
-Version: v0.1.0-alpha · Status checked: 2026-10-10 · Dataset updated: 2026-10-10; individual product evidence dates retained
+Version: v0.1.0-alpha · Status checked: 2026-10-13 · Dataset updated: 2026-10-13; individual product evidence dates retained
 
 | 項目 / Item | 狀態 / Status |
 |---|---|
 | Spec、Skill、繁中／英文說明 / Specification, Skill and bilingual docs | 完成 / Complete |
-| 產品資料 / Product snapshot | 202 個候選、54 大類、101 組條件對照 / 202 candidates, 54 categories, 101 conditional mappings |
+| 產品資料 / Product snapshot | 203 個候選、54 大類、101 組條件對照 / 203 candidates, 54 categories, 101 conditional mappings |
 | 文章、目錄與社群 / Research sources | 48 筆、7 語系，含錄影／下載與先前 ArtCraft 官方文件；保留舊 11 篇文章及 7 筆社群紀錄 / 48 sources across 7 language labels, including recording/download and earlier ArtCraft official documents; legacy research retained |
 | 廣域索引 / Broad discovery | 1,346 個去重上游項目、84 個上游分類；全部未逐項查核 / 1,346 unique upstream leads, 84 tags; individually unreviewed |
 | 離線搜尋、手動匯入與報告 / Offline search, manual import and reports | 已實作並以虛構資料驗證 / Implemented, tested with synthetic data |
@@ -96,3 +96,10 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 - 22 項既有／回歸測試及獨立 Agent 離線情境通過。官方文件、源碼與版本資產列表已查核；所有第三方安裝、字幕品質與實際下載速度仍未實測。 / Docs, source and relevant asset lists reviewed; third-party installs, caption quality and speed remain untested.
 
 [繁中研究與驗收](research/recording-downloads.md) · [English review](research/recording-downloads.en.md)
+
+## 2026-10-13 Office、截圖與社群評價更新 / Office, screenshots and community feedback
+
+- ONLYOFFICE 列為 Word、Excel、PowerPoint 首選；新增 Collabora Office 作為 LibreOffice 技術線的另一個候選。ONLYOFFICE 官方語言表列出 zh-TW，但 Editors 翻譯仍不完整，未宣稱實檔相容性已通過。 / ONLYOFFICE is now first for Word, Excel and PowerPoint; Collabora Office was added as another LibreOffice-based candidate. ONLYOFFICE officially lists zh-TW, but Editors translation coverage remains incomplete and real-file compatibility is untested.
+- macshot 列為 Mac 截圖首選，依使用者回饋記錄，未在本專案重現測試；Windows 截圖首選仍為 ShareX。 / macshot is now the Mac screenshot first choice based on user feedback, not reproduced runtime testing in this project; ShareX remains first for Windows screenshots.
+- 除了新增工具，也接受實際使用評價、相容性紀錄與可重現問題；推薦優先順序會依可追溯社群意見調整，並保留證據日期與未驗證限制。 / Real-world evaluations, compatibility notes and reproducible problems are welcome; recommendation priority may change based on traceable community feedback while evidence dates and unverified limitations remain visible.
+- 本次資料重建：203 個工具、54 大類、101 組條件對照；未執行第三方 Office 檔案遷移或 macshot 真機測試。 / Rebuilt snapshot: 203 products, 54 categories and 101 conditional mappings; no third-party Office migration or macshot device test was run.
