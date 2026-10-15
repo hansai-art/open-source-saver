@@ -49,7 +49,7 @@
 9. **影片壓縮與轉檔**：[Apple Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12) 買斷 US$49.99 → **[CompressO](https://github.com/codeforreal1/compressO)**
 10. **防毒**：[Avast Premium Security](https://www.avast.com/premium-security) US$77.99／年（續訂基準）→ **[ClamAV](https://www.clamav.net/)**
 
-**首年合計：US$1,006.12（九筆年度費用 US$956.13，加一筆買斷 US$49.99）。往後年度不重複計入買斷費。**
+**首年合計：US$1,006.12**
 
 CompressO 適合一般壓縮與批次轉檔；Final Cut Pro／Motion 整合、專業 HDR 與交付套件不列入替代範圍。Apple Compressor 價格查核於 2026-10-15。
 
