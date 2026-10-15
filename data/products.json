@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-13",
+  "checked_on": "2026-10-15",
   "products": [
     {
       "id": "oss-001",
@@ -8337,6 +8337,54 @@
         "license_declaration": "ISC in package.json",
         "required_gopeed": "2.0 series, currently beta",
         "runtime_tested": false
+      }
+    },
+    {
+      "id": "oss-207",
+      "name": "CompressO",
+      "category": "video-editing",
+      "keywords": [
+        "影片壓縮",
+        "影片縮小",
+        "圖片壓縮",
+        "批次壓縮",
+        "video compression",
+        "image compression",
+        "compressO"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/codeforreal1/compressO",
+      "download_url": "https://github.com/codeforreal1/compressO/releases/tag/3.0.0",
+      "sources": [
+        "https://github.com/codeforreal1/compressO",
+        "https://github.com/codeforreal1/compressO/releases/tag/3.0.0",
+        "https://github.com/codeforreal1/compressO/blob/main/LICENSE"
+      ],
+      "cost": "free and open-source",
+      "license": "AGPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-15",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "source_type": "open-source",
+      "zh": {
+        "use": "離線壓縮影片與圖片、批次處理、影片轉 GIF，適合課程錄影與交付預覽檔縮小容量",
+        "limits": "使用者推薦好用，官方文件已查核，本專案尚未實測。繁中介面未確認。壓縮率與畫質依來源及設定而異；Mac 未公證，官方 Homebrew cask 會移除隔離屬性。官方仍列 Debian 13／Ubuntu 24 相容性問題。不能取代完整剪輯與自動字幕工具。"
+      },
+      "en": {
+        "use": "Offline video/image compression, batch processing and video-to-GIF for recordings and preview deliveries",
+        "limits": "User-recommended; official documentation reviewed, not runtime-tested here. Traditional Chinese UI unverified. Size and quality depend on input/settings. macOS app is not notarized; official Homebrew cask removes quarantine. Official README lists Debian 13/Ubuntu 24 compatibility issues. Not a full editor or automatic captioning tool."
+      },
+      "release": {
+        "tag": "3.0.0",
+        "published_at": "2026-04-06",
+        "prerelease": false,
+        "asset_listing_reviewed": true
       }
     }
   ],

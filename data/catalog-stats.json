@@ -1,9 +1,9 @@
 {
-  "updated_on": "2026-10-13",
-  "product_count": 206,
+  "updated_on": "2026-10-15",
+  "product_count": 207,
   "category_count": 54,
   "source_type_counts": {
-    "open-source": 195,
+    "open-source": 196,
     "proprietary": 9,
     "source-available": 2
   },
@@ -14,7 +14,7 @@
     "transcription": 10,
     "subtitles": 4,
     "text-to-speech": 7,
-    "video-editing": 11,
+    "video-editing": 12,
     "audio-editing": 2,
     "graphics": 3,
     "office": 3,
@@ -66,7 +66,7 @@
   "mapping_count": 102,
   "early_development_count": 8,
   "recommendation_counts": {
-    "conditional-candidate": 198,
+    "conditional-candidate": 199,
     "trial-only": 7,
     "research-only": 1
   },

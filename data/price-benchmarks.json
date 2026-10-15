@@ -4,9 +4,11 @@
   "currency": "USD",
   "homepage_basket": {
     "id": "ten-representative-paid-tools",
-    "annualized_total": "1040.01",
-    "display_total": "1040",
-    "note": "One representative paid tool per common category; Adobe is represented once by Photoshop. Hosted collaboration, cloud storage and browser-first design services are excluded from this desktop-software basket. This is an illustrative benchmark, not a market ranking or guaranteed personal savings."
+    "annualized_total": "956.13",
+    "display_total": "1006",
+    "note": "Nine annual benchmarks USD 956.13 plus Apple Compressor one-time USD 49.99 = USD 1006.12 first-year. Do not repeat the purchase in later years. Old price checks retain 2026-10-13; Apple checked 2026-10-15.",
+    "first_year_total": "1006.12",
+    "one_time_total": "49.99"
   },
   "prices": [
     {
@@ -126,7 +128,19 @@
       "source": "https://www.quicken.com/products/classic-deluxe/",
       "source_note": "Official page shows US$6.99/month billed annually; the current offer is for the first year and the renewal price may change.",
       "replacement": "Money Manager Ex",
-      "homepage_included": true
+      "homepage_included": false
+    },
+    {
+      "id": "apple-compressor-onetime",
+      "product": "Apple Compressor",
+      "category": "video compression and conversion",
+      "amount": "49.99",
+      "billing_period": "one-time",
+      "source": "https://apps.apple.com/us/app/compressor/id424390742?mt=12",
+      "replacement": "CompressO",
+      "homepage_included": true,
+      "checked_on": "2026-10-15",
+      "source_note": "Standalone Mac App Store purchase; general compression/conversion comparison only. Excludes Final Cut/Motion integration, professional HDR and delivery workflows."
     }
   ],
   "assumptions": [

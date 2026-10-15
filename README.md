@@ -5,7 +5,7 @@
 **把你正在付費的工具換成合適的免費／開源方案，先用自己的工作試一次，再決定是否取消訂閱。**
 
 <!-- catalog-summary:start -->
-**206 個候選 · 54 大類 · 195 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**207 個候選 · 54 大類 · 196 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
@@ -30,9 +30,9 @@
 
 ## 能省多少錢？
 
-### 只換掉這 10 個付費工具，一年約可省 US$1,040
+### 十筆免費替代案例：首年費用約 US$1,006
 
-如果你同時付著錄影、截圖、Office、筆記、修圖、PDF、密碼、防毒、Mac 維護與記帳工具的費用，這些支出很容易變成一筆看不見的固定成本。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開價格**做粗估，十筆合計 **US$1,040.01**，首頁四捨五入顯示約 **US$1,040／年**。Adobe 家族只計一筆，以 Photoshop 作為代表；Slack、Dropbox、Figma、Otter 這類以網路服務為主的工具不列入這組桌面軟體案例。
+如果你同時付著錄影、截圖、Office、筆記、修圖、PDF、密碼、防毒、Mac 維護與影片壓縮工具的費用，這些支出很容易變成一筆看不見的固定成本。以下每個領域只挑一個具代表性的付費工具，用 **2026-10-13 查到的美國公開價格**做粗估，其中九筆有價格基準，合計 **US$956.13／年**。影片壓縮另以 Apple Compressor 買斷 US$49.99 計算，首年合計 **US$1,006.12**，約 **US$1,006**。Adobe 家族只計一筆，以 Photoshop 作為代表；Slack、Dropbox、Figma、Otter 這類以網路服務為主的工具不列入這組桌面軟體案例。
 
 這不是市場占有率排名，也不是每個人都能直接省下的保證。只有你真的有該筆支出、替代品能完成你的工作，並且成功停止續費或不再購買，才算實際節省。
 
@@ -41,15 +41,19 @@
 1. **螢幕錄影**：[Screen Studio](https://screen.studio/) US$108／年 → **[OpenScreen](https://github.com/getopenscreen/openscreen)**
 2. **截圖與標註**：[Snagit](https://www.techsmith.com/store/snagit) US$39／年 → **[macshot](https://github.com/sw33tLie/macshot)**
 3. **文書與試算表**：[Microsoft 365 Personal](https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf) US$99.99／年 → **[ONLYOFFICE](https://www.onlyoffice.com/)**
-4. **個人筆記**：[Notion Plus](https://www.notion.com/pricing) 年化 US$120 → **[Obsidian](https://obsidian.md/)**
+4. **個人筆記**：[Notion Plus](https://www.notion.com/pricing) 年繳 US$120 → **[Obsidian](https://obsidian.md/)**
 5. **Adobe 家族（修圖代表）**：[Adobe Photoshop](https://www.adobe.com/products/photoshop/plans.html) US$263.88／年 → **[GIMP](https://www.gimp.org/)**
 6. **PDF 編輯**：[PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99／年 → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
-7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年化 US$47.88 → **[Proton Pass](https://proton.me/pass)**
+7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年繳 US$47.88 → **[Proton Pass](https://proton.me/pass)**
 8. **Mac 維護**：[CleanMyMac](https://macpaw.com/store/cleanmymac) 月繳 US$9.95，年繳 US$119.40 → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
-9. **個人記帳**：[Quicken Classic Deluxe](https://www.quicken.com/products/classic-deluxe/) 月均 US$6.99，年繳 US$83.88（首年優惠）→ **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)**
+9. **影片壓縮與轉檔**：[Apple Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12) 買斷 US$49.99 → **[CompressO](https://github.com/codeforreal1/compressO)**，免費開源、離線批次壓縮，支援 Mac／Windows／Linux。
 10. **防毒**：[Avast Premium Security](https://www.avast.com/premium-security) US$77.99／年（續訂基準）→ **[ClamAV](https://www.clamav.net/)**
 
-**十筆合計：約 US$1,040.01／年。**
+**首年合計：US$1,006.12（九筆年度費用 US$956.13，加一筆買斷 US$49.99）。往後年度不重複計入買斷費。**
+
+CompressO 適合一般壓縮與批次轉檔；Final Cut Pro／Motion 整合、專業 HDR 與交付套件不列入替代範圍。Apple Compressor 價格查核於 2026-10-15。
+
+CompressO 由 Hans 推薦好用，官方文件已查核，本專案未實測。穩定版 3.0.0 發布於 2026-04-06，繁中介面未確認。Mac 未公證，官方 Homebrew cask 會移除隔離屬性；官方也列有 Debian 13／Ubuntu 24 相容性問題。[官方下載與版本說明](https://github.com/codeforreal1/compressO/releases/tag/3.0.0)，查核日 2026-10-15。
 
 你不必一次換十個。從最常用、最容易取消的一筆開始，下載候選，用自己的檔案跑完一個完整流程，再決定是否停訂。這份清單會把平台、中文狀態、授權、免費限制與官方入口一起說清楚，不只丟給你一串軟體名稱。
 
@@ -95,7 +99,7 @@
 | [逐字稿與會議轉錄](docs/CATALOG.zh-TW.md#transcription) | 10 | Vibe、Buzz、aTrain |
 | [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 4 | Subtitle Edit、pyVideoTrans、VideoLingo |
 | [TTS 文字轉語音](docs/CATALOG.zh-TW.md#text-to-speech) | 7 | Readest、Piper（現行維護線）、Qwen3-TTS |
-| [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 11 | Auto-Editor、LosslessCut、Kdenlive |
+| [影片剪輯、合成與轉檔](docs/CATALOG.zh-TW.md#video-editing) | 12 | Auto-Editor、LosslessCut、Kdenlive |
 | [音訊編輯](docs/CATALOG.zh-TW.md#audio-editing) | 2 | Audacity、Ultimate Vocal Remover（UVR） |
 | [修圖與繪圖](docs/CATALOG.zh-TW.md#graphics) | 3 | GIMP、Krita、PhotoCraft |
 | [文書與 Office](docs/CATALOG.zh-TW.md#office) | 3 | LibreOffice、ONLYOFFICE Desktop Editors、Collabora Office |
@@ -221,7 +225,7 @@ Windows 將 python3 改成 `py -3`。`--include-engines` 可顯示引擎；自�
 
 附帶程式不連網，清單與報告寫到本機；若將內容交給雲端 AI，仍會發生雲端處理。嚴格離線時請直接使用本機 CLI。收集器為實驗性，Windows／Mac 真機驗收仍待完成；可先提供手動工具名稱清單。
 
-本次資料集更新於 **2026-10-13**；新增 Obsidian 作為 Notion 個人筆記／知識管理的免費首選，也新增 ClamAV 作為防毒引擎候選，並明確標示非開源、命令列或需要額外設定的限制。各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
+本次資料集更新於 **2026-10-15**；新增 Obsidian 作為 Notion 個人筆記／知識管理的免費首選，也新增 ClamAV 作為防毒引擎候選，並明確標示非開源、命令列或需要額外設定的限制。各工具保留原查核日，未把未重查的舊項目標成今日查核。不自動安裝、卸載、取消訂閱；不從安裝清單猜帳單。
 
 [Spec](docs/SPEC.zh-TW.md) · [v0.2 優化規劃](docs/OPTIMIZATION.zh-TW.md) · [驗收狀態](docs/STATUS.md)。v0.1.0-alpha 持續擴充中；後續規劃的數量目標不當成已完成。
 

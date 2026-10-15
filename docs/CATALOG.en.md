@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**206 candidates · 54 categories · 195 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**207 candidates · 54 categories · 196 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 
-Dataset updated: 2026-10-13; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
+Dataset updated: 2026-10-15; individual review dates remain in each row. Includes engines and setup-heavy projects, not all free one-click downloads. Workflows and Chinese quality untested.
 
 [Alternatives](ALTERNATIVES.en.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -117,6 +117,7 @@ Dataset updated: 2026-10-13; individual review dates remain in each row. Include
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | Editing, grading and audio post-production | Evaluate the task | macos, windows, linux · desktop | free tier; proprietary · see-upstream | Studio AI and advanced effects are paid; test actual codecs and hardware. | [official-docs-partial](https://www.blackmagicdesign.com/products/davinciresolve) / 2026-09-10 |
 | [FilmCraft](https://github.com/storytold/filmcraft) · [Download](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | New-project trials for timeline editing, color, captions and audio mixing | Trial only; early development | macos, windows, linux · desktop | free and open-source · MIT OR Apache-2.0 | Early development. Large-media performance, camera/phone files and cross-platform coverage need work; no VST3, Audio Units or OpenFX hosting. Premiere migration is untested. Official HEVC export descriptions conflict; verify the OS/GPU path. This version has no Traditional Chinese UI in its language registry. | [official-docs-reviewed](https://github.com/storytold/filmcraft/blob/v0.4.0/README.md) / 2026-10-09 |
 | [EffectCraft](https://github.com/storytold/effectcraft) · [Download](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | Research trials for motion graphics, keyframes, compositing and headless rendering | Research only; retain client-work tools | macos, windows, linux · desktop | free and open-source · MIT OR Apache-2.0 | Upstream describes an early tool; retain After Effects for client work. Cannot open .aep/.aepx or host After Effects plugins. An effect's presence does not establish matching behavior. No Traditional Chinese UI in this version; CLI/MCP are documentation-reviewed only. | [official-docs-reviewed](https://github.com/storytold/effectcraft/blob/v0.6.0/README.md) / 2026-10-09 |
+| [CompressO](https://github.com/codeforreal1/compressO) · [Download](https://github.com/codeforreal1/compressO/releases/tag/3.0.0) | Offline video/image compression, batch processing and video-to-GIF for recordings and preview deliveries | Evaluate the task | macos, windows, linux · desktop | free and open-source · AGPL-3.0 | User-recommended; official documentation reviewed, not runtime-tested here. Traditional Chinese UI unverified. Size and quality depend on input/settings. macOS app is not notarized; official Homebrew cask removes quarantine. Official README lists Debian 13/Ubuntu 24 compatibility issues. Not a full editor or automatic captioning tool. | [official-docs-reviewed](https://github.com/codeforreal1/compressO) / 2026-10-15 |
 
 ## audio-editing
 

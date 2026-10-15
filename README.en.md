@@ -5,7 +5,7 @@
 **Replace the tools you pay for with suitable free/open-source options, test them on your real work, then decide whether to cancel.**
 
 <!-- catalog-summary:start -->
-**206 candidates · 54 categories · 195 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**207 candidates · 54 categories · 196 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
@@ -32,9 +32,9 @@ The detailed ArtCraft and recording/download reviews remain available in the res
 
 ## What could you save?
 
-### Replace these 10 paid tools: about US$1,040 a year
+### Ten free alternatives: about US$1,006 in first-year costs
 
-If you pay for recording, screenshots, Office, notes, image editing, PDF editing, passwords, antivirus, Mac maintenance and personal finance software, these costs can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US public prices checked on 2026-10-13**. The ten examples total **US$1,040.01**, rounded on the homepage to about **US$1,040/year**. Adobe is counted once, represented by Photoshop; Slack, Dropbox, Figma and Otter are excluded because they are primarily network services rather than desktop-software examples.
+If you pay for recording, screenshots, Office, notes, image editing, PDF editing, passwords, antivirus, Mac maintenance and video compression software, these costs can become a large invisible fixed cost. Each category below keeps one representative paid tool, using **US public prices checked on 2026-10-13**. Nine priced examples total **US$956.13/year**. Apple Compressor adds a US$49.99 one-time purchase, bringing first-year costs to US$1,006.12. Adobe is counted once, represented by Photoshop; Slack, Dropbox, Figma and Otter are excluded because they are primarily network services rather than desktop-software examples.
 
 This is not a market-share ranking or a promise that every reader can save this amount. It counts only when you actually pay the expense, the replacement completes your work, and you stop renewing or buying the original tool.
 
@@ -48,10 +48,12 @@ This is not a market-share ranking or a promise that every reader can save this 
 6. **PDF editing**: [PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99/year → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 7. **Passwords**: [1Password Individual](https://1password.com/pricing/personal) US$47.88 annualized → **[Proton Pass](https://proton.me/pass)**
 8. **Mac maintenance**: [CleanMyMac](https://macpaw.com/store/cleanmymac) US$9.95/month, US$119.40/year → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
-9. **Personal finance**: [Quicken Classic Deluxe](https://www.quicken.com/products/classic-deluxe/) US$6.99/month equivalent, US$83.88 billed annually (first-year offer) → **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)**
+9. **Video compression and conversion**: [Apple Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12) US$49.99 one-time → **[CompressO](https://github.com/codeforreal1/compressO)** for ordinary offline batch compression/conversion, excluding Final Cut/Motion integration and professional HDR/delivery workflows.
 10. **Antivirus**: [Avast Premium Security](https://www.avast.com/premium-security) US$77.99/year (renewal benchmark) → **[ClamAV](https://www.clamav.net/)**
 
-**Ten-example total: about US$1,040.01/year.**
+**First-year total: US$1,006.12 = US$956.13 recurring annual benchmarks + US$49.99 one-time. Do not repeat the purchase in later years. Apple price reviewed 2026-10-15.**
+
+CompressO was recommended by Hans; official docs reviewed 2026-10-15, not runtime-tested here. Stable 3.0.0 was released 2026-04-06. Traditional Chinese UI unverified. macOS is not notarized; official Homebrew cask removes quarantine. Upstream lists Debian 13/Ubuntu 24 compatibility issues. [Official downloads](https://github.com/codeforreal1/compressO/releases/tag/3.0.0).
 
 You do not need to replace ten tools at once. Start with the subscription you use most and can cancel most easily, download the candidate, run one complete workflow with your own files, then decide. The catalog explains platforms, Chinese-language status, licensing, free limits and official entry points instead of giving you a bare list of names.
 
@@ -84,7 +86,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
 | [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 4 | Subtitle Edit, pyVideoTrans, VideoLingo |
 | [Text to speech](docs/CATALOG.en.md#text-to-speech) | 7 | Readest, Piper（現行維護線）, Qwen3-TTS |
-| [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 11 | Auto-Editor, LosslessCut, Kdenlive |
+| [Video editing, compositing and conversion](docs/CATALOG.en.md#video-editing) | 12 | Auto-Editor, LosslessCut, Kdenlive |
 | [Audio editing](docs/CATALOG.en.md#audio-editing) | 2 | Audacity, Ultimate Vocal Remover（UVR） |
 | [Graphics](docs/CATALOG.en.md#graphics) | 3 | GIMP, Krita, PhotoCraft |
 | [Office documents](docs/CATALOG.en.md#office) | 3 | LibreOffice, ONLYOFFICE Desktop Editors, Collabora Office |

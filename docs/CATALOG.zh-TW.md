@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**206 個候選 · 54 大類 · 195 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**207 個候選 · 54 大類 · 196 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
-資料集更新：2026-10-13；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
+資料集更新：2026-10-15；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
 [Alternatives](ALTERNATIVES.zh-TW.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -117,6 +117,7 @@
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 剪輯、調色、音訊後製 | 依用途評估 | macos, windows, linux · 桌面軟體 | 有免費版；非開源 · see-upstream | 有免費桌面版；Studio 的 AI、降噪等不算免費能力，格式支援需按素材核對。 | [official-docs-partial](https://www.blackmagicdesign.com/products/davinciresolve) / 2026-09-10 |
 | [FilmCraft](https://github.com/storytold/filmcraft) · [下載](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 時間軸剪輯、調色、字幕與混音的新專案試用 | 建議試用，早期開發 | macos, windows, linux · 桌面軟體 | 免費開源 · MIT OR Apache-2.0 | 早期開發。大型素材效能、相機／手機檔案與跨平台測試仍待補足，不支援 VST3／Audio Units／OpenFX 外掛；Premiere 專案遷移未驗證。官方文件對 HEVC 匯出描述有出入，需依作業系統與 GPU 實測。此版本 UI 語言清單沒有繁中。 | [official-docs-reviewed](https://github.com/storytold/filmcraft/blob/v0.4.0/README.md) / 2026-10-09 |
 | [EffectCraft](https://github.com/storytold/effectcraft) · [下載](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | 動態圖形、關鍵影格、合成與背景渲染的研究用途 | 研究用途，暫不建議客戶工作 | macos, windows, linux · 桌面軟體 | 免費開源 · MIT OR Apache-2.0 | 官方列為早期工具，暫不建議取代客戶 AE 工作。無法開啟 .aep／.aepx，也不能使用 After Effects 外掛；大量效果存在不等於與 AE 行為一致。此版本 UI 未提供繁中，CLI／MCP 僅核對文件。 | [official-docs-reviewed](https://github.com/storytold/effectcraft/blob/v0.6.0/README.md) / 2026-10-09 |
+| [CompressO](https://github.com/codeforreal1/compressO) · [下載](https://github.com/codeforreal1/compressO/releases/tag/3.0.0) | 離線壓縮影片與圖片、批次處理、影片轉 GIF，適合課程錄影與交付預覽檔縮小容量 | 依用途評估 | macos, windows, linux · 桌面軟體 | 免費開源 · AGPL-3.0 | 使用者推薦好用，官方文件已查核，本專案尚未實測。繁中介面未確認。壓縮率與畫質依來源及設定而異；Mac 未公證，官方 Homebrew cask 會移除隔離屬性。官方仍列 Debian 13／Ubuntu 24 相容性問題。不能取代完整剪輯與自動字幕工具。 | [official-docs-reviewed](https://github.com/codeforreal1/compressO) / 2026-10-15 |
 
 ## audio-editing
 

@@ -120,3 +120,9 @@ O01 is complete: bilingual specification, README links and two GitHub issue temp
 
 - Adobe 家族在首頁節費案例只保留 Photoshop 一筆，並移除 Acrobat 的重複計算；依使用者意見，Slack、Dropbox、Figma、Otter 等以網路服務為主的工具也不放入這組桌面軟體案例。 / The homepage savings basket now counts the Adobe family once through Photoshop and removes Acrobat from the duplicate calculation; following user feedback, primarily network-based tools such as Slack, Dropbox, Figma and Otter are also excluded from this desktop-software basket.
 - 以 PDF Expert、CleanMyMac、Quicken Classic Deluxe 與 Avast Premium Security 對 ClamAV 補回不同桌面工具類別，十筆示例改為 US$1,040.01，首頁四捨五入顯示約 US$1,040／年；這仍是公開價格基準，不是個人實際帳單或保證節省。 / PDF Expert, CleanMyMac, Quicken Classic Deluxe and Avast Premium Security versus ClamAV restore distinct desktop-software categories; the ten-example total is now US$1,040.01, rounded on the homepage to about US$1,040/year. This remains an illustrative public-price benchmark, not a personal invoice or guaranteed savings.
+
+## 2026-10-15 CompressO 影片壓縮推薦
+
+- 依 Hans 指定，首頁十筆節費案例第 9 筆「個人記帳」改為 CompressO；不另外建立推薦排行榜。
+- 付費對照採 Apple Compressor，2026-10-15 官方美國價格買斷 US$49.99；九筆年度費用 US$956.13，首年合計 US$1,006.12。買斷與年度費用分開。首頁「年化」改為「年繳」，計算說明保留月費乘 12 的原基準。
+- 產品資料與雙語目錄新增影片／圖片離線壓縮、平台、AGPL-3.0、官方下載與穩定版 3.0.0（2026-04-06）。本專案未實測，繁中介面未知，保留 Mac 公證與 Linux 相容性限制。
