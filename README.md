@@ -46,7 +46,7 @@
 6. **PDF 編輯**：[PDF Expert Pro](https://pdfexpert.com/pricing) US$79.99／年 → **[PDFsam Basic](https://pdfsam.org/pdfsam-basic/)**
 7. **密碼管理**：[1Password Individual](https://1password.com/pricing/personal) 年繳 US$47.88 → **[Proton Pass](https://proton.me/pass)**
 8. **Mac 維護**：[CleanMyMac](https://macpaw.com/store/cleanmymac) 月繳 US$9.95，年繳 US$119.40 → **[Pearcleaner](https://github.com/Alienator88/Pearcleaner)**
-9. **影片壓縮與轉檔**：[Apple Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12) 買斷 US$49.99 → **[CompressO](https://github.com/codeforreal1/compressO)**，免費開源、離線批次壓縮，支援 Mac／Windows／Linux。
+9. **影片壓縮與轉檔**：[Apple Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12) 買斷 US$49.99 → **[CompressO](https://github.com/codeforreal1/compressO)**
 10. **防毒**：[Avast Premium Security](https://www.avast.com/premium-security) US$77.99／年（續訂基準）→ **[ClamAV](https://www.clamav.net/)**
 
 **首年合計：US$1,006.12（九筆年度費用 US$956.13，加一筆買斷 US$49.99）。往後年度不重複計入買斷費。**
