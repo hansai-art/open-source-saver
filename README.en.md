@@ -5,7 +5,7 @@
 **Replace the tools you pay for with suitable free/open-source options, test them on your real work, then decide whether to cancel.**
 
 <!-- catalog-summary:start -->
-**207 candidates · 54 categories · 196 open-source projects · 9 proprietary free-tier/built-in candidates · 2 source-available candidates**
+**213 candidates · 54 categories · 200 open-source projects · 11 proprietary free-tier/built-in candidates · 2 source-available candidates**
 <!-- catalog-summary:end -->
 
 **Also included: 1,346 searchable upstream leads across 84 upstream tags and 48 international research sources.** Upstream leads are unreviewed, may overlap curated products, and are counted separately.
@@ -81,7 +81,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | Category | Count | Examples |
 |---|---:|---|
 | [Screen recording](docs/CATALOG.en.md#screen-recording) | 14 | OBS Studio, Recordly, Capptivo |
-| [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 9 | ShareX, Flameshot, ksnip |
+| [Screenshots and OCR](docs/CATALOG.en.md#screenshots-ocr) | 10 | ShareX, Flameshot, ksnip |
 | [Voice typing / dictation](docs/CATALOG.en.md#dictation) | 6 | Handy, OpenWhispr, VoiceInk |
 | [Transcription and meetings](docs/CATALOG.en.md#transcription) | 10 | Vibe, Buzz, aTrain |
 | [Subtitles and translation](docs/CATALOG.en.md#subtitles) | 4 | Subtitle Edit, pyVideoTrans, VideoLingo |
@@ -92,7 +92,7 @@ These are starting candidates, not a runtime-tested ranking. [Each catalog row](
 | [Office documents](docs/CATALOG.en.md#office) | 3 | LibreOffice, ONLYOFFICE Desktop Editors, Collabora Office |
 | [PDF reading and processing](docs/CATALOG.en.md#pdf) | 4 | PDF24 Creator, SumatraPDF, PDFsam Basic |
 | [File transfer and synchronization](docs/CATALOG.en.md#file-transfer) | 3 | LocalSend, Syncthing, rclone |
-| [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 4 | Rectangle, Maccy, Pearcleaner |
+| [Windows, clipboard and system utilities](docs/CATALOG.en.md#productivity) | 9 | Rectangle, Maccy, Pearcleaner |
 | [Archives](docs/CATALOG.en.md#archives) | 2 | 7-Zip, PeaZip |
 | [Media players](docs/CATALOG.en.md#media-players) | 3 | VLC media player, IINA, FreeTube |
 | [Email](docs/CATALOG.en.md#email) | 1 | Thunderbird |
