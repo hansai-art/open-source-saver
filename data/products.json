@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-20",
   "products": [
     {
       "id": "oss-001",
@@ -8386,6 +8386,226 @@
         "prerelease": false,
         "asset_listing_reviewed": true
       }
+    },
+    {
+      "id": "add-022",
+      "name": "Tendedero",
+      "category": "screenshots-ocr",
+      "keywords": [
+        "截圖",
+        "截圖管理",
+        "桌面整理",
+        "screenshots",
+        "screenshot manager"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/alejandrobujan/tendedero",
+      "sources": [
+        "https://github.com/alejandrobujan/tendedero/blob/main/README.md",
+        "https://github.com/alejandrobujan/tendedero/releases/latest",
+        "https://github.com/alejandrobujan/tendedero/blob/main/LICENSE"
+      ],
+      "cost": "free and open-source",
+      "license": "MIT (name and icon excluded)",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "把新截圖與複製的圖片暫存在螢幕上緣，點擊複製、拖曳分享，減少桌面堆滿截圖。",
+        "limits": "macOS 14+；第一次啟用可接管系統截圖儲存設定，會關閉浮動縮圖並改存至專用資料夾；程式碼採 MIT，但名稱與圖示不在授權範圍。"
+      },
+      "en": {
+        "use": "Temporarily hangs screenshots and copied images above the screen; click to copy or drag them into apps and folders.",
+        "limits": "macOS 14+. If accepted on first launch, it changes screenshot saving and disables floating thumbnails. MIT covers the code, not the name or icon."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "add-023",
+      "name": "Reminders MenuBar",
+      "category": "productivity",
+      "keywords": [
+        "提醒事項",
+        "選單列",
+        "Apple Reminders",
+        "menu bar reminders"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/DamascenoRafael/reminders-menubar",
+      "sources": [
+        "https://github.com/DamascenoRafael/reminders-menubar#readme",
+        "https://github.com/DamascenoRafael/reminders-menubar/releases/latest"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "zh": {
+        "use": "從 macOS 選單列檢視、搜尋、建立與完成 Apple 提醒事項，支援自然語言日期、標籤、清單和快捷鍵。",
+        "limits": "macOS 12+；需授權存取 Apple 提醒事項，資料仍由 Apple Reminders 管理與同步。"
+      },
+      "en": {
+        "use": "View, search, create and complete Apple Reminders from the macOS menu bar, with natural-language dates, tags, lists and a global shortcut.",
+        "limits": "macOS 12+. Requires permission to access Apple Reminders; Apple Reminders remains the data source."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "add-024",
+      "name": "Raycast",
+      "category": "productivity",
+      "keywords": [
+        "啟動器",
+        "剪貼簿歷史",
+        "視窗管理",
+        "Spotlight",
+        "launcher",
+        "clipboard history"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.raycast.com/",
+      "sources": [
+        "https://www.raycast.com/pricing",
+        "https://manual.raycast.com/billing"
+      ],
+      "cost": "free tier; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "以快捷鍵啟動 App、查找檔案、使用剪貼簿歷史、計算機、視窗管理與擴充功能。",
+        "limits": "免費版可永久使用，剪貼簿歷史保留 3 個月；雲端同步、無限歷史與 AI 等功能屬付費方案，非開源。"
+      },
+      "en": {
+        "use": "Keyboard launcher for apps and files, with clipboard history, calculator, window management and extensions.",
+        "limits": "Free plan is ongoing and keeps clipboard history for three months. Cloud sync, unlimited history and AI are paid; proprietary."
+      },
+      "source_type": "proprietary"
+    },
+    {
+      "id": "add-025",
+      "name": "Alfred",
+      "category": "productivity",
+      "keywords": [
+        "Mac啟動器",
+        "Spotlight",
+        "搜尋",
+        "launcher",
+        "macOS productivity"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://www.alfredapp.com/",
+      "sources": [
+        "https://www.alfredapp.com/help/why-choose-alfred/",
+        "https://www.alfredapp.com/help/overview/",
+        "https://www.alfredapp.com/powerpack/"
+      ],
+      "cost": "free tier; proprietary",
+      "license": "see-upstream",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "用快捷鍵搜尋 Mac App、檔案、聯絡人和網站，也可快速計算、查字典與執行系統指令。",
+        "limits": "核心搜尋工具可免費使用；剪貼簿歷史、工作流程、自動化等進階功能需要付費 Powerpack，非開源。"
+      },
+      "en": {
+        "use": "Keyboard search for Mac apps, files, contacts and websites, plus quick calculations, dictionary lookup and system commands.",
+        "limits": "Core search is free. Clipboard history, workflows and other advanced features require the paid Powerpack; proprietary."
+      },
+      "source_type": "proprietary"
+    },
+    {
+      "id": "add-026",
+      "name": "Atoll",
+      "category": "productivity",
+      "keywords": [
+        "Mac選單列",
+        "動態島",
+        "notch",
+        "系統監控",
+        "clipboard",
+        "menu bar"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/Ebullioscopic/Atoll",
+      "sources": [
+        "https://github.com/Ebullioscopic/Atoll/blob/main/ReadMe.md",
+        "https://github.com/Ebullioscopic/Atoll/releases/latest"
+      ],
+      "cost": "free and open-source",
+      "license": "GPL-3.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "unknown",
+      "zh": {
+        "use": "把 MacBook 劉海區變成控制面板，可切換媒體、查看 CPU／GPU 等系統資訊，並使用計時器、剪貼簿與行事曆預覽。",
+        "limits": "macOS 14+ 且需有劉海的 14／16 吋 MacBook Pro；依功能要求輔助使用、相機、行事曆、螢幕錄製或音樂權限。"
+      },
+      "en": {
+        "use": "Turns the MacBook notch into a control surface for media, system stats, timers, clipboard and calendar previews.",
+        "limits": "Requires macOS 14+ and a notched 14- or 16-inch MacBook Pro. Some features request Accessibility, Camera, Calendar, Screen Recording or Music permissions."
+      },
+      "source_type": "open-source"
+    },
+    {
+      "id": "add-027",
+      "name": "RunCat Neo",
+      "category": "productivity",
+      "keywords": [
+        "CPU監控",
+        "選單列",
+        "系統監控",
+        "macOS menubar",
+        "CPU monitor"
+      ],
+      "platforms": [
+        "macos"
+      ],
+      "delivery": "desktop",
+      "url": "https://github.com/runcat-dev/RunCatNeo",
+      "sources": [
+        "https://github.com/runcat-dev/RunCatNeo#readme",
+        "https://apps.apple.com/tw/app/runcat-neo/id6757801838?mt=12",
+        "https://github.com/runcat-dev/RunCatNeo/blob/main/LICENSE"
+      ],
+      "cost": "free and open-source; optional in-app purchases",
+      "license": "Apache-2.0",
+      "evidence": "official-docs-reviewed",
+      "checked_on": "2026-10-20",
+      "runtime_tested": false,
+      "zh_tw": "official-ui-present; quality-untested",
+      "zh": {
+        "use": "在選單列用跑步貓動畫顯示 CPU 使用狀況，也可加入本機 JSON 自訂指標卡。",
+        "limits": "需要 macOS 26+；App Store 免費下載並有選購項目，舊版 macOS 不支援。"
+      },
+      "en": {
+        "use": "Shows CPU activity as a running cat in the menu bar and can display custom metrics from a local JSON file.",
+        "limits": "Requires macOS 26+. The App Store download is free and offers optional in-app purchases; older macOS versions are unsupported."
+      },
+      "source_type": "open-source"
     }
   ],
   "checked_on_note": "Dataset update date only; individual product review dates are retained. Third-party workflows remain untested."
