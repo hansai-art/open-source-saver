@@ -326,11 +326,12 @@
         "Paste"
       ],
       "targets": [
-        "add-007"
+        "add-007",
+        "add-024"
       ],
       "year_suffix": false,
-      "zh_note": "先確認 macOS 版本與跨裝置同步需求。",
-      "en_note": "Check macOS version and cross-device sync requirements.",
+      "zh_note": "Maccy 是免費開源的本機剪貼簿歷史；Raycast 免費版另含剪貼簿歷史但只保留 3 個月。依 macOS 版本與跨裝置同步需求選擇。",
+      "en_note": "Maccy is free, open-source and local; Raycast Free includes clipboard history for three months. Choose by macOS version and cross-device sync needs.",
       "relationship_status": "conditional-candidates-not-workflow-tested"
     },
     {
