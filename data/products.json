@@ -8599,11 +8599,11 @@
       "zh_tw": "official-ui-present; quality-untested",
       "zh": {
         "use": "在選單列用跑步貓動畫顯示 CPU 使用狀況，也可加入本機 JSON 自訂指標卡。",
-        "limits": "需要 macOS 26+；App Store 免費下載並有選購項目，舊版 macOS 不支援。"
+        "limits": "目前專案 README 列 macOS 26.3+，台灣 App Store 列 macOS 26.0+，相容性標示有落差；App Store 免費下載並有選購項目，舊版 macOS 不支援。"
       },
       "en": {
         "use": "Shows CPU activity as a running cat in the menu bar and can display custom metrics from a local JSON file.",
-        "limits": "Requires macOS 26+. The App Store download is free and offers optional in-app purchases; older macOS versions are unsupported."
+        "limits": "The project README lists macOS 26.3+ while the Taiwan App Store lists 26.0+, so compatibility wording differs. The App Store download is free with optional in-app purchases; older macOS versions are unsupported."
       },
       "source_type": "open-source"
     }
