@@ -24,7 +24,7 @@
 | 1Password / LastPass | [Proton Pass](CATALOG.zh-TW.md#passwords), [KeePassXC](CATALOG.zh-TW.md#passwords) | 密碼管理先看 Proton Pass；再測匯入、同步、分享與復原流程。 |
 | Evernote | [Joplin](CATALOG.zh-TW.md#notes-reading) | 先測筆記匯入與附件；雲端同步費用另計。 |
 | Magnet | [Rectangle](CATALOG.zh-TW.md#productivity) | 只比對視窗排列；Rectangle Pro 不在免費範圍。 |
-| Paste | [Maccy](CATALOG.zh-TW.md#productivity) | 先確認 macOS 版本與跨裝置同步需求。 |
+| Paste | [Maccy](CATALOG.zh-TW.md#productivity), [Raycast](CATALOG.zh-TW.md#productivity) | Maccy 是免費開源的本機剪貼簿歷史；Raycast 免費版另含剪貼簿歷史但只保留 3 個月。依 macOS 版本與跨裝置同步需求選擇。 |
 | Microsoft Outlook | [Thunderbird](CATALOG.zh-TW.md#email) | 郵件客戶端不能取代信箱主機或所有企業 Exchange 功能。 |
 | Adobe Illustrator | [Inkscape](CATALOG.zh-TW.md#vector-design), [VectorCraft](CATALOG.zh-TW.md#vector-design) | 向量圖形候選；需測 AI、字型與印刷交付，Creative Cloud 套裝仍保留時不計整套節省。 VectorCraft 為早期開發候選，先以新專案或測試檔試用。 |
 | Adobe InDesign / QuarkXPress | [Scribus](CATALOG.zh-TW.md#desktop-publishing), [DesignCraft](CATALOG.zh-TW.md#desktop-publishing) | 先測印刷 PDF、頁碼、段落樣式與繁中斷行，專案格式不保證往返。 DesignCraft 為早期開發候選，先以新專案或測試檔試用。 |
