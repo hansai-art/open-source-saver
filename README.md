@@ -5,7 +5,7 @@
 **把你正在付費的工具換成合適的免費／開源方案，先用自己的工作試一次，再決定是否取消訂閱。**
 
 <!-- catalog-summary:start -->
-**207 個候選 · 54 大類 · 196 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**213 個候選 · 54 大類 · 200 個開源專案 · 11 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 <!-- catalog-summary:end -->
 
 **另有 1,346 筆可離線搜尋的上游線索、84 個上游分類，以及 48 筆國內外研究來源。** 上游線索尚未逐項查核，與工具目錄可能重疊，數量分開計算。
@@ -94,7 +94,7 @@ CompressO 由 Hans 推薦好用，官方文件已查核，本專案未實測。�
 | 分類 | 數量 | 例子 |
 |---|---:|---|
 | [螢幕錄影](docs/CATALOG.zh-TW.md#screen-recording) | 14 | OBS Studio、Recordly、Capptivo |
-| [截圖與 OCR](docs/CATALOG.zh-TW.md#screenshots-ocr) | 9 | ShareX、Flameshot、ksnip |
+| [截圖與 OCR](docs/CATALOG.zh-TW.md#screenshots-ocr) | 10 | ShareX、Flameshot、ksnip |
 | [語音輸入／聽寫](docs/CATALOG.zh-TW.md#dictation) | 6 | Handy、OpenWhispr、VoiceInk |
 | [逐字稿與會議轉錄](docs/CATALOG.zh-TW.md#transcription) | 10 | Vibe、Buzz、aTrain |
 | [字幕與翻譯](docs/CATALOG.zh-TW.md#subtitles) | 4 | Subtitle Edit、pyVideoTrans、VideoLingo |
@@ -105,7 +105,7 @@ CompressO 由 Hans 推薦好用，官方文件已查核，本專案未實測。�
 | [文書與 Office](docs/CATALOG.zh-TW.md#office) | 3 | LibreOffice、ONLYOFFICE Desktop Editors、Collabora Office |
 | [PDF 閱讀與處理](docs/CATALOG.zh-TW.md#pdf) | 4 | PDF24 Creator、SumatraPDF、PDFsam Basic |
 | [傳檔與檔案同步](docs/CATALOG.zh-TW.md#file-transfer) | 3 | LocalSend、Syncthing、rclone |
-| [視窗、剪貼簿與系統整理](docs/CATALOG.zh-TW.md#productivity) | 4 | Rectangle、Maccy、Pearcleaner |
+| [視窗、剪貼簿與系統整理](docs/CATALOG.zh-TW.md#productivity) | 9 | Rectangle、Maccy、Pearcleaner |
 | [壓縮與解壓縮](docs/CATALOG.zh-TW.md#archives) | 2 | 7-Zip、PeaZip |
 | [影音播放](docs/CATALOG.zh-TW.md#media-players) | 3 | VLC media player、IINA、FreeTube |
 | [電子郵件](docs/CATALOG.zh-TW.md#email) | 1 | Thunderbird |
