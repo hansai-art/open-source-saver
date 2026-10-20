@@ -184,7 +184,7 @@
 | [Raycast](https://www.raycast.com/) | 以快捷鍵啟動 App、查找檔案、使用剪貼簿歷史、計算機、視窗管理與擴充功能。 | 依用途評估 | macos · 桌面軟體 | 有免費版；非開源 · see-upstream | 免費版可永久使用，剪貼簿歷史保留 3 個月；雲端同步、無限歷史與 AI 等功能屬付費方案，非開源。 | [official-docs-reviewed](https://www.raycast.com/pricing) / 2026-10-20 |
 | [Alfred](https://www.alfredapp.com/) | 用快捷鍵搜尋 Mac App、檔案、聯絡人和網站，也可快速計算、查字典與執行系統指令。 | 依用途評估 | macos · 桌面軟體 | 有免費版；非開源 · see-upstream | 核心搜尋工具可免費使用；剪貼簿歷史、工作流程、自動化等進階功能需要付費 Powerpack，非開源。 | [official-docs-reviewed](https://www.alfredapp.com/help/why-choose-alfred/) / 2026-10-20 |
 | [Atoll](https://github.com/Ebullioscopic/Atoll) | 把 MacBook 劉海區變成控制面板，可切換媒體、查看 CPU／GPU 等系統資訊，並使用計時器、剪貼簿與行事曆預覽。 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | macOS 14+ 且需有劉海的 14／16 吋 MacBook Pro；依功能要求輔助使用、相機、行事曆、螢幕錄製或音樂權限。 | [official-docs-reviewed](https://github.com/Ebullioscopic/Atoll/blob/main/ReadMe.md) / 2026-10-20 |
-| [RunCat Neo](https://github.com/runcat-dev/RunCatNeo) | 在選單列用跑步貓動畫顯示 CPU 使用狀況，也可加入本機 JSON 自訂指標卡。 | 依用途評估 | macos · 桌面軟體 | free and open-source; optional in-app purchases · Apache-2.0 | 需要 macOS 26+；App Store 免費下載並有選購項目，舊版 macOS 不支援。 | [official-docs-reviewed](https://github.com/runcat-dev/RunCatNeo#readme) / 2026-10-20 |
+| [RunCat Neo](https://github.com/runcat-dev/RunCatNeo) | 在選單列用跑步貓動畫顯示 CPU 使用狀況，也可加入本機 JSON 自訂指標卡。 | 依用途評估 | macos · 桌面軟體 | free and open-source; optional in-app purchases · Apache-2.0 | 目前專案 README 列 macOS 26.3+，台灣 App Store 列 macOS 26.0+，相容性標示有落差；App Store 免費下載並有選購項目，舊版 macOS 不支援。 | [official-docs-reviewed](https://github.com/runcat-dev/RunCatNeo#readme) / 2026-10-20 |
 
 ## archives
 
