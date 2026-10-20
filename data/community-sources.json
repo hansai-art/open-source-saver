@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-09-11",
+  "checked_on": "2026-10-20",
   "sources": [
     {
       "id": "f01",
@@ -93,6 +93,25 @@
       "en_summary": "A 2023 comment favors SumatraPDF over buying a reader. Switching from an already-free reader still saves zero license fees.",
       "review_status": "reviewed",
       "checked_on": "2026-09-11"
+    },
+    {
+      "id": "f08",
+      "platform": "Threads",
+      "title": "天啊 在脆上滑倒一堆mac的軟體，下載下來有夠香",
+      "url": "https://www.threads.com/share/BAXvxkTCYi/",
+      "evidence_type": "user-thread-and-comments",
+      "product_ids": [
+        "add-022",
+        "add-023",
+        "add-024",
+        "add-025",
+        "add-026",
+        "add-027"
+      ],
+      "zh_summary": "高互動貼文與公開回覆提到一批 Mac 工具。回查官方頁面後，收錄可免費使用且有正式下載的 Tendedero、Reminders MenuBar、Raycast、Alfred、Atoll、RunCat Neo；Piclio 尚未開放下載，ZingIME 是限期試用後付費，Bob 為非開源軟體，未列入免費清單。",
+      "en_summary": "A high-engagement post and public replies mention Mac utilities. After checking official pages, this source points to Tendedero, Reminders MenuBar, Raycast, Alfred, Atoll and RunCat Neo, which have usable free editions and official downloads. Piclio is not available yet, ZingIME is a time-limited trial, and Bob is proprietary, so they were not added to the free catalog.",
+      "review_status": "reviewed",
+      "checked_on": "2026-10-20"
     }
   ],
   "counting_note": "Count distinct URLs, including individual comments; do not add these mentions to product counts."
