@@ -2,9 +2,9 @@
 
 [繁體中文](CATALOG.zh-TW.md) · [English](CATALOG.en.md)
 
-**207 個候選 · 54 大類 · 196 個開源專案 · 9 個非開源免費版／內建候選 · 2 個原始碼可見候選**
+**213 個候選 · 54 大類 · 200 個開源專案 · 11 個非開源免費版／內建候選 · 2 個原始碼可見候選**
 
-資料集更新：2026-10-15；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
+資料集更新：2026-10-20；個別查核日見各列。包含引擎與需設定項目，不代表全部可免費一鍵安裝；工作流與繁中品質未實測。
 
 [Alternatives](ALTERNATIVES.zh-TW.md) · [Research](RESEARCH.md) · [Sources](SOURCES.md) · [Forums](FORUMS.md) · [JSON](../data/products.json) · [Contribute](../CONTRIBUTING.md)
 
@@ -44,6 +44,7 @@
 | [Lightshot](https://app.prntscr.com/en/index.html) | 快速區域截圖與標註 | 依用途評估 | macos, windows · 桌面軟體 | 免費軟體；非開源 · see-upstream | 有官方免費下載；網路分享會上傳截圖，不等於所有截圖都只留在本機。 | [official-docs-partial](https://app.prntscr.com/en/index.html) / 2026-09-10 |
 | [macshot](https://github.com/sw33tLie/macshot) | Mac 截圖、16:9／固定像素尺寸選取、標註、OCR、翻譯、滾動擷取與錄影 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | 本專案目前列為 Mac 截圖首選，依使用者回饋，非本 repo 重現測試；要求 macOS 12.3+。官方 README 列 40 種語言，但繁中介面與台灣情境仍未實測；雲端上傳需自行設定服務，完整 CleanShot X 等效仍需逐項比對。 | [official-docs-reviewed](https://github.com/sw33tLie/macshot) / 2026-09-25 |
 | [Capso](https://github.com/lzhgus/Capso) | Mac 原生截圖、螢幕錄影、16:9／固定像素尺寸選取、OCR 與標註 | 依用途評估 | macos · 桌面軟體 | free to use; source-available; official cloud sharing uses your own storage and may incur provider costs · Business Source License 1.1; converts to Apache-2.0 after three years per project terms | 要求 macOS 15+；BSL 1.1 是原始碼可見授權，不是 OSI 定義的開源授權，禁止 fork 後販售競爭產品；Cloud Share 需自備 Cloudflare R2，螢幕錄影、相機與麥克風需授權。 | [official-docs-reviewed](https://github.com/lzhgus/Capso/blob/main/README.md) / 2026-09-25 |
+| [Tendedero](https://github.com/alejandrobujan/tendedero) | 把新截圖與複製的圖片暫存在螢幕上緣，點擊複製、拖曳分享，減少桌面堆滿截圖。 | 依用途評估 | macos · 桌面軟體 | 免費開源 · MIT (name and icon excluded) | macOS 14+；第一次啟用可接管系統截圖儲存設定，會關閉浮動縮圖並改存至專用資料夾；程式碼採 MIT，但名稱與圖示不在授權範圍。 | [official-docs-reviewed](https://github.com/alejandrobujan/tendedero/blob/main/README.md) / 2026-10-20 |
 
 ## dictation
 
@@ -179,6 +180,11 @@
 | [Maccy](https://github.com/p0deje/Maccy) | 以快捷鍵搜尋剪貼簿歷史 | 依用途評估 | macos · 桌面軟體 | 免費開源 · MIT | GitHub Releases 可取得免費版本；目前需 macOS 14+，先設定敏感內容排除。 | [official-docs-reviewed](https://github.com/p0deje/Maccy) / 2026-09-11 |
 | [Pearcleaner](https://github.com/alienator88/Pearcleaner) | Mac 應用程式移除與相關檔案整理 | 依用途評估 | macos · 桌面軟體 | 免費；原始碼可見，非開源 · Apache-2.0 with Commons Clause; source-available | Commons Clause 限制，不能標為 OSI 開源；上游維護暫停，不列優先推薦。 | [official-docs-reviewed](https://github.com/alienator88/Pearcleaner) / 2026-09-11 |
 | [BleachBit](https://github.com/bleachbit/bleachbit) | 清理快取、暫存檔與應用程式痕跡 | 依用途評估 | windows, linux · 桌面軟體 | 免費開源 · GPL-3.0-or-later | 刪除前先用預覽檢查範圍；清理不等於修復硬碟或保證加速，正式成品以 Windows／Linux 為主。 | [official-docs-reviewed](https://github.com/bleachbit/bleachbit) / 2026-09-12 |
+| [Reminders MenuBar](https://github.com/DamascenoRafael/reminders-menubar) | 從 macOS 選單列檢視、搜尋、建立與完成 Apple 提醒事項，支援自然語言日期、標籤、清單和快捷鍵。 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | macOS 12+；需授權存取 Apple 提醒事項，資料仍由 Apple Reminders 管理與同步。 | [official-docs-reviewed](https://github.com/DamascenoRafael/reminders-menubar#readme) / 2026-10-20 |
+| [Raycast](https://www.raycast.com/) | 以快捷鍵啟動 App、查找檔案、使用剪貼簿歷史、計算機、視窗管理與擴充功能。 | 依用途評估 | macos · 桌面軟體 | 有免費版；非開源 · see-upstream | 免費版可永久使用，剪貼簿歷史保留 3 個月；雲端同步、無限歷史與 AI 等功能屬付費方案，非開源。 | [official-docs-reviewed](https://www.raycast.com/pricing) / 2026-10-20 |
+| [Alfred](https://www.alfredapp.com/) | 用快捷鍵搜尋 Mac App、檔案、聯絡人和網站，也可快速計算、查字典與執行系統指令。 | 依用途評估 | macos · 桌面軟體 | 有免費版；非開源 · see-upstream | 核心搜尋工具可免費使用；剪貼簿歷史、工作流程、自動化等進階功能需要付費 Powerpack，非開源。 | [official-docs-reviewed](https://www.alfredapp.com/help/why-choose-alfred/) / 2026-10-20 |
+| [Atoll](https://github.com/Ebullioscopic/Atoll) | 把 MacBook 劉海區變成控制面板，可切換媒體、查看 CPU／GPU 等系統資訊，並使用計時器、剪貼簿與行事曆預覽。 | 依用途評估 | macos · 桌面軟體 | 免費開源 · GPL-3.0 | macOS 14+ 且需有劉海的 14／16 吋 MacBook Pro；依功能要求輔助使用、相機、行事曆、螢幕錄製或音樂權限。 | [official-docs-reviewed](https://github.com/Ebullioscopic/Atoll/blob/main/ReadMe.md) / 2026-10-20 |
+| [RunCat Neo](https://github.com/runcat-dev/RunCatNeo) | 在選單列用跑步貓動畫顯示 CPU 使用狀況，也可加入本機 JSON 自訂指標卡。 | 依用途評估 | macos · 桌面軟體 | free and open-source; optional in-app purchases · Apache-2.0 | 需要 macOS 26+；App Store 免費下載並有選購項目，舊版 macOS 不支援。 | [official-docs-reviewed](https://github.com/runcat-dev/RunCatNeo#readme) / 2026-10-20 |
 
 ## archives
 
