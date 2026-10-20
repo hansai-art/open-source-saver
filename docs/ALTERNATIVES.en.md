@@ -24,7 +24,7 @@ Find candidates by the original product. These relationships have not been migra
 | 1Password / LastPass | [Proton Pass](CATALOG.en.md#passwords), [KeePassXC](CATALOG.en.md#passwords) | Start with Proton Pass, then test import, sync, sharing and recovery workflows. |
 | Evernote | [Joplin](CATALOG.en.md#notes-reading) | Test note and attachment imports; cloud sync costs are separate. |
 | Magnet | [Rectangle](CATALOG.en.md#productivity) | Compare window management; Rectangle Pro is outside the free scope. |
-| Paste | [Maccy](CATALOG.en.md#productivity) | Check macOS version and cross-device sync requirements. |
+| Paste | [Maccy](CATALOG.en.md#productivity), [Raycast](CATALOG.en.md#productivity) | Maccy is free, open-source and local; Raycast Free includes clipboard history for three months. Choose by macOS version and cross-device sync needs. |
 | Microsoft Outlook | [Thunderbird](CATALOG.en.md#email) | A mail client does not replace mail hosting or all enterprise Exchange workflows. |
 | Adobe Illustrator | [Inkscape](CATALOG.en.md#vector-design), [VectorCraft](CATALOG.en.md#vector-design) | Vector workflow candidate; validate AI files, fonts and print delivery. Keeping Creative Cloud prevents counting the full suite as savings. VectorCraft is an early-development candidate for trials with new projects or test files. |
 | Adobe InDesign / QuarkXPress | [Scribus](CATALOG.en.md#desktop-publishing), [DesignCraft](CATALOG.en.md#desktop-publishing) | Test print PDFs, pagination, styles and Chinese line breaking; project round-trip compatibility is unproven. DesignCraft is an early-development candidate for trials with new projects or test files. |
